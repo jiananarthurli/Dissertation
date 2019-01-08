@@ -1,0 +1,927 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  8 JAN 2019 14:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2016/03/31>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./pittetd.cls
+Document Class: pittetd 2004/08/17 v1.618 University of Pittsburgh ETD (Electro
+nic Thesis & Dissertations) class
+\@etdaux=\write3
+\@chapterl=\skip41
+\@sectionl=\skip42
+\@subsectionl=\skip43
+\@subsubsectionl=\skip44
+\@singleline=\skip45
+\@presubs=\skip46
+\@presubsub=\skip47
+\@floatl=\skip48
+\bibindent=\dimen102
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@@members=\count79
+\c@@addprel=\count80
+\c@@appno=\count81
+\c@chapter=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\@expectedprelim=\toks14
+\@committee=\toks15
+\@coadv=\toks16
+(./pitetd12.clo) (./main.etd)
+\subject=\toks17
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count90
+\Hy@pagecounter=\count91
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count92
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `hyperindex' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index OFF on input line 4453.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count93
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count94
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index OFF on input line 6305.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count95
+\c@Item=\count96
+\c@Hfootnote=\count97
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count98
+\c@bookmark@seq@number=\count99
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip51
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+Class pittetd Info: No patch found for graphicx on input line 18.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen109
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen110
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip11
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks20
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks21
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks22
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks29
+)
+Class pittetd Info: No patch found for amsmatch on input line 22.
+Class pittetd Info: No patch found for amsthm on input line 23.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+
+Package hyperref Warning: Option `letterpaper' is no longer used.
+
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 43.
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 43.
+\AtBeginShipoutBox=\box28
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+)
+Package hyperref Info: Link coloring ON on input line 43.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+
+(./main.out (./main.lot) (./main.lof
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\approx' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\approx' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+)) (./main.out (./main.lot) (./main.lof
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\approx' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\approx' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+))
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen118
+\scratchbox=\box29
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen119
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+Class pittetd Warning: I assumed `2019' for the year. You can use \year to chan
+ge it.
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+ [3
+
+]
+Abstract
+[4
+
+]
+Table of Contents
+(./main.toc [5
+
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [6]
+Chapter I.
+[1
+
+
+]
+Chapter II.
+
+Underfull \vbox (badness 7186) has occurred while \output is active []
+
+ [2
+
+]
+<../Drawing/PLD.pdf, id=365, 711.3245pt x 518.60449pt>
+File: ../Drawing/PLD.pdf Graphic file (type pdf)
+
+<use ../Drawing/PLD.pdf>
+Package pdftex.def Info: ../Drawing/PLD.pdf used on input line 110.
+(pdftex.def)             Requested size: 469.75499pt x 342.48575pt.
+
+
+Class pittetd Warning: The caption of Figure 1 is longer than one line on input
+ line 111.
+
+<../Drawing/PLD_RHEED.pdf, id=368, 250.26799pt x 373.06075pt>
+File: ../Drawing/PLD_RHEED.pdf Graphic file (type pdf)
+
+<use ../Drawing/PLD_RHEED.pdf>
+Package pdftex.def Info: ../Drawing/PLD_RHEED.pdf used on input line 119.
+(pdftex.def)             Requested size: 328.82706pt x 490.19319pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 120.
+
+
+LaTeX Warning: Citation `podkaminer2016real' on page 3 undefined on input line 
+120.
+
+
+Class pittetd Warning: The caption of Figure 2 is longer than one line on input
+ line 120.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 120.
+
+
+LaTeX Warning: Citation `podkaminer2016real' on page 3 undefined on input line 
+120.
+
+[3] [4 <../Drawing/PLD.pdf>] [5 <../Drawing/PLD_RHEED.pdf>]
+<../Drawing/CVD.pdf, id=518, 680.5425pt x 448.342pt>
+File: ../Drawing/CVD.pdf Graphic file (type pdf)
+ <use ../Drawing/CVD.pdf>
+Package pdftex.def Info: ../Drawing/CVD.pdf used on input line 143.
+(pdftex.def)             Requested size: 422.77661pt x 278.52328pt.
+
+
+Class pittetd Warning: The caption of Figure 3 is longer than one line on input
+ line 144.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [7 <../Drawing/CVD.pdf>]
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 174.
+
+[8] [9] <../Drawing/MASK.png, id=596, 413.3844pt x 368.0952pt>
+File: ../Drawing/MASK.png Graphic file (type png)
+
+<use ../Drawing/MASK.png>
+Package pdftex.def Info: ../Drawing/MASK.png used on input line 215.
+(pdftex.def)             Requested size: 234.87749pt x 209.14804pt.
+
+
+Class pittetd Warning: The caption of Figure 4 is longer than one line on input
+ line 216.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../Drawing/Suss.pdf, id=597, 587.528pt x 508.90125pt>
+File: ../Drawing/Suss.pdf Graphic file (type pdf)
+
+<use ../Drawing/Suss.pdf>
+Package pdftex.def Info: ../Drawing/Suss.pdf used on input line 222.
+(pdftex.def)             Requested size: 469.75499pt x 406.90413pt.
+
+
+Class pittetd Warning: The caption of Figure 5 is longer than one line on input
+ line 223.
+
+
+Underfull \vbox (badness 2293) has occurred while \output is active []
+
+ [10]
+<../Drawing/Heidelberg.pdf, id=603, 510.23926pt x 537.00626pt>
+File: ../Drawing/Heidelberg.pdf Graphic file (type pdf)
+
+<use ../Drawing/Heidelberg.pdf>
+Package pdftex.def Info: ../Drawing/Heidelberg.pdf used on input line 231.
+(pdftex.def)             Requested size: 469.75499pt x 494.4123pt.
+
+
+Class pittetd Warning: The caption of Figure 6 is longer than one line on input
+ line 232.
+
+
+LaTeX Warning: Float too large for page by 20.31561pt on input line 234.
+
+[11 <../Drawing/MASK.png (PNG copy)>] [12 <../Drawing/Suss.pdf>] [13 <../Drawin
+g/Heidelberg.pdf>] <../Drawing/Developed.png, id=800, 407.121pt x 380.1402pt>
+File: ../Drawing/Developed.png Graphic file (type png)
+
+<use ../Drawing/Developed.png>
+Package pdftex.def Info: ../Drawing/Developed.png used on input line 244.
+(pdftex.def)             Requested size: 234.87749pt x 219.31557pt.
+
+
+Class pittetd Warning: The caption of Figure 7 is longer than one line on input
+ line 245.
+
+[14 <../Drawing/Developed.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+<../Drawing/IonMill.pdf, id=812, 471.093pt x 354.658pt>
+File: ../Drawing/IonMill.pdf Graphic file (type pdf)
+
+<use ../Drawing/IonMill.pdf>
+Package pdftex.def Info: ../Drawing/IonMill.pdf used on input line 295.
+(pdftex.def)             Requested size: 469.75499pt x 353.6722pt.
+
+
+Class pittetd Warning: The caption of Figure 8 is longer than one line on input
+ line 296.
+
+[16] [17 <../Drawing/IonMill.pdf>]
+<../Drawing/Ebeam.pdf, id=848, 603.25375pt x 594.22pt>
+File: ../Drawing/Ebeam.pdf Graphic file (type pdf)
+
+<use ../Drawing/Ebeam.pdf>
+Package pdftex.def Info: ../Drawing/Ebeam.pdf used on input line 310.
+(pdftex.def)             Requested size: 469.75499pt x 462.71904pt.
+
+
+Class pittetd Warning: The caption of Figure 9 is longer than one line on input
+ line 311.
+
+[18] [19 <../Drawing/Ebeam.pdf>]
+
+LaTeX Warning: Reference `' on page 20 undefined on input line 331.
+
+[20] <../Drawing/AFM.pdf, id=931, 632.3625pt x 514.92375pt>
+File: ../Drawing/AFM.pdf Graphic file (type pdf)
+
+<use ../Drawing/AFM.pdf>
+Package pdftex.def Info: ../Drawing/AFM.pdf used on input line 348.
+(pdftex.def)             Requested size: 375.80542pt x 306.01807pt.
+
+
+Class pittetd Warning: The caption of Figure 10 is longer than one line on inpu
+t line 349.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Drawing/Interaction.pdf, id=933, 636.3775pt x 566.115pt>
+File: ../Drawing/Interaction.pdf Graphic file (type pdf)
+
+<use ../Drawing/Interaction.pdf>
+Package pdftex.def Info: ../Drawing/Interaction.pdf used on input line 359.
+(pdftex.def)             Requested size: 328.82706pt x 292.51564pt.
+
+
+Class pittetd Warning: The caption of Figure 11 is longer than one line on inpu
+t line 360.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] <../Drawing/ContactAFM.pdf, id=941, 474.24878pt x 278.52657pt>
+File: ../Drawing/ContactAFM.pdf Graphic file (type pdf)
+
+<use ../Drawing/ContactAFM.pdf>
+Package pdftex.def Info: ../Drawing/ContactAFM.pdf used on input line 372.
+(pdftex.def)             Requested size: 281.85585pt x 165.54047pt.
+
+
+Class pittetd Warning: The caption of Figure 12 is longer than one line on inpu
+t line 373.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `' on page 22 undefined on input line 380.
+
+<../Drawing/ACAFM.pdf, id=943, 809.0225pt x 316.18124pt>
+File: ../Drawing/ACAFM.pdf Graphic file (type pdf)
+
+<use ../Drawing/ACAFM.pdf>
+Package pdftex.def Info: ../Drawing/ACAFM.pdf used on input line 384.
+(pdftex.def)             Requested size: 469.75499pt x 183.5927pt.
+
+
+Class pittetd Warning: The caption of Figure 13 is longer than one line on inpu
+t line 385.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 2376) has occurred while \output is active []
+
+ [22]
+<../Drawing/NonContactAFM.pdf, id=949, 472.76625pt x 316.18124pt>
+File: ../Drawing/NonContactAFM.pdf Graphic file (type pdf)
+
+<use ../Drawing/NonContactAFM.pdf>
+Package pdftex.def Info: ../Drawing/NonContactAFM.pdf used on input line 395.
+(pdftex.def)             Requested size: 281.85585pt x 188.50407pt.
+
+
+Class pittetd Warning: The caption of Figure 14 is longer than one line on inpu
+t line 396.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `hartmann1999magnetic' on page 23 undefined on input li
+ne 402.
+
+[23] <../Drawing/MFM.pdf, id=956, 328.5896pt x 416.8905pt>
+File: ../Drawing/MFM.pdf Graphic file (type pdf)
+
+<use ../Drawing/MFM.pdf>
+Package pdftex.def Info: ../Drawing/MFM.pdf used on input line 419.
+(pdftex.def)             Requested size: 234.87749pt x 298.00446pt.
+
+
+Class pittetd Warning: The caption of Figure 15 is longer than one line on inpu
+t line 420.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24] <../Drawing/PFM.pdf, id=963, 581.50551pt x 554.07pt>
+File: ../Drawing/PFM.pdf Graphic file (type pdf)
+
+<use ../Drawing/PFM.pdf>
+Package pdftex.def Info: ../Drawing/PFM.pdf used on input line 460.
+(pdftex.def)             Requested size: 328.82706pt x 313.31223pt.
+
+
+Class pittetd Warning: The caption of Figure 16 is longer than one line on inpu
+t line 461.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26 <../Drawing/AFM.pdf>] [27 <../Drawing/Interaction.pdf>] [28 <../Drawin
+g/ContactAFM.pdf> <../Drawing/ACAFM.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Drawing/ACAFM.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [29 <../Drawing/NonContactAFM.pdf>] [30 <../Drawing/MFM.pdf>] [31 <../Drawin
+g/PFM.pdf>]
+Chapter III.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 474.
+
+[32
+
+]
+Chapter IV.
+[33
+
+]
+Chapter V.
+[34
+
+]
+Chapter VI.
+[35
+
+]
+List of Tables
+(./main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [36
+
+]
+List of Figures
+(./main.lof
+
+LaTeX Warning: Command \r invalid in math mode on input line 2.
+
+
+LaTeX Warning: Citation `podkaminer2016real' on page 37 undefined on input line
+ 2.
+
+[37
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38])
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+
+[39]
+BIBLIOGRAPHY
+(./main.bbl)
+
+Class pittetd Warning: Remember to run the document with `final' option.
+
+\openout3 = `main.etd'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
+[40
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 501.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A23BD1696CB5A4F94FDE042A686621E8;3555.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 501.
+ ) 
+Here is how much of TeX's memory you used:
+ 6215 strings out of 493027
+ 89660 string characters out of 6134069
+ 192875 words of memory out of 5000000
+ 9558 multiletter control sequences out of 15000+600000
+ 8310 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,15n,28p,1759b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (46 pages, 10320778 bytes).
+PDF statistics:
+ 1674 PDF objects out of 1728 (max. 8388607)
+ 1120 compressed objects within 12 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 625 words of extra memory for PDF output out of 10000 (max. 10000000)
+
