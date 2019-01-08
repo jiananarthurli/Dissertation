@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  8 JAN 2019 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  8 JAN 2019 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,22 +570,21 @@ Underfull \vbox (badness 7186) has occurred while \output is active []
  [2
 
 ]
-<../Drawing/PLD.pdf, id=365, 711.3245pt x 518.60449pt>
-File: ../Drawing/PLD.pdf Graphic file (type pdf)
-
-<use ../Drawing/PLD.pdf>
-Package pdftex.def Info: ../Drawing/PLD.pdf used on input line 110.
+<Drawing/PLD.pdf, id=365, 711.3245pt x 518.60449pt>
+File: Drawing/PLD.pdf Graphic file (type pdf)
+ <use Drawing/PLD.pdf>
+Package pdftex.def Info: Drawing/PLD.pdf used on input line 110.
 (pdftex.def)             Requested size: 469.75499pt x 342.48575pt.
 
 
 Class pittetd Warning: The caption of Figure 1 is longer than one line on input
  line 111.
 
-<../Drawing/PLD_RHEED.pdf, id=368, 250.26799pt x 373.06075pt>
-File: ../Drawing/PLD_RHEED.pdf Graphic file (type pdf)
+<Drawing/PLD_RHEED.pdf, id=368, 250.26799pt x 373.06075pt>
+File: Drawing/PLD_RHEED.pdf Graphic file (type pdf)
 
-<use ../Drawing/PLD_RHEED.pdf>
-Package pdftex.def Info: ../Drawing/PLD_RHEED.pdf used on input line 119.
+<use Drawing/PLD_RHEED.pdf>
+Package pdftex.def Info: Drawing/PLD_RHEED.pdf used on input line 119.
 (pdftex.def)             Requested size: 328.82706pt x 490.19319pt.
 
 
@@ -606,11 +605,11 @@ LaTeX Warning: Command \r invalid in math mode on input line 120.
 LaTeX Warning: Citation `podkaminer2016real' on page 3 undefined on input line 
 120.
 
-[3] [4 <../Drawing/PLD.pdf>] [5 <../Drawing/PLD_RHEED.pdf>]
-<../Drawing/CVD.pdf, id=518, 680.5425pt x 448.342pt>
-File: ../Drawing/CVD.pdf Graphic file (type pdf)
- <use ../Drawing/CVD.pdf>
-Package pdftex.def Info: ../Drawing/CVD.pdf used on input line 143.
+[3] [4 <./Drawing/PLD.pdf>] [5 <./Drawing/PLD_RHEED.pdf>]
+<Drawing/CVD.pdf, id=518, 680.5425pt x 448.342pt>
+File: Drawing/CVD.pdf Graphic file (type pdf)
+ <use Drawing/CVD.pdf>
+Package pdftex.def Info: Drawing/CVD.pdf used on input line 143.
 (pdftex.def)             Requested size: 422.77661pt x 278.52328pt.
 
 
@@ -623,15 +622,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [6]
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
- [7 <../Drawing/CVD.pdf>]
+ [7 <./Drawing/CVD.pdf>]
 
 LaTeX Warning: Reference `' on page 8 undefined on input line 174.
 
-[8] [9] <../Drawing/MASK.png, id=596, 413.3844pt x 368.0952pt>
-File: ../Drawing/MASK.png Graphic file (type png)
+[8] [9] <Drawing/MASK.png, id=596, 413.3844pt x 368.0952pt>
+File: Drawing/MASK.png Graphic file (type png)
 
-<use ../Drawing/MASK.png>
-Package pdftex.def Info: ../Drawing/MASK.png used on input line 215.
+<use Drawing/MASK.png>
+Package pdftex.def Info: Drawing/MASK.png used on input line 215.
 (pdftex.def)             Requested size: 234.87749pt x 209.14804pt.
 
 
@@ -641,11 +640,10 @@ Class pittetd Warning: The caption of Figure 4 is longer than one line on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Drawing/Suss.pdf, id=597, 587.528pt x 508.90125pt>
-File: ../Drawing/Suss.pdf Graphic file (type pdf)
-
-<use ../Drawing/Suss.pdf>
-Package pdftex.def Info: ../Drawing/Suss.pdf used on input line 222.
+<Drawing/Suss.pdf, id=597, 587.528pt x 508.90125pt>
+File: Drawing/Suss.pdf Graphic file (type pdf)
+ <use Drawing/Suss.pdf>
+Package pdftex.def Info: Drawing/Suss.pdf used on input line 222.
 (pdftex.def)             Requested size: 469.75499pt x 406.90413pt.
 
 
@@ -656,11 +654,11 @@ Class pittetd Warning: The caption of Figure 5 is longer than one line on input
 Underfull \vbox (badness 2293) has occurred while \output is active []
 
  [10]
-<../Drawing/Heidelberg.pdf, id=603, 510.23926pt x 537.00626pt>
-File: ../Drawing/Heidelberg.pdf Graphic file (type pdf)
+<Drawing/Heidelberg.pdf, id=603, 510.23926pt x 537.00626pt>
+File: Drawing/Heidelberg.pdf Graphic file (type pdf)
 
-<use ../Drawing/Heidelberg.pdf>
-Package pdftex.def Info: ../Drawing/Heidelberg.pdf used on input line 231.
+<use Drawing/Heidelberg.pdf>
+Package pdftex.def Info: Drawing/Heidelberg.pdf used on input line 231.
 (pdftex.def)             Requested size: 469.75499pt x 494.4123pt.
 
 
@@ -670,54 +668,51 @@ Class pittetd Warning: The caption of Figure 6 is longer than one line on input
 
 LaTeX Warning: Float too large for page by 20.31561pt on input line 234.
 
-[11 <../Drawing/MASK.png (PNG copy)>] [12 <../Drawing/Suss.pdf>] [13 <../Drawin
-g/Heidelberg.pdf>] <../Drawing/Developed.png, id=800, 407.121pt x 380.1402pt>
-File: ../Drawing/Developed.png Graphic file (type png)
+[11 <./Drawing/MASK.png (PNG copy)>] [12 <./Drawing/Suss.pdf>] [13 <./Drawing/H
+eidelberg.pdf>] <Drawing/Developed.png, id=800, 407.121pt x 380.1402pt>
+File: Drawing/Developed.png Graphic file (type png)
 
-<use ../Drawing/Developed.png>
-Package pdftex.def Info: ../Drawing/Developed.png used on input line 244.
+<use Drawing/Developed.png>
+Package pdftex.def Info: Drawing/Developed.png used on input line 244.
 (pdftex.def)             Requested size: 234.87749pt x 219.31557pt.
 
 
 Class pittetd Warning: The caption of Figure 7 is longer than one line on input
  line 245.
 
-[14 <../Drawing/Developed.png (PNG copy)>]
+[14 <./Drawing/Developed.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-<../Drawing/IonMill.pdf, id=812, 471.093pt x 354.658pt>
-File: ../Drawing/IonMill.pdf Graphic file (type pdf)
-
-<use ../Drawing/IonMill.pdf>
-Package pdftex.def Info: ../Drawing/IonMill.pdf used on input line 295.
+<Drawing/IonMill.pdf, id=812, 471.093pt x 354.658pt>
+File: Drawing/IonMill.pdf Graphic file (type pdf)
+ <use Drawing/IonMill.pdf>
+Package pdftex.def Info: Drawing/IonMill.pdf used on input line 295.
 (pdftex.def)             Requested size: 469.75499pt x 353.6722pt.
 
 
 Class pittetd Warning: The caption of Figure 8 is longer than one line on input
  line 296.
 
-[16] [17 <../Drawing/IonMill.pdf>]
-<../Drawing/Ebeam.pdf, id=848, 603.25375pt x 594.22pt>
-File: ../Drawing/Ebeam.pdf Graphic file (type pdf)
-
-<use ../Drawing/Ebeam.pdf>
-Package pdftex.def Info: ../Drawing/Ebeam.pdf used on input line 310.
+[16] [17 <./Drawing/IonMill.pdf>]
+<Drawing/Ebeam.pdf, id=848, 603.25375pt x 594.22pt>
+File: Drawing/Ebeam.pdf Graphic file (type pdf)
+ <use Drawing/Ebeam.pdf>
+Package pdftex.def Info: Drawing/Ebeam.pdf used on input line 310.
 (pdftex.def)             Requested size: 469.75499pt x 462.71904pt.
 
 
 Class pittetd Warning: The caption of Figure 9 is longer than one line on input
  line 311.
 
-[18] [19 <../Drawing/Ebeam.pdf>]
+[18] [19 <./Drawing/Ebeam.pdf>]
 
 LaTeX Warning: Reference `' on page 20 undefined on input line 331.
 
-[20] <../Drawing/AFM.pdf, id=931, 632.3625pt x 514.92375pt>
-File: ../Drawing/AFM.pdf Graphic file (type pdf)
-
-<use ../Drawing/AFM.pdf>
-Package pdftex.def Info: ../Drawing/AFM.pdf used on input line 348.
+[20] <Drawing/AFM.pdf, id=931, 632.3625pt x 514.92375pt>
+File: Drawing/AFM.pdf Graphic file (type pdf)
+ <use Drawing/AFM.pdf>
+Package pdftex.def Info: Drawing/AFM.pdf used on input line 348.
 (pdftex.def)             Requested size: 375.80542pt x 306.01807pt.
 
 
@@ -727,11 +722,11 @@ t line 349.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Drawing/Interaction.pdf, id=933, 636.3775pt x 566.115pt>
-File: ../Drawing/Interaction.pdf Graphic file (type pdf)
+<Drawing/Interaction.pdf, id=933, 636.3775pt x 566.115pt>
+File: Drawing/Interaction.pdf Graphic file (type pdf)
 
-<use ../Drawing/Interaction.pdf>
-Package pdftex.def Info: ../Drawing/Interaction.pdf used on input line 359.
+<use Drawing/Interaction.pdf>
+Package pdftex.def Info: Drawing/Interaction.pdf used on input line 359.
 (pdftex.def)             Requested size: 328.82706pt x 292.51564pt.
 
 
@@ -741,11 +736,11 @@ t line 360.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21] <../Drawing/ContactAFM.pdf, id=941, 474.24878pt x 278.52657pt>
-File: ../Drawing/ContactAFM.pdf Graphic file (type pdf)
+[21] <Drawing/ContactAFM.pdf, id=941, 474.24878pt x 278.52657pt>
+File: Drawing/ContactAFM.pdf Graphic file (type pdf)
 
-<use ../Drawing/ContactAFM.pdf>
-Package pdftex.def Info: ../Drawing/ContactAFM.pdf used on input line 372.
+<use Drawing/ContactAFM.pdf>
+Package pdftex.def Info: Drawing/ContactAFM.pdf used on input line 372.
 (pdftex.def)             Requested size: 281.85585pt x 165.54047pt.
 
 
@@ -758,11 +753,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Reference `' on page 22 undefined on input line 380.
 
-<../Drawing/ACAFM.pdf, id=943, 809.0225pt x 316.18124pt>
-File: ../Drawing/ACAFM.pdf Graphic file (type pdf)
-
-<use ../Drawing/ACAFM.pdf>
-Package pdftex.def Info: ../Drawing/ACAFM.pdf used on input line 384.
+<Drawing/ACAFM.pdf, id=943, 809.0225pt x 316.18124pt>
+File: Drawing/ACAFM.pdf Graphic file (type pdf)
+ <use Drawing/ACAFM.pdf>
+Package pdftex.def Info: Drawing/ACAFM.pdf used on input line 384.
 (pdftex.def)             Requested size: 469.75499pt x 183.5927pt.
 
 
@@ -776,11 +770,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 2376) has occurred while \output is active []
 
  [22]
-<../Drawing/NonContactAFM.pdf, id=949, 472.76625pt x 316.18124pt>
-File: ../Drawing/NonContactAFM.pdf Graphic file (type pdf)
+<Drawing/NonContactAFM.pdf, id=949, 472.76625pt x 316.18124pt>
+File: Drawing/NonContactAFM.pdf Graphic file (type pdf)
 
-<use ../Drawing/NonContactAFM.pdf>
-Package pdftex.def Info: ../Drawing/NonContactAFM.pdf used on input line 395.
+<use Drawing/NonContactAFM.pdf>
+Package pdftex.def Info: Drawing/NonContactAFM.pdf used on input line 395.
 (pdftex.def)             Requested size: 281.85585pt x 188.50407pt.
 
 
@@ -794,11 +788,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Citation `hartmann1999magnetic' on page 23 undefined on input li
 ne 402.
 
-[23] <../Drawing/MFM.pdf, id=956, 328.5896pt x 416.8905pt>
-File: ../Drawing/MFM.pdf Graphic file (type pdf)
-
-<use ../Drawing/MFM.pdf>
-Package pdftex.def Info: ../Drawing/MFM.pdf used on input line 419.
+[23] <Drawing/MFM.pdf, id=956, 328.5896pt x 416.8905pt>
+File: Drawing/MFM.pdf Graphic file (type pdf)
+ <use Drawing/MFM.pdf>
+Package pdftex.def Info: Drawing/MFM.pdf used on input line 419.
 (pdftex.def)             Requested size: 234.87749pt x 298.00446pt.
 
 
@@ -808,11 +801,10 @@ t line 420.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24] <../Drawing/PFM.pdf, id=963, 581.50551pt x 554.07pt>
-File: ../Drawing/PFM.pdf Graphic file (type pdf)
-
-<use ../Drawing/PFM.pdf>
-Package pdftex.def Info: ../Drawing/PFM.pdf used on input line 460.
+[24] <Drawing/PFM.pdf, id=963, 581.50551pt x 554.07pt>
+File: Drawing/PFM.pdf Graphic file (type pdf)
+ <use Drawing/PFM.pdf>
+Package pdftex.def Info: Drawing/PFM.pdf used on input line 460.
 (pdftex.def)             Requested size: 328.82706pt x 313.31223pt.
 
 
@@ -822,13 +814,13 @@ t line 461.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25] [26 <../Drawing/AFM.pdf>] [27 <../Drawing/Interaction.pdf>] [28 <../Drawin
-g/ContactAFM.pdf> <../Drawing/ACAFM.pdf
+[25] [26 <./Drawing/AFM.pdf>] [27 <./Drawing/Interaction.pdf>] [28 <./Drawing/C
+ontactAFM.pdf> <./Drawing/ACAFM.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Drawing/ACAFM.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->] [29 <../Drawing/NonContactAFM.pdf>] [30 <../Drawing/MFM.pdf>] [31 <../Drawin
-g/PFM.pdf>]
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Drawing/ACAFM.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [29 <./Drawing/NonContactAFM.pdf>] [30 <./Drawing/MFM.pdf>] [31 <./Drawing/P
+FM.pdf>]
 Chapter III.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -902,7 +894,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 501.
  ) 
 Here is how much of TeX's memory you used:
  6215 strings out of 493027
- 89660 string characters out of 6134069
+ 89465 string characters out of 6134069
  192875 words of memory out of 5000000
  9558 multiletter control sequences out of 15000+600000
  8310 words of font info for 30 fonts, out of 8000000 for 9000
@@ -918,7 +910,7 @@ ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (46 pages, 10320778 bytes).
+Output written on main.pdf (46 pages, 10320770 bytes).
 PDF statistics:
  1674 PDF objects out of 1728 (max. 8388607)
  1120 compressed objects within 12 object streams
