@@ -8,12 +8,12 @@
 \contentsline {subsubsection}{\numberline {b.}PLD deposition}{3}{subsubsection.2.1.1.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}A\period@or@not .}2\period@or@not }Graphene growth}{3}{subsection.2.1.2}
 \contentsline {subsubsection}{\numberline {a.}Copper substrate preparation}{7}{subsubsection.2.1.2.1}
-\contentsline {subsubsection}{\numberline {.}CVD growth}{7}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {.}CVD growth}{8}{subsubsection.2.1.2.2}
 \contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}B\period@or@not }LAO/STO sample processing}{8}{section.2.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}1\period@or@not }Photolithography}{9}{subsection.2.2.1}
 \contentsline {subsubsection}{\numberline {a.}Spin-coating}{9}{subsubsection.2.2.1.1}
 \contentsline {subsubsection}{\numberline {b.}UV exposure}{10}{subsubsection.2.2.1.2}
-\contentsline {subsubsection}{\numberline {c.}Developing}{11}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {c.}Developing}{14}{subsubsection.2.2.1.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}2\period@or@not }Ion milling}{15}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}3\period@or@not }Deposition}{16}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}4\period@or@not }Lift-off}{18}{subsection.2.2.4}
