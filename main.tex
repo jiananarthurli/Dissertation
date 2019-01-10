@@ -147,8 +147,45 @@ The CVD process uses gaseous organic molecules (methane, ethylene, etc) as carbo
 
 \subsubsection{Copper substrate preparation}
 
-There are various materials used for graphene growth, most commonly SiC, Ir, Ni and Cu. Cu is the most commonly choice due to the low carbon solubility scalability\cite{Bae2010}. Compared to other substrate materials, copper is also easy to be etched with wet chemicals. In CVD growth, the carbon atoms form into graphene following the shape of the substrate. Therefore, the graphene quality is directly related to the substrate. Surface roughness and contaminants on copper provide nucleation centers for graphene, and can cause polycrystalline structure and multi-layer growth\cite{}. The issue of surface roughness can be addressed with electrochemical polishing, or mechanical polishing. 
+Various materials are used for graphene growth, most commonly SiC, Ir, Ni and Cu. Cu is the most common choice due to the low carbon solubility scalability\cite{Bae2010}. Compared to other substrate materials, copper is also easy to be etched with wet chemicals. In CVD growth, the carbon atoms form into graphene following the shape of the substrate. Therefore, the graphene quality is directly related to the substrate. Surface roughness and contaminants on copper provide nucleation centers for graphene, and can cause polycrystalline structure and multi-layer growth\cite{eres2014cooperative}. The issue of surface roughness can be addressed with electrochemical polishing\cite{Bae2010}, or mechanical polishing. In my experiment I used a graphene substrates polishing procedure developed by Dr Brian D'Urso's graduate students, by using diamond turning machine to reduce the roughness from several hundred of nanometer to a few nanometers\ref{dhingra2014chemical}. Compared to electrochemically polished substrates, this method can produce surface 50 time smoother and the copper domain sizes are 5 time larger. 
 
+Diamond turning machine (DTM) is commonly used for high precision manufacturing, such as laser reflective mirrors. The DTM works like a lathe, where the workpiece is fixed on a turning spindle, and the cutting tool approaches the workpiece and shape or polish the surface by steps. Figure \ref{FIG:DTM} shows the DTM at work. The cylindrical metal piece in \ref{FIG:DTM}(a) is the spindle of DTM. Copper piece is fixed on the spindle by vacuum and spins at 2000 rpm. The diamond tool approaches the copper surface from the opposite side.  \ref{FIG:DTM}(b) is an image taken in the middle of a cutting step. Mineral spirit is sprayed from a nozzle from the left, cools down the surface and blow away the metal debris to the right. Reflection of the tool shows a flat finishing.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\textwidth]{Drawing/DTM.pdf}
+	\caption{Diamond turning machine at work. (a) Copper is fixed onto a turning spindle with vacuum. (b) Mineral spirit is sprayed to the tool and cutting spot, to cool down the surface and blow away the debris.}
+	\label{FIG:DTM}
+\end{figure}
+
+Instead of using high-speed-steel tool, the DTM uses a curved-edge (radius of curvature $r$ = 1.5 mm) diamond tool for cutting (Figure \ref{FIG:DiamondTool}). By reducing the incremental step to 10 $\mu$m, as shown in Figure \ref{FIG:DTMFinishing}, the roughness of the finishing surface can be smaller than 2 nm. The diamond tool sometimes have dents on the surface, which can leave a trace after each revolution.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\textwidth]{Drawing/DiamondTool.pdf}
+	\caption{(a) Diamond cutting tool. (b) Magnified image of the tool tip. The radius of curvature $r = 1.5$ mm}
+	\label{FIG:DiamondTool}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.60\textwidth]{Drawing/DTMFinishing.png}
+	\caption{The AFM image of the copper surface after DTM polishing. The roughness is within 2 nm. The vertical lines are left by the dents on the diamond tool for each revolution.}
+	\label{FIG:DTMFinishing}
+\end{figure}
+
+
+
+Other than surface roughness, the copper domain size is another limiting factor for large single domain graphene growth. Although it was not clear the effect of copper substrate domains on the graphene quality\cite{kim2012direct, wang2012controllable, wofford2010graphene}, larger copper domain sizes at least gives us a chance to grow larger graphene single crystals. Annealing the copper at high temperature will reconstruct and merge the polycrystalline domains into larger domains, but mechanical processing will introduce defects and break the single domains, therefore the substrate needs to be re-annealed several times before graphene growth starts.
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=1\textwidth]{Drawing/CopperProcessing.pdf}
+	\caption{}
+	\label{FIG:CopperProcessing}
+\end{figure}
+
+The procedure of making copper rods into copper foils for graphene growth in shown in Figure \ref{FIG:CopperProcessing}. I started with 1' long oxygen-free high thermal conductivity copper (OFHC) rods with ultra high purity (99.99\%). The rod was cut into copper discs in machine shop for further polishing.
 
 \subsubsection{CVD growth}
 
@@ -220,7 +257,7 @@ Mask exposure is performed by a mask aligner (Suss MJB3 or MA6, see Figure \ref{
 	\label{FIG:MASK}
 \end{figure}
 
-\begin{figure}[hp]
+\begin{figure}[hp!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{Drawing/Suss.pdf}
 	\caption{Suss UV mask aligner. The mercury lamp generates broad band light from arc. The light is reflected by an ellipsoidal mirror and focused on a cold light mirror, where the UV is selected. The exposure time and dose is controlled by a shutter. The UV is collected by a condenser lens and diffraction reduction optics for collimation and resolution enhancement. Finally, the UV is shed on the sample with a folding mirror and front lens. The sample is in close contact with a mask, where chromium is partially removed. UV exposes the photoresist on sample and print the mask pattern on it.}
@@ -242,7 +279,7 @@ Developing is the process using buffered base solution to washed away the unwant
 
 A picture of sample after UV exposure and developing is shown in Figure \ref{FIG:Developed}. Photoresist in the bright area are washed away while the rest of the sample is still covered with photoresist. Note that the edges of the pattern are less sharp than the mask, because of the resolution limit from diffraction. 
 
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Drawing/Developed.png}
 	\caption{Exposed and developed sample. The bright regions are free of photoresist while the rest of the sample is still covered.}
@@ -251,7 +288,7 @@ A picture of sample after UV exposure and developing is shown in Figure \ref{FIG
 
 The conditions for exposure and developing are listed in Table \ref{tab:photoresistsExposureDeveloping}.
 
-\begin{table}[h!]
+\begin{table}[h]
 	\centering
 	\begin{tabular}{l|cc}
 		\hline
