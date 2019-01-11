@@ -68,10 +68,13 @@
 % The list comes from the \keywords command above.
 % The starred version \begin{abstract*} typesets the word `ABSTRACT' on the top of the page
 \tableofcontents
-%\listoftables                      Pittetd will complain if you tell it to create a list of tables when there are no
+
+\listoftables                      %Pittetd will complain if you tell it to create a list of tables when there are no
 %                                   tables (as in this sample file). Uncomment this command if you have tables.
-%\listoffigures                     Obvious analogous for figures.
-%\preface
+\listoffigures                     %Obvious analogous for figures.
+\preface
+
+I want to thank everyone that made this happened.
 % This is the text of the preface, with acknowledgments, dedication, etc. It is optional, and you create, as shown, by 
 % just saying \preface and starting the preface's actual text. Note that 'foreword' is no longer acceptable as title
 % for this preliminary.
@@ -80,7 +83,7 @@
 %
 \chapter{Introduction}%             
 
-\section{LaAlO3/SrTiO3 heterostructure}
+\section{LAO/STO heterostructure}
 
 \section{Graphene}
 
@@ -151,7 +154,7 @@ Various materials are used for graphene growth, most commonly SiC, Ir, Ni and Cu
 
 Diamond turning machine (DTM) is commonly used for high precision manufacturing, such as laser reflective mirrors. The DTM works like a lathe, where the workpiece is fixed on a turning spindle, and the cutting tool approaches the workpiece and shape or polish the surface by steps. Figure \ref{FIG:DTM} shows the DTM at work. The cylindrical metal piece in \ref{FIG:DTM}(a) is the spindle of DTM. Copper piece is fixed on the spindle by vacuum and spins at 2000 rpm. The diamond tool approaches the copper surface from the opposite side.  \ref{FIG:DTM}(b) is an image taken in the middle of a cutting step. Mineral spirit is sprayed from a nozzle from the left, cools down the surface and blow away the metal debris to the right. Reflection of the tool shows a flat finishing.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{Drawing/DTM.pdf}
 	\caption{Diamond turning machine at work. (a) Copper is fixed onto a turning spindle with vacuum. (b) Mineral spirit is sprayed to the tool and cutting spot, to cool down the surface and blow away the debris.}
@@ -160,34 +163,44 @@ Diamond turning machine (DTM) is commonly used for high precision manufacturing,
 
 Instead of using high-speed-steel tool, the DTM uses a curved-edge (radius of curvature $r$ = 1.5 mm) diamond tool for cutting (Figure \ref{FIG:DiamondTool}). By reducing the incremental step to 10 $\mu$m, as shown in Figure \ref{FIG:DTMFinishing}, the roughness of the finishing surface can be smaller than 2 nm. The diamond tool sometimes have dents on the surface, which can leave a trace after each revolution.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{Drawing/DiamondTool.pdf}
-	\caption{(a) Diamond cutting tool. (b) Magnified image of the tool tip. The radius of curvature $r = 1.5$ mm}
+	\caption{(a) Diamond cutting tool. (b) Magnified image of the tool tip. The radius of curvature $r = 1.5$ mm.}
 	\label{FIG:DiamondTool}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width=.60\textwidth]{Drawing/DTMFinishing.png}
-	\caption{The AFM image of the copper surface after DTM polishing. The roughness is within 2 nm. The vertical lines are left by the dents on the diamond tool for each revolution.}
+	\includegraphics[width=1.0\textwidth]{Drawing/DTMCopper.pdf}
+	\caption{(a) The copper foil after DTM thinning and polishing. The final thickness is about 100 $\mu$m. (b) The AFM image of the copper foil surface. The roughness is within 2 nm. Some nanoscale particles can be seen. They will serve as nucleation centers for graphene CVD growth. Reducing the density of surface contaminants will reduce the density of nucleation centers and enlarge the domain size. The vertical groves are left by the dents on the diamond tool for each revolution. The spacing between groves is the same as the approaching speed of the tool towards the center. The copper is annealed at $T = 1050^{\circ}$C for another time before growth starts and the surface will reconstruct, possibly remove those groves.}
 	\label{FIG:DTMFinishing}
 \end{figure}
 
-
-
-Other than surface roughness, the copper domain size is another limiting factor for large single domain graphene growth. Although it was not clear the effect of copper substrate domains on the graphene quality\cite{kim2012direct, wang2012controllable, wofford2010graphene}, larger copper domain sizes at least gives us a chance to grow larger graphene single crystals. Annealing the copper at high temperature will reconstruct and merge the polycrystalline domains into larger domains, but mechanical processing will introduce defects and break the single domains, therefore the substrate needs to be re-annealed several times before graphene growth starts.
+Other than surface roughness, the copper domain size is another limiting factor for large single domain graphene growth. Although it was not clear the effect of copper substrate domains on the graphene quality\cite{kim2012direct, wang2012controllable, wofford2010graphene}, larger copper domain sizes gives us a chance to grow larger graphene single crystals. Annealing the copper at high temperature will reconstruct and merge the polycrystalline domains into larger domains, but mechanical processing will introduce defects and break the single domains, therefore the substrate needs to be re-annealed several times before graphene growth starts.
 
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=1\textwidth]{Drawing/CopperProcessing.pdf}
-	\caption{}
+	\caption{Procedure of cutting copper rods into 100$\mu$m foils for graphene growth. High purity OFHC copper rods are purchased from McMaster Carr. The rod is first annealed at 1050$^{\circ}$C for 24 h so that the polycrystalline domains merge into larger domains. Then the rod is cut into 2 mm thick copper discs in the machine shop. The discs are cleaned with DTM and then annealed again to ``heal'' the domains broken by the mechanical cutting. Domain re-formation would cause surface corrugation, therefore the copper disc surface is cleaned with DTM and then cut into 100 $\mu$m foils and ready for graphene CVD growth. }
 	\label{FIG:CopperProcessing}
 \end{figure}
 
-The procedure of making copper rods into copper foils for graphene growth in shown in Figure \ref{FIG:CopperProcessing}. I started with 1' long oxygen-free high thermal conductivity copper (OFHC) rods with ultra high purity (99.99\%). The rod was cut into copper discs in machine shop for further polishing.
+The procedure of making copper rods into copper foils for graphene growth in shown in Figure \ref{FIG:CopperProcessing}. 1' long oxygen-free high thermal conductivity copper (OFHC) rods with ultra high purity (99.99\%) are purchased form McMaster Carr. The rod is first annealed at $T=1050^{\circ}$C for 24 h, and the polycrystalline domains will merge into larger domains within the rod. Then the rod is cut into copper discs of 2 mm thick in the machine shop. The mechanical cutting process will break the domains and introduce surface contaminant, so the surfaces copper discs are cleaned on the DTM, and then annealed again at 1050 $^{\circ}$C for 8 h. After annealing, the domain re-formation in the disc will cause corrugation on the surface. Therefore, the copper surface is cut with DTM for a second time. Then the copper discs are cut into 100 $\mu$m foils, by 10$\mu$m steps. During the thinning procedure, the copper will expand on the cutting face and cause deformation, and eventually break the vacuum sealing between the disc and spindle on the backside. Therefore the copper disc needs to be flipped several times to balance out the expansion and keep it flat when thinned from 2 mm to 100 $\mu$m. The process takes about 5 h. 
 
 \subsubsection{CVD growth}
+
+The CVD graphene growth can be performed in low pressure (LPCVD) or atmospheric pressure (APCVD). LPCVD grows graphene at a pressure lower than 100 mTorr, in continuous flow of pure hydrogen and methane and 1000 $^{\circ}$C substrate temperature. The problem with LPCVD is that the melting point of copper ($T_m = 1085^{\circ}$C) is close to the growth temperature. As a result, the copper will evaporate severely and contaminate the furnace\cite{vlassiouk2013large}. Also the pure precursor gases bring fire hazard. APCVD can eliminate those difficulties associated with the low pressure and improve the graphene quality\cite{vlassiouk2013large, dhingra2015quadratic}. Instead of using pure hydrogen and methane, APCVD uses gas mixture of 2.5 vol \% H$_2$, balance Ar and 0.1 vol \% CH$_4$, balance Ar. The furnace is pumped into low vacuum, and then backed-filled with hydrogen and methane mixture with argon to atmospheric pressure. The pressure from argon will suppress the evaporation of copper at annealing and growth temperature. The growth procedure are as follows\cite{dhingra2015quadratic}. 
+
+\begin{itemize}
+	\item The furnace is pumped down to $\sim$ 10 mTorr.
+	\item Backfill the furnace with H$_2$/Ar mixture at 186 sccm, up to $\sim$ 100 Torr.
+	\item Start the furnace temperature controller to ramp up to $T = 1050 ^{\circ}$C, and let the furnace stay at this temperature for 1 h.
+	\item Start flowing mixture of CH$_4$/Ar at 14 sccm into the furnace, and let the copper foil stay in graphene CVD growth condition for 1.5 h.
+	\item Cool down the system to room temperature. The flow of CH$_4$/Ar mixture is turned off at $\sim$ 650$^{\circ}$C. H$_2$/Ar mixture keeps flowing overnight until the system is below 50$^{\circ}$C. 
+	
+	
+\end{itemize}
 
 
 
@@ -279,7 +292,7 @@ Developing is the process using buffered base solution to washed away the unwant
 
 A picture of sample after UV exposure and developing is shown in Figure \ref{FIG:Developed}. Photoresist in the bright area are washed away while the rest of the sample is still covered with photoresist. Note that the edges of the pattern are less sharp than the mask, because of the resolution limit from diffraction. 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Drawing/Developed.png}
 	\caption{Exposed and developed sample. The bright regions are free of photoresist while the rest of the sample is still covered.}
@@ -288,7 +301,7 @@ A picture of sample after UV exposure and developing is shown in Figure \ref{FIG
 
 The conditions for exposure and developing are listed in Table \ref{tab:photoresistsExposureDeveloping}.
 
-\begin{table}[h]
+\begin{table}[h!]
 	\centering
 	\begin{tabular}{l|cc}
 		\hline
@@ -383,7 +396,7 @@ I_\mathrm{hdiff} & = (I_A + I_C) - (I_B + I_D),
 \end{equation}
 where $I_A$, $I_B$, $I_C$ and $I_D$ are the intensities on the four quadrants of the detector. $I_\mathrm{sum}$ is the total intensity. $I_\mathrm{hdiff}$ and $I_\mathrm{vdiff}$ are the horizontal difference and vertical intensity difference. Assume the laser spot has Gaussian distribution. When the center of laser spot changes, the distribution of intensity on the four quadrant would change. The detector can monitor the movement by the horizontal and vertical differences in intensities. 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Drawing/AFM.pdf}
 	\caption{The schematics of AFM. A laser is reflected from the top surface of the AFM tip, and collected by a quad detector. A small amount of deformation would cause the center of laser spot to move on the quad detector, and measured as a change of differential voltage.}
@@ -504,20 +517,15 @@ In PFM measurement, a conductive tip made of doped silicon or coated with metal 
 
 \subsection{LAO/STO nano-device c-AFM lithography}
 
+\subsection{Graphene/LAO/STO nano-device lithography}
 
 \section{Electronic signal measurement}
 
-\chapter{Graphene/LAO/STO Heterostructure Device}
+\chapter{Graphene p-n junction edge-state engineering}
 
-OK this is a new chapter finally
+\chapter{Graphene/LAO/STO superlattice device}
 
-\subsection{Graphene/LAO/STO nano-device lithography}
-
-\section{Graphene p-n junction edge-state engineering}
-
-\section{Graphene/LAO/STO superlattice device}
-
-\chapter{Magneto-Optical Kerr Effect on LaAlO3/SrTiO3 interface}
+\chapter{Magneto-Optical Kerr Effect on LAO/STO interface}
 
 \section{Motivation}
 
@@ -532,8 +540,7 @@ OK this is a new chapter finally
 
 %
 \appendix                          % After this command, chapters will be formatted as appendices. For example:
-\listoftables
-\listoffigures
+
 %
 \safebibliography{bibliography.bib}          %\safebibliography is used the same way as \bibliography, but gives pittetd
 %                                   a greater chance to succeed in formatting the bibliography when non-standard
