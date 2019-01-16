@@ -463,26 +463,46 @@ The graphene flake is then scooped out with e mesh and place on the surface of D
 The graphene transferred onto LAO/STO is patterned with standard UV photolithography, as discussed in Section \ref{SEC:Photolithography}. Although there is already photoresist on graphene flake to assist wet transfer, it needs to be washed off and re-coated, because it is exposed to UV and chemical etchant. Unlike the photolithography for LAO/STO electrodes, patterning graphene into Hall bars need to wash off the photoresist outside of the Hall bars and leave the Hall bar region covered with photoresist, so that the graphene is protected from oxygen plasma etching. The oxygen plasma barrel etcher and RIE proved to be effective for patterning graphene. However, other than the Hyflon and graphene, there are usually contaminant introduced by wet-transfer procedure that need to be cleaned with RIE as well (Figure \ref{FIG:SampleContaminant}). 
 \\
 
-\begin{figure}[h!]
+\begin{figure}[p]
 	\centering
-	\includegraphics[width=.60\textwidth]{Drawing/SampleContaminant.pdf}
-	\caption{Contaminants can be introduced by wet transfer. The source can be photoresist, copper etchant, or liquid trapped in the bubble formed from transferring.}
+	\includegraphics[width=.55\textwidth]{Drawing/SampleContaminant.pdf}
+	\caption{Contaminants can be introduced by wet transfer. The source can be photoresist, copper etchant, or liquid trapped in the bubble formed from transferring. (a) Contaminants can be seen after graphene transfer. Only the graphene inside the red circles need to be protected with photoresist, and rest of the graphene can be removed along with the contaminants by RIE. (b) Sample surface is clean after RIE.}
 	\label{FIG:SampleContaminant}
 \end{figure}
+\subsubsection{One-step etching}
+Before 2018 I was using the the one-step etching method, that is to etch the graphene and clean the contaminants with RIE in one step. Figure \ref{FIG:SampleContaminant} shows the image of a sample before and after the RIE etching. In Figure \ref{FIG:SampleContaminant}(a), it can be seen that bubbles or foldings introduced from the wet transfer covers the entire sample. Fortunately in my experiments, most of the graphene transferred on LAO/STO needs to be etched away, and only the graphene device inside red circles in \ref{FIG:SampleContaminant}(a) need to be covered with graphene. The sample patterns are designed in the way that there are as many devices fit in the sample as possible, so that there are higher chances of finding a clean graphene device. The contaminants are etched away with an aggressive RIE procedure (listed in Table \ref{Tab:RIESingleStep}). 
 
-I used to use the single-step etching method, that is to etch the graphene and clean the contaminants in one step. This can be problematic for the LAO/STO interface. Figure \ref{FIG:GCOCanvas} shows the pattern of the graphene Hall bar and the surrounding electrodes to graphene and interface. Outside the graphene region is the surface of LAO/STO. Most of my experiment involves switching the LAO/STO interface conductivity with conductive AFM tip (to be discussed in section \ref{SEC:AFM}). 
+\begin{table}
+	\centering
+	\begin{tabular}{l|c}
+		\hline
+		Instrument	& RIE \\ \hline
+		Gas	&	Oxygen \\ 
+		Flow rate	&	19 sccm	\\ 
+		Pressure	&	300 mTorr	\\
+		Time	&	60 - 180s \\ \hline
+	\end{tabular}
+	\caption{One-step RIE etching recipe.}
+	\label{tab:RIESingleStep}
+\end{table}
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.70\textwidth]{Drawing/GCOCanvas.pdf}
-	\caption{Contaminants can be introduced by wet transfer. The source can be photoresist, copper etchant, or liquid trapped in the bubble formed from transferring}
+	\caption{Graphene is shaped into Hall bars by RIE. Outside the Hall bar region, nanostructures need to be created inside the square region, on the interface of LAO/STO. Aggressive RIE process can damage the LAO/STO interface.}
 	\label{FIG:GCOCanvas}
 \end{figure}
+
+As shown in Figure \ref{FIG:GCOCanvas}(b), the single-step RIE etching can completely clean the contaminants on LAO/STO. However, the etching can be problematic for the LAO/STO interface. Figure \ref{FIG:GCOCanvas} shows the pattern of the graphene Hall bar and the surrounding electrodes to graphene and interface. Outside the graphene region is the surface of LAO/STO. Most of my experiment involves switching the LAO/STO interface conductivity with conductive AFM tip (to be discussed in section \ref{SEC:AFM}). In some experiments, I need to create conductive nanostructures inside the 20 $\mu$m square region shown in Figure \ref{FIG:GCOCanvas}. When the sample is too dirty and requires long etching time with RIE, LAO/STO is exposed in oxygen plasma for long time, and the bombardment would damage the interface and make it impossible to switch the conductivity inside the square region. 
+
+\subsubsection{Two-step etching}
+
+To address the interface-damaging issue, I started to use the two-step etching method. The basic idea is to separate sample cleaning and graphene etching steps. As shown in Figure \ref{FIG:} 
 
 \section{Atomic force microscope}
 \label{SEC:AFM}
 
-The atomic force microscope (AFM) is a type of of instrument that uses a nanoscale probe to interact with the surface, and characterize the properties (topography, coulomb interaction, conductivity, etc) of a sample. It was invented in IBM lab by Bin, Quate and Gerber \ref{} in 1986 and later commercialized in 1989. The development of AFM technology benefited from the advancement of STM and precise closed-loop spatial control using piezoelectric effect. However, AFM was invented to overcome the drawback of STM --- only conductive or semi-conductive samples can be measured. AFM can measure various types of interaction between the probe and surface, such as surface potential, magnetic force, Van de Waals force, etc. Also, unlike the scanning electron microscopy (SEM) or tunneling electron microscopy (TEM), the AFM can be operated in various environment (aqueous, ambient, vacuum or cryogenic), and does not require the sample to be pre-treated (such as metal coating) or being conductive. The robustness and non-invasive nature of AFM make it a powerful tool for studying surface phenomena including charge density, magnetic dipole moment, capacitance, chemical bonding, nano-device lithography, and even biomacromolecules. AFM can also be integrated with other techniques, such as infrared spectroscopy\cite{}. The limitation of AFM is that the imaging cannot be as fast as SEM or or TEM, as it relies on the physical movement of the tip.
+The atomic force microscope (AFM) is a type of of instrument that uses a nanoscale probe to interact with the surface, and characterize the properties (topography, coulomb interaction, conductivity, etc) of a sample. It was invented in IBM lab by Bin, Quate and Gerber \cite{} in 1986 and later commercialized in 1989. The development of AFM technology benefited from the advancement of STM and precise closed-loop spatial control using piezoelectric effect. However, AFM was invented to overcome the drawback of STM --- only conductive or semi-conductive samples can be measured. AFM can measure various types of interaction between the probe and surface, such as surface potential, magnetic force, Van de Waals force, etc. Also, unlike the scanning electron microscopy (SEM) or tunneling electron microscopy (TEM), the AFM can be operated in various environment (aqueous, ambient, vacuum or cryogenic), and does not require the sample to be pre-treated (such as metal coating) or being conductive. The robustness and non-invasive nature of AFM make it a powerful tool for studying surface phenomena including charge density, magnetic dipole moment, capacitance, chemical bonding, nano-device lithography, and even biomacromolecules. AFM can also be integrated with other techniques, such as infrared spectroscopy\cite{}. The limitation of AFM is that the imaging cannot be as fast as SEM or or TEM, as it relies on the physical movement of the tip.
 
 \subsection{Working principle}
 
