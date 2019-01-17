@@ -29,29 +29,32 @@
 \BOOKMARK [2][]{subsection.2.2.3}{3. Deposition}{section.2.2}% 23
 \BOOKMARK [2][]{subsection.2.2.4}{4. Lift-off}{section.2.2}% 24
 \BOOKMARK [2][]{subsection.2.2.5}{5. Oxygen plasma cleaning}{section.2.2}% 25
-\BOOKMARK [1][]{section.2.3}{C. Graphene/LAO/STO device fabrication}{chapter.2}% 26
-\BOOKMARK [2][]{subsection.2.3.1}{1. Overview of the Hyflon transfer method}{section.2.3}% 27
-\BOOKMARK [2][]{subsection.2.3.2}{2. Hyflon solution preparation and spin-coating}{section.2.3}% 28
-\BOOKMARK [2][]{subsection.2.3.3}{3. Graphene preparation, copper etching and wet transfer}{section.2.3}% 29
-\BOOKMARK [2][]{subsection.2.3.4}{4. Photolithography and etching}{section.2.3}% 30
-\BOOKMARK [3][]{subsubsection.2.3.4.1}{a. One-step etching}{subsection.2.3.4}% 31
-\BOOKMARK [3][]{subsubsection.2.3.4.2}{b. Two-step etching}{subsection.2.3.4}% 32
-\BOOKMARK [1][]{section.2.4}{D. Atomic force microscope}{chapter.2}% 33
-\BOOKMARK [2][]{subsection.2.4.1}{1. Working principle}{section.2.4}% 34
-\BOOKMARK [2][]{subsection.2.4.2}{2. Contact mode}{section.2.4}% 35
-\BOOKMARK [2][]{subsection.2.4.3}{3. AC mode}{section.2.4}% 36
-\BOOKMARK [2][]{subsection.2.4.4}{4. Non-contact mode}{section.2.4}% 37
-\BOOKMARK [2][]{subsection.2.4.5}{5. Magnetic force microscopy}{section.2.4}% 38
-\BOOKMARK [2][]{subsection.2.4.6}{6. Piezoresponse force microscopy}{section.2.4}% 39
-\BOOKMARK [2][]{subsection.2.4.7}{7. LAO/STO nano-device c-AFM lithography}{section.2.4}% 40
-\BOOKMARK [2][]{subsection.2.4.8}{8. Graphene/LAO/STO nano-device lithography}{section.2.4}% 41
-\BOOKMARK [1][]{section.2.5}{E. Electronic signal measurement}{chapter.2}% 42
-\BOOKMARK [0][]{chapter.3}{III. GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}{}% 43
-\BOOKMARK [0][]{chapter.4}{IV. GRAPHENE/LAO/STO SUPERLATTICE DEVICE}{}% 44
-\BOOKMARK [0][]{chapter.5}{V. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 45
-\BOOKMARK [1][]{section.5.1}{A. Motivation}{chapter.5}% 46
-\BOOKMARK [1][]{section.5.2}{B. Experimental setup}{chapter.5}% 47
-\BOOKMARK [1][]{section.5.3}{C. Results}{chapter.5}% 48
-\BOOKMARK [0][]{chapter.6}{VI. OUTLOOK}{}% 49
-\BOOKMARK [0][]{chapter.7}{VII. CONCLUSIONS}{}% 50
-\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 51
+\BOOKMARK [1][]{section.2.3}{C. Electronic signal measurement}{chapter.2}% 26
+\BOOKMARK [2][]{subsection.2.3.1}{1. Lock-in amplifier}{section.2.3}% 27
+\BOOKMARK [2][]{subsection.2.3.2}{2. Virtual lock-in amplifier}{section.2.3}% 28
+\BOOKMARK [2][]{subsection.2.3.3}{3. IV-curve measurement}{section.2.3}% 29
+\BOOKMARK [1][]{section.2.4}{D. Atomic force microscope}{chapter.2}% 30
+\BOOKMARK [2][]{subsection.2.4.1}{1. Working principle}{section.2.4}% 31
+\BOOKMARK [2][]{subsection.2.4.2}{2. Contact mode}{section.2.4}% 32
+\BOOKMARK [2][]{subsection.2.4.3}{3. AC mode}{section.2.4}% 33
+\BOOKMARK [2][]{subsection.2.4.4}{4. Non-contact mode}{section.2.4}% 34
+\BOOKMARK [2][]{subsection.2.4.5}{5. Magnetic force microscopy}{section.2.4}% 35
+\BOOKMARK [2][]{subsection.2.4.6}{6. Piezoresponse force microscopy}{section.2.4}% 36
+\BOOKMARK [2][]{subsection.2.4.7}{7. LAO/STO nano-device c-AFM lithography}{section.2.4}% 37
+\BOOKMARK [1][]{section.2.5}{E. Graphene/LAO/STO device fabrication}{chapter.2}% 38
+\BOOKMARK [2][]{subsection.2.5.1}{1. Overview of the Hyflon transfer method}{section.2.5}% 39
+\BOOKMARK [2][]{subsection.2.5.2}{2. Hyflon solution preparation and spin-coating}{section.2.5}% 40
+\BOOKMARK [2][]{subsection.2.5.3}{3. Graphene preparation, copper etching and wet transfer}{section.2.5}% 41
+\BOOKMARK [2][]{subsection.2.5.4}{4. Photolithography and etching}{section.2.5}% 42
+\BOOKMARK [3][]{subsubsection.2.5.4.1}{a. One-step etching}{subsection.2.5.4}% 43
+\BOOKMARK [3][]{figure.2.30}{b. Two-step etching}{subsection.2.5.4}% 44
+\BOOKMARK [2][]{subsection.2.5.5}{5. Graphene/LAO/STO nano-device lithography}{section.2.5}% 45
+\BOOKMARK [0][]{chapter.3}{III. GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}{}% 46
+\BOOKMARK [0][]{chapter.4}{IV. GRAPHENE/LAO/STO SUPERLATTICE DEVICE}{}% 47
+\BOOKMARK [0][]{chapter.5}{V. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 48
+\BOOKMARK [1][]{section.5.1}{A. Motivation}{chapter.5}% 49
+\BOOKMARK [1][]{section.5.2}{B. Experimental setup}{chapter.5}% 50
+\BOOKMARK [1][]{section.5.3}{C. Results}{chapter.5}% 51
+\BOOKMARK [0][]{chapter.6}{VI. OUTLOOK}{}% 52
+\BOOKMARK [0][]{chapter.7}{VII. CONCLUSIONS}{}% 53
+\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 54
