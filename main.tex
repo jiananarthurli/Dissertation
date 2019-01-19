@@ -236,7 +236,7 @@ One of the challenges with experiments on LAO/STO interface is to make good elec
 	
 \end{itemize}
 	
-The sample processing procedures are shown in FIG. \ref{}. 
+% The sample processing procedures are shown in FIG. \ref{}. 
 
 % figure of processing
 
@@ -248,7 +248,7 @@ Photolithography is a commonly used technology in semiconductor industry. The su
 
 \subsubsection{Spin-coating}
 
-There are two limiting factors of the feature resolutions in photolithography: diffraction limit of light and photoresist thickness. Spin-coating is a standard technique to keep the photoresist thin and uniformly covering the sample surface. When the sample is spinning at a speed between 1000 rpm and 6000 rpm, the photoresist solution on sample surface would spread out. The liquid will be finally in equilibrium of viscosity, roughness of sample surface and centrifugation from spinning. After the spin-coating the sample is baked at a temperature around 100$^{\circ}$C to vaporize the remaining solvent in photoresist and stabilize the film befor UV exposure. In my experiment, the spinning speed is 4000 rpm. Thickness of AZ4210 and AZ4110 are 2.1 $\mu$m and 1.1 $\mu$m, respectively. These two types of photoresists have the same chemical composition. They have different concentrations so they end up with different thickness at the same speed. Usually thinner films will have more stable performances for fine features (2 $\mu$m, to be specific). In the cases where photoresists are consumed in the processing, such as reactive ion etching, thicker photoresist will be a better option.
+There are two limiting factors of the feature resolutions in photolithography: diffraction limit of light and photoresist thickness. Spin-coating is a standard technique to keep the photoresist thin and uniformly covering the sample surface. When the sample is spinning at a speed between 1000 rpm and 6000 rpm, the photoresist solution on sample surface would spread out. The liquid will be finally in equilibrium of viscosity, roughness of sample surface and centrifugation from spinning. After the spin-coating the sample is baked at a temperature around 100$^{\circ}$C to vaporize the remaining solvent in photoresist and stabilize the film before UV exposure. In my experiment, the spinning speed is 4000 rpm. Thickness of AZ4210 and AZ4110 are 2.1 $\mu$m and 1.1 $\mu$m, respectively. These two types of photoresists have the same chemical composition. They have different concentrations so they end up with different thickness at the same speed. Usually thinner films will have more stable performances for fine features (2 $\mu$m, to be specific). In the cases where photoresists are consumed in the processing, such as reactive ion etching, thicker photoresist will be a better option.
 
 The spin-coating conditions are listed in Table \ref{tab:photoresistsCoating}.
 
@@ -513,7 +513,7 @@ E_{2} \\
 E_{3}
 \end{bmatrix}
 $$
-When a field is applied in $E_3$ direction, the resulting non-zero strain terms are $X_1 = d_{31}E_3$, $X_2 = d_{32}E_3$ and $X_3 = d_{33}E_3$. Therefore, an electric field in the c-axis of the crystal will cause elongation in the c-axis and contraction in the other two orthogonal directions, or vice versa. The piezoresponse of sample can bring insights of the sample properties such as carrier concentration\cite{}, ferroelectric domain orientation\cite{}, domain boundary\cite{}, etc.
+When a field is applied in $E_3$ direction, the resulting non-zero strain terms are $X_1 = d_{31}E_3$, $X_2 = d_{32}E_3$ and $X_3 = d_{33}E_3$. Therefore, an electric field in the c-axis of the crystal will cause elongation in the c-axis and contraction in the other two orthogonal directions, or vice versa. The piezoresponse of sample can bring insights of the sample properties such as carrier concentration\cite{}, ferroelectric domain orientation\cite{}, domain boundary\cite{}, etc. The piezoresponse of the LAO/STO system can be used to characterize the carrier density change on the interface. More details will be discussed in the following section.
 
 \begin{figure}[p]
 	\centering
@@ -525,6 +525,7 @@ When a field is applied in $E_3$ direction, the resulting non-zero strain terms 
 In PFM measurement, a conductive tip made of doped silicon or coated with metal is in contact with the sample and a sinusoidal voltage signal is applied to the tip. For a sample with piezoresponse, the electric field will cause a deformation of the sample topography sinusoidal in time. Since the sample is in contact with the tip, the topographical change of sample will cause slight change of tip deformation and the change is recorded by the differential voltage on the quad detector. The sample deformation is usually in the order of 10 pm/V (e.g. 85.6 pm/V for BaTiO$_3$\cite{}). Therefore, PFM signal is measured with lock-in technique for the best signal-to-noise ratio. As shown in Figure \ref{FIG:PFM}, If the sample contract in the direction of the electric field, the piezoresponse signal will be in phase with the electric signal; if the sample elongate in the direction of the field, the signal will be out of phase.
 
 \subsection{LAO/STO nano-device c-AFM lithography}
+\label{SEC:AFMLitho}
 
 Other than performing surface characterization, the main application of AFM in our lab is to create nano-scale structures on the interface of LAO/STO. As discussed in Section \ref{}, the ``water-cycle'' mechanism\cite{} and surface protonation\cite{} are central for the reversible AFM lithography on LAO/STO interface. In contact mode, the AFM tip is in direct contact with the LAO/STO sample surface. When a positive voltage is applied to the conductive AFM tip, and $V_\mathrm{tip} > +6$V\cite{}, the electric field from the tip will dissociate the water molecules between the tip and sample surface, and leaves a trace of proton, as the tip scans through the LAO surface. 
 
@@ -535,26 +536,34 @@ Other than performing surface characterization, the main application of AFM in o
 	\label{FIG:Lithography}
 \end{figure}
 
-As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of electrodes connected to the LAO/STO interface. An AC voltage of $\pm100$ mV is applied to one electrode, while the other one is grounded. Before the c-AFM lithography starts, the interface between the two electrodes is insulating. The current between them is monitored in real-time as the c-AFM tip scans through the surface (zero before lithography starts). A positive voltage is applied, and protons are dissociated from the water meniscus and left behind the tip (plus signs in the Figure). 2DEG is formed under the protonated region and makes the interface conductive (green region). Once the two electrodes are connected by the conductive channel, a conductance jump can be observed. When a negatie voltage on the tip is applied, the protons will be removed from the surface and make the interface insulating again. A typical resistance of the nanowire right after the writing is about 200 k$\Omega$/$\mu$m, and the width is in the same order of magnitude as the c-AFM tip\ref{}.
+As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of electrodes connected to the LAO/STO interface. An AC voltage of $\pm100$ mV is applied to one electrode, while the other one is grounded. Before the c-AFM lithography starts, the interface between the two electrodes is insulating. The current between them is monitored in real-time as the c-AFM tip scans through the surface (zero before lithography starts). A positive voltage is applied, and protons are dissociated from the water meniscus and left behind the tip (plus signs in the Figure). 2DEG is formed under the protonated region and makes the interface conductive (green region). Once the two electrodes are connected by the conductive channel, a conductance jump can be observed. When a negative voltage on the tip is applied, the protons will be removed from the surface and make the interface insulating again. A typical resistance of the nanowire right after the writing is about 200 k$\Omega$/$\mu$m, and the width is in the same order of magnitude as the c-AFM tip\ref{}.
 
-A typical pattern for writing LAO/STO samples with c-AFM is shown in Figure \ref{}. 
+The sample is patterned in such a way that we can do AFM lithography and electrical measurement in real-time. Figure \ref{FIG:Regular} show the pattern of a typical LAO/STO sample for c-AFM lithography. The dimension of the sample is 5 mm $\times$ 5 mm. There are two layers of metals. The blue layer is in direct contact with the LAO/STO interface. The sample is first etched with Ar ion mill and the etched areas are backed-filled with 4 nm of Ti and 25 nm of Au (as discussed in \ref{SEC:IonMilling}). The orange regions are for electrical connections and wire-bonding. 4 nm of Ti and 50 nm of Au are directly coated on the LAO surface without etching. The orange crosses on the corners indicate the corners of the sample. the blue crosses and triangle are guidance for alignment. The zoomed-in image shows the region where c-AFM lithography is performed. The patterns are written inside the 20 $\mu$m $\times$ 20 $\mu$m area, and connected with the interface electrodes.
+
+% image of the conductance jump
+% image of the interface of measurement
+% PFM image of LAO/STO nanowire
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=.90\textwidth]{Drawing/Regular.pdf}
-	\caption{LAO/STO sample pattern for c-AFM lithography. Canvas areas are 20$\mu$m squares.}
+	\includegraphics[width=1\textwidth]{Drawing/Regular.pdf}
+	\caption{LAO/STO sample pattern for c-AFM lithography. The sample size is 5 mm $\times$ 5 mm. Canvas are 20 $\mu$m squares.}
 	\label{FIG:Regular}
 \end{figure}
 
 \section{Electronic signal measurement}
 
-
+The electrical signal (voltage, current, etc) measured in my experiments are 
 
 \subsection{Lock-in amplifier}
 
-\subsection{Virtual lock-in amplifier}
+
+
+\subsection{Virtual lock-in}
 
 \subsection{IV-curve measurement}
+
+\subsection{Probe station}
 
 \section{Graphene/LAO/STO device fabrication}
 
@@ -562,8 +571,8 @@ Current state-of-the-art high quality graphene devices are fabricated from mecha
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=1.0\textwidth]{Drawing/PMMATransfer.pdf}
-	\caption{CVD graphene transfer and patterning with PMMA. (a) Graphene is grown on copper with CVD. (b) PMMA is spin-coated onto graphene surface. (c) Copper is etched chemically, while graphene floats on the liquid surface. (d) Graphene is transferred onto LAO/STO, using PMMA as a supporting layer. (d) PMMA is patterned with deep-UV lithography. (f) PMMA is removed with organic solvent.}
+	\includegraphics[width=.90\textwidth]{Drawing/PMMATransfer.pdf}
+	\caption{CVD graphene transfer and patterning with PMMA. (a) Graphene is grown on copper with CVD. (b) PMMA is spin-coated onto graphene surface. (c) Copper is etched chemically, while graphene floats on the liquid surface. (d) Graphene is transferred onto LAO/STO, using PMMA as a supporting layer. (d) PMMA is patterned with deep-UV lithography. (f) Graphene is etched with oxygen plasma and then PMMA is removed with organic solvent.}
 	\label{FIG:PMMATransfer}
 \end{figure}
 
@@ -628,6 +637,17 @@ The two-step etching procedure can be used instead. After the copper top surface
 
 The graphene flake is then scooped out with e mesh and place on the surface of DI-water, repeated for 4-5 times to make sure the ammonium persulfate is washed off the backside of the flake. Then the LAO/STO substrate is immersed in the DI-water where the flake is floating. The substrate is slowly lifted up towards the flake on the liquid surface, and catch the flake when it comes out of the water. The substrate with the graphene flake on surface is then baked in an oven pre-heated to 50$^{\circ}$C, or on a hot plate at 70$^{\circ}$C for 5--10 minutes so that the DI-water between graphene and substrate is evaporated and graphene firmly adheres to LAO (Figure \ref{FIG:Transfer}(d)).
 
+\subsection{Graphene/LAO/STO sample pattern}
+
+The metal electrodes and bonding pads on LAO/STO are patterned before graphene is transferred. Therefore, electrodes are making contacts with graphene from below. The patterns are slightly modified from the one in Section \ref{SEC:AFMLitho}, so that there are electrodes dedicated for making contacts to graphene. As shown in the zoomed-out image in Figure \ref{FIG:GCO}, the graphene Hall bars are located on the canvas for c-AFM lithography. The graphene is in direct contact with the metal electrodes on LAO/STO surface (orange in color), while LAO/STO are in contact with the interface electrodes (blue in color). Therefore, the two layers can be measured separately. 
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=1\textwidth]{Drawing/GCO.pdf}
+	\caption{Patterns for graphene/LAO/STO. Two sets of electrodes are patterned separately, for interface and graphene contact.}
+	\label{FIG:GCO}
+\end{figure}
+
 \subsection{Photolithography and etching}
 
 The graphene transferred onto LAO/STO is patterned with standard UV photolithography, as discussed in Section \ref{SEC:Photolithography}. Although there is already photoresist on graphene flake to assist wet transfer, it needs to be washed off and re-coated, because it is exposed to UV and chemical etchant. Unlike the photolithography for LAO/STO electrodes, patterning graphene into Hall bars need to wash off the photoresist outside of the Hall bars and leave the Hall bar region covered with photoresist, so that the graphene is protected from oxygen plasma etching. The oxygen plasma barrel etcher and RIE proved to be effective for patterning graphene. However, other than the Hyflon and graphene, there are usually contaminant introduced by wet-transfer procedure that need to be cleaned with RIE as well (Figure \ref{FIG:SampleContaminant}). 
@@ -665,14 +685,14 @@ Before 2018 I was using the the one-step etching method (as shown in Figure \ref
 	\label{TAB:RIESingleStep}
 \end{table}
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.70\textwidth]{Drawing/GCOCanvas.pdf}
-	\caption{Graphene is shaped into Hall bars by RIE. Outside the Hall bar region, nanostructures need to be created inside the square region, on the interface of LAO/STO. Aggressive RIE process can damage the LAO/STO interface.}
-	\label{FIG:GCOCanvas}
-\end{figure}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=.60\textwidth]{Drawing/GCOCanvas.pdf}
+%	\caption{Graphene is shaped into Hall bars by RIE. Outside the Hall bar region, nanostructures need to be created inside the square region, on the interface of LAO/STO. Aggressive RIE process can damage the LAO/STO interface.}
+%	\label{FIG:GCOCanvas}
+%\end{figure}
 
-As shown in Figure \ref{FIG:GCOCanvas}(b), the single-step RIE etching can completely clean the contaminants on LAO/STO. However, the etching can be problematic for the LAO/STO interface. Figure \ref{FIG:GCOCanvas} shows the pattern of the graphene Hall bar and the surrounding electrodes to graphene and interface. Outside the graphene region is the surface of LAO/STO. Most of my experiment involves switching the LAO/STO interface conductivity with conductive AFM tip (to be discussed in section \ref{SEC:AFM}). In some experiments, I need to create conductive nanostructures inside the 20 $\mu$m square region shown in Figure \ref{FIG:GCOCanvas}. When the sample is too dirty and requires long etching time with RIE, LAO/STO is exposed in oxygen plasma for long time, and the bombardment would damage the interface and make it impossible to switch the conductivity inside the square region. 
+As shown in Figure \ref{FIG:SampleContaminant}(b), the single-step RIE etching can completely clean the contaminants on LAO/STO. However, the etching can be problematic for the LAO/STO interface. As shown previously in Figure \ref{FIG:GCO}, the graphene Hall bar locates inside the 20 $\mu$m canvas area. When the graphene outside the Hall bar and surface contaminants are etched with the same aggressive RIE recipe, the bombardment would damage the LAO/STO interface and it would be impossible to write nanowires with c-AFM in some cases. However if I etch the sample with a milder recipe, the contaminants cannot be fully cleaned in some cases. 
 
 \subsubsection{Two-step etching}
 
@@ -694,7 +714,6 @@ To address the interface-damaging issue, I started to use the two-step etching m
 
 The detailed procedures are shown in Figure \ref{FIG:TwoStepEtching}. Right after graphene is transferred onto LAO/STO and the supporting photoresist is washed off, it is spin-coated with AZ4210. The square-shape is patterned with photolithography to protect the canvas. Then the sample is etched with RIE, until all the contaminants are cleaned. In some cases, the contaminants needs long etching time, and photoresist may be etched through. Multiple photolithography and RIE etching steps will be needed. For the same reason, AZ4210 (2.1$\mu$m thick) is preferred than AZ4110 (1.1 $\mu$m thick). After that, AZ4210 is washed off, and AZ4110 is spin-coated. Photolithography on AZ4110 has higher precision. One thing I noticed was that the developing time required for AZ4110 is much longer than usual, possibly because the previous RIE etching changed the surface hydrophilicity and make the exposed photoresist harder to be washed off. After the Hall bar is patterned with inverse pattern, the sample is etched with a weak oxygen plasma barrel etching recipe, and shape the graphene and Hyflon into Hall bars (Figure \ref{FIG:RIETwoStep}). The recipe for photolithography and etching are listed in Table \ref{TAB:TwoStepPL} and Table \ref{TAB:TwoStepEtching}.
 
-To remove the Hyflon on graphene Hall bars, the sample is left in FC-40 heated up to 70 $^{\circ}$C, and is shaken at 100 rpm for 18 - 24 hours. To reduce the impurities, the FC-40 would go through 450 nm, 200 nm and 100 nm size filters, before used for Hyflon removal.
 
 \begin{table}
 	\centering
@@ -708,7 +727,7 @@ To remove the Hyflon on graphene Hall bars, the sample is left in FC-40 heated u
 		Developing time	&	120 s	&	240 - 600 s \\
 		\hline
 	\end{tabular}
-	\caption{Two-step etching photolithography recipe.}
+	\caption{Two-step etching photolithography recipe. First layer of AZ4210 is used to protect the canvas against the aggressive RIE for contamination removal. Second layer of AZ4110 is for graphene Hall bar protection, and only need to resist mild oxygen plasma etching.}
 	\label{TAB:TwoStepPL}
 \end{table}
 
@@ -726,22 +745,70 @@ To remove the Hyflon on graphene Hall bars, the sample is left in FC-40 heated u
 	\label{TAB:TwoStepEtching}
 \end{table}
 
-\subsection{Graphene/LAO/STO nano-device lithography}
+\subsection{Hyflon removal}
+
+Over the entire processing, the graphene is covered with Hyflon until the last step. The Hyflon is only solvable in perfluorinated solvent such as FC-40. On one hand, this makes it possible for Hyflon to serve as a protection layer for all the other chemicals like acetone, IPA or photoresists. On the other hand, it also make Hyflon hard to be fully removed. We have two recipe for Hyflon removal. 
+
+\subsubsection{High temperature method} FC-40 heated up to 165 $^{\circ}$C in a beaker. The boiling point of FC-40 is about 175 $^{\circ}$C and it decomposes into HF, therefore we keep the temperature lower than that. Once the sample is placed in FC-40, the beaker is taken off the hot place and left on a shaking stage at 100 rpm, and the sample is shaken in FC-40 for 12 hours while it cools down to room temperature. Then the sample is taken out and dried with nitrogen.
+
+\subsubsection{Low temperature method} FC-40 is heated up to 70 $^{\circ}$C in a beaker. After the sample is immersed in FC-40, the beaker is shaken at 100 rpm while the temperature is kept at 70 $^{\circ}$C for 12 - 24 hours. Then the sample is taken out and dried with nitrogen. We started to use this method since 2017.
+\\
+
+It is hard to determine which method is more preferable. The room temperature method does seem to be less harsh, and might affect the graphene and LAO/STO. However, the residue on graphene is more than the high temperature method. There was a period of time (about a year) when we could not produce high quality graphene/LAO/STO sample. We are still not sure if that is related to switching from the high temperature method to low temperature method for Hyflon removal.
+
+%\subsection{Graphene cutting with nanoscale anode oxidation}
+
+%Another approach of shaping graphene into devices is to directly etch it with c-AFM.  
+
+\subsection{Graphene/LAO/STO nano-scale device lithography}
+
+Pattern nano-scale devices on graphene/LAO/STO with reversibly with c-AFM is one of the major techniques I was trying to develop in my research. As been discussed in Section \ref{SEC:AFMLitho}, conductive channels can be created and erased on the interface of LAO/STO with c-AFM. Similar experiments have been conducted on graphene/LAO/STO samples. 
+
+% writing conditions
+% damaging threshold
+% possible thickness dependence
+% 
 
 \chapter{Graphene p-n junction edge-state engineering}
 
+\section{Transport measurement in graphene}
+
+\subsection{Charge-neutrality point}
+
+\subsection{Temperature dependence}
+
+\subsection{Carrier densities and mobilities as functions of gate voltages}
+
+\subsection{Quantum Hall effect}
+
+\section{p-n junction on graphene/LAO/STO}
+
+\subsection{Graphene edge channels and p-n junctions}
+
+\subsection{Fabricating p-n junction with c-AFM lithography}
+
+\subsection{Measurement and results}
+
 \chapter{Graphene/LAO/STO superlattice device}
+
+\section{Graphene band structure engineering with superlattice}
+
+\section{c-AFM lithography of graphene/LAO/STO superlattice}
+
+\subsection{Measurement and results}
 
 \chapter{Magneto-Optical Kerr Effect on LAO/STO interface}
 
-\section{Motivation}
+\section{Magnetism on LAO/STO interface}
 
-\section{Experimental setup}
+\section{MFM measurement}
+
+\section{Optical setup}
 
 \section{Results}
 
 \chapter{Outlook}
-	
+
 \chapter{Conclusions}
 
 

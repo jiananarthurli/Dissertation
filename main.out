@@ -39,22 +39,40 @@
 \BOOKMARK [2][]{subsection.2.3.7}{7. LAO/STO nano-device c-AFM lithography}{section.2.3}% 33
 \BOOKMARK [1][]{section.2.4}{D. Electronic signal measurement}{chapter.2}% 34
 \BOOKMARK [2][]{subsection.2.4.1}{1. Lock-in amplifier}{section.2.4}% 35
-\BOOKMARK [2][]{subsection.2.4.2}{2. Virtual lock-in amplifier}{section.2.4}% 36
+\BOOKMARK [2][]{subsection.2.4.2}{2. Virtual lock-in}{section.2.4}% 36
 \BOOKMARK [2][]{subsection.2.4.3}{3. IV-curve measurement}{section.2.4}% 37
-\BOOKMARK [1][]{section.2.5}{E. Graphene/LAO/STO device fabrication}{chapter.2}% 38
-\BOOKMARK [2][]{subsection.2.5.1}{1. Overview of the Hyflon transfer method}{section.2.5}% 39
-\BOOKMARK [2][]{subsection.2.5.2}{2. Hyflon solution preparation and spin-coating}{section.2.5}% 40
-\BOOKMARK [2][]{subsection.2.5.3}{3. Graphene preparation, copper etching and wet transfer}{section.2.5}% 41
-\BOOKMARK [2][]{subsection.2.5.4}{4. Photolithography and etching}{section.2.5}% 42
-\BOOKMARK [3][]{subsubsection.2.5.4.1}{a. One-step etching}{subsection.2.5.4}% 43
-\BOOKMARK [3][]{figure.2.32}{b. Two-step etching}{subsection.2.5.4}% 44
-\BOOKMARK [2][]{subsection.2.5.5}{5. Graphene/LAO/STO nano-device lithography}{section.2.5}% 45
-\BOOKMARK [0][]{chapter.3}{III. GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}{}% 46
-\BOOKMARK [0][]{chapter.4}{IV. GRAPHENE/LAO/STO SUPERLATTICE DEVICE}{}% 47
-\BOOKMARK [0][]{chapter.5}{V. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 48
-\BOOKMARK [1][]{section.5.1}{A. Motivation}{chapter.5}% 49
-\BOOKMARK [1][]{section.5.2}{B. Experimental setup}{chapter.5}% 50
-\BOOKMARK [1][]{section.5.3}{C. Results}{chapter.5}% 51
-\BOOKMARK [0][]{chapter.6}{VI. OUTLOOK}{}% 52
-\BOOKMARK [0][]{chapter.7}{VII. CONCLUSIONS}{}% 53
-\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 54
+\BOOKMARK [2][]{subsection.2.4.4}{4. Probe station}{section.2.4}% 38
+\BOOKMARK [1][]{section.2.5}{E. Graphene/LAO/STO device fabrication}{chapter.2}% 39
+\BOOKMARK [2][]{subsection.2.5.1}{1. Overview of the Hyflon transfer method}{section.2.5}% 40
+\BOOKMARK [2][]{subsection.2.5.2}{2. Hyflon solution preparation and spin-coating}{section.2.5}% 41
+\BOOKMARK [2][]{subsection.2.5.3}{3. Graphene preparation, copper etching and wet transfer}{section.2.5}% 42
+\BOOKMARK [2][]{subsection.2.5.4}{4. Graphene/LAO/STO sample pattern}{section.2.5}% 43
+\BOOKMARK [2][]{subsection.2.5.5}{5. Photolithography and etching}{section.2.5}% 44
+\BOOKMARK [3][]{subsubsection.2.5.5.1}{a. One-step etching}{subsection.2.5.5}% 45
+\BOOKMARK [3][]{figure.2.32}{b. Two-step etching}{subsection.2.5.5}% 46
+\BOOKMARK [2][]{subsection.2.5.6}{6. Hyflon removal}{section.2.5}% 47
+\BOOKMARK [3][]{subsubsection.2.5.6.1}{a. High temperature method}{subsection.2.5.6}% 48
+\BOOKMARK [3][]{subsubsection.2.5.6.2}{b. Low temperature method}{subsection.2.5.6}% 49
+\BOOKMARK [2][]{subsection.2.5.7}{7. Graphene/LAO/STO nano-scale device lithography}{section.2.5}% 50
+\BOOKMARK [0][]{chapter.3}{III. GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}{}% 51
+\BOOKMARK [1][]{section.3.1}{A. Transport measurement in graphene}{chapter.3}% 52
+\BOOKMARK [2][]{subsection.3.1.1}{1. Charge-neutrality point}{section.3.1}% 53
+\BOOKMARK [2][]{subsection.3.1.2}{2. Temperature dependence}{section.3.1}% 54
+\BOOKMARK [2][]{subsection.3.1.3}{3. Carrier densities and mobilities as functions of gate voltages}{section.3.1}% 55
+\BOOKMARK [2][]{subsection.3.1.4}{4. Quantum Hall effect}{section.3.1}% 56
+\BOOKMARK [1][]{section.3.2}{B. p-n junction on graphene/LAO/STO}{chapter.3}% 57
+\BOOKMARK [2][]{subsection.3.2.1}{1. Graphene edge channels and p-n junctions}{section.3.2}% 58
+\BOOKMARK [2][]{subsection.3.2.2}{2. Fabricating p-n junction with c-AFM lithography}{section.3.2}% 59
+\BOOKMARK [2][]{subsection.3.2.3}{3. Measurement and results}{section.3.2}% 60
+\BOOKMARK [0][]{chapter.4}{IV. GRAPHENE/LAO/STO SUPERLATTICE DEVICE}{}% 61
+\BOOKMARK [1][]{section.4.1}{A. Graphene band structure engineering with superlattice}{chapter.4}% 62
+\BOOKMARK [1][]{section.4.2}{B. c-AFM lithography of graphene/LAO/STO superlattice}{chapter.4}% 63
+\BOOKMARK [2][]{subsection.4.2.1}{1. Measurement and results}{section.4.2}% 64
+\BOOKMARK [0][]{chapter.5}{V. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 65
+\BOOKMARK [1][]{section.5.1}{A. Magnetism on LAO/STO interface}{chapter.5}% 66
+\BOOKMARK [1][]{section.5.2}{B. MFM measurement}{chapter.5}% 67
+\BOOKMARK [1][]{section.5.3}{C. Optical setup}{chapter.5}% 68
+\BOOKMARK [1][]{section.5.4}{D. Results}{chapter.5}% 69
+\BOOKMARK [0][]{chapter.6}{VI. OUTLOOK}{}% 70
+\BOOKMARK [0][]{chapter.7}{VII. CONCLUSIONS}{}% 71
+\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 72
