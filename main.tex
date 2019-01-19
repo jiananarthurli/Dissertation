@@ -95,7 +95,6 @@ I want to thank everyone that made this happened.
 
 \section{Graphene}
 
-
 \chapter{Experimental Methods}
 
 \section{Sample growth}
@@ -388,14 +387,6 @@ When the sample is patterned with photolithography and coated with metal, the ph
 The oxygen plasma cleaner activates oxygen molecules with a high frequency voltage (kHz to MHz) in low pressure, and forms plasma or oxygen radicals when electrons recombine with oxygen ions. The mixture is highly reactive and interactive with organic materials like photoresist residue on sample surface. Oxygen plasma cleaning can be categorized as a form of RIE (as discussed in Section \ref{SEC:IonMilling}), but it usually operates at high end of 100 mTorr and the etching is less directional. Compared to chemical solvent, oxygen plasma removes the photoresist residue at a much lower speed (about 10 nm/min), but the finishing is much cleaner, while less invasive compared to RIE. Therefore, oxygen plasma is used as a final step for sample processing.
 
 
-\section{Electronic signal measurement}
-
-\subsection{Lock-in amplifier}
-
-\subsection{Virtual lock-in amplifier}
-
-\subsection{IV-curve measurement}
-
 \section{Atomic force microscope}
 \label{SEC:AFM}
 
@@ -524,18 +515,46 @@ E_{3}
 $$
 When a field is applied in $E_3$ direction, the resulting non-zero strain terms are $X_1 = d_{31}E_3$, $X_2 = d_{32}E_3$ and $X_3 = d_{33}E_3$. Therefore, an electric field in the c-axis of the crystal will cause elongation in the c-axis and contraction in the other two orthogonal directions, or vice versa. The piezoresponse of sample can bring insights of the sample properties such as carrier concentration\cite{}, ferroelectric domain orientation\cite{}, domain boundary\cite{}, etc.
 
-In PFM measurement, a conductive tip made of doped silicon or coated with metal is in contact with the sample and a sinusoidal voltage signal is applied to the tip. For a sample with piezoresponse, the electric field will cause a deformation of the sample topography sinusoidal in time. Since the sample is in contact with the tip, the topographical change of sample will cause slight change of tip deformation and the change is recorded by the differential voltage on the quad detector. The sample deformation is usually in the order of 10 pm/V (e.g. 85.6 pm/V for BaTiO$_3$\cite{}). Therefore, PFM signal is measured with lock-in technique for the best signal-to-noise ratio. As shown in Figure \ref{FIG:PFM}, If the sample contract in the direction of the electric field, the piezoresponse signal will be in phase with the electric signal; if the sample elongate in the direction of the field, the signal will be out of phase.
-
-\begin{figure}[h!]
+\begin{figure}[p]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Drawing/PFM.pdf}
 	\caption{PFM measurement. The external electric field is applied on the sample through a conductive tip. The sample deforms and slightly bend the tip, and the deformation signal is monitored with a quad detector (not shown). If the sample contract in the direction of the field, the deformation signal is in phase with the driving voltage (above); if the sample elongate in the direction of the field, the signal would be out of phase with the driving voltage (below).}
 	\label{FIG:PFM}
 \end{figure}
 
+In PFM measurement, a conductive tip made of doped silicon or coated with metal is in contact with the sample and a sinusoidal voltage signal is applied to the tip. For a sample with piezoresponse, the electric field will cause a deformation of the sample topography sinusoidal in time. Since the sample is in contact with the tip, the topographical change of sample will cause slight change of tip deformation and the change is recorded by the differential voltage on the quad detector. The sample deformation is usually in the order of 10 pm/V (e.g. 85.6 pm/V for BaTiO$_3$\cite{}). Therefore, PFM signal is measured with lock-in technique for the best signal-to-noise ratio. As shown in Figure \ref{FIG:PFM}, If the sample contract in the direction of the electric field, the piezoresponse signal will be in phase with the electric signal; if the sample elongate in the direction of the field, the signal will be out of phase.
+
 \subsection{LAO/STO nano-device c-AFM lithography}
 
+Other than performing surface characterization, the main application of AFM in our lab is to create nano-scale structures on the interface of LAO/STO. As discussed in Section \ref{}, the ``water-cycle'' mechanism\cite{} and surface protonation\cite{} are central for the reversible AFM lithography on LAO/STO interface. In contact mode, the AFM tip is in direct contact with the LAO/STO sample surface. When a positive voltage is applied to the conductive AFM tip, and $V_\mathrm{tip} > +6$V\cite{}, the electric field from the tip will dissociate the water molecules between the tip and sample surface, and leaves a trace of proton, as the tip scans through the LAO surface. 
 
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=.80\textwidth]{Drawing/Lithography.pdf}
+	\caption{AFM lithography on LAO/STO. (a)(b) The AFM is set in contact mode. A positive bias voltage is applied to the tip. A trace of proton is left on the path of AFM tip, and 2DEG is formed underneath the path. Conductivity of the two interface electrodes are monitored, and a conductance jump will be observed once a closed loop is formed. (c) A negative voltage can remove the proton and cut the nanowire previously written.}
+	\label{FIG:Lithography}
+\end{figure}
+
+As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of electrodes connected to the LAO/STO interface. An AC voltage of $\pm100$ mV is applied to one electrode, while the other one is grounded. Before the c-AFM lithography starts, the interface between the two electrodes is insulating. The current between them is monitored in real-time as the c-AFM tip scans through the surface (zero before lithography starts). A positive voltage is applied, and protons are dissociated from the water meniscus and left behind the tip (plus signs in the Figure). 2DEG is formed under the protonated region and makes the interface conductive (green region). Once the two electrodes are connected by the conductive channel, a conductance jump can be observed. When a negatie voltage on the tip is applied, the protons will be removed from the surface and make the interface insulating again. A typical resistance of the nanowire right after the writing is about 200 k$\Omega$/$\mu$m, and the width is in the same order of magnitude as the c-AFM tip\ref{}.
+
+A typical pattern for writing LAO/STO samples with c-AFM is shown in Figure \ref{}. 
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=.90\textwidth]{Drawing/Regular.pdf}
+	\caption{LAO/STO sample pattern for c-AFM lithography. Canvas areas are 20$\mu$m squares.}
+	\label{FIG:Regular}
+\end{figure}
+
+\section{Electronic signal measurement}
+
+
+
+\subsection{Lock-in amplifier}
+
+\subsection{Virtual lock-in amplifier}
+
+\subsection{IV-curve measurement}
 
 \section{Graphene/LAO/STO device fabrication}
 
@@ -629,7 +648,7 @@ The graphene transferred onto LAO/STO is patterned with standard UV photolithogr
 
 \subsubsection{One-step etching}
 
-Before 2018 I was using the the one-step etching method, that is to etch the graphene and clean the contaminants with RIE in one step. Figure \ref{FIG:SampleContaminant} shows the image of a sample before and after the RIE etching. In Figure \ref{FIG:SampleContaminant}(a), it can be seen that bubbles or foldings introduced from the wet transfer covers the entire sample. Fortunately in my experiments, most of the graphene transferred on LAO/STO needs to be etched away, and only the graphene device inside red circles in \ref{FIG:SampleContaminant}(a) need to be covered with graphene. A zoomed-in image is shown in Figure \ref{FIG:RIEBeforeEtching}, with graphene covered with Hyflon. The metal patterns are contact electrodes for graphene and LAO/STO interface. Wrinkles on graphene can be seen, which are following the corrugations on the copper substrate during CVD growth. The patterns for the entire sample are designed in the way that there can be as many graphene devices fit in the sample as possible, so that there are higher chances of finding a clean graphene device. The contaminants are etched away with an aggressive RIE procedure (listed in Table \ref{TAB:RIESingleStep}). 
+Before 2018 I was using the the one-step etching method (as shown in Figure \ref{FIG:HyflonTransfer}), that is to etch the graphene and clean the contaminants with RIE in one step. Figure \ref{FIG:SampleContaminant} shows the image of a sample before and after the RIE etching. In Figure \ref{FIG:SampleContaminant}(a), it can be seen that bubbles or foldings introduced from the wet transfer covers the entire sample. Fortunately in my experiments, most of the graphene transferred on LAO/STO needs to be etched away, and only the graphene device inside red circles in \ref{FIG:SampleContaminant}(a) need to be covered with graphene. A zoomed-in image is shown in Figure \ref{FIG:RIEBeforeEtching}, with graphene covered with Hyflon. The metal patterns are contact electrodes for graphene and LAO/STO interface. Wrinkles on graphene can be seen, which are following the corrugations on the copper substrate during CVD growth. The patterns for the entire sample are designed in the way that there can be as many graphene devices fit in the sample as possible, so that there are higher chances of finding a clean graphene device. The contaminants are etched away with an aggressive RIE procedure (listed in Table \ref{TAB:RIESingleStep}). 
 
 \begin{table}
 	\centering
@@ -659,8 +678,8 @@ As shown in Figure \ref{FIG:GCOCanvas}(b), the single-step RIE etching can compl
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=.55\textwidth]{Drawing/RIETwoStep.pdf}
-	\caption{Two-step graphene etching.}
+	\includegraphics[width=.5\textwidth]{Drawing/RIETwoStep.pdf}
+	\caption{Two-step graphene etching. (a) A square shape region is protected by AZ4210 photoresist. Outside of the square region the sample is etched with an aggressive RIE process to remove the contaminants introduced by wet-transfer. The figure shows the graphene with Hyflon. Photoresist has been washed off. (b) A second step of photolithography is performed and a Hall-bar shape region is protected by AZ4110 photoresist. Outside of the Hall-bar the Hyflon and graphene is etched away with a mild oxygen plasma barrel etching recipe, and the LAO/STO interface is still writable. The figure shows the graphene Hall-bar covered with Hyflon. }
 	\label{FIG:RIETwoStep}
 \end{figure}
 
@@ -689,7 +708,7 @@ To remove the Hyflon on graphene Hall bars, the sample is left in FC-40 heated u
 		Developing time	&	120 s	&	240 - 600 s \\
 		\hline
 	\end{tabular}
-	\caption{One-step RIE etching recipe.}
+	\caption{Two-step etching photolithography recipe.}
 	\label{TAB:TwoStepPL}
 \end{table}
 
@@ -703,7 +722,7 @@ To remove the Hyflon on graphene Hall bars, the sample is left in FC-40 heated u
 		Power	&	50 W	&	100 W \\
 		Time	&	200 - 400 s &	300 s\\ \hline
 	\end{tabular}
-	\caption{RIE and barrel etching recipe. Although it seems that the barrel etcher is running at higher power, the structure of the instrument make the etching much less invasive compared to RIE.}
+	\caption{Two-step etching recipe. Although it seems that the barrel etcher is running at higher power, the structure of the instrument make the etching much less invasive compared to RIE.}
 	\label{TAB:TwoStepEtching}
 \end{table}
 
