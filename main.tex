@@ -95,6 +95,10 @@ I want to thank everyone that made this happened.
 
 \section{Graphene}
 
+\section{Dirac fermion}
+
+\section{Quantum Hall effect}
+
 \chapter{Experimental Methods}
 
 \section{Sample growth}
@@ -543,7 +547,7 @@ The sample is patterned in such a way that I can do AFM lithography and electric
 	\label{FIG:Regular}
 \end{figure}
 
-\section{Electronic signal measurement}
+\section{Electric signal measurement}
 
 The electrical signal (voltage, current, etc) measured in my experiments are 
 
@@ -805,14 +809,24 @@ Pattern nano-scale devices on graphene/LAO/STO with reversibly with c-AFM is one
 	\label{FIG:GraphenePFM}
 \end{figure}
 
-Figure \ref{FIG:GraphenePFM} demonstrates the setup of c-AFM lithography on graphene/LAO/STO, and the subsequent PFM imaging of the nanowire underneath the graphene. The setup of c-AFM lithography is similar to bare LAO/STO samples. The interface electrodes is grounded or measure. A positive voltage $V_\mathrm{tip} > +6V$ is applied to the c-AFM tip, while the tip sketches between the two interface electrodes. A protective resistor of 1 G$\Omega$ is connected in series with the tip and voltage source (not shown in Figure \ref{FIG:GraphenePFM}). The graphene is disconnected and floating in this experiment. The tip goes through the graphene covered area before two interface electrodes are connected. A sudden increase of conductance between two electrodes can be observed (inset of Figure \ref{FIG:GraphenePFM}(c)), indicates that a conductive channel has been created. 
+Figure \ref{FIG:GraphenePFM} demonstrates the setup of c-AFM lithography on graphene/LAO/STO, and the subsequent PFM imaging of the nanowire underneath the graphene. The setup of c-AFM lithography is similar to bare LAO/STO samples. The interface electrodes is grounded or measure. A positive voltage $V_\mathrm{tip} > +6V$ is applied to the c-AFM tip, while the tip sketches between the two interface electrodes. A protective resistor of 1 G$\Omega$ is connected in series with the tip and voltage source (not shown in Figure \ref{FIG:GraphenePFM}). The graphene is disconnected and floating in this experiment. The tip goes through the graphene covered area before two interface electrodes are connected. The typical voltage applied to the AFM tip is +15 V, and the tip moving speed is 0.5 - 1 $\mu$m/s, but can be as high as 10 $\mu$m/s in some cases. Contact force is about 20-80 nN. A sudden increase of conductance between two electrodes can be observed (inset of Figure \ref{FIG:GraphenePFM}(c)), indicates that a conductive channel has been created. 
 
 A subsequent PFM measurement is performed. An AC voltage (with $f$ close to the PFM resonance frequency of the sample) is applied to the c-AFM tip, while the tip scans in contact with the sample. The alternating voltage from the tip modulates the carrier density on the LAO/STO interface, and the carrier density change will cause deformation of STO through the Jahn-Teller effect\cite{}. The area that previously written with nanowire would respond differently to the AC tip voltage, causes contrast on the PFM image. Figure \ref{FIG:GraphenePFM}(c) shows the PFM phase image of the nanowire written. The region colored in blue are the interface electrodes, and the region in gray are electrical contact with graphene. The graphene covered regions are enclosed with dashed lines. The narrow path in dark purple color is the nanowire previously written with c-AFM. The path under the graphene regions is dimmer than the outside sections, indicating the shielding effect of graphene against both the c-AFM lithography voltage and the PFM AC voltage on tip.
 
 
-\subsection{c-AFM damage threshold of graphene}
+\subsection{More about the c-AFM writing conditions on graphene and damage thresholds}
 
+The graphene on LAO/STO makes the c-AFM lithography more complicated than on bare LAO/STO. As discussed in Section \ref{SEC:AFMLitho}, the lithography and erasion of nanowire on the interface relies on the water-cycle and protonation induced by c-AFM tip voltage. It was also found that the surface conditions of LAO can affect the interface 2DEG\cite{}. Graphene on LAO also changes the critical thickness of LAO/STO\cite{aliaj2018probing}. 
 
+The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graphene however, can be damaged by a high negative voltage on the tip, from the anode oxidation effect\cite{}. It was reported\cite{} that the graphene damaging threshold voltage on the c-AFM is about $V{\mathrm{damage}} \approx 6 V$. This voltage is dependent on whether the graphene is floating or grounded and how much current is flowing between the tip and graphene. Figure \ref{FIG:GrapheneDamages} is an AC phase image of damaged graphene. The light color paths are from AFM sketching with -15 V on the tip, at 400 nm/s speed and 75 nN contact force. The contrast clearly shows the oxidation on graphene. The upper and lower regions of the graphene are electrically disconnected. To avoid oxidation damage to graphene, the tip voltage is limited to -5 V when the graphene is grounded, and -8 V when the graphene is floating while performing c-AFM on graphene with a negative voltage. From my experience the damaging thresholds are also related to the AFM tip or graphene surface roughness, but in general under these conditions the graphene damage can be avoided.
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/GrapheneDamages.pdf}
+	\caption{Damages on graphene from c-AFM lithography. On the AFM paths the graphene is oxidized and show contrast on the phase image.}
+	\label{FIG:GrapheneDamages}
+\end{figure}
 
 % writing conditions
 % damaging threshold

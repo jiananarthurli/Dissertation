@@ -6,6 +6,8 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}A\period@or@not .}3\period@or@not }Superconductivity}{1}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}A\period@or@not .}4\period@or@not }Magnetism}{1}{subsection.1.1.4}
 \contentsline {section}{\numberline {\gobble@or@not {I\period@or@not .}B\period@or@not }Graphene}{1}{section.1.2}
+\contentsline {section}{\numberline {\gobble@or@not {I\period@or@not .}C\period@or@not }Dirac fermion}{1}{section.1.3}
+\contentsline {section}{\numberline {\gobble@or@not {I\period@or@not .}D\period@or@not }Quantum Hall effect}{1}{section.1.4}
 \contentsline {chapter}{{\bfseries \numberline {II\period@or@not }EXPERIMENTAL METHODS}}{2}{chapter.2}
 \contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}A\period@or@not }Sample growth}{2}{section.2.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}A\period@or@not .}1\period@or@not }LAO/STO growth}{2}{subsection.2.1.1}
@@ -31,7 +33,7 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}5\period@or@not }Magnetic force microscopy}{32}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}6\period@or@not }Piezoresponse force microscopy}{33}{subsection.2.3.6}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}7\period@or@not }LAO/STO nano-device c-AFM lithography}{35}{subsection.2.3.7}
-\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}D\period@or@not }Electronic signal measurement}{38}{section.2.4}
+\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}D\period@or@not }Electric signal measurement}{38}{section.2.4}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}1\period@or@not }Lock-in amplifier}{40}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}2\period@or@not }Virtual lock-in}{40}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}3\period@or@not }IV-curve measurement}{40}{subsection.2.4.3}
@@ -50,26 +52,26 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}7\period@or@not }AFM cleaning of graphene}{57}{subsection.2.5.7}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}8\period@or@not }Graphene/LAO/STO nano-scale device lithography}{60}{subsection.2.5.8}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}9\period@or@not }c-AFM lithography and PFM imaging}{60}{subsection.2.5.9}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}10\period@or@not }c-AFM damage threshold of graphene}{62}{subsection.2.5.10}
-\contentsline {chapter}{{\bfseries \numberline {III\period@or@not }GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}}{63}{chapter.3}
-\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}A\period@or@not }Transport measurement in graphene}{63}{section.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}1\period@or@not }Charge-neutrality point}{63}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}2\period@or@not }Temperature dependence}{63}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Carrier densities and mobilities}{63}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}4\period@or@not }Quantum Hall effect in graphene}{63}{subsection.3.1.4}
-\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}B\period@or@not }p-n junction on graphene/LAO/STO}{63}{section.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }Graphene edge channels and p-n junctions}{63}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}2\period@or@not }Fabricating p-n junction with c-AFM lithography}{63}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Measurement and results}{63}{subsection.3.2.3}
-\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }GRAPHENE/LAO/STO SUPERLATTICE DEVICE}}{64}{chapter.4}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Graphene band structure engineering with superlattice}{64}{section.4.1}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }c-AFM lithography of graphene/LAO/STO superlattice}{64}{section.4.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}B\period@or@not .}1\period@or@not }Measurement and results}{64}{subsection.4.2.1}
-\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{65}{chapter.5}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{65}{section.5.1}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}B\period@or@not }MFM measurement}{65}{section.5.2}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}C\period@or@not }Optical setup}{65}{section.5.3}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}D\period@or@not }Results}{65}{section.5.4}
-\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{66}{chapter.6}
-\contentsline {chapter}{{\bfseries \numberline {VII\period@or@not }CONCLUSIONS}}{67}{chapter.7}
-\contentsline {chapter}{{\bfseries \bibname }}{68}{section*.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}10\period@or@not }More about the c-AFM writing conditions on graphene and damage thresholds}{62}{subsection.2.5.10}
+\contentsline {chapter}{{\bfseries \numberline {III\period@or@not }GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}}{64}{chapter.3}
+\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}A\period@or@not }Transport measurement in graphene}{64}{section.3.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}1\period@or@not }Charge-neutrality point}{64}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}2\period@or@not }Temperature dependence}{64}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Carrier densities and mobilities}{64}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}4\period@or@not }Quantum Hall effect in graphene}{64}{subsection.3.1.4}
+\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}B\period@or@not }p-n junction on graphene/LAO/STO}{64}{section.3.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }Graphene edge channels and p-n junctions}{64}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}2\period@or@not }Fabricating p-n junction with c-AFM lithography}{64}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Measurement and results}{64}{subsection.3.2.3}
+\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }GRAPHENE/LAO/STO SUPERLATTICE DEVICE}}{65}{chapter.4}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Graphene band structure engineering with superlattice}{65}{section.4.1}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }c-AFM lithography of graphene/LAO/STO superlattice}{65}{section.4.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}B\period@or@not .}1\period@or@not }Measurement and results}{65}{subsection.4.2.1}
+\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{66}{chapter.5}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{66}{section.5.1}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}B\period@or@not }MFM measurement}{66}{section.5.2}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}C\period@or@not }Optical setup}{66}{section.5.3}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}D\period@or@not }Results}{66}{section.5.4}
+\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{67}{chapter.6}
+\contentsline {chapter}{{\bfseries \numberline {VII\period@or@not }CONCLUSIONS}}{68}{chapter.7}
+\contentsline {chapter}{{\bfseries \bibname }}{69}{section*.1}
