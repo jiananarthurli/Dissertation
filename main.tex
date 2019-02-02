@@ -83,11 +83,62 @@ I want to thank everyone that made this happened.
 %
 \chapter{Introduction}%
 
-\section{LAO/STO heterostructure}
+\section{Motivation}
 
-\subsection{STO}
 
-\subsection{LAO/STO interface}
+
+\section{Introduction to LAO and STO}
+
+Both LAO and STO have perovskite structure at room temperature. Lattice constant of LAO is $a = 3.791\mathrm{\AA}$\cite{geller1956crystallographic}, while lattice constant of STO is $a = 3.905\mathrm{\AA}$. In each cubic unit cell of STO, the Ti atom is enclosed in octahedral cage of oxygen, and the octahedron is in the center of a cubic skeleton of Sr atoms (Figure \ref{FIG:STOPhaseTransition}). At $T=105$ K, STO would go through a phase transition and oxygen octahedron pairs would rotate against each other so that the bonding lengths of Sr-O and Ti-O are optimized\cite{sulpizio2014nanoscale}. This ferroelastic transition would break the cubic symmetry and form tetragonal domains in STO, from different orientations of the tetragonal unit cells. At even lower temperature, the crystal symmetry may transit to orthorhombic and triclinic, but the effects on the property of STO are less significant than the tetragonal phase transition at $T=105$ K.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.90\textwidth]{Drawing/STOPhaseTransition.pdf}
+	\caption{Ferroelastic transition of STO. (a) At $T=300$ K STO has cubic perovskite structure. (b) At $T = 105$ K, the adjacent oxygen octahedrons would rotate in opposite directions and cause ferroelastic transition in STO. Domains will be formed for different orientations of unit cells. Adapted from \cite{sulpizio2014nanoscale}.}
+	\label{FIG:STOPhaseTransition}
+\end{figure}
+
+At room temperature the STO is paraelectric, with a large dielectric constant ($\epsilon_r \sim 300$).  When the temperature is lower than $T=105$ K, the paraelectricity still persists. Although the elongation of unit cell in low temperature develops a double-well potential for Ti atoms, with potential minima at the oxygen at opposite sides of the the elongation axis, the Ti atoms do not displace towards the minima due to the quantum tunneling of oxygen atoms\cite{sulpizio2014nanoscale} between the minima. STO is one of the few materials that exhibit such \emph{quantum paraelectricity}\cite{muller1979srti}. As a result, the dielectric constant of STO increases rapidly with decreased temperature. The increase is also cut off by quantum tunneling, leaves $\epsilon_r \sim 20,000$\cite{sakudo1971dielectric}. This is especially important for gating experiment at low temperature, and more details will be discussed in the following chapters.
+
+The band structure of STO is quite complex. As shown in Figure \ref{FIG:STOBand}, the conduction band is derived from the $3d$ titanium orbitals and the valence band is from the $2p$ oxygen orbitals. The degeneracy of the five $3d$ orbitals is broken by the crystal structure of STO, and then they are grouped into high energy bands $e_g$ (from $d_{3z^2 - r^2}$ and $d_{x^2-y^2}$), and low energy bands $t_{2g}$ (from $d_{xy}$, $d_{yz}$ and $d_{xz}$). Ti $d_{xy}$, $d_{yz}$ and $d_{xz}$ orbitals are coupled to neighboring identical orbitals through the $2p$ orbitals of oxygen atoms in between. Therefore, the hopping matrix elements for in-plane are much greater than than for out-of-plane. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.90\textwidth]{Drawing/STOBand.pdf}
+	\caption{The band structure of bulk STO. (a) The conductive bands derive from the $3d$ orbitals of Ti. The degeneracy of the orbitals is broken by the octahedral cage of oxygen atoms, and the energy levels are grouped into $e_g$ and $t_{2g}$. (b) The hopping of $d_{xy}$, $d_{xy}$ and $d_{xy}$ are much easier along in the plane directions, mediated by the $2p$ orbitals of oxygen atoms. Adapted from \cite{sulpizio2014nanoscale}.}
+	\label{FIG:STOBand}
+\end{figure}
+
+\subsection{2DEG on LAO/STO interface}
+
+Although STO is a band insulator, when LAO is grown epitaxially (the small lattice mismatch of 3\% makes it possible) on TiO$_2$ terminated STO, the interface of LAO and STO becomes conductive and a layer of 2DEG is formed, first demonstrated by Ohtomo and Hwang in 2004\cite{ohtomo2004high}. The origin of interface 2DEG is still under debate. There are several different theories about the formation of 2DEG on the LAO/STO interface: polar catastrophe\cite{nakagawa2006some}, oxygen vacancy\cite{kalabukhov2007effect} and interfacial cation intermixing\cite{willmott2007structural}. 
+
+The most widely accepted explanation is the polar catastrophe. Unlike the Ti$^{4+}$O$_2^{2-}$ and Sr$^{2+}$O$^{2-}$ planes in STO which are charge neutral, the La$^{3+}$O$^{2-}$ and Al$^{3+}$O$_2^{2-}$ layer are polar, with a net charge of $+e$ and $-e$ respectively. When LAO is grown on TiO$_2$ terminated STO, the polarity will generate a positive electric field, that builds up as the thickness goes up, as shown in Fig \ref{FIG:PolarCatastrophe}(a). To avoid the divergence of potential, the electrons are transferred from the surface to the interface and form 2DEG (Fig \ref{FIG:PolarCatastrophe}(c)). When LAO is grown on SrO terminated STO, a layer of hole gas will be formed in similar mechanism, as observed by Lee in 2018 \ref{lee2018direct}.
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{Drawing/PolarCatastrophe.pdf}
+	\caption{Polar catastrophe mechanism of interface conductivity of LAO/STO. (a) AlO$_2$ and LaO are not charge neutral and a non-zero potential is built up when LAO is grown on TiO$_2$ terminated STO. (c) Electrons are transferred from the top surface to neutralize the potential and therefore a layer of 2DEG is formed. (b) and (d) similar mechanism can explain the formation of hole gas on the interface. Adapted from \cite{nakagawa2006some}.}
+	\label{FIG:PolarCatastrophe}
+\end{figure}
+
+However, there is a large discrepancy between the carrier density proposed by the polar catastrophe mechanism and measurement. In the polar catastrophe picture, each unit cell will donate half an electron, and result in carrier density of $3.2 \times 10^{14}$ cm$^{-2}$, while the observed values are in the order of $10^{13}$ cm$^{-2}$. Also, the formation of 2DEG on amorphous LAO on STO is contradicting to the polar catastrophe model. 
+
+Oxygen vacancy is another possible explanation of the origin of 2DEG\cite{kalabukhov2007effect}, especially it is considered to be the source of conductivity of bulk STO\cite{schooley1965dependence}. Growth of LAO/STO sample under different oxygen partial pressure also shows that the carrier density is correlated to $P_{\mathrm{O_2}}$, therefore the oxygen vacancies can at least partially explain the formation of 2DEG. The magnetism is also considered related to the oxygen vacancies in STO, which will be discussed in future sections. There are also TEM\cite{nakagawa2006some} and XRD\cite{willmott2007structural} evidences support that cation intermixing across the interface can also explain the formation of 2DEG. The exchange of La$^{3+}$ and Sr$^{2+}$ provides extra electrons in the STO. However, this cannot explain the formation of hole gas formation with LAO grown on SrO terminated STO. So far, the polar catastrophe is the most widely accepted explanation of 2DEG in LAO/STO.
+
+\subsection{Metal-insulator transition and critical thickness}
+
+In 2006, Thiel et al\cite{thiel2006tunable} reported that the interface of LAO/STO shows metal-insulator transition when the LAO is thicker than 4 unit cells. In Figure \ref{FIG:CriticalThickness}(a), when the thickness of LAO is over 4 u.c., the interface is conductive, otherwise the interface is insulating and the conductivity is below measurement limit. When LAO is slightly below the critical thickness (e.g. 3 u.c.), the conductivity on the interface is tunable, with a voltage applied to the backside of the sample. As Figure \ref{FIG:CriticalThickness}(b) demonstrates, when $V = +100$ V is applied, the interface becomes conductive. When the positive voltage is removed, the resistance is partially restored, but the interface is still conductive. However when $V = -100$ V is applied, the interface becomes insulating again. Similar phenomenon can be observed if the voltage is applied locally through a conductive AFM tip. More details are discussed in future chapters. 
+
+The mechanism of the interface tunability when LAO is slightly thinner than the critical thickness can be explained with the ``water-cycle'' mechanism.
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Drawing/CriticalThickness.pdf}
+	\caption{(a) When LAO is over the critical thickness of 4 unit cells, the interface is conductive, otherwise the interface is insulating. (b) When LAO is only slightly below the critical thickness (e.g. 3 unit cells), the conductivity on the interface is tunable with an external voltage applied to the backside. The as-grown sample is insulating. When $+100$ V is applied, the interface becomes conductive. When the voltage is removed, the conductivity still persists. When $-100$ V is applied, the interface becomes insulating again. The conductivity can by cycled with alternating voltages. Adapted from \cite{thiel2006tunable}.}
+	\label{FIG:CriticalThickness}
+\end{figure}
 
 \subsection{Superconductivity}
 
@@ -95,9 +146,11 @@ I want to thank everyone that made this happened.
 
 \section{Graphene}
 
-\section{Dirac fermion}
+Graphene is another two dimensional material.
 
-\section{Quantum Hall effect}
+\subsection{Dirac fermion}
+
+\subsection{Quantum Hall effect}
 
 \chapter{Experimental Methods}
 
@@ -629,9 +682,9 @@ After spin coating, the copper foil is taken off the silicon substrate. 1 mol/L 
 
 After the graphene transferred onto the LAO/STO, the sample is sometimes found dirty, and the contaminants seemed to be introduced by the transfer procedure. AFM scanning showed that the contaminants were trapped between graphene and LAO. One possibility was that the contaminants were the graphene grown on the backside of the copper. When the copper was etched away by ammonium persulfate, the backside graphene did not sinked into the etchant, but transferred with the topside graphene onto the sample and got trapped between graphene and LAO. 
 
-The \emph{two-step etching} procedure can be used instead. After the copper top surface is coated with Hyflon, it is placed on the surface of ammonium persulfate solution and left inside an ultrasonic cleaner for 15 minutes. While the backside of the copper is been etched, it is also scratched by the ultrasound wave so that the backside graphene can be removed. After 15 minutes, the backside is washed by spraying DI-water on it. The graphene on the topside is protected by Hyflon, and will not be affected by the backside cleaning. Then the copper foil is placed back on the surface of ammonium persulfate. After 3-4 hours the copper foil is fully etched, and the graphene with Hyflon and photoresist would float on the surface, as shown in Figure \ref{FIG:Transfer}(c). The gray color of the floating flake is from the AZ4210 photoresist. The dark spot on the lower-left corner of the flake is a piece of contaminant. 
+The \emph{two-step etching} procedure can be used instead. After the copper top surface is coated with Hyflon, it is placed on the surface of ammonium persulfate solution and left inside an ultrasonic cleaner for 15 minutes. While the backside of the copper is been etched, it is also scratched by the ultrasound wave so that the backside graphene can be removed. After 15 minutes, the backside is washed by spraying DI-water on it. The graphene on the topside is protected by Hyflon, and will not be affected by the backside cleaning. Then the copper foil is placed back on the surface of ammonium persulfate. After 3--4 hours the copper foil is fully etched, and the graphene with Hyflon and photoresist would float on the surface, as shown in Figure \ref{FIG:Transfer}(c). The gray color of the floating flake is from the AZ4210 photoresist. The dark spot on the lower-left corner of the flake is a piece of contaminant. 
 
-The graphene flake is then scooped out with e mesh and place on the surface of DI-water, repeated for 4-5 times to make sure the ammonium persulfate is washed off the backside of the flake. Then the LAO/STO substrate is immersed in the DI-water where the flake is floating. The substrate is slowly lifted up towards the flake on the liquid surface, and catch the flake when it comes out of the water. The substrate with the graphene flake on surface is then baked in an oven pre-heated to 50$^{\circ}$C, or on a hot plate at 70$^{\circ}$C for 5--10 minutes so that the DI-water between graphene and substrate is evaporated and graphene firmly adheres to LAO (Figure \ref{FIG:Transfer}(d)).
+The graphene flake is then scooped out with e mesh and place on the surface of DI-water, repeated for 4--5 times to make sure the ammonium persulfate is washed off the backside of the flake. Then the LAO/STO substrate is immersed in the DI-water where the flake is floating. The substrate is slowly lifted up towards the flake on the liquid surface, and catch the flake when it comes out of the water. The substrate with the graphene flake on surface is then baked in an oven pre-heated to 50$^{\circ}$C, or on a hot plate at 70$^{\circ}$C for 5--10 minutes so that the DI-water between graphene and substrate is evaporated and graphene firmly adheres to LAO (Figure \ref{FIG:Transfer}(d)).
 
 \subsection{Graphene/LAO/STO sample pattern}
 
@@ -758,7 +811,7 @@ From the past experiences, all the solvents including DI-water, IPA and FC-40 wo
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Drawing/GrapheneAC.pdf}
+	\includegraphics[width=0.4\textwidth]{Drawing/GrapheneAC.pdf}
 	\caption{AFM cleaning of graphene. (a) The organ Hall bar region is the graphene, after Hyflon removal in FC-40. Particles on graphene can be observed. (b) Zoomed-in image of the square region in (a). The center has been scanned in AFM contact mode. Particles are pushed to the top and right edges. Terraces of LAO/STO and wrinkles can be observed.}
 	\label{FIG:GrapheneAC}
 \end{figure}
@@ -772,10 +825,10 @@ Figure \ref{FIG:GrapheneAC} shows the AFM images of graphene before and after cl
 		\hline
 		AFM model	&	Asylum MFP3D	&	Asylum Cypher \\ \hline
 		Tip spring constant	&	3 N/m	& 3 N/m	\\ 
-		Deflection set-point	&	0.05 - 0.5 V	&	0.1 - 1.0 V	\\		
-		Contact force	&	40 - 400 nN	&	20 - 200 nN	\\
+		Deflection set-point	&	$0.05 - 0.5$ V	&	$0.1 - 1.0 V$	\\		
+		Contact force	&	$40 - 400$ nN	&	$20 - 200$ nN	\\
 		Scanning speed	&	10 $\mu$m/s	&	10 $\mu$m/s \\ 
-		Line separation	&	10 - 20 nm	&	10 - 20 nm	\\ \hline
+		Line separation	&	$10 - 20$ nm	&	$10 - 20$ nm	\\ \hline
 	\end{tabular}
 	\caption{Graphene cleaning recipes on Asylum MFP3D and Cypher.}
 	\label{TAB:AFMCleaning}
@@ -809,16 +862,14 @@ Pattern nano-scale devices on graphene/LAO/STO with reversibly with c-AFM is one
 	\label{FIG:GraphenePFM}
 \end{figure}
 
-Figure \ref{FIG:GraphenePFM} demonstrates the setup of c-AFM lithography on graphene/LAO/STO, and the subsequent PFM imaging of the nanowire underneath the graphene. The setup of c-AFM lithography is similar to bare LAO/STO samples. The interface electrodes is grounded or measure. A positive voltage $V_\mathrm{tip} > +6V$ is applied to the c-AFM tip, while the tip sketches between the two interface electrodes. A protective resistor of 1 G$\Omega$ is connected in series with the tip and voltage source (not shown in Figure \ref{FIG:GraphenePFM}). The graphene is disconnected and floating in this experiment. The tip goes through the graphene covered area before two interface electrodes are connected. The typical voltage applied to the AFM tip is +15 V, and the tip moving speed is 0.5 - 1 $\mu$m/s, but can be as high as 10 $\mu$m/s in some cases. Contact force is about 20-80 nN. A sudden increase of conductance between two electrodes can be observed (inset of Figure \ref{FIG:GraphenePFM}(c)), indicates that a conductive channel has been created. 
+Figure \ref{FIG:GraphenePFM} demonstrates the setup of c-AFM lithography on graphene/LAO/STO, and the subsequent PFM imaging of the nanowire underneath the graphene. The setup of c-AFM lithography is similar to bare LAO/STO samples. The interface electrodes is grounded or measure. A positive voltage $V_\mathrm{tip} > +6V$ is applied to the c-AFM tip, while the tip sketches between the two interface electrodes. A protective resistor of 1 G$\Omega$ is connected in series with the tip and voltage source (not shown in Figure \ref{FIG:GraphenePFM}). The graphene is disconnected and floating in this experiment. The tip goes through the graphene covered area before two interface electrodes are connected. The typical voltage applied to the AFM tip is $+15$ V, and the tip moving speed is 0.5 -- 1 $\mu$m/s, but can be as high as 10 $\mu$m/s in some cases. Contact force is about 20-80 nN. A sudden increase of conductance between two electrodes can be observed (inset of Figure \ref{FIG:GraphenePFM}(c)), indicates that a conductive channel has been created. 
 
-A subsequent PFM measurement is performed. An AC voltage (with $f$ close to the PFM resonance frequency of the sample) is applied to the c-AFM tip, while the tip scans in contact with the sample. The alternating voltage from the tip modulates the carrier density on the LAO/STO interface, and the carrier density change will cause deformation of STO through the Jahn-Teller effect\cite{}. The area that previously written with nanowire would respond differently to the AC tip voltage, causes contrast on the PFM image. Figure \ref{FIG:GraphenePFM}(c) shows the PFM phase image of the nanowire written. The region colored in blue are the interface electrodes, and the region in gray are electrical contact with graphene. The graphene covered regions are enclosed with dashed lines. The narrow path in dark purple color is the nanowire previously written with c-AFM. The path under the graphene regions is dimmer than the outside sections, indicating the shielding effect of graphene against both the c-AFM lithography voltage and the PFM AC voltage on tip.
+A subsequent PFM measurement is performed. An AC voltage (with modulation frequency $f$ close to the PFM resonance frequency of the sample) is applied to the c-AFM tip, while the tip scans in contact with the sample. The alternating voltage from the tip modulates the carrier density on the LAO/STO interface, and the carrier density change will cause deformation of STO through the Jahn-Teller effect\cite{}. The area that previously written with nanowire would respond differently to the AC tip voltage, causes contrast on the PFM image. Figure \ref{FIG:GraphenePFM}(c) shows the PFM phase image of the nanowire written. The region colored in blue are the interface electrodes, and the region in gray are electrical contact with graphene. The graphene covered regions are enclosed with dashed lines. The narrow path in dark purple color is the nanowire previously written with c-AFM. The path under the graphene regions is dimmer than the outside sections, indicating the shielding effect of graphene against both the c-AFM lithography voltage and the PFM AC voltage on tip.
 
 
 \subsection{More about the c-AFM writing conditions on graphene and damage thresholds}
 
 The graphene on LAO/STO makes the c-AFM lithography more complicated than on bare LAO/STO. As discussed in Section \ref{SEC:AFMLitho}, the lithography and erasion of nanowire on the interface relies on the water-cycle and protonation induced by c-AFM tip voltage. It was also found that the surface conditions of LAO can affect the interface 2DEG\cite{}. Graphene on LAO also changes the critical thickness of LAO/STO\cite{aliaj2018probing}. 
-
-The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graphene however, can be damaged by a high negative voltage on the tip, from the anode oxidation effect\cite{}. It was reported\cite{} that the graphene damaging threshold voltage on the c-AFM is about $V{\mathrm{damage}} \approx 6 V$. This voltage is dependent on whether the graphene is floating or grounded and how much current is flowing between the tip and graphene. Figure \ref{FIG:GrapheneDamages} is an AC phase image of damaged graphene. The light color paths are from AFM sketching with -15 V on the tip, at 400 nm/s speed and 75 nN contact force. The contrast clearly shows the oxidation on graphene. The upper and lower regions of the graphene are electrically disconnected. To avoid oxidation damage to graphene, the tip voltage is limited to -5 V when the graphene is grounded, and -8 V when the graphene is floating while performing c-AFM on graphene with a negative voltage. From my experience the damaging thresholds are also related to the AFM tip or graphene surface roughness, but in general under these conditions the graphene damage can be avoided.
 \\
 
 \begin{figure}[h!]
@@ -827,6 +878,25 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 	\caption{Damages on graphene from c-AFM lithography. On the AFM paths the graphene is oxidized and show contrast on the phase image.}
 	\label{FIG:GrapheneDamages}
 \end{figure}
+
+The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graphene however, can be damaged by a high negative voltage on the tip, from the anode oxidation effect\cite{}. It was reported\cite{} that the graphene damaging threshold voltage on the c-AFM is about $V{\mathrm{damage}} \approx 6 V$. This voltage is dependent on whether the graphene is floating or grounded and how much current is flowing between the tip and graphene. Figure \ref{FIG:GrapheneDamages} is an AC phase image of damaged graphene. The light color paths are from AFM sketching with $-15$ V on the tip, at 400 nm/s speed and 75 nN contact force. The contrast clearly shows the oxidation on graphene. The upper and lower regions of the graphene are electrically disconnected. To avoid oxidation damage to graphene, the tip voltage is limited to $-5$ V when the graphene is grounded, and $-8$ V when the graphene is floating while performing c-AFM on graphene with a negative voltage. From my experience the damaging thresholds are also related to the AFM tip condition or graphene surface roughness, but in general under these voltages the graphene damage can be avoided. The AFM lithography parameters are listed in Table \ref{TAB:GCOLithography}.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{l|cc}
+		\hline
+				&	Writing	&	Erasing \\ \hline
+		Tip spring constant	&	3 N/m	& 3 N/m	\\ 
+		Deflection set-point	&	0.05 - 0.5 V	&	0.1 - 1.0 V	\\	
+		Tip voltage	&	+10V to +20V	& -5V (graphene grounded) \\
+			&	& to -8V (graphene floating) \\
+		Contact force	&	80 nN	&	80 nN	\\
+		Tip speed	&	0.4 - 10 $\mu$m/s	&	0.4 - 10 $\mu$m/s \\ 
+	\end{tabular}
+	\caption{c-AFM writing and erasing parameters on graphene/LAO/STO samples.}
+	\label{TAB:GCOLithography}
+	
+\end{table}
 
 % writing conditions
 % damaging threshold

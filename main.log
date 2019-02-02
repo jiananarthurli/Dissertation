@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  21 JAN 2019 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  31 JAN 2019 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,11 +312,95 @@ LaTeX Info: Redefining \nameref on input line 43.
 (./main.out (./main.lot) (./main.lof
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\approx' on input line 2.
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -332,7 +416,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\approx' on input line 3.
+(hyperref)                removing `subscript' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -344,11 +428,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 3.
+(hyperref)                removing `subscript' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -356,11 +436,35 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `\@ifnextchar' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\approx' on input line 6.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -368,27 +472,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `\@ifnextchar' on input line 6.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -396,7 +480,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 7.
+(hyperref)                removing `\approx' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -420,15 +504,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
+(hyperref)                removing `math shift' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 7.
+(hyperref)                removing `math shift' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -436,7 +544,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 11.
+(hyperref)                removing `\mu' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -444,76 +552,200 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 13.
+(hyperref)                removing `superscript' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `\circ' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `\mu' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 13.
+(hyperref)                removing `math shift' on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 13.
+(hyperref)                removing `\lambda' on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\times' on input line 23.
+(hyperref)                removing `superscript' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 23.
+(hyperref)                removing `superscript' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\times' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
 
 )) (./main.out (./main.lot) (./main.lof
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\approx' on input line 2.
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -529,7 +761,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\approx' on input line 3.
+(hyperref)                removing `subscript' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -541,11 +773,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 3.
+(hyperref)                removing `subscript' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -553,11 +781,35 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `\@ifnextchar' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\approx' on input line 6.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -565,27 +817,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 6.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `\@ifnextchar' on input line 6.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -593,7 +825,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 7.
+(hyperref)                removing `\approx' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -617,15 +849,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
+(hyperref)                removing `math shift' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 7.
+(hyperref)                removing `math shift' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -633,7 +889,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 11.
+(hyperref)                removing `\mu' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -641,67 +897,107 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 13.
+(hyperref)                removing `superscript' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `\circ' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `\mu' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 13.
+(hyperref)                removing `math shift' on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 13.
+(hyperref)                removing `\lambda' on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\times' on input line 23.
+(hyperref)                removing `superscript' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 23.
+(hyperref)                removing `superscript' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\times' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
 
 ))
 \@outlinefile=\write4
@@ -757,7 +1053,12 @@ Abstract
 
 ]
 Table of Contents
-(./main.toc [5
+(./main.toc
+Overfull \hbox (0.71802pt too wide) detected at line 1
+ []\OT1/cmr/m/n/12 xvii|
+ []
+
+[5
 
 ] [6])
 \tf@toc=\write5
@@ -775,741 +1076,931 @@ List of Tables
 List of Figures
 (./main.lof
 
-LaTeX Warning: Command \r invalid in math mode on input line 2.
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page ix undefined on input l
+ine 1.
 
 
-LaTeX Warning: Citation `podkaminer2016real' on page ix undefined on input line
- 2.
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page ix undefined on input l
+ine 2.
 
-[9
 
-]
+LaTeX Warning: Citation `nakagawa2006some' on page ix undefined on input line 3
+.
+
+
+LaTeX Warning: Citation `thiel2006tunable' on page ix undefined on input line 4
+.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [9
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 6.
+
+
+LaTeX Warning: Citation `podkaminer2016real' on page x undefined on input line 
+6.
+
+[10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-Underfull \vbox (badness 6808) has occurred while \output is active []
-
- [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [12]
+Underfull \vbox (badness 6808) has occurred while \output is active []
+
  [13]
-[14])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+[15])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [15]
+ [16]
 Preface
-[16
+[17
 
 ]
 Chapter I.
+
+LaTeX Warning: Command \r invalid in math mode on input line 92.
+
+
+LaTeX Warning: Citation `geller1956crystallographic' on page 1 undefined on inp
+ut line 92.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 92.
+
+
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page 1 undefined on input li
+ne 92.
+
+<Drawing/STOPhaseTransition.pdf, id=925, 857.07703pt x 494.0879pt>
+File: Drawing/STOPhaseTransition.pdf Graphic file (type pdf)
+
+<use Drawing/STOPhaseTransition.pdf>
+Package pdftex.def Info: Drawing/STOPhaseTransition.pdf used on input line 96.
+(pdftex.def)             Requested size: 422.77661pt x 243.71857pt.
+
+
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page 1 undefined on input li
+ne 97.
+
+
+Class pittetd Warning: The caption of Figure 1 is longer than one line on input
+ line 97.
+
+
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page 1 undefined on input li
+ne 97.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page 1 undefined on input li
+ne 101.
+
+
+LaTeX Warning: Citation `muller1979srti' on page 1 undefined on input line 101.
+
+
+
+LaTeX Warning: Citation `sakudo1971dielectric' on page 1 undefined on input lin
+e 101.
+
 [1
 
 
-]
+] <Drawing/STOBand.pdf, id=932, 860.90836pt x 365.07492pt>
+File: Drawing/STOBand.pdf Graphic file (type pdf)
+
+<use Drawing/STOBand.pdf>
+Package pdftex.def Info: Drawing/STOBand.pdf used on input line 107.
+(pdftex.def)             Requested size: 422.77661pt x 179.27821pt.
+
+
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page 2 undefined on input li
+ne 108.
+
+
+Class pittetd Warning: The caption of Figure 2 is longer than one line on input
+ line 108.
+
+
+LaTeX Warning: Citation `sulpizio2014nanoscale' on page 2 undefined on input li
+ne 108.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `ohtomo2004high' on page 2 undefined on input line 114.
+
+
+
+LaTeX Warning: Citation `nakagawa2006some' on page 2 undefined on input line 11
+4.
+
+
+LaTeX Warning: Citation `kalabukhov2007effect' on page 2 undefined on input lin
+e 114.
+
+
+LaTeX Warning: Citation `willmott2007structural' on page 2 undefined on input l
+ine 114.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./Drawing/STOPhaseTransition.pdf>]
+
+LaTeX Warning: Reference `lee2018direct' on page 3 undefined on input line 116.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./Drawing/STOBand.pdf>]
+<Drawing/PolarCatastrophe.pdf, id=976, 493.79982pt x 239.97755pt>
+File: Drawing/PolarCatastrophe.pdf Graphic file (type pdf)
+
+<use Drawing/PolarCatastrophe.pdf>
+Package pdftex.def Info: Drawing/PolarCatastrophe.pdf used on input line 121.
+(pdftex.def)             Requested size: 469.75499pt x 228.2996pt.
+
+
+LaTeX Warning: Citation `nakagawa2006some' on page 4 undefined on input line 12
+2.
+
+
+Class pittetd Warning: The caption of Figure 3 is longer than one line on input
+ line 122.
+
+
+LaTeX Warning: Citation `nakagawa2006some' on page 4 undefined on input line 12
+2.
+
+
+LaTeX Warning: Citation `kalabukhov2007effect' on page 4 undefined on input lin
+e 128.
+
+
+LaTeX Warning: Citation `schooley1965dependence' on page 4 undefined on input l
+ine 128.
+
+
+LaTeX Warning: Citation `nakagawa2006some' on page 4 undefined on input line 12
+8.
+
+
+LaTeX Warning: Citation `willmott2007structural' on page 4 undefined on input l
+ine 128.
+
+[4 <./Drawing/PolarCatastrophe.pdf>]
+
+LaTeX Warning: Citation `thiel2006tunable' on page 5 undefined on input line 13
+2.
+
+<Drawing/CriticalThickness.pdf, id=1003, 798.985pt x 1127.21124pt>
+File: Drawing/CriticalThickness.pdf Graphic file (type pdf)
+
+<use Drawing/CriticalThickness.pdf>
+Package pdftex.def Info: Drawing/CriticalThickness.pdf used on input line 138.
+(pdftex.def)             Requested size: 328.82706pt x 463.91399pt.
+
+
+LaTeX Warning: Citation `thiel2006tunable' on page 5 undefined on input line 13
+9.
+
+
+Class pittetd Warning: The caption of Figure 4 is longer than one line on input
+ line 139.
+
+
+LaTeX Warning: Citation `thiel2006tunable' on page 5 undefined on input line 13
+9.
+
+
+LaTeX Warning: Float too large for page by 12.234pt on input line 141.
+
+[5] [6 <./Drawing/CriticalThickness.pdf>] [7]
 Chapter II.
 
 Underfull \vbox (badness 7186) has occurred while \output is active []
 
- [2
+ [8
 
 ]
-<Drawing/PLD.pdf, id=874, 711.3245pt x 518.60449pt>
+<Drawing/PLD.pdf, id=1033, 711.3245pt x 518.60449pt>
 File: Drawing/PLD.pdf Graphic file (type pdf)
  <use Drawing/PLD.pdf>
-Package pdftex.def Info: Drawing/PLD.pdf used on input line 121.
+Package pdftex.def Info: Drawing/PLD.pdf used on input line 174.
 (pdftex.def)             Requested size: 469.75499pt x 342.48575pt.
 
 
-Class pittetd Warning: The caption of Figure 1 is longer than one line on input
- line 122.
+Class pittetd Warning: The caption of Figure 5 is longer than one line on input
+ line 175.
 
-<Drawing/PLD_RHEED.pdf, id=878, 250.26799pt x 373.06075pt>
+<Drawing/PLD_RHEED.pdf, id=1037, 250.26799pt x 373.06075pt>
 File: Drawing/PLD_RHEED.pdf Graphic file (type pdf)
 
 <use Drawing/PLD_RHEED.pdf>
-Package pdftex.def Info: Drawing/PLD_RHEED.pdf used on input line 132.
+Package pdftex.def Info: Drawing/PLD_RHEED.pdf used on input line 185.
 (pdftex.def)             Requested size: 328.82706pt x 490.19319pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 133.
+LaTeX Warning: Command \r invalid in math mode on input line 186.
 
 
-LaTeX Warning: Citation `podkaminer2016real' on page 3 undefined on input line 
-133.
-
-
-Class pittetd Warning: The caption of Figure 2 is longer than one line on input
- line 133.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 133.
-
-
-LaTeX Warning: Citation `podkaminer2016real' on page 3 undefined on input line 
-133.
-
-[3] [4 <./Drawing/PLD.pdf>] [5 <./Drawing/PLD_RHEED.pdf>]
-<Drawing/CVD.pdf, id=1001, 680.5425pt x 448.342pt>
-File: Drawing/CVD.pdf Graphic file (type pdf)
- <use Drawing/CVD.pdf>
-Package pdftex.def Info: Drawing/CVD.pdf used on input line 149.
-(pdftex.def)             Requested size: 422.77661pt x 278.52328pt.
-
-
-Class pittetd Warning: The caption of Figure 3 is longer than one line on input
- line 150.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Citation `Bae2010' on page 6 undefined on input line 156.
-
-
-LaTeX Warning: Citation `eres2014cooperative' on page 6 undefined on input line
- 156.
-
-
-LaTeX Warning: Citation `Bae2010' on page 6 undefined on input line 156.
-
-
-LaTeX Warning: Citation `dhingra2014chemical' on page 6 undefined on input line
- 156.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./Drawing/CVD.pdf>] <Drawing/DTM.pdf, id=1070, 952.98534pt x 422.26659pt>
-File: Drawing/DTM.pdf Graphic file (type pdf)
-
-<use Drawing/DTM.pdf>
-Package pdftex.def Info: Drawing/DTM.pdf used on input line 162.
-(pdftex.def)             Requested size: 469.75499pt x 208.14954pt.
-
-
-Class pittetd Warning: The caption of Figure 4 is longer than one line on input
- line 163.
-
-[8 <./Drawing/DTM.pdf>]
-<Drawing/DiamondTool.pdf, id=1091, 974.4104pt x 444.1875pt>
-File: Drawing/DiamondTool.pdf Graphic file (type pdf)
-
-<use Drawing/DiamondTool.pdf>
-Package pdftex.def Info: Drawing/DiamondTool.pdf used on input line 171.
-(pdftex.def)             Requested size: 469.75499pt x 214.13612pt.
-
-
-Class pittetd Warning: The caption of Figure 5 is longer than one line on input
- line 172.
-
-<Drawing/DTMCopper.pdf, id=1092, 825.0825pt x 391.4625pt>
-File: Drawing/DTMCopper.pdf Graphic file (type pdf)
-
-<use Drawing/DTMCopper.pdf>
-Package pdftex.def Info: Drawing/DTMCopper.pdf used on input line 178.
-(pdftex.def)             Requested size: 469.75499pt x 222.87909pt.
+LaTeX Warning: Citation `podkaminer2016real' on page 9 undefined on input line 
+186.
 
 
 Class pittetd Warning: The caption of Figure 6 is longer than one line on input
- line 179.
+ line 186.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Command \r invalid in math mode on input line 186.
 
 
-LaTeX Warning: Citation `kim2012direct' on page 9 undefined on input line 183.
+LaTeX Warning: Citation `podkaminer2016real' on page 9 undefined on input line 
+186.
 
-
-LaTeX Warning: Citation `wang2012controllable' on page 9 undefined on input lin
-e 183.
-
-
-LaTeX Warning: Citation `wofford2010graphene' on page 9 undefined on input line
- 183.
-
-<Drawing/CopperProcessing.pdf, id=1093, 908.39375pt x 675.52374pt>
-File: Drawing/CopperProcessing.pdf Graphic file (type pdf)
-
-<use Drawing/CopperProcessing.pdf>
-Package pdftex.def Info: Drawing/CopperProcessing.pdf used on input line 187.
-(pdftex.def)             Requested size: 469.75499pt x 349.33653pt.
+[9] [10 <./Drawing/PLD.pdf>] [11 <./Drawing/PLD_RHEED.pdf>]
+<Drawing/CVD.pdf, id=1158, 680.5425pt x 448.342pt>
+File: Drawing/CVD.pdf Graphic file (type pdf)
+ <use Drawing/CVD.pdf>
+Package pdftex.def Info: Drawing/CVD.pdf used on input line 202.
+(pdftex.def)             Requested size: 422.77661pt x 278.52328pt.
 
 
 Class pittetd Warning: The caption of Figure 7 is longer than one line on input
- line 188.
+ line 203.
 
-[9 <./Drawing/DiamondTool.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `Bae2010' on page 12 undefined on input line 209.
+
+
+LaTeX Warning: Citation `eres2014cooperative' on page 12 undefined on input lin
+e 209.
+
+
+LaTeX Warning: Citation `Bae2010' on page 12 undefined on input line 209.
+
+
+LaTeX Warning: Citation `dhingra2014chemical' on page 12 undefined on input lin
+e 209.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./Drawing/DTMCopper.pdf>] [11 <./Drawing/CopperProcessing.pdf>]
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `vlassiouk2013large' on page 12 undefined on input line
- 196.
+ [13 <./Drawing/CVD.pdf>] <Drawing/DTM.pdf, id=1227, 952.98534pt x 422.26659pt>
+File: Drawing/DTM.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Citation `vlassiouk2013large' on page 12 undefined on input line
- 196.
-
-
-LaTeX Warning: Citation `dhingra2015quadratic' on page 12 undefined on input li
-ne 196.
-
-
-LaTeX Warning: Citation `dhingra2015quadratic' on page 12 undefined on input li
-ne 196.
-
-<Drawing/CVDGraphene.pdf, id=1262, 501.875pt x 915.48923pt>
-File: Drawing/CVDGraphene.pdf Graphic file (type pdf)
-
-<use Drawing/CVDGraphene.pdf>
-Package pdftex.def Info: Drawing/CVDGraphene.pdf used on input line 209.
-(pdftex.def)             Requested size: 281.85585pt x 514.16518pt.
+<use Drawing/DTM.pdf>
+Package pdftex.def Info: Drawing/DTM.pdf used on input line 215.
+(pdftex.def)             Requested size: 469.75499pt x 208.14954pt.
 
 
 Class pittetd Warning: The caption of Figure 8 is longer than one line on input
- line 210.
+ line 216.
 
+[14 <./Drawing/DTM.pdf>]
+<Drawing/DiamondTool.pdf, id=1249, 974.4104pt x 444.1875pt>
+File: Drawing/DiamondTool.pdf Graphic file (type pdf)
 
-LaTeX Warning: Float too large for page by 15.98518pt on input line 212.
-
-[12] [13 <./Drawing/CVDGraphene.pdf>] [14] [15]
-<Drawing/MASK.png, id=1303, 289.08pt x 257.2812pt>
-File: Drawing/MASK.png Graphic file (type png)
- <use Drawing/MASK.png>
-Package pdftex.def Info: Drawing/MASK.png used on input line 278.
-(pdftex.def)             Requested size: 234.87749pt x 209.04047pt.
+<use Drawing/DiamondTool.pdf>
+Package pdftex.def Info: Drawing/DiamondTool.pdf used on input line 224.
+(pdftex.def)             Requested size: 469.75499pt x 214.13612pt.
 
 
 Class pittetd Warning: The caption of Figure 9 is longer than one line on input
- line 279.
+ line 225.
 
+<Drawing/DTMCopper.pdf, id=1250, 825.0825pt x 391.4625pt>
+File: Drawing/DTMCopper.pdf Graphic file (type pdf)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Drawing/Suss.pdf, id=1304, 587.528pt x 508.90125pt>
-File: Drawing/Suss.pdf Graphic file (type pdf)
- <use Drawing/Suss.pdf>
-Package pdftex.def Info: Drawing/Suss.pdf used on input line 285.
-(pdftex.def)             Requested size: 469.75499pt x 406.90413pt.
+<use Drawing/DTMCopper.pdf>
+Package pdftex.def Info: Drawing/DTMCopper.pdf used on input line 231.
+(pdftex.def)             Requested size: 469.75499pt x 222.87909pt.
 
 
 Class pittetd Warning: The caption of Figure 10 is longer than one line on inpu
-t line 286.
+t line 232.
 
-[16] <Drawing/Heidelberg.pdf, id=1310, 510.23926pt x 537.00626pt>
-File: Drawing/Heidelberg.pdf Graphic file (type pdf)
 
-<use Drawing/Heidelberg.pdf>
-Package pdftex.def Info: Drawing/Heidelberg.pdf used on input line 294.
-(pdftex.def)             Requested size: 469.75499pt x 494.4123pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `kim2012direct' on page 15 undefined on input line 236.
+
+
+
+LaTeX Warning: Citation `wang2012controllable' on page 15 undefined on input li
+ne 236.
+
+
+LaTeX Warning: Citation `wofford2010graphene' on page 15 undefined on input lin
+e 236.
+
+<Drawing/CopperProcessing.pdf, id=1251, 908.39375pt x 675.52374pt>
+File: Drawing/CopperProcessing.pdf Graphic file (type pdf)
+
+<use Drawing/CopperProcessing.pdf>
+Package pdftex.def Info: Drawing/CopperProcessing.pdf used on input line 240.
+(pdftex.def)             Requested size: 469.75499pt x 349.33653pt.
 
 
 Class pittetd Warning: The caption of Figure 11 is longer than one line on inpu
-t line 295.
+t line 241.
 
-
-LaTeX Warning: Float too large for page by 20.31561pt on input line 297.
-
-
+[15 <./Drawing/DiamondTool.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./Drawing/MASK.png>] [18 <./Drawing/Suss.pdf>] [19 <./Drawing/Heidelberg.
-pdf>]
-<Drawing/Developed.png, id=1506, 240.9pt x 225.0006pt>
-File: Drawing/Developed.png Graphic file (type png)
+ [16 <./Drawing/DTMCopper.pdf>] [17 <./Drawing/CopperProcessing.pdf>]
 
-<use Drawing/Developed.png>
-Package pdftex.def Info: Drawing/Developed.png used on input line 307.
-(pdftex.def)             Requested size: 234.87749pt x 219.38326pt.
+LaTeX Warning: Citation `vlassiouk2013large' on page 18 undefined on input line
+ 249.
+
+
+LaTeX Warning: Citation `vlassiouk2013large' on page 18 undefined on input line
+ 249.
+
+
+LaTeX Warning: Citation `dhingra2015quadratic' on page 18 undefined on input li
+ne 249.
+
+
+LaTeX Warning: Citation `dhingra2015quadratic' on page 18 undefined on input li
+ne 249.
+
+<Drawing/CVDGraphene.pdf, id=1419, 501.875pt x 915.48923pt>
+File: Drawing/CVDGraphene.pdf Graphic file (type pdf)
+
+<use Drawing/CVDGraphene.pdf>
+Package pdftex.def Info: Drawing/CVDGraphene.pdf used on input line 262.
+(pdftex.def)             Requested size: 281.85585pt x 514.16518pt.
 
 
 Class pittetd Warning: The caption of Figure 12 is longer than one line on inpu
-t line 308.
+t line 263.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Float too large for page by 15.98518pt on input line 265.
 
-[20 <./Drawing/Developed.png>] [21]
-<Drawing/IonMill.pdf, id=1519, 471.093pt x 354.658pt>
-File: Drawing/IonMill.pdf Graphic file (type pdf)
-
-<use Drawing/IonMill.pdf>
-Package pdftex.def Info: Drawing/IonMill.pdf used on input line 357.
-(pdftex.def)             Requested size: 469.75499pt x 353.6722pt.
+[18] [19 <./Drawing/CVDGraphene.pdf>] [20] [21]
+<Drawing/MASK.png, id=1459, 289.08pt x 257.2812pt>
+File: Drawing/MASK.png Graphic file (type png)
+ <use Drawing/MASK.png>
+Package pdftex.def Info: Drawing/MASK.png used on input line 331.
+(pdftex.def)             Requested size: 234.87749pt x 209.04047pt.
 
 
 Class pittetd Warning: The caption of Figure 13 is longer than one line on inpu
-t line 358.
+t line 332.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [22]
-[23 <./Drawing/IonMill.pdf>]
-<Drawing/Ebeam.pdf, id=1556, 603.25375pt x 594.22pt>
-File: Drawing/Ebeam.pdf Graphic file (type pdf)
- <use Drawing/Ebeam.pdf>
-Package pdftex.def Info: Drawing/Ebeam.pdf used on input line 372.
-(pdftex.def)             Requested size: 469.75499pt x 462.71904pt.
+<Drawing/Suss.pdf, id=1460, 587.528pt x 508.90125pt>
+File: Drawing/Suss.pdf Graphic file (type pdf)
+ <use Drawing/Suss.pdf>
+Package pdftex.def Info: Drawing/Suss.pdf used on input line 338.
+(pdftex.def)             Requested size: 469.75499pt x 406.90413pt.
 
 
 Class pittetd Warning: The caption of Figure 14 is longer than one line on inpu
-t line 373.
+t line 339.
 
-[24] [25 <./Drawing/Ebeam.pdf>] [26]
-<Drawing/AFM.pdf, id=1637, 632.3625pt x 514.92375pt>
-File: Drawing/AFM.pdf Graphic file (type pdf)
- <use Drawing/AFM.pdf>
-Package pdftex.def Info: Drawing/AFM.pdf used on input line 406.
-(pdftex.def)             Requested size: 375.80542pt x 306.01807pt.
+[22] <Drawing/Heidelberg.pdf, id=1466, 510.23926pt x 537.00626pt>
+File: Drawing/Heidelberg.pdf Graphic file (type pdf)
+
+<use Drawing/Heidelberg.pdf>
+Package pdftex.def Info: Drawing/Heidelberg.pdf used on input line 347.
+(pdftex.def)             Requested size: 469.75499pt x 494.4123pt.
 
 
 Class pittetd Warning: The caption of Figure 15 is longer than one line on inpu
-t line 407.
+t line 348.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Float too large for page by 20.31561pt on input line 350.
 
-<Drawing/Interaction.pdf, id=1639, 636.3775pt x 566.115pt>
-File: Drawing/Interaction.pdf Graphic file (type pdf)
 
-<use Drawing/Interaction.pdf>
-Package pdftex.def Info: Drawing/Interaction.pdf used on input line 417.
-(pdftex.def)             Requested size: 328.82706pt x 292.51564pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./Drawing/MASK.png>] [24 <./Drawing/Suss.pdf>] [25 <./Drawing/Heidelberg.
+pdf>]
+<Drawing/Developed.png, id=1662, 240.9pt x 225.0006pt>
+File: Drawing/Developed.png Graphic file (type png)
+
+<use Drawing/Developed.png>
+Package pdftex.def Info: Drawing/Developed.png used on input line 360.
+(pdftex.def)             Requested size: 234.87749pt x 219.38326pt.
 
 
 Class pittetd Warning: The caption of Figure 16 is longer than one line on inpu
-t line 418.
+t line 361.
 
-[27]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[26 <./Drawing/Developed.png>] [27]
+<Drawing/IonMill.pdf, id=1675, 471.093pt x 354.658pt>
+File: Drawing/IonMill.pdf Graphic file (type pdf)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28 <./Drawing/AFM.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29 <./Drawing/Interaction.pdf>]
-<Drawing/ContactAFM.pdf, id=1700, 474.24878pt x 278.52657pt>
-File: Drawing/ContactAFM.pdf Graphic file (type pdf)
-
-<use Drawing/ContactAFM.pdf>
-Package pdftex.def Info: Drawing/ContactAFM.pdf used on input line 430.
-(pdftex.def)             Requested size: 281.85585pt x 165.54047pt.
+<use Drawing/IonMill.pdf>
+Package pdftex.def Info: Drawing/IonMill.pdf used on input line 410.
+(pdftex.def)             Requested size: 469.75499pt x 353.6722pt.
 
 
 Class pittetd Warning: The caption of Figure 17 is longer than one line on inpu
-t line 431.
+t line 411.
 
 
-LaTeX Warning: Reference `' on page 30 undefined on input line 438.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[30 <./Drawing/ContactAFM.pdf>]
-<Drawing/ACAFM.pdf, id=1793, 809.0225pt x 316.18124pt>
-File: Drawing/ACAFM.pdf Graphic file (type pdf)
- <use Drawing/ACAFM.pdf>
-Package pdftex.def Info: Drawing/ACAFM.pdf used on input line 442.
-(pdftex.def)             Requested size: 469.75499pt x 183.5927pt.
+ [28]
+[29 <./Drawing/IonMill.pdf>]
+<Drawing/Ebeam.pdf, id=1712, 603.25375pt x 594.22pt>
+File: Drawing/Ebeam.pdf Graphic file (type pdf)
+ <use Drawing/Ebeam.pdf>
+Package pdftex.def Info: Drawing/Ebeam.pdf used on input line 425.
+(pdftex.def)             Requested size: 469.75499pt x 462.71904pt.
 
 
 Class pittetd Warning: The caption of Figure 18 is longer than one line on inpu
-t line 443.
+t line 426.
 
-<Drawing/NonContactAFM.pdf, id=1795, 472.76625pt x 316.18124pt>
-File: Drawing/NonContactAFM.pdf Graphic file (type pdf)
-
-<use Drawing/NonContactAFM.pdf>
-Package pdftex.def Info: Drawing/NonContactAFM.pdf used on input line 453.
-(pdftex.def)             Requested size: 281.85585pt x 188.50407pt.
+[30] [31 <./Drawing/Ebeam.pdf>] [32]
+<Drawing/AFM.pdf, id=1794, 632.3625pt x 514.92375pt>
+File: Drawing/AFM.pdf Graphic file (type pdf)
+ <use Drawing/AFM.pdf>
+Package pdftex.def Info: Drawing/AFM.pdf used on input line 459.
+(pdftex.def)             Requested size: 375.80542pt x 306.01807pt.
 
 
 Class pittetd Warning: The caption of Figure 19 is longer than one line on inpu
-t line 454.
+t line 460.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<Drawing/Interaction.pdf, id=1796, 636.3775pt x 566.115pt>
+File: Drawing/Interaction.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `hartmann1999magnetic' on page 31 undefined on input li
-ne 460.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31 <./Drawing/ACAFM.pdf>] [32 <./Drawing/NonContactAFM.pdf>]
-<Drawing/MFM.pdf, id=1964, 328.5896pt x 416.8905pt>
-File: Drawing/MFM.pdf Graphic file (type pdf)
- <use Drawing/MFM.pdf>
-Package pdftex.def Info: Drawing/MFM.pdf used on input line 477.
-(pdftex.def)             Requested size: 234.87749pt x 298.00446pt.
+<use Drawing/Interaction.pdf>
+Package pdftex.def Info: Drawing/Interaction.pdf used on input line 470.
+(pdftex.def)             Requested size: 328.82706pt x 292.51564pt.
 
 
 Class pittetd Warning: The caption of Figure 20 is longer than one line on inpu
-t line 478.
+t line 471.
 
+[33]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./Drawing/MFM.pdf>] <Drawing/PFM.pdf, id=2077, 581.50551pt x 554.07pt>
-File: Drawing/PFM.pdf Graphic file (type pdf)
+ [34 <./Drawing/AFM.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use Drawing/PFM.pdf>
-Package pdftex.def Info: Drawing/PFM.pdf used on input line 516.
-(pdftex.def)             Requested size: 328.82706pt x 313.31223pt.
+ [35 <./Drawing/Interaction.pdf>]
+<Drawing/ContactAFM.pdf, id=1856, 474.24878pt x 278.52657pt>
+File: Drawing/ContactAFM.pdf Graphic file (type pdf)
+
+<use Drawing/ContactAFM.pdf>
+Package pdftex.def Info: Drawing/ContactAFM.pdf used on input line 483.
+(pdftex.def)             Requested size: 281.85585pt x 165.54047pt.
 
 
 Class pittetd Warning: The caption of Figure 21 is longer than one line on inpu
-t line 517.
+t line 484.
 
 
-LaTeX Warning: Reference `' on page 35 undefined on input line 526.
+LaTeX Warning: Reference `' on page 36 undefined on input line 491.
 
-<Drawing/Lithography.pdf, id=2079, 1146.2825pt x 1606.0pt>
-File: Drawing/Lithography.pdf Graphic file (type pdf)
-
-<use Drawing/Lithography.pdf>
-Package pdftex.def Info: Drawing/Lithography.pdf used on input line 530.
-(pdftex.def)             Requested size: 375.80542pt x 526.52637pt.
+[36 <./Drawing/ContactAFM.pdf>]
+<Drawing/ACAFM.pdf, id=1949, 809.0225pt x 316.18124pt>
+File: Drawing/ACAFM.pdf Graphic file (type pdf)
+ <use Drawing/ACAFM.pdf>
+Package pdftex.def Info: Drawing/ACAFM.pdf used on input line 495.
+(pdftex.def)             Requested size: 469.75499pt x 183.5927pt.
 
 
 Class pittetd Warning: The caption of Figure 22 is longer than one line on inpu
-t line 531.
+t line 496.
 
+<Drawing/NonContactAFM.pdf, id=1951, 472.76625pt x 316.18124pt>
+File: Drawing/NonContactAFM.pdf Graphic file (type pdf)
 
-LaTeX Warning: Float too large for page by 30.67969pt on input line 533.
-
-
-LaTeX Warning: Reference `' on page 35 undefined on input line 535.
-
-[35] [36 <./Drawing/PFM.pdf>] [37 <./Drawing/Lithography.pdf>]
-<Drawing/Regular.pdf, id=2344, 783.96385pt x 936.51082pt>
-File: Drawing/Regular.pdf Graphic file (type pdf)
-
-<use Drawing/Regular.pdf>
-Package pdftex.def Info: Drawing/Regular.pdf used on input line 545.
-(pdftex.def)             Requested size: 469.75499pt x 561.16774pt.
+<use Drawing/NonContactAFM.pdf>
+Package pdftex.def Info: Drawing/NonContactAFM.pdf used on input line 506.
+(pdftex.def)             Requested size: 281.85585pt x 188.50407pt.
 
 
 Class pittetd Warning: The caption of Figure 23 is longer than one line on inpu
-t line 546.
+t line 507.
 
 
-LaTeX Warning: Float too large for page by 0.07106pt on input line 548.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `dean2010naturenano' on page 38 undefined on input line
- 566.
-
-
-LaTeX Warning: Citation `Novoselovaac9439' on page 38 undefined on input line 5
-66.
-
-
-LaTeX Warning: Citation `li2009transfer' on page 38 undefined on input line 566
-.
-
-
-LaTeX Warning: Citation `reina2008transferring' on page 38 undefined on input l
-ine 566.
-
-
-LaTeX Warning: Citation `reina2008large' on page 38 undefined on input line 566
-.
+LaTeX Warning: Citation `hartmann1999magnetic' on page 37 undefined on input li
+ne 513.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39 <./Drawing/Regular.pdf>]
-<Drawing/PMMATransfer.pdf, id=2387, 555.07375pt x 531.9875pt>
-File: Drawing/PMMATransfer.pdf Graphic file (type pdf)
-
-<use Drawing/PMMATransfer.pdf>
-Package pdftex.def Info: Drawing/PMMATransfer.pdf used on input line 570.
-(pdftex.def)             Requested size: 422.77661pt x 405.19951pt.
+ [37 <./Drawing/ACAFM.pdf>] [38 <./Drawing/NonContactAFM.pdf>]
+<Drawing/MFM.pdf, id=2121, 328.5896pt x 416.8905pt>
+File: Drawing/MFM.pdf Graphic file (type pdf)
+ <use Drawing/MFM.pdf>
+Package pdftex.def Info: Drawing/MFM.pdf used on input line 530.
+(pdftex.def)             Requested size: 234.87749pt x 298.00446pt.
 
 
 Class pittetd Warning: The caption of Figure 24 is longer than one line on inpu
-t line 571.
-
-
-LaTeX Warning: Citation `pirkle2011effect' on page 40 undefined on input line 5
-75.
-
-
-LaTeX Warning: Citation `lin2011graphene' on page 40 undefined on input line 57
-5.
-
-
-LaTeX Warning: Citation `cheng2011toward' on page 40 undefined on input line 57
-5.
-
-
-LaTeX Warning: Citation `lin2011graphene' on page 40 undefined on input line 57
-5.
-
-
-LaTeX Warning: Citation `cheng2011toward' on page 40 undefined on input line 57
-5.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 575--577
-
- []
-
-<Drawing/PMMAResidue.png, id=2388, 292.9344pt x 222.5916pt>
-File: Drawing/PMMAResidue.png Graphic file (type png)
-
-<use Drawing/PMMAResidue.png>
-Package pdftex.def Info: Drawing/PMMAResidue.png used on input line 580.
-(pdftex.def)             Requested size: 281.85585pt x 214.19157pt.
-
-
-Class pittetd Warning: The caption of Figure 25 is longer than one line on inpu
-t line 581.
+t line 531.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40] [41 <./Drawing/PMMATransfer.pdf>]
+[39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `arcella2005hyflon' on page 42 undefined on input line 
-587.
+ [40 <./Drawing/MFM.pdf>] <Drawing/PFM.pdf, id=2233, 581.50551pt x 554.07pt>
+File: Drawing/PFM.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Citation `merlo2007membrane' on page 42 undefined on input line 
-587.
-
-
-LaTeX Warning: Citation `zhang2012recent' on page 42 undefined on input line 58
-7.
+<use Drawing/PFM.pdf>
+Package pdftex.def Info: Drawing/PFM.pdf used on input line 569.
+(pdftex.def)             Requested size: 328.82706pt x 313.31223pt.
 
 
-LaTeX Warning: Citation `mattevi2012solution' on page 42 undefined on input lin
-e 587.
+Class pittetd Warning: The caption of Figure 25 is longer than one line on inpu
+t line 570.
+
+
+LaTeX Warning: Reference `' on page 41 undefined on input line 579.
+
+<Drawing/Lithography.pdf, id=2235, 1146.2825pt x 1606.0pt>
+File: Drawing/Lithography.pdf Graphic file (type pdf)
+
+<use Drawing/Lithography.pdf>
+Package pdftex.def Info: Drawing/Lithography.pdf used on input line 583.
+(pdftex.def)             Requested size: 375.80542pt x 526.52637pt.
+
+
+Class pittetd Warning: The caption of Figure 26 is longer than one line on inpu
+t line 584.
+
+
+LaTeX Warning: Float too large for page by 30.67969pt on input line 586.
+
+
+LaTeX Warning: Reference `' on page 41 undefined on input line 588.
+
+[41] [42 <./Drawing/PFM.pdf>] [43 <./Drawing/Lithography.pdf>]
+<Drawing/Regular.pdf, id=2500, 783.96385pt x 936.51082pt>
+File: Drawing/Regular.pdf Graphic file (type pdf)
+
+<use Drawing/Regular.pdf>
+Package pdftex.def Info: Drawing/Regular.pdf used on input line 598.
+(pdftex.def)             Requested size: 469.75499pt x 561.16774pt.
+
+
+Class pittetd Warning: The caption of Figure 27 is longer than one line on inpu
+t line 599.
+
+
+LaTeX Warning: Float too large for page by 0.07106pt on input line 601.
+
+
+LaTeX Warning: Citation `dean2010naturenano' on page 44 undefined on input line
+ 619.
+
+
+LaTeX Warning: Citation `Novoselovaac9439' on page 44 undefined on input line 6
+19.
+
+
+LaTeX Warning: Citation `li2009transfer' on page 44 undefined on input line 619
+.
+
+
+LaTeX Warning: Citation `reina2008transferring' on page 44 undefined on input l
+ine 619.
+
+
+LaTeX Warning: Citation `reina2008large' on page 44 undefined on input line 619
+.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./Drawing/PMMAResidue.png>]
-<Drawing/HyflonTransfer.pdf, id=2426, 831.105pt x 705.63625pt>
-File: Drawing/HyflonTransfer.pdf Graphic file (type pdf)
+ [44]
+[45 <./Drawing/Regular.pdf>]
+<Drawing/PMMATransfer.pdf, id=2543, 555.07375pt x 531.9875pt>
+File: Drawing/PMMATransfer.pdf Graphic file (type pdf)
 
-<use Drawing/HyflonTransfer.pdf>
-Package pdftex.def Info: Drawing/HyflonTransfer.pdf used on input line 595.
-(pdftex.def)             Requested size: 469.75499pt x 398.83595pt.
-
-
-Class pittetd Warning: The caption of Figure 26 is longer than one line on inpu
-t line 596.
-
-[43] [44 <./Drawing/HyflonTransfer.pdf>]
-<Drawing/Transfer.pdf, id=2479, 1039.4434pt x 935.38356pt>
-File: Drawing/Transfer.pdf Graphic file (type pdf)
-
-<use Drawing/Transfer.pdf>
-Package pdftex.def Info: Drawing/Transfer.pdf used on input line 612.
-(pdftex.def)             Requested size: 469.75499pt x 422.71709pt.
-
-
-Class pittetd Warning: The caption of Figure 27 is longer than one line on inpu
-t line 613.
-
-[45] [46 <./Drawing/Transfer.pdf>]
-<Drawing/PreClean.pdf, id=2502, 1602.98875pt x 787.83336pt>
-File: Drawing/PreClean.pdf Graphic file (type pdf)
-
-<use Drawing/PreClean.pdf>
-Package pdftex.def Info: Drawing/PreClean.pdf used on input line 625.
-(pdftex.def)             Requested size: 469.75499pt x 230.87009pt.
+<use Drawing/PMMATransfer.pdf>
+Package pdftex.def Info: Drawing/PMMATransfer.pdf used on input line 623.
+(pdftex.def)             Requested size: 422.77661pt x 405.19951pt.
 
 
 Class pittetd Warning: The caption of Figure 28 is longer than one line on inpu
-t line 626.
+t line 624.
 
-[47 <./Drawing/PreClean.pdf>]
-<Drawing/GCO.pdf, id=2521, 796.00885pt x 942.53333pt>
-File: Drawing/GCO.pdf Graphic file (type pdf)
- <use Drawing/GCO.pdf>
-Package pdftex.def Info: Drawing/GCO.pdf used on input line 642.
-(pdftex.def)             Requested size: 469.75499pt x 556.21928pt.
+
+LaTeX Warning: Citation `pirkle2011effect' on page 46 undefined on input line 6
+28.
+
+
+LaTeX Warning: Citation `lin2011graphene' on page 46 undefined on input line 62
+8.
+
+
+LaTeX Warning: Citation `cheng2011toward' on page 46 undefined on input line 62
+8.
+
+
+LaTeX Warning: Citation `lin2011graphene' on page 46 undefined on input line 62
+8.
+
+
+LaTeX Warning: Citation `cheng2011toward' on page 46 undefined on input line 62
+8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--630
+
+ []
+
+<Drawing/PMMAResidue.png, id=2544, 292.9344pt x 222.5916pt>
+File: Drawing/PMMAResidue.png Graphic file (type png)
+
+<use Drawing/PMMAResidue.png>
+Package pdftex.def Info: Drawing/PMMAResidue.png used on input line 633.
+(pdftex.def)             Requested size: 281.85585pt x 214.19157pt.
 
 
 Class pittetd Warning: The caption of Figure 29 is longer than one line on inpu
-t line 643.
-
-[48] <Drawing/SampleContaminant.pdf, id=2528, 618.31pt x 1194.00081pt>
-File: Drawing/SampleContaminant.pdf Graphic file (type pdf)
-
-<use Drawing/SampleContaminant.pdf>
-Package pdftex.def Info: Drawing/SampleContaminant.pdf used on input line 653.
-(pdftex.def)             Requested size: 258.36667pt x 498.94449pt.
-
-
-Class pittetd Warning: The caption of Figure 30 is longer than one line on inpu
-t line 654.
-
-
-LaTeX Warning: Float too large for page by 24.84781pt on input line 656.
-
-<Drawing/RIEBeforeEtching.pdf, id=2531, 554.07pt x 481.8pt>
-File: Drawing/RIEBeforeEtching.pdf Graphic file (type pdf)
-
-<use Drawing/RIEBeforeEtching.pdf>
-Package pdftex.def Info: Drawing/RIEBeforeEtching.pdf used on input line 660.
-(pdftex.def)             Requested size: 234.87749pt x 204.23663pt.
-
-
-Class pittetd Warning: The caption of Figure 31 is longer than one line on inpu
-t line 661.
+t line 634.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49] [50 <./Drawing/GCO.pdf>] [51 <./Drawing/SampleContaminant.pdf>]
-<Drawing/RIETwoStep.pdf, id=2602, 533.995pt x 1074.0827pt>
-File: Drawing/RIETwoStep.pdf Graphic file (type pdf)
+[46] [47 <./Drawing/PMMATransfer.pdf>]
 
-<use Drawing/RIETwoStep.pdf>
-Package pdftex.def Info: Drawing/RIETwoStep.pdf used on input line 697.
-(pdftex.def)             Requested size: 234.87749pt x 472.43396pt.
+LaTeX Warning: Citation `arcella2005hyflon' on page 48 undefined on input line 
+640.
+
+
+LaTeX Warning: Citation `merlo2007membrane' on page 48 undefined on input line 
+640.
+
+
+LaTeX Warning: Citation `zhang2012recent' on page 48 undefined on input line 64
+0.
+
+
+LaTeX Warning: Citation `mattevi2012solution' on page 48 undefined on input lin
+e 640.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./Drawing/PMMAResidue.png>]
+<Drawing/HyflonTransfer.pdf, id=2582, 831.105pt x 705.63625pt>
+File: Drawing/HyflonTransfer.pdf Graphic file (type pdf)
+
+<use Drawing/HyflonTransfer.pdf>
+Package pdftex.def Info: Drawing/HyflonTransfer.pdf used on input line 648.
+(pdftex.def)             Requested size: 469.75499pt x 398.83595pt.
+
+
+Class pittetd Warning: The caption of Figure 30 is longer than one line on inpu
+t line 649.
+
+[49] [50 <./Drawing/HyflonTransfer.pdf>]
+<Drawing/Transfer.pdf, id=2636, 1039.4434pt x 935.38356pt>
+File: Drawing/Transfer.pdf Graphic file (type pdf)
+
+<use Drawing/Transfer.pdf>
+Package pdftex.def Info: Drawing/Transfer.pdf used on input line 665.
+(pdftex.def)             Requested size: 469.75499pt x 422.71709pt.
+
+
+Class pittetd Warning: The caption of Figure 31 is longer than one line on inpu
+t line 666.
+
+[51] [52 <./Drawing/Transfer.pdf>]
+<Drawing/PreClean.pdf, id=2658, 1602.98875pt x 787.83336pt>
+File: Drawing/PreClean.pdf Graphic file (type pdf)
+
+<use Drawing/PreClean.pdf>
+Package pdftex.def Info: Drawing/PreClean.pdf used on input line 678.
+(pdftex.def)             Requested size: 469.75499pt x 230.87009pt.
 
 
 Class pittetd Warning: The caption of Figure 32 is longer than one line on inpu
-t line 698.
+t line 679.
 
-
-LaTeX Warning: Float too large for page by 41.83728pt on input line 700.
-
-<Drawing/TwoStepEtching.pdf, id=2604, 764.8575pt x 553.06625pt>
-File: Drawing/TwoStepEtching.pdf Graphic file (type pdf)
-
-<use Drawing/TwoStepEtching.pdf>
-Package pdftex.def Info: Drawing/TwoStepEtching.pdf used on input line 706.
-(pdftex.def)             Requested size: 469.75499pt x 339.68224pt.
+[53 <./Drawing/PreClean.pdf>]
+<Drawing/GCO.pdf, id=2677, 796.00885pt x 942.53333pt>
+File: Drawing/GCO.pdf Graphic file (type pdf)
+ <use Drawing/GCO.pdf>
+Package pdftex.def Info: Drawing/GCO.pdf used on input line 695.
+(pdftex.def)             Requested size: 469.75499pt x 556.21928pt.
 
 
 Class pittetd Warning: The caption of Figure 33 is longer than one line on inpu
-t line 707.
+t line 696.
 
-[52 <./Drawing/RIEBeforeEtching.pdf>]
+[54] <Drawing/SampleContaminant.pdf, id=2684, 618.31pt x 1194.00081pt>
+File: Drawing/SampleContaminant.pdf Graphic file (type pdf)
 
-Class pittetd Warning: The caption of Table 5 is longer than one line on input 
-line 726.
-
-
-Class pittetd Warning: The caption of Table 6 is longer than one line on input 
-line 740.
-
-[53] [54 <./Drawing/RIETwoStep.pdf>] [55 <./Drawing/TwoStepEtching.pdf>]
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 750--752
-
- []
-
-<Drawing/GrapheneAC.pdf, id=2692, 361.30583pt x 811.10927pt>
-File: Drawing/GrapheneAC.pdf Graphic file (type pdf)
-
-<use Drawing/GrapheneAC.pdf>
-Package pdftex.def Info: Drawing/GrapheneAC.pdf used on input line 761.
-(pdftex.def)             Requested size: 234.87749pt x 527.28905pt.
+<use Drawing/SampleContaminant.pdf>
+Package pdftex.def Info: Drawing/SampleContaminant.pdf used on input line 706.
+(pdftex.def)             Requested size: 258.36667pt x 498.94449pt.
 
 
 Class pittetd Warning: The caption of Figure 34 is longer than one line on inpu
-t line 762.
+t line 707.
 
 
-LaTeX Warning: Float too large for page by 10.35905pt on input line 764.
+LaTeX Warning: Float too large for page by 24.84781pt on input line 709.
+
+<Drawing/RIEBeforeEtching.pdf, id=2687, 554.07pt x 481.8pt>
+File: Drawing/RIEBeforeEtching.pdf Graphic file (type pdf)
+
+<use Drawing/RIEBeforeEtching.pdf>
+Package pdftex.def Info: Drawing/RIEBeforeEtching.pdf used on input line 713.
+(pdftex.def)             Requested size: 234.87749pt x 204.23663pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 766.
+Class pittetd Warning: The caption of Figure 35 is longer than one line on inpu
+t line 714.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--768
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55] [56 <./Drawing/GCO.pdf>] [57 <./Drawing/SampleContaminant.pdf>]
+<Drawing/RIETwoStep.pdf, id=2758, 533.995pt x 1074.0827pt>
+File: Drawing/RIETwoStep.pdf Graphic file (type pdf)
+
+<use Drawing/RIETwoStep.pdf>
+Package pdftex.def Info: Drawing/RIETwoStep.pdf used on input line 750.
+(pdftex.def)             Requested size: 234.87749pt x 472.43396pt.
+
+
+Class pittetd Warning: The caption of Figure 36 is longer than one line on inpu
+t line 751.
+
+
+LaTeX Warning: Float too large for page by 41.83728pt on input line 753.
+
+<Drawing/TwoStepEtching.pdf, id=2760, 764.8575pt x 553.06625pt>
+File: Drawing/TwoStepEtching.pdf Graphic file (type pdf)
+
+<use Drawing/TwoStepEtching.pdf>
+Package pdftex.def Info: Drawing/TwoStepEtching.pdf used on input line 759.
+(pdftex.def)             Requested size: 469.75499pt x 339.68224pt.
+
+
+Class pittetd Warning: The caption of Figure 37 is longer than one line on inpu
+t line 760.
+
+[58 <./Drawing/RIEBeforeEtching.pdf>]
+
+Class pittetd Warning: The caption of Table 5 is longer than one line on input 
+line 779.
+
+
+Class pittetd Warning: The caption of Table 6 is longer than one line on input 
+line 793.
+
+[59] [60 <./Drawing/RIETwoStep.pdf>] [61 <./Drawing/TwoStepEtching.pdf>]
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 803--805
 
  []
 
-[57] [58 <./Drawing/GrapheneAC.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 785--787
+<Drawing/GrapheneAC.pdf, id=2849, 361.30583pt x 811.10927pt>
+File: Drawing/GrapheneAC.pdf Graphic file (type pdf)
+
+<use Drawing/GrapheneAC.pdf>
+Package pdftex.def Info: Drawing/GrapheneAC.pdf used on input line 814.
+(pdftex.def)             Requested size: 187.89912pt x 421.82877pt.
+
+
+Class pittetd Warning: The caption of Figure 38 is longer than one line on inpu
+t line 815.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 819.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--821
 
  []
 
-<Drawing/GrapheneSTM.pdf, id=2733, 352.87636pt x 352.87636pt>
+[63] [64 <./Drawing/GrapheneAC.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 838--840
+
+ []
+
+<Drawing/GrapheneSTM.pdf, id=2890, 352.87636pt x 352.87636pt>
 File: Drawing/GrapheneSTM.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneSTM.pdf>
-Package pdftex.def Info: Drawing/GrapheneSTM.pdf used on input line 790.
+Package pdftex.def Info: Drawing/GrapheneSTM.pdf used on input line 843.
 (pdftex.def)             Requested size: 211.3883pt x 211.38821pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59] <Drawing/GraphenePFM.pdf, id=2740, 703.09177pt x 1412.20604pt>
+[65] <Drawing/GraphenePFM.pdf, id=2896, 703.09177pt x 1412.20604pt>
 File: Drawing/GraphenePFM.pdf Graphic file (type pdf)
 
 <use Drawing/GraphenePFM.pdf>
-Package pdftex.def Info: Drawing/GraphenePFM.pdf used on input line 807.
+Package pdftex.def Info: Drawing/GraphenePFM.pdf used on input line 860.
 (pdftex.def)             Requested size: 281.85585pt x 566.14378pt.
 
 
-Class pittetd Warning: The caption of Figure 36 is longer than one line on inpu
-t line 808.
+Class pittetd Warning: The caption of Figure 40 is longer than one line on inpu
+t line 861.
 
 
-LaTeX Warning: Float too large for page by 46.21379pt on input line 810.
+LaTeX Warning: Float too large for page by 46.21379pt on input line 863.
 
-[60 <./Drawing/GrapheneSTM.pdf>] [61 <./Drawing/GraphenePFM.pdf>]
+[66 <./Drawing/GrapheneSTM.pdf>] [67 <./Drawing/GraphenePFM.pdf>]
 
-LaTeX Warning: Citation `aliaj2018probing' on page 62 undefined on input line 8
-19.
+LaTeX Warning: Citation `aliaj2018probing' on page 68 undefined on input line 8
+72.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--823
+Underfull \hbox (badness 10000) in paragraph at lines 872--874
 
  []
 
-[62] <Drawing/GrapheneDamages.pdf, id=2830, 398.94044pt x 338.59901pt>
+<Drawing/GrapheneDamages.pdf, id=2981, 398.94044pt x 338.59901pt>
 File: Drawing/GrapheneDamages.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneDamages.pdf>
-Package pdftex.def Info: Drawing/GrapheneDamages.pdf used on input line 826.
+Package pdftex.def Info: Drawing/GrapheneDamages.pdf used on input line 877.
 (pdftex.def)             Requested size: 328.82706pt x 279.08931pt.
 
 
-Class pittetd Warning: The caption of Figure 37 is longer than one line on inpu
-t line 827.
+Class pittetd Warning: The caption of Figure 41 is longer than one line on inpu
+t line 878.
 
-[63 <./Drawing/GrapheneDamages.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[68]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69 <./Drawing/GrapheneDamages.pdf>] [70]
 Chapter III.
-[64
+[71
 
 ]
 Chapter IV.
-[65
+[72
 
 ]
 Chapter V.
-[66
+[73
 
 ]
 Chapter VI.
-[67
+[74
 
 ]
 Chapter VII.
-[68
+[75
 
 ]
 BIBLIOGRAPHY
@@ -1519,44 +2010,54 @@ Class pittetd Warning: Remember to run the document with `final' option.
 
 \openout3 = `main.etd'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 888.
-[69
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 958.
+[76
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 888.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 958.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 888.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 888.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 79A713503B33F3AAA3674E74B7B02E25;6321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 958.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 958.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 9AE03F7AE9268A5CAEC78C965B4790E6;6547
+(rerunfilecheck)             After:  0A1DE27A133104BA2B9A57C6CE36B545;6452.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 888.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 958.
  ) 
 Here is how much of TeX's memory you used:
- 6527 strings out of 493027
- 94952 string characters out of 6134069
- 218623 words of memory out of 5000000
- 9752 multiletter control sequences out of 15000+600000
+ 6585 strings out of 493027
+ 96106 string characters out of 6134069
+ 224202 words of memory out of 5000000
+ 9791 multiletter control sequences out of 15000+600000
  8310 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,15n,28p,1759b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (85 pages, 10165379 bytes).
+pdfTeX warning (dest): name{subsection.1.2.5} has been referenced but does no
+t exist, replaced by a fixed one
+
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (93 pages, 11183064 bytes).
 PDF statistics:
- 2954 PDF objects out of 2984 (max. 8388607)
- 2029 compressed objects within 21 object streams
- 214 named destinations out of 1000 (max. 500000)
- 1202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3124 PDF objects out of 3580 (max. 8388607)
+ 2159 compressed objects within 22 object streams
+ 229 named destinations out of 1000 (max. 500000)
+ 1278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
