@@ -1,0 +1,92 @@
+\documentclass[dvipdfm,final]{pittetd}%   If you want to use dvipdfm. The file is to be normally processed (LaTeX), and 
+%                                   then the program dvipdfm applied to it. This will create the PDF file with bookmarks
+%                                   and links. It will also try to convert any PS graphics included.
+%\documentclass[pdftex]{pittetd}    If you want to use PDFLaTeX instead. This will create the PDF file directly.
+%                                   Processing time can be longer. No PS graphics conversion will take place 
+%                                   automatically.
+%
+%Other options: ma, ms, for Master's. 
+%11pt, 10pt, font size (12pt is default). 
+%final, makes pittetd's warnings (about things that might go against the Format Guidelines) 
+%into error messages. 
+%Option 'sectionletters' numbers the chapters with Roman numerals (I, II, etc.), sections with 
+%letters (A, B), subsections with numbers (1, 2), and subsubsections with lowercase letters (a, b). 
+%The four levels of the enumerate environment receive the same treatment. Within the
+%text, however, cross references (\ref} produce `the whole thing,' something like I.A.1 
+%instead of only 1.
+%
+\usewithpatch{graphicx}%            Better \usewithpatch than \usepackage because it makes pittetd look for any 
+%                                   available patch for the package. 
+\usepackage{amsmath,amsthm}%        But you can't use \usewithpatch for several packages as in this line. The search for
+%                                   patches has to be then forced through:
+\patch{amsmatch}
+\patch{amsthm}
+%
+%\patch{pittdiss}                   If you started writing your thesis with the pittdiss class, this patch makes 
+%                                   pittetd interpret pittdiss commands.
+%\patch{pitthesis}                  Analogous for the pitthesis class.
+\title[A pittetd-thesis sample]{Sample file for a thesis with the `pittetd' class}% The optional argument is the %                                   version of the title that will appear in Acrobat Reader's Document Info dialog box.
+\author{I. M. Student}
+\degree{Previous degree, institution, year}
+%\date{July 20th 1967}%             This date is the date of the thesis defense. Default is \today
+%\year{1967}                        pittetd will use the current year unless otherwise indicated. So this command is not
+%                                   necessary.
+\keywords{\LaTeX, pittetd, theses, format}% This list appears in the field 'Keywords' of Acrobat Reader's Document Info
+%                                   dialog box, and also, optionally, after the abstract.
+\subject{Sample file}%              This fills in the 'Subject' field in Acrobat Reader's Document Info dialog box.
+\school{Department of Mathematics}%    The name of the school will be preceeded by 'the' unless otherwise specified, as in:
+%\school[certain]{department}
+%
+%\chapterfloats%                    Un-comment this to get figures and tables numbered within chapters.
+\begin{document}
+\maketitle
+%
+% For the committee membership page, you have to provide the names and affiliations of the members. The first one will 
+% be treated by pittetd as the committee chair (thesis/dissertation advisor).
+\committeemember{Chair's name, Departmental Affiliation}
+%\coadvisor{Second advisor, Dept. Aff.}%         This is used if there are two advisors.
+\committeemember{Second member's name, Dept.\ Aff.}
+\committeemember{Third member's name, Dept.\ Aff.}
+% etc., as many as needed. For master's theses, the committee may be omitted, naming only the advisor.
+\school{Mathematics Department}
+\makecommittee
+%\copyrightpage                     Uncomment this to get a copyright page.
+\begin{abstract}
+This document is a sample file for the creation of ETD's at Pitt through \LaTeX.
+\end{abstract}
+% If you say \begin{abstract}[Keywords:] instead of the simple \begin{abstract}, a list of the keywords is appended.
+% The list comes from the \keywords command above.
+% The starred version \begin{abstract*} typesets the word `ABSTRACT' on the top of the page
+\tableofcontents
+%\listoftables                      Pittetd will complain if you tell it to create a list of tables when there are no
+%                                   tables (as in this sample file). Uncomment this command if you have tables.
+%\listoffigures                     Obvious analogous for figures.
+%\preface
+% This is the text of the preface, with acknowledgments, dedication, etc. It is optional, and you create, as shown, by 
+% just saying \preface and starting the preface's actual text. Note that 'foreword' is no longer acceptable as title
+% for this preliminary.
+%
+%Conventions, such as notation (nomenclature) and abbreviations, don't receive their own preliminary page. They can be included as an appendix, or as part of the introduction.
+%
+\chapter{Introduction}%             And when you type '\chapter', pittetd understands that this is the body of the 
+%                                   document. 
+We begin by saying that we do not really have much to say, but for the sake of clarity we divide our topic in chapters.
+
+\chapter{Second chapter}
+The topics treated in this chapter can be somewhat obscure. For humanitarian considerations, the chapter will be subdivided.
+\section{FIRST SECTION}%            Remember to capitalize the sections (otherwise, the bookmark will be lowercase)
+The topic treated here, given its complexity, merits an additional subdivision.
+\subsection{First subsection of the section}
+This is well-known topic, and we shall discuss it no more.
+\subsection{Second subsection of the section}
+This is a very complicated topic and we shall discuss it in our next paper.
+\chapter{Conclusions}
+This is the second chapter of the present dissertation. It is more interesting than the first one, for it is the last one.
+%
+%\appendix                          After this command, chapters will be formatted as appendices. For example:
+%\chapter{Raw data}
+%
+%\safebibliography{etdbib}          \safebibliography is used the same way as \bibliography, but gives pittetd
+%                                   a greater chance to succeed in formatting the bibliography when non-standard
+%                                   BibTeX styles are used.
+\end{document}

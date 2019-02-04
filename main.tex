@@ -24,7 +24,7 @@
 \usepackage[all]{hypcap} % direct links to figures
 
 %
-%\patch{pittdiss}                   If you started writing your thesis with the pittdiss class, this patch makes 
+%\patch{pittdiss}                   %If you started writing your thesis with the pittdiss class, this patch makes 
 %                                   pittetd interpret pittdiss commands.
 %\patch{pitthesis}                  Analogous for the pitthesis class.
 \title[Graphene-Complex Oxide Heterostructure]{Graphene-Complex Oxide Heterostructure}% The optional argument is the %                                   version of the title that will appear in Acrobat Reader's Document Info dialog box.
@@ -72,9 +72,8 @@
 \listoftables                      %Pittetd will complain if you tell it to create a list of tables when there are no
 %                                   tables (as in this sample file). Uncomment this command if you have tables.
 \listoffigures                     %Obvious analogous for figures.
-\preface
-
-I want to thank everyone that made this happened.
+%\preface
+%I want to thank everyone that made this happened.
 % This is the text of the preface, with acknowledgments, dedication, etc. It is optional, and you create, as shown, by 
 % just saying \preface and starting the preface's actual text. Note that 'foreword' is no longer acceptable as title
 % for this preliminary.
@@ -131,8 +130,6 @@ Oxygen vacancy is another possible explanation of the origin of 2DEG\cite{kalabu
 
 In 2006, Thiel et al\cite{thiel2006tunable} reported that the interface of LAO/STO shows metal-insulator transition when the LAO is thicker than 4 unit cells. In Figure \ref{FIG:CriticalThickness}(a), when the thickness of LAO is over 4 u.c., the interface is conductive, otherwise the interface is insulating and the conductivity is below measurement limit. When LAO is slightly below the critical thickness (e.g. 3 u.c.), the conductivity on the interface is tunable, with a voltage applied to the backside of the sample. As Figure \ref{FIG:CriticalThickness}(b) demonstrates, when $V = +100$ V is applied, the interface becomes conductive. When the positive voltage is removed, the resistance is partially restored, but the interface is still conductive. However when $V = -100$ V is applied, the interface becomes insulating again. Similar phenomenon can be observed if the voltage is applied locally through a conductive AFM tip. More details are discussed in future chapters. 
 
-The mechanism of the interface tunability when LAO is slightly thinner than the critical thickness can be explained with the ``water-cycle'' mechanism.
-
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Drawing/CriticalThickness.pdf}
@@ -140,9 +137,26 @@ The mechanism of the interface tunability when LAO is slightly thinner than the 
 	\label{FIG:CriticalThickness}
 \end{figure}
 
+\subsection{c-AFM lithography of 2DEG and ``water-cycle'' mechanism}
+
+Following the discovery of backgate tunable interface 2DEG, Cen et al demonstrated in 2008 that LAO/STO interface conductivity can also be induced with a gate voltage applied with a c-AFM tip on sample surface\cite{cen2008nanoscale}. For a 3 u.c. LAO/STO sample, the previously discussed polar catastrophe mechanism is not strong enough to reconstruct the band structure and form 2DEG on the interface. With gate voltage locally applied with a nanoscale AFM tip, positive charge can be transferred on the surface of LAO and build up a potential to cause polar catastrophe. The threshold voltage on the tip is about $V_\mathrm{thresh} \approx 6$ V\cite{cen2008nanoscale}. The with conductive channel created in this method is in the same order as the AFM tip, $\sim$ 10 nm. The process is reversible, and the positive charge can be removed with a negative voltage. An insulating gap can therefore be created on the nanowire. More experimental details are discussed in Section \ref{SEC:AFMLitho}.
+
+The tunability of the LAO/STO with positive c-tip voltage can be explained with the ``water-cycle'' mechanism\cite{bi2010water}. The water adsorbed onto LAO surface is dissociated into OH$^{-}$ and H$^{+}$. A positively biased tip removes the OH$^{-}$ and leave excessive H$^{+}$ on LAO surface, which build up the polar catastrophe potential. In the erasing process, the negatively biased c-AFM tip removes the H$^{+}$ and restores OH$^{-}-H^{+}$ balance, and the interface becomes insulating. The water cycle mechanism is supported by the control c-AFM writing experiments performed in vacuum\cite{bi2010water}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Drawing/WaterCycle.png}
+	\caption{A positively biased c-AFM tip removes removes the OH$^{-}$ and leave excessive H$^{+}$ on LAO surface, and the positive charges induce 2DEG on the interface underneath. A negatively biased c-AFM removes the H$^{+}$, and restores OH$^{-}-H^{+}$ balance. Adapted from Adapted from C. S. Hellberg's APS talk.}
+	\label{FIG:WaterCycle}
+\end{figure}
+
 \subsection{Superconductivity}
 
+Superconductivity has been found in STO since 1960s'\cite{schooley1964superconductivity}. Interface superconductivity on LAO/STO was first reported by Reyren et al in 2007\cite{reyren2007superconducting}, with a phase transition temperature $T_c$ of 200 mK. The in-plane and out-of-plane critical fields are around 1 T to 2 T and less than 1 T. Recently it was found that the electron pairing can persist up to a few T, much higher than the critical field of superconductivity, possible induced by strong correlation between electrons\cite{cheng2015electron}.
+
 \subsection{Magnetism}
+
+LAO and STO are both non-magnetic materials, however in 2007 the signature of magnetism was discovered on the interface from Kondo-like behavior of interface resistance \cite{brinkman2007magnetic}. More characterization of the interface magnetism were conducted with torque magnetometry\cite{li2011coexistence}, scanning quantum interference device (SQUID)\cite{bert2011direct}, and x-ray circular dichrism (XMCD)\cite{lee2013titanium}. In 2014, Feng et al found that the interface magnetism is electronically tunable, from MFM measurement\cite{bi2014room}.
 
 \section{Graphene}
 
@@ -585,7 +599,7 @@ Other than performing surface characterization, the main application of AFM in o
 	\label{FIG:Lithography}
 \end{figure}
 
-As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of electrodes connected to the LAO/STO interface. An AC voltage of $\pm100$ mV is applied to one electrode, while the other one is grounded. Before the c-AFM lithography starts, the interface between the two electrodes is insulating. The current between them is monitored in real-time as the c-AFM tip scans through the surface (zero before lithography starts). A positive voltage is applied, and protons are dissociated from the water meniscus and left behind the tip (plus signs in the Figure). 2DEG is formed under the protonated region and makes the interface conductive (green region). Once the two electrodes are connected by the conductive channel, a conductance jump can be observed. When a negative voltage on the tip is applied, the protons will be removed from the surface and make the interface insulating again. A typical resistance of the nanowire right after the writing is about 200 k$\Omega$/$\mu$m, and the width is in the same order of magnitude as the c-AFM tip\ref{}.
+As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of electrodes connected to the LAO/STO interface. An AC voltage of $\pm100$ mV is applied to one electrode, while the other one is grounded. Before the c-AFM lithography starts, the interface between the two electrodes is insulating. The current between them is monitored in real-time as the c-AFM tip scans through the surface (zero before lithography starts). A positive voltage is applied, and protons are dissociated from the water meniscus and left behind the tip (plus signs in the Figure). 2DEG is formed under the protonated region and makes the interface conductive (green region). Once the two electrodes are connected by the conductive channel, a conductance jump can be observed. When a negative voltage on the tip is applied, the protons will be removed from the surface and make the interface insulating again. A typical resistance of the nanowire right after the writing is about 200 k$\Omega$/$\mu$m, and the width is in the same order of magnitude as the c-AFM tip\cite{cen2008nanoscale}.
 
 The sample is patterned in such a way that I can do AFM lithography and electrical measurement in real-time. Figure \ref{FIG:Regular} show the pattern of a typical LAO/STO sample for c-AFM lithography. The dimension of the sample is 5 mm $\times$ 5 mm. There are two layers of metals. The blue layer is in direct contact with the LAO/STO interface. The sample is first etched with Ar ion mill and the etched areas are backed-filled with 4 nm of Ti and 25 nm of Au (as discussed in \ref{SEC:IonMilling}). The orange regions are for electrical connections and wire-bonding. 4 nm of Ti and 50 nm of Au are directly coated on the LAO surface without etching. The orange crosses on the corners indicate the corners of the sample. the blue crosses and triangle are guidance for alignment. The zoomed-in image shows the region where c-AFM lithography is performed. The patterns are written inside the 20 $\mu$m $\times$ 20 $\mu$m area, and connected with the interface electrodes.
 
@@ -854,7 +868,6 @@ To prove that the sample is clean after AFM cleaning, an room temperature STM me
 Pattern nano-scale devices on graphene/LAO/STO with reversibly with c-AFM is one of the major techniques I was trying to develop in my research. As been discussed in Section \ref{SEC:AFMLitho}, conductive channels can be created and erased on the interface of LAO/STO with c-AFM. Similar experiments have been conducted on graphene/LAO/STO samples. 
 
 \subsection{c-AFM lithography and PFM imaging}
-
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Drawing/GraphenePFM.pdf}
@@ -898,11 +911,6 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 	
 \end{table}
 
-% writing conditions
-% damaging threshold
-% possible thickness dependence
-% 
-
 \chapter{Graphene p-n junction edge-state engineering}
 
 \section{Transport measurement in graphene}
@@ -945,12 +953,10 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 
 \chapter{Conclusions}
 
-
 %
-%\appendix                          % After this command, chapters will be formatted as appendices. For example:
-
+\appendix                          % After this command, chapters will be formatted as appendices. For example:
 %
-\safebibliography{main}          %\safebibliography is used the same way as \bibliography, but gives pittetd
+\safebibliography{bibliography}          %\safebibliography is used the same way as \bibliography, but gives pittetd
 %                                   a greater chance to succeed in formatting the bibliography when non-standard
 % 
 
