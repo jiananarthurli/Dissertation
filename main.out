@@ -13,7 +13,7 @@
 \BOOKMARK [2][]{subsection.1.2.4}{4. Superconductivity}{section.1.2}% 7
 \BOOKMARK [2][]{subsection.1.2.5}{5. Magnetism}{section.1.2}% 8
 \BOOKMARK [1][]{section.1.3}{C. Graphene}{chapter.1}% 9
-\BOOKMARK [2][]{subsection.1.3.1}{1. Dirac fermion}{section.1.3}% 10
+\BOOKMARK [2][]{subsection.1.3.1}{1. Graphene band structure and Dirac fermion}{section.1.3}% 10
 \BOOKMARK [2][]{subsection.1.3.2}{2. Quantum Hall effect}{section.1.3}% 11
 \BOOKMARK [0][]{chapter.2}{II. EXPERIMENTAL METHODS}{}% 12
 \BOOKMARK [1][]{section.2.1}{A. Sample growth}{chapter.2}% 13
@@ -52,7 +52,7 @@
 \BOOKMARK [2][]{subsection.2.5.4}{4. Graphene/LAO/STO sample pattern}{section.2.5}% 46
 \BOOKMARK [2][]{subsection.2.5.5}{5. Photolithography and etching}{section.2.5}% 47
 \BOOKMARK [3][]{subsubsection.2.5.5.1}{a. One-step etching}{subsection.2.5.5}% 48
-\BOOKMARK [3][]{figure.2.37}{b. Two-step etching}{subsection.2.5.5}% 49
+\BOOKMARK [3][]{figure.2.39}{b. Two-step etching}{subsection.2.5.5}% 49
 \BOOKMARK [2][]{subsection.2.5.6}{6. Hyflon removal}{section.2.5}% 50
 \BOOKMARK [3][]{subsubsection.2.5.6.1}{a. High temperature method}{subsection.2.5.6}% 51
 \BOOKMARK [3][]{subsubsection.2.5.6.2}{b. Low temperature method}{subsection.2.5.6}% 52
@@ -65,7 +65,7 @@
 \BOOKMARK [2][]{subsection.3.1.1}{1. Charge-neutrality point}{section.3.1}% 59
 \BOOKMARK [2][]{subsection.3.1.2}{2. Temperature dependence}{section.3.1}% 60
 \BOOKMARK [2][]{subsection.3.1.3}{3. Carrier densities and mobilities}{section.3.1}% 61
-\BOOKMARK [2][]{subsection.3.1.4}{4. Quantum Hall effect in graphene}{section.3.1}% 62
+\BOOKMARK [2][]{subsection.3.1.4}{4. Quantum Hall effect measurement}{section.3.1}% 62
 \BOOKMARK [1][]{section.3.2}{B. p-n junction on graphene/LAO/STO}{chapter.3}% 63
 \BOOKMARK [2][]{subsection.3.2.1}{1. Graphene edge channels and p-n junctions}{section.3.2}% 64
 \BOOKMARK [2][]{subsection.3.2.2}{2. Fabricating p-n junction with c-AFM lithography}{section.3.2}% 65

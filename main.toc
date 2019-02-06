@@ -7,72 +7,72 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}B\period@or@not .}4\period@or@not }Superconductivity}{8}{subsection.1.2.4}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}B\period@or@not .}5\period@or@not }Magnetism}{8}{subsection.1.2.5}
 \contentsline {section}{\numberline {\gobble@or@not {I\period@or@not .}C\period@or@not }Graphene}{8}{section.1.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}C\period@or@not .}1\period@or@not }Dirac fermion}{8}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}C\period@or@not .}2\period@or@not }Quantum Hall effect}{8}{subsection.1.3.2}
-\contentsline {chapter}{{\bfseries \numberline {II\period@or@not }EXPERIMENTAL METHODS}}{9}{chapter.2}
-\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}A\period@or@not }Sample growth}{9}{section.2.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}A\period@or@not .}1\period@or@not }LAO/STO growth}{9}{subsection.2.1.1}
-\contentsline {subsubsection}{\numberline {a.}Pre-growth treatment}{9}{subsubsection.2.1.1.1}
-\contentsline {subsubsection}{\numberline {b.}PLD deposition}{10}{subsubsection.2.1.1.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}A\period@or@not .}2\period@or@not }Graphene growth}{10}{subsection.2.1.2}
-\contentsline {subsubsection}{\numberline {a.}Copper substrate preparation}{14}{subsubsection.2.1.2.1}
-\contentsline {subsubsection}{\numberline {b.}CVD growth}{19}{subsubsection.2.1.2.2}
-\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}B\period@or@not }LAO/STO sample processing}{21}{section.2.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}1\period@or@not }Photolithography}{22}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {a.}Spin-coating}{22}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {b.}UV exposure}{23}{subsubsection.2.2.1.2}
-\contentsline {subsubsection}{\numberline {c.}Developing}{27}{subsubsection.2.2.1.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}2\period@or@not }Ion milling}{28}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}3\period@or@not }Deposition}{31}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}4\period@or@not }Lift-off}{31}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}5\period@or@not }Oxygen plasma cleaning}{33}{subsection.2.2.5}
-\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}C\period@or@not }Atomic force microscope}{33}{section.2.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}1\period@or@not }Working principle}{34}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}2\period@or@not }Contact mode}{36}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}3\period@or@not }AC mode}{37}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}4\period@or@not }Non-contact mode}{38}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}5\period@or@not }Magnetic force microscopy}{39}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}6\period@or@not }Piezoresponse force microscopy}{40}{subsection.2.3.6}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}7\period@or@not }LAO/STO nano-device c-AFM lithography}{42}{subsection.2.3.7}
-\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}D\period@or@not }Electric signal measurement}{45}{section.2.4}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}1\period@or@not }Lock-in amplifier}{47}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}2\period@or@not }Virtual lock-in}{47}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}3\period@or@not }IV-curve measurement}{47}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}4\period@or@not }Probe station}{47}{subsection.2.4.4}
-\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}E\period@or@not }Graphene/LAO/STO device fabrication}{47}{section.2.5}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}1\period@or@not }Overview of the Hyflon transfer method}{50}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}2\period@or@not }Hyflon solution preparation and spin-coating}{52}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}3\period@or@not }Graphene preparation, copper etching and wet transfer}{52}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}4\period@or@not }Graphene/LAO/STO sample pattern}{55}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}5\period@or@not }Photolithography and etching}{56}{subsection.2.5.5}
-\contentsline {subsubsection}{\numberline {a.}One-step etching}{56}{subsubsection.2.5.5.1}
-\contentsline {subsubsection}{\numberline {b.}Two-step etching}{59}{figure.2.37}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}6\period@or@not }Hyflon removal}{60}{subsection.2.5.6}
-\contentsline {subsubsection}{\numberline {a.}High temperature method}{64}{subsubsection.2.5.6.1}
-\contentsline {subsubsection}{\numberline {b.}Low temperature method}{64}{subsubsection.2.5.6.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}7\period@or@not }AFM cleaning of graphene}{64}{subsection.2.5.7}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}8\period@or@not }Graphene/LAO/STO nano-scale device lithography}{67}{subsection.2.5.8}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}9\period@or@not }c-AFM lithography and PFM imaging}{67}{subsection.2.5.9}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}10\period@or@not }More about the c-AFM writing conditions on graphene and damage thresholds}{69}{subsection.2.5.10}
-\contentsline {chapter}{{\bfseries \numberline {III\period@or@not }GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}}{72}{chapter.3}
-\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}A\period@or@not }Transport measurement in graphene}{72}{section.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}1\period@or@not }Charge-neutrality point}{72}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}2\period@or@not }Temperature dependence}{72}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Carrier densities and mobilities}{72}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}4\period@or@not }Quantum Hall effect in graphene}{72}{subsection.3.1.4}
-\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}B\period@or@not }p-n junction on graphene/LAO/STO}{72}{section.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }Graphene edge channels and p-n junctions}{72}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}2\period@or@not }Fabricating p-n junction with c-AFM lithography}{72}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Measurement and results}{72}{subsection.3.2.3}
-\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }GRAPHENE/LAO/STO SUPERLATTICE DEVICE}}{73}{chapter.4}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Graphene band structure engineering with superlattice}{73}{section.4.1}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }c-AFM lithography of graphene/LAO/STO superlattice}{73}{section.4.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}B\period@or@not .}1\period@or@not }Measurement and results}{73}{subsection.4.2.1}
-\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{74}{chapter.5}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{74}{section.5.1}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}B\period@or@not }MFM measurement}{74}{section.5.2}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}C\period@or@not }Optical setup}{74}{section.5.3}
-\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}D\period@or@not }Results}{74}{section.5.4}
-\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{75}{chapter.6}
-\contentsline {chapter}{{\bfseries \numberline {VII\period@or@not }CONCLUSIONS}}{76}{chapter.7}
-\contentsline {chapter}{{\bfseries \bibname }}{77}{section*.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}C\period@or@not .}1\period@or@not }Graphene band structure and Dirac fermion}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}C\period@or@not .}2\period@or@not }Quantum Hall effect}{12}{subsection.1.3.2}
+\contentsline {chapter}{{\bfseries \numberline {II\period@or@not }EXPERIMENTAL METHODS}}{13}{chapter.2}
+\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}A\period@or@not }Sample growth}{13}{section.2.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}A\period@or@not .}1\period@or@not }LAO/STO growth}{13}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {a.}Pre-growth treatment}{13}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {b.}PLD deposition}{14}{subsubsection.2.1.1.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}A\period@or@not .}2\period@or@not }Graphene growth}{14}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {a.}Copper substrate preparation}{18}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {b.}CVD growth}{23}{subsubsection.2.1.2.2}
+\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}B\period@or@not }LAO/STO sample processing}{25}{section.2.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}1\period@or@not }Photolithography}{26}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {a.}Spin-coating}{26}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {b.}UV exposure}{27}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {c.}Developing}{31}{subsubsection.2.2.1.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}2\period@or@not }Ion milling}{32}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}3\period@or@not }Deposition}{35}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}4\period@or@not }Lift-off}{35}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}B\period@or@not .}5\period@or@not }Oxygen plasma cleaning}{37}{subsection.2.2.5}
+\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}C\period@or@not }Atomic force microscope}{37}{section.2.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}1\period@or@not }Working principle}{38}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}2\period@or@not }Contact mode}{40}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}3\period@or@not }AC mode}{41}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}4\period@or@not }Non-contact mode}{42}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}5\period@or@not }Magnetic force microscopy}{43}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}6\period@or@not }Piezoresponse force microscopy}{44}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}7\period@or@not }LAO/STO nano-device c-AFM lithography}{46}{subsection.2.3.7}
+\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}D\period@or@not }Electric signal measurement}{49}{section.2.4}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}1\period@or@not }Lock-in amplifier}{51}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}2\period@or@not }Virtual lock-in}{51}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}3\period@or@not }IV-curve measurement}{51}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}4\period@or@not }Probe station}{51}{subsection.2.4.4}
+\contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}E\period@or@not }Graphene/LAO/STO device fabrication}{51}{section.2.5}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}1\period@or@not }Overview of the Hyflon transfer method}{54}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}2\period@or@not }Hyflon solution preparation and spin-coating}{56}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}3\period@or@not }Graphene preparation, copper etching and wet transfer}{56}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}4\period@or@not }Graphene/LAO/STO sample pattern}{59}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}5\period@or@not }Photolithography and etching}{60}{subsection.2.5.5}
+\contentsline {subsubsection}{\numberline {a.}One-step etching}{60}{subsubsection.2.5.5.1}
+\contentsline {subsubsection}{\numberline {b.}Two-step etching}{63}{figure.2.39}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}6\period@or@not }Hyflon removal}{64}{subsection.2.5.6}
+\contentsline {subsubsection}{\numberline {a.}High temperature method}{68}{subsubsection.2.5.6.1}
+\contentsline {subsubsection}{\numberline {b.}Low temperature method}{68}{subsubsection.2.5.6.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}7\period@or@not }AFM cleaning of graphene}{68}{subsection.2.5.7}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}8\period@or@not }Graphene/LAO/STO nano-scale device lithography}{71}{subsection.2.5.8}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}9\period@or@not }c-AFM lithography and PFM imaging}{71}{subsection.2.5.9}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}E\period@or@not .}10\period@or@not }More about the c-AFM writing conditions on graphene and damage thresholds}{73}{subsection.2.5.10}
+\contentsline {chapter}{{\bfseries \numberline {III\period@or@not }GRAPHENE P-N JUNCTION EDGE-STATE ENGINEERING}}{76}{chapter.3}
+\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}A\period@or@not }Transport measurement in graphene}{76}{section.3.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}1\period@or@not }Charge-neutrality point}{76}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}2\period@or@not }Temperature dependence}{76}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Carrier densities and mobilities}{76}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}4\period@or@not }Quantum Hall effect measurement}{76}{subsection.3.1.4}
+\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}B\period@or@not }p-n junction on graphene/LAO/STO}{76}{section.3.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }Graphene edge channels and p-n junctions}{76}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}2\period@or@not }Fabricating p-n junction with c-AFM lithography}{76}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Measurement and results}{76}{subsection.3.2.3}
+\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }GRAPHENE/LAO/STO SUPERLATTICE DEVICE}}{77}{chapter.4}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Graphene band structure engineering with superlattice}{77}{section.4.1}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }c-AFM lithography of graphene/LAO/STO superlattice}{77}{section.4.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}B\period@or@not .}1\period@or@not }Measurement and results}{77}{subsection.4.2.1}
+\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{78}{chapter.5}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{78}{section.5.1}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}B\period@or@not }MFM measurement}{78}{section.5.2}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}C\period@or@not }Optical setup}{78}{section.5.3}
+\contentsline {section}{\numberline {\gobble@or@not {V\period@or@not .}D\period@or@not }Results}{78}{section.5.4}
+\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{79}{chapter.6}
+\contentsline {chapter}{{\bfseries \numberline {VII\period@or@not }CONCLUSIONS}}{80}{chapter.7}
+\contentsline {chapter}{{\bfseries \bibname }}{81}{section*.1}

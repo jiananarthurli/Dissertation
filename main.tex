@@ -156,13 +156,96 @@ Superconductivity has been found in STO since 1960s'\cite{schooley1964supercondu
 
 \subsection{Magnetism}
 
-LAO and STO are both non-magnetic materials, however in 2007 the signature of magnetism was discovered on the interface from Kondo-like behavior of interface resistance \cite{brinkman2007magnetic}. More characterization of the interface magnetism were conducted with torque magnetometry\cite{li2011coexistence}, scanning quantum interference device (SQUID)\cite{bert2011direct}, and x-ray circular dichrism (XMCD)\cite{lee2013titanium}. In 2014, Feng et al found that the interface magnetism is electronically tunable, from MFM measurement\cite{bi2014room}.
+LAO and STO are both non-magnetic materials, however in 2007 the signature of magnetism was discovered on the interface from Kondo-like behavior of interface resistance \cite{brinkman2007magnetic}. More characterization of the interface magnetism were conducted with torque magnetometry\cite{li2011coexistence}, scanning quantum interference device (SQUID)\cite{bert2011direct}, and x-ray circular dichrism (XMCD)\cite{lee2013titanium}. In 2014, Feng et al found that the interface ferromagnetism is electronically tunable at room temperature, from MFM measurement\cite{bi2014room}. Optical measurements of the ferromagnetism will be discussed in Chapter \ref{SEC:Kerr}.
 
 \section{Graphene}
 
-Graphene is another two dimensional material.
+Graphene is a single layer of carbon atom arranged in honey-comb structure and was first isolated and studied by Novoselov et al.\cite{novoselov2004electric}. It has proved to be a powerful and versatile platform for studying condensed matter phenomena due to the unique crystal structure and Dirac fermion behavior of electrons\cite{wilson2006electrons}. The Dirac cone band structure makes it possible to tune the carrier density continuously between electrons and holes. This duality of carriers in graphene results in many exotic properties of graphene, such as Klein tunneling\cite{allain2011klein, katsnelson2006chiral, young2009quantum, shytov2008klein}, edge state mixing\cite{williams2007quantum, abanin2007quantized, lohmann2009four, amet2014selective}, and recently the ``wedding cake'' structure of quantum Hall states\cite{gutierrez2018interaction}. Bandstructure engineering of graphene has been successful using moire pattern\cite{dean2013hofstadter, hunt2013massive}, interlayer interaction between twisted graphene\cite{cao2018correlated, cao2018unconventional} and external periodic electric fields\cite{forsythe2018band}. More exotic phases such as Hofstadter butterfly\cite{dean2013hofstadter, hunt2013massive, forsythe2018band}, Mott insulator\cite{cao2018correlated} and superconductivity\cite{cao2018unconventional} have been observed in graphene.
 
-\subsection{Dirac fermion}
+\subsection{Graphene band structure and Dirac fermion}
+
+The band structure was first studied by Wallace et al. in 1947\cite{wallace1947band}. The orbital structure of C atom is $(1s)^2(2s)^2(2p)^4$. The $2s$ and $2p$ orbitals hybridize into $sp^2$ orbitals that form three $\sigma$ bonds with 120$^{\circ}$ angle, and a $\pi$ bond that provides free electrons. 
+
+In in honey-comb lattice structure of graphene, there are two inequivalent sublattices that are mirror of each other, which can be labeled with $A$ and $B$. The Bravais lattice is hexagonal, and the primitive lattice vectors can be chosen to be: 
+$$\mathbf{a_1} = \frac{a}{2}\left(3, \sqrt{3}\right), \ \ \ \mathbf{a_2} = \frac{a}{2}\left(3, -\sqrt{3}\right)$$
+
+with $a = 1.42\mathrm{\AA}$ being the spacing between to adjacent C atoms. Using the relationship between the real space lattice and reciprocal lattice $\mathbf{a_i}\cdot\mathbf{b_j} = 2\pi\delta_{ij}$, the primitive reciprocal lattice vectors can be written as 
+$$\mathbf{b_1} = \frac{2\pi}{3a}\left(1, \sqrt{3}\right), \ \ \ \mathbf{b_2} = \frac{2\pi}{3a}\left(1, -\sqrt{3}\right)$$
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Drawing/Bravais.pdf}
+	\caption{(a) Primitive vectors of Bravais lattice. (b) First Brillouin zone of graphene.}
+	\label{FIG:Bravais}
+\end{figure}
+
+The first Brillouin zone is also hexagonal shape. There are two types of corners, $K$ and $K'$, and their positions in the reciprocal space are:
+$$\mathbf{K} = \frac{2\pi}{3a}\left(1, \frac{1}{\sqrt{3}}\right), \ \ \ \mathbf{K'} =  \frac{2\pi}{3a}\left(1, -\frac{1}{\sqrt{3}}\right).$$
+
+The wavefunction of electron in graphene can be written as the superposition of states in the two sublattices $A$ and $B$:
+$$\Psi(\mathbf{k}, \mathbf{r}) = \sum_{\alpha = A, B}c_{\alpha}(\mathbf{k}) \ \Phi_{\alpha}(\mathbf{k}, \mathbf{r}),$$
+and the wavefunctions for the sublattice states can be written as Bloch wave functions:
+$$\Phi_{\alpha}(\mathbf{k}, \mathbf{r}) = \frac{1}{\sqrt{n}}\sum_\mathbf{R} e^{-i \mathbf{k} \cdot \mathbf{R}} \ \phi_{\alpha}(\mathbf{r} - \mathbf{R}),$$
+where $\phi_{\alpha}$ is the wavefunction at each atomic site, R is over the entire Bravais lattice, and $n$ is the number of unit cells in the crystal. 
+
+The tight-binding model assumes that the hopping is only allowed for the nearest and next nearest neighbors, and therefore the Hamiltonian can be written as\cite{wallace1947band, neto2009electronic}:
+\begin{equation}
+\begin{split}
+\mathbf{H} = & - t \sum_{ij=\mathrm{n.n.}, \ \sigma} (a_{i\sigma}^{\dagger} b_{j\sigma} + \mathrm{H. c.}) \\
+& - t' \sum_{ij=\mathrm{n.n.n.}, \ \sigma} (a_{i\sigma}^{\dagger} a_{j\sigma} + b_{i\sigma}^{\dagger} b_{j\sigma} + \mathrm{H. c.}),
+\end{split}
+\label{EQN:Hamiltonian}
+\end{equation}
+where $t$ is the hopping energy, $a_{i\sigma}^{\dagger}$ is the creation operator for the state on the $i$th site of sublattice $A$ with spin $\sigma\in\{+1, -1\}$, and $b_{j\sigma}$ is the annihilation operator for state on the $j$th site of sublattice $B$ with spin $\sigma$. The summation is over all the nearest neighbors for the 1st term and next nearest neighbors for the 2nd term. For sublattice $A$, the three nearest neighbors in real-space are: 
+$$\mathbf{\delta}_1 = \frac{a}{2}\left(1, \sqrt{3}\right), \ \ \ \mathbf{\delta}_2 =  \frac{a}{2}\left(1, -\sqrt{3}\right), \ \ \ \mathbf{\delta}_3 = -a(1, 0),$$
+and the next nearest neighbors are:
+$$\mathbf{\delta}'_1 = \pm \mathbf{a}_1, \ \ \ \mathbf{\delta}'_2 =  \pm \mathbf{a}_2, \ \ \ \mathbf{\delta}'_3 = \pm (\mathbf{a}_2 - \mathbf{a}_1).$$
+The resulting eigen energies are
+$$E_{\pm}(\mathbf{k}) = \pm t \sqrt{3 + f(\mathbf{k})} - t'f(\mathbf{k}),$$
+with
+$$f(\mathbf{k}) = 2 \, \mathrm{cos}\left( \sqrt{3} k_y a \right) + 4 \, \mathrm{cos}\left(\frac{\sqrt{3}}{2} k_y a \right) \, \mathrm{cos}\left( \frac{3}{2} k_y a \right).$$
+The plus sign is for the upper band and minus sign is for the lower band. 
+
+At $\mathbf{k}$ close to $\mathbf{K}$ (or $\mathbf{K'}$), set $\mathbf{q} = \mathbf{K} - \mathbf{k}$, with $|\mathbf{q}| \ll |\mathbf{K}|$, then the band energies can be approximated by a linear dispersion relation
+$$E_{\pm}(\mathbf{q}) \approx v_F|\mathbf{q}|,$$
+with $\mathbf{q}$ being the momentum $\mathbf{k}$ relative to $\mathbf{K}$ (or $\mathbf{K'}$), and $v_F \approx c/300$. The Hamiltonian can be written as 
+\begin{equation}
+\mathbf{H}(\mathbf{q}) = 
+\hbar v_F 
+\begin{pmatrix}
+0 & q_x + iq_y \\
+q_x - iq_y & 0
+\end{pmatrix}
+=
+\hbar v_F \hat{\mathbf{\sigma}} \cdot \mathbf{q}
+\label{EQN:DiracHamiltonian}
+\end{equation}
+in the basis of \emph{sublattice states}, with the components of $\hat{\sigma}$ operator being the usual Pauli matrices. The eigenvectors for states around $\mathbf{K}$ and $\mathbf{K'}$ are
+\begin{equation}
+\psi_{\pm, \mathbf{K}}(\mathbf{q}) = \frac{1}{\sqrt{2}} 
+\begin{pmatrix}
+e^{-i\theta_{\mathbf{q}}/2} \\
+\pm e^{i\theta_{\mathbf{q}}/2}
+\end{pmatrix}, \ \ \
+\psi_{\pm, \mathbf{K'}}(\mathbf{q}) = \frac{1}{\sqrt{2}} 
+\begin{pmatrix}
+e^{i\theta_{\mathbf{q}}/2} \\
+\pm e^{-i\theta_{\mathbf{q}}/2}
+\end{pmatrix}.
+\label{EQN:Eigenstates}
+\end{equation}
+with 
+$$\theta_\mathbf{q} = \mathrm{tan}^{-1}\left(\frac{q_x}{q_y}\right)$$
+The plus and minus signs are corresponding to states in the conductance and valence bands. Notice that when $\mathbf{q}$ rotates around $\mathbf{K}$ (or $\mathbf{K'}$), the phase of $\psi_{\pm, \mathbf{K}}$ (or $\psi_{\pm, \mathbf{K'}}$) only changes by $\pi$ instead of $2\pi$. Therefore the sublattice states are also called ``pseudo-spin'' states\cite{neto2009electronic}. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Drawing/GrapheneBand.pdf}
+	\caption{The band structure of Graphene. The low energy approximation around $\mathbf{K}$ and $\mathbf{K'}$ has linear dispersion relation. The conduction and valence bands are gapless and the electron behave like Dirac fermions. Adapted from \cite{wilson2006electrons}.}
+	\label{FIG:GrapheneBand}
+\end{figure}
+
+A significant difference between graphene and normal semiconductor is that, the electron and hole states are described by the same wavefunction, and both are obtained from a Hamiltonian of the form of a relativistic particle described by the 2D Dirac equation\cite{neto2009electronic}. Therefore the electrons in graphene has the properties of Dirac fermions, such as handedness. Also notice that the spinors for $\mathbf{q}$ around $\mathbf{K}$ and $\mathbf{K'}$ differ by a phase of $\pi$ (equation \ref{EQN:Eigenstates}), therefore the states are opposite in handedness around $\mathbf{K}$ and $\mathbf{K'}$. However, at $\mathbf{K}$ and $\mathbf{K'}$ the wavefunctions are still the linear combination of the two sublattice states, or the pseudo-spin states.
 
 \subsection{Quantum Hall effect}
 
@@ -921,7 +1004,7 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 
 \subsection{Carrier densities and mobilities}
 
-\subsection{Quantum Hall effect in graphene}
+\subsection{Quantum Hall effect measurement}
 
 \section{p-n junction on graphene/LAO/STO}
 
@@ -940,6 +1023,7 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 \subsection{Measurement and results}
 
 \chapter{Magneto-Optical Kerr Effect on LAO/STO interface}
+\label{SEC:Kerr}
 
 \section{Magnetism on LAO/STO interface}
 
@@ -956,7 +1040,7 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 %
 \appendix                          % After this command, chapters will be formatted as appendices. For example:
 %
-\safebibliography{bibliography}          %\safebibliography is used the same way as \bibliography, but gives pittetd
+\safebibliography{bibliography}      %\safebibliography is used the same way as \bibliography, but gives pittetd
 %                                   a greater chance to succeed in formatting the bibliography when non-standard
 % 
 
