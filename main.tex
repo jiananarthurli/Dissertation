@@ -145,7 +145,7 @@ The tunability of the LAO/STO with positive c-tip voltage can be explained with 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Drawing/WaterCycle.png}
+	\includegraphics[width=0.8\textwidth]{Drawing/WaterCycle.png}
 	\caption{A positively biased c-AFM tip removes removes the OH$^{-}$ and leave excessive H$^{+}$ on LAO surface, and the positive charges induce 2DEG on the interface underneath. A negatively biased c-AFM removes the H$^{+}$, and restores OH$^{-}-H^{+}$ balance. Adapted from Adapted from C. S. Hellberg's APS talk.}
 	\label{FIG:WaterCycle}
 \end{figure}
@@ -206,9 +206,9 @@ with
 $$f(\mathbf{k}) = 2 \, \mathrm{cos}\left( \sqrt{3} k_y a \right) + 4 \, \mathrm{cos}\left(\frac{\sqrt{3}}{2} k_y a \right) \, \mathrm{cos}\left( \frac{3}{2} k_y a \right).$$
 The plus sign is for the upper band and minus sign is for the lower band. 
 
-At $\mathbf{k}$ close to $\mathbf{K}$ (or $\mathbf{K'}$), set $\mathbf{q} = \mathbf{K} - \mathbf{k}$, with $|\mathbf{q}| \ll |\mathbf{K}|$, then the band energies can be approximated by a linear dispersion relation
+For $\mathbf{k}$ close to $\mathbf{K}$ (or $\mathbf{K'}$), set $\mathbf{q} = \mathbf{K} - \mathbf{k}$, with $|\mathbf{q}| \ll |\mathbf{K}|$, then the band energies can be approximated by a linear dispersion relation
 $$E_{\pm}(\mathbf{q}) \approx v_F|\mathbf{q}|,$$
-with $\mathbf{q}$ being the momentum $\mathbf{k}$ relative to $\mathbf{K}$ (or $\mathbf{K'}$), and $v_F \approx c/300$. The Hamiltonian can be written as 
+with $\mathbf{q}$ being the momentum $\mathbf{k}$ relative to $\mathbf{K}$ (or $\mathbf{K'}$), and $v_F \approx c/300$ or $10^6$m/s. The Hamiltonian can be written as 
 \begin{equation}
 \mathbf{H}(\mathbf{q}) = 
 \hbar v_F 
@@ -245,9 +245,95 @@ The plus and minus signs are corresponding to states in the conductance and vale
 	\label{FIG:GrapheneBand}
 \end{figure}
 
-A significant difference between graphene and normal semiconductor is that, the electron and hole states are described by the same wavefunction, and both are obtained from a Hamiltonian of the form of a relativistic particle described by the 2D Dirac equation\cite{neto2009electronic}. Therefore the electrons in graphene has the properties of Dirac fermions, such as handedness. Also notice that the spinors for $\mathbf{q}$ around $\mathbf{K}$ and $\mathbf{K'}$ differ by a phase of $\pi$ (equation \ref{EQN:Eigenstates}), therefore the states are opposite in handedness around $\mathbf{K}$ and $\mathbf{K'}$. However, at $\mathbf{K}$ and $\mathbf{K'}$ the wavefunctions are still the linear combination of the two sublattice states, or the pseudo-spin states.
+A significant difference between graphene and normal semiconductor is that, the electron and hole states are described by the same wavefunction, and both are obtained from a Hamiltonian of the form of a relativistic particle described by the 2D Dirac equation\cite{neto2009electronic}. Therefore the electrons in graphene has the properties of Dirac fermions, such as handedness. Also notice that the spinors for $\mathbf{q}$ around $\mathbf{K}$ and $\mathbf{K'}$ differ by a phase of $\pi$ (equation \ref{EQN:Eigenstates}), therefore the states are opposite in handedness around $\mathbf{K}$ and $\mathbf{K'}$. However, at $\mathbf{K}$ and $\mathbf{K'}$ the wavefunctions are still the linear combination of the two sublattice states, or the pseudo-spin states. This degree of freedom will introduce extra degeneracies and will be discussed in the following section.
 
 \subsection{Quantum Hall effect}
+
+Quantum Hall effect is one of the most important discovery in physics in the 20th century. In the classical Hall effect, a Hall voltage will be built by in the transverse direction of current in magnetic field. In the quantum Hall effect however, the Hall voltage built up by the magnetic field is quantized. This section will start from the classical behavior of electron in magnetic field, and discuss the unique quantum Hall effect in graphene.
+
+\subsubsection{Classical Hall effect}
+
+In the classical Drude model, the electrons are colliding with scattering centers and the average velocity is zero without external electric field. When a field is applied, the drift velocity is 
+\begin{equation}
+\mathbf{v}_d = -\frac{e\mathbf{E}}{m}\tau,
+\label{EQN:ClassicalE}
+\end{equation}
+where $\mathbf{E}$ is the external field, and $\tau$ is the mean free time between two collisions. The current density can be written as 
+$$\mathbf{j} = -ne\mathbf{v}_d = \frac{ne^2\tau}{m}\mathbf{E},$$
+where $n$ is the carrier density in the conductor. The conductivity is 
+\begin{equation}
+\sigma = \frac{\mathbf{j}}{\mathbf{E}} = \frac{ne^2\tau}{m} = n\mu e
+\label{EQN:Conductivity}
+\end{equation}
+and $\displaystyle \mu \equiv \frac{e\tau}{m}$ is the mobility of carrier, which defines how fast the carriers move through a conductor. Usually when the scattering is less likely to happen, the mobility will be higher.
+
+When a magnetic field is applied, the motion equation \ref{EQN:ClassicalE} is modified as 
+\begin{equation}
+\frac{m\mathbf{v}}{\tau} = -e(\mathbf{E} + \mathbf{v} \times \mathbf{B}).
+\label{EQN:ClassicalEB}
+\end{equation}
+Assume the motion is in $x$-$y$ plane. The Ohm's law can be written as tensor form:
+$$
+\mathbf{j} = 
+\mathbf{\sigma} \cdot \mathbf{E} =
+\begin{pmatrix}
+\sigma_{xx} & \sigma_{xy} \\
+\sigma_{yx} & \sigma_{yy}
+\end{pmatrix}
+\begin{pmatrix}
+E_{x} \\
+E_{y}
+\end{pmatrix}.
+$$
+The conductivity tensor $\mathbf{\sigma}$ can be solved using the motion equation \ref{EQN:ClassicalEB} and the definition of $\mathbf{\sigma}$ and $\mathbf{j}$:
+$$
+\mathbf{\sigma} = \frac{\sigma_0}{1 + \omega_c^2\tau^2}
+\begin{pmatrix}
+1 & -\omega_c\tau \\
+\omega_c\tau & 1
+\end{pmatrix},
+$$
+where $\sigma_0$ is the conductivity without magnetic field, and $\displaystyle \omega_c \equiv \frac{eB}{m}$ is the cyclotron frequency. The resistivity tensor can be calculated from $\mathbf{\sigma}$:
+$$
+\rho_{xx} = \frac{1}{n\mu e}, \ \ \ \rho_{xy} = -\frac{B}{n e} = R_H B,
+$$
+with the Hall coefficient $\displaystyle R_H = -\frac{1}{ne}.$
+The longitudinal resistivity $\rho_{xx}$ and transverse resistivity $\rho_{xy}$ are used to measure the carrier density and type $n$ and mobility $\mu$.
+
+\subsubsection{Quantum Hall effect of Graphene}
+
+At low temperature and high magnetic field, the Hall resistance $R_{xy}$ is quantized into plateaus 
+$$
+R = \frac{1}{\nu}R_k = \frac{h}{\nu e^2},
+$$
+where $R_k = h/e^2 \approx 25812$ $\Omega$ is the von Klitzing constant, and the longitudinal resistance $R_{xx}$ is suppressed. The conductivity tensor becomes
+$$ \displaystyle
+\rho = 
+\begin{pmatrix}
+0 & \frac{\nu e^2}{h} \\ 
+-\frac{\nu e^2}{h} & 0
+\end{pmatrix}
+$$
+
+The quantum Hall effect can be understood semi-classically. In magnetic field, only the energy levels correspond to the quantized cyclotron orbits with integer flux are allowed:
+$$E = \hbar\omega_c \left(n + \frac{1}{2}\right),$$
+where $\omega_c$ is the cyclotron frequency and the orbitals are called Landau Levels.
+
+The electrons that carry the current flow near the edge, while bouncing against the boundary and form chiral edge current channels. The backscattering is suppressed by the magnetic field, and therefore $R_{xx} = 0$ when the Fermi energy is between two Landau levels. The electrons in the bulk of the 2D conductor are trapped in the localized states induced by the scattering centers. When the Fermi energy is elevated to the next Landau level, the electrons start to fill the new localized states and the longitudinal resistance will be non-zero, while the Hall resistance transits to another plateau.
+
+In graphene, the quantum Hall behavior was first observed by Novoselov et al.\cite{novoselov2005two} and Zhang et al.\cite{zhang2005experimental} in 2005. The Hall conductance follows
+$$
+\sigma_{xy} = \pm 4\left(n + \frac{1}{2}\right)\frac{e^2}{h}.
+$$
+The 4 is from the degeneracy of two spin degree of freedom and two pseudo-spin degree of freedom. The half-integer is the result of Dirac fermion behavior of electrons.
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Drawing/GrapheneQuantumHall.pdf}
+	\caption{The quantum Hall effect in graphene. The Hall conductance (red line) follows $\displaystyle \sigma_{xy} = \pm4\left(n + \frac{1}{2}\right)\frac{e^2}{h}$, while the longitudinal resistance (blue line) shows peaks when the Fermi energy transits from one Landau level to another.}
+	\label{FIG:GrapheneQuantumHall}
+\end{figure}
+
 
 \chapter{Experimental Methods}
 
