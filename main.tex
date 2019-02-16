@@ -23,8 +23,14 @@
 \patch{amsthm}
 \usepackage[all]{hypcap} % direct links to figures
 
+\usepackage{notoccite}
+\patch{notoccite}
+
+\usepackage{cite}
+\patch{cite}
+
 %
-%\patch{pittdiss}                   %If you started writing your thesis with the pittdiss class, this patch makes 
+\patch{pittdiss}                   %If you started writing your thesis with the pittdiss class, this patch makes 
 %                                   pittetd interpret pittdiss commands.
 %\patch{pitthesis}                  Analogous for the pitthesis class.
 \title[Graphene-Complex Oxide Heterostructure]{Graphene-Complex Oxide Heterostructure}% The optional argument is the %                                   version of the title that will appear in Acrobat Reader's Document Info dialog box.
@@ -112,7 +118,7 @@ The band structure of STO is quite complex. As shown in Figure \ref{FIG:STOBand}
 
 Although STO is a band insulator, when LAO is grown epitaxially (the small lattice mismatch of 3\% makes it possible) on TiO$_2$ terminated STO, the interface of LAO and STO becomes conductive and a layer of 2DEG is formed, first demonstrated by Ohtomo and Hwang in 2004\cite{ohtomo2004high}. The origin of interface 2DEG is still under debate. There are several different theories about the formation of 2DEG on the LAO/STO interface: polar catastrophe\cite{nakagawa2006some}, oxygen vacancy\cite{kalabukhov2007effect} and interfacial cation intermixing\cite{willmott2007structural}. 
 
-The most widely accepted explanation is the polar catastrophe. Unlike the Ti$^{4+}$O$_2^{2-}$ and Sr$^{2+}$O$^{2-}$ planes in STO which are charge neutral, the La$^{3+}$O$^{2-}$ and Al$^{3+}$O$_2^{2-}$ layer are polar, with a net charge of $+e$ and $-e$ respectively. When LAO is grown on TiO$_2$ terminated STO, the polarity will generate a positive electric field, that builds up as the thickness goes up, as shown in Fig \ref{FIG:PolarCatastrophe}(a). To avoid the divergence of potential, the electrons are transferred from the surface to the interface and form 2DEG (Fig \ref{FIG:PolarCatastrophe}(c)). When LAO is grown on SrO terminated STO, a layer of hole gas will be formed in similar mechanism, as observed by Lee in 2018 \ref{lee2018direct}.
+The most widely accepted explanation is the polar catastrophe. Unlike the Ti$^{4+}$O$_2^{2-}$ and Sr$^{2+}$O$^{2-}$ planes in STO which are charge neutral, the La$^{3+}$O$^{2-}$ and Al$^{3+}$O$_2^{2-}$ layer are polar, with a net charge of $+e$ and $-e$ respectively. When LAO is grown on TiO$_2$ terminated STO, the polarity will generate a positive electric field, that builds up as the thickness goes up, as shown in Fig \ref{FIG:PolarCatastrophe}(a). To avoid the divergence of potential, the electrons are transferred from the surface to the interface and form 2DEG (Fig \ref{FIG:PolarCatastrophe}(c)). When LAO is grown on SrO terminated STO, a layer of hole gas will be formed in similar mechanism, as observed by Lee in 2018 \cite{lee2018direct}.
 \\
 
 \begin{figure}[h!]
@@ -128,7 +134,7 @@ Oxygen vacancy is another possible explanation of the origin of 2DEG\cite{kalabu
 
 \subsection{Metal-insulator transition and critical thickness}
 
-In 2006, Thiel et al\cite{thiel2006tunable} reported that the interface of LAO/STO shows metal-insulator transition when the LAO is thicker than 4 unit cells. In Figure \ref{FIG:CriticalThickness}(a), when the thickness of LAO is over 4 u.c., the interface is conductive, otherwise the interface is insulating and the conductivity is below measurement limit. When LAO is slightly below the critical thickness (e.g. 3 u.c.), the conductivity on the interface is tunable, with a voltage applied to the backside of the sample. As Figure \ref{FIG:CriticalThickness}(b) demonstrates, when $V = +100$ V is applied, the interface becomes conductive. When the positive voltage is removed, the resistance is partially restored, but the interface is still conductive. However when $V = -100$ V is applied, the interface becomes insulating again. Similar phenomenon can be observed if the voltage is applied locally through a conductive AFM tip. More details are discussed in future chapters. 
+In 2006, Thiel et al.\cite{thiel2006tunable} reported that the interface of LAO/STO shows metal-insulator transition when the LAO is thicker than 4 unit cells. In Figure \ref{FIG:CriticalThickness}(a), when the thickness of LAO is over 4 u.c., the interface is conductive, otherwise the interface is insulating and the conductivity is below measurement limit. When LAO is slightly below the critical thickness (e.g. 3 u.c.), the conductivity on the interface is tunable, with a voltage applied to the backside of the sample. As Figure \ref{FIG:CriticalThickness}(b) demonstrates, when $V = +100$ V is applied, the interface becomes conductive. When the positive voltage is removed, the resistance is partially restored, but the interface is still conductive. However when $V = -100$ V is applied, the interface becomes insulating again. Similar phenomenon can be observed if the voltage is applied locally through a conductive AFM tip. More details are discussed in future chapters. 
 
 \begin{figure}[p]
 	\centering
@@ -200,7 +206,7 @@ where $t$ is the hopping energy, $a_{i\sigma}^{\dagger}$ is the creation operato
 $$\mathbf{\delta}_1 = \frac{a}{2}\left(1, \sqrt{3}\right), \ \ \ \mathbf{\delta}_2 =  \frac{a}{2}\left(1, -\sqrt{3}\right), \ \ \ \mathbf{\delta}_3 = -a(1, 0),$$
 and the next nearest neighbors are:
 $$\mathbf{\delta}'_1 = \pm \mathbf{a}_1, \ \ \ \mathbf{\delta}'_2 =  \pm \mathbf{a}_2, \ \ \ \mathbf{\delta}'_3 = \pm (\mathbf{a}_2 - \mathbf{a}_1).$$
-The resulting eigen energies are
+The resulting eigen energies are\cite{wallace1947band, neto2009electronic}
 $$E_{\pm}(\mathbf{k}) = \pm t \sqrt{3 + f(\mathbf{k})} - t'f(\mathbf{k}),$$
 with
 $$f(\mathbf{k}) = 2 \, \mathrm{cos}\left( \sqrt{3} k_y a \right) + 4 \, \mathrm{cos}\left(\frac{\sqrt{3}}{2} k_y a \right) \, \mathrm{cos}\left( \frac{3}{2} k_y a \right).$$
@@ -294,13 +300,15 @@ $$
 \end{pmatrix},
 $$
 where $\sigma_0$ is the conductivity without magnetic field, and $\displaystyle \omega_c \equiv \frac{eB}{m}$ is the cyclotron frequency. The resistivity tensor can be calculated from $\mathbf{\sigma}$:
-$$
+\begin{equation}
 \rho_{xx} = \frac{1}{n\mu e}, \ \ \ \rho_{xy} = -\frac{B}{n e} = R_H B,
-$$
+\label{EQN:Hall}
+\end{equation}
 with the Hall coefficient $\displaystyle R_H = -\frac{1}{ne}.$
 The longitudinal resistivity $\rho_{xx}$ and transverse resistivity $\rho_{xy}$ are used to measure the carrier density and type $n$ and mobility $\mu$.
 
 \subsubsection{Quantum Hall effect of Graphene}
+\label{SEC:QuantumHall}
 
 At low temperature and high magnetic field, the Hall resistance $R_{xy}$ is quantized into plateaus 
 $$
@@ -325,12 +333,12 @@ In graphene, the quantum Hall behavior was first observed by Novoselov et al.\ci
 $$
 \sigma_{xy} = \pm 4\left(n + \frac{1}{2}\right)\frac{e^2}{h}.
 $$
-The 4 is from the degeneracy of two spin degree of freedom and two pseudo-spin degree of freedom. The half-integer is the result of Dirac fermion behavior of electrons.
+The 4 is from the degeneracy of two spin degree of freedom and two pseudo-spin degree of freedom. The half-integer is the result Berry phase of electrons\cite{zhang2005experimental} in graphene.
 
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Drawing/GrapheneQuantumHall.pdf}
-	\caption{The quantum Hall effect in graphene. The Hall conductance (red line) follows $\displaystyle \sigma_{xy} = \pm4\left(n + \frac{1}{2}\right)\frac{e^2}{h}$, while the longitudinal resistance (blue line) shows peaks when the Fermi energy transits from one Landau level to another.}
+	\caption{The quantum Hall effect in graphene. The Hall conductance (red line) follows $\displaystyle \sigma_{xy} = \pm4\left(n + \frac{1}{2}\right)\frac{e^2}{h}$, while the longitudinal resistance (blue line) shows peaks when the Fermi energy transits from one Landau level to another. Adapted from \cite{novoselov2005two}.}
 	\label{FIG:GrapheneQuantumHall}
 \end{figure}
 
@@ -671,7 +679,7 @@ In contact mode, the AFM tip is in close contact with the sample. The distance b
 
 \subsection{AC mode}
 
-In AC mode, the AFM tip is driven by a sinusoidal electrical signal on the tip piezoelectric actuator, as shown in Figure \ref{FIG:ACAFM}. The electric frequency is close to the resonance frequency of the tip (10 kHz - 500 kHz). The driving frequency is not exactly at the resonance frequency, so that the gradient of amplitude change is maximized and the system is most sensitive to the interaction change. The laser spot and difference signal also oscillates at the same frequency. When the tip approaches the sample surface, the interaction between the tip and surface will cause the resonance frequency to shift and change the amplitude $A$ and phase $\theta$ of the tip oscillation and monitored by the differential voltage signal on the quad detector. The measurement can be integrated with lock-in amplifier technique (more discussion can be seen in section \ref{}) for noise reduction. When the tip scan through the surface, $A$ and $\theta$ are recorded for each position on the sample surface and mapped onto a 2D image. The voltage on the piezoelectric actuator ($z$ voltage) is controlled by a feedback loop so that the amplitude $A$ is maintained at a set point. During the scan the tip is not continuously in contact with the sample surface, but ``tapping'' the sample with oscillations, therefore AC mode is sometimes called ``tapping mode''. Compared to contact mode, in the AC mode the tip does not scratch the sample surface, so it has less effect on the sample. 
+In AC mode, the AFM tip is driven by a sinusoidal electrical signal on the tip piezoelectric actuator, as shown in Figure \ref{FIG:ACAFM}. The electric frequency is close to the resonance frequency of the tip (10 kHz - 500 kHz). The driving frequency is not exactly at the resonance frequency, so that the gradient of amplitude change is maximized and the system is most sensitive to the interaction change. The laser spot and difference signal also oscillates at the same frequency. When the tip approaches the sample surface, the interaction between the tip and surface will cause the resonance frequency to shift and change the amplitude $A$ and phase $\theta$ of the tip oscillation and monitored by the differential voltage signal on the quad detector. The measurement can be integrated with lock-in amplifier technique for noise reduction. When the tip scan through the surface, $A$ and $\theta$ are recorded for each position on the sample surface and mapped onto a 2D image. The voltage on the piezoelectric actuator ($z$ voltage) is controlled by a feedback loop so that the amplitude $A$ is maintained at a set point. During the scan the tip is not continuously in contact with the sample surface, but ``tapping'' the sample with oscillations, therefore AC mode is sometimes called ``tapping mode''. Compared to contact mode, in the AC mode the tip does not scratch the sample surface, so it has less effect on the sample. 
 
 \begin{figure}[h!]
 	\centering
@@ -759,7 +767,7 @@ In PFM measurement, a conductive tip made of doped silicon or coated with metal 
 \subsection{LAO/STO nano-device c-AFM lithography}
 \label{SEC:AFMLitho}
 
-Other than performing surface characterization, the main application of AFM in our lab is to create nano-scale structures on the interface of LAO/STO. As discussed in Section \ref{}, the ``water-cycle'' mechanism\cite{} and surface protonation\cite{} are central for the reversible AFM lithography on LAO/STO interface. In contact mode, the AFM tip is in direct contact with the LAO/STO sample surface. When a positive voltage is applied to the conductive AFM tip, and $V_\mathrm{tip} > +6$V\cite{}, the electric field from the tip will dissociate the water molecules between the tip and sample surface, and leaves a trace of proton, as the tip scans through the LAO surface. 
+Other than performing surface characterization, the main application of AFM in our lab is to create nano-scale structures on the interface of LAO/STO. As discussed in Section \ref{}, the ``water-cycle'' mechanism\cite{bi2010water} and surface protonation\cite{} are central for the reversible AFM lithography on LAO/STO interface. In contact mode, the AFM tip is in direct contact with the LAO/STO sample surface. When a positive voltage is applied to the conductive AFM tip, and $V_\mathrm{tip} > +6$V\cite{cen2008nanoscale}, the electric field from the tip will dissociate the water molecules between the tip and sample surface, and leaves a trace of proton, as the tip scans through the LAO surface. 
 
 \begin{figure}[p]
 	\centering
@@ -783,19 +791,17 @@ The sample is patterned in such a way that I can do AFM lithography and electric
 	\label{FIG:Regular}
 \end{figure}
 
-\section{Electric signal measurement}
+%\section{Electric signal measurement}
 
-The electrical signal (voltage, current, etc) measured in my experiments are 
+%The electrical signal (voltage, current, etc) measured in my experiments are 
 
-\subsection{Lock-in amplifier}
+%\subsection{Lock-in amplifier}
 
+%\subsection{Virtual lock-in}
 
+%\subsection{IV-curve measurement}
 
-\subsection{Virtual lock-in}
-
-\subsection{IV-curve measurement}
-
-\subsection{Probe station}
+%\subsection{Probe station}
 
 \section{Graphene/LAO/STO device fabrication}
 
@@ -900,7 +906,7 @@ The graphene transferred onto LAO/STO is patterned with standard UV photolithogr
 
 \subsubsection{One-step etching}
 
-Before 2018 I was using the the one-step etching method (as shown in Figure \ref{FIG:HyflonTransfer}), that is to etch the graphene and clean the contaminants with RIE in one step. Figure \ref{FIG:SampleContaminant} shows the image of a sample before and after the RIE etching. In Figure \ref{FIG:SampleContaminant}(a), it can be seen that bubbles or foldings introduced from the wet transfer covers the entire sample. Fortunately in my experiments, most of the graphene transferred on LAO/STO needs to be etched away, and only the graphene device inside red circles in \ref{FIG:SampleContaminant}(a) need to be covered with graphene. A zoomed-in image is shown in Figure \ref{FIG:RIEBeforeEtching}, with graphene covered with Hyflon. The metal patterns are contact electrodes for graphene and LAO/STO interface. Wrinkles on graphene can be seen, which are following the corrugations on the copper substrate during CVD growth. The patterns for the entire sample are designed in the way that there can be as many graphene devices fit in the sample as possible, so that there are higher chances of finding a clean graphene device. The contaminants are etched away with an aggressive RIE procedure (listed in Table \ref{TAB:RIESingleStep}). 
+Before 2018 I was using the the one-step etching method (as shown in Figure \ref{FIG:HyflonTransfer}), that is to etch the graphene and clean the contaminants with RIE in one step. Figure \ref{FIG:SampleContaminant} shows the image of a sample before and after the RIE etching. In Figure \ref{FIG:SampleContaminant}(a), it can be seen that bubbles or foldings introduced from the wet transfer covers the entire sample. Fortunately in my experiments, most of the graphene transferred on LAO/STO needs to be etched away, and only the graphene device inside red circles in Figure \ref{FIG:SampleContaminant}(a) need to be covered with graphene. A zoomed-in image is shown in Figure \ref{FIG:RIEBeforeEtching}, with graphene covered with Hyflon. The metal patterns are contact electrodes for graphene and LAO/STO interface. Wrinkles on graphene can be seen, which are following the corrugations on the copper substrate during CVD growth. The patterns for the entire sample are designed in the way that there can be as many graphene devices fit in the sample as possible, so that there are higher chances of finding a clean graphene device. The contaminants are etched away with an aggressive RIE procedure (listed in Table \ref{TAB:RIESingleStep}). 
 
 \begin{table}
 	\centering
@@ -1008,7 +1014,7 @@ Figure \ref{FIG:GrapheneAC} shows the AFM images of graphene before and after cl
 		\hline
 		AFM model	&	Asylum MFP3D	&	Asylum Cypher \\ \hline
 		Tip spring constant	&	3 N/m	& 3 N/m	\\ 
-		Deflection set-point	&	$0.05 - 0.5$ V	&	$0.1 - 1.0 V$	\\		
+		Deflection set-point	&	$0.05 - 0.5$ V	&	$0.1 - 1.0$ V	\\		
 		Contact force	&	$40 - 400$ nN	&	$20 - 200$ nN	\\
 		Scanning speed	&	10 $\mu$m/s	&	10 $\mu$m/s \\ 
 		Line separation	&	$10 - 20$ nm	&	$10 - 20$ nm	\\ \hline
@@ -1080,33 +1086,92 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 	
 \end{table}
 
-\chapter{Graphene p-n junction edge-state engineering}
+\chapter{Graphene/LAO/STO heterostructure device}
+
+This chapter is about the transport properties of graphene device on graphene/LAO/STO. It is also found that graphene can be reversibly doped with c-AFM lithography technique, similar to the nanostructure lithography on bare LAO/STO. Two experiments are discussed in details: edge-state mixing on graphene $p$-$n$ junctions and graphene superlattice.
 
 \section{Transport measurement in graphene}
 
+The properties of graphene on LAO/STO is different from SiO$_2$ or hBN substrates due to the unique properties of the LAO/STO substrate. This section will discuss the transport properties of graphene/LAO/STO samples. 
+
+The geometry of the sample is illustrated in Figure \ref{FIG:HallDevice}. The graphene on LAO/STO is patterned into Hall bar shapes, with the procedure discussed in previous chapters. Gold electrodes make contact to the graphene from the surface of LAO. The bottom of the sample is pained with silver epoxy, and backgate voltage is applied to the bottom to control the global chemical potential of graphene. Current flows through the main channel of graphene, with a typical $I = 100$ nA. Longitudinal and transverse voltages are measured from the leads shown in Figure \ref{FIG:HallDevice}(b).
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/HallDevice.pdf}
+ 	\caption{(a) The graphene on LAO/STO is patterned into Hall bar shape. The bottom of the LAO/STO is painted with silver epoxy for applying backgate gate voltages and control the chemical potential of graphene. c-AFM tip is used to shift the local charge neutrality point of graphene. (b) The current flows through the main channel of graphene, while the longitudinal and transverse voltages are measured.}
+	\label{FIG:HallDevice}
+\end{figure}
+
 \subsection{Charge-neutrality point}
 
-\subsection{Temperature dependence}
+The tight binding model determines that the density of state of graphene near the Dirac point is zero\cite{neto2009electronic}, as Figure \ref{FIG:DOS} shows. The resistance of graphene would have a maximum as the Fermi energy gets close to the Dirac point. In Figure \ref{FIG:DiracPeak}, the resistance of graphene is measured as a function of the backgate voltage $V_\mathrm{bg}$, which is applied to the bottom of the sample. The graphene sample is transferred and patterned on LAO/STO substrate. The thickness of the substrate is 5 mm. At T = 2 K, the dielectric constant of STO $\epsilon_r \sim 20,000$, as discussed in previous chapters. Therefore, the gate voltage applied to the bottom of STO can still effectively tune the chemical potential of graphene on top surface. When the chemical potential reaches the Dirac point, a maximum of resistance can be observed. Away from the Dirac point the Dirac point the resistance would decrease, due to the increase of density of state. 
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.9\textwidth]{Drawing/DOS.pdf}
+	\caption{The density of state of graphene near the Dirac point, assuming the hopping energy between the second nearest neighbor $t'$ is zero. $\epsilon$ is the Fermi energy, $t$ is the hopping energy in the tight binding model. Adapted from \cite{neto2009electronic}.}
+	\label{FIG:DOS}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.6\textwidth]{Drawing/DiracPeak.pdf}
+	\caption{Graphene resistance as a function of backgate voltage. The resistance shows a maximum when the chemical potential reaches the CNP. The positions of the CNP are different for forward and backward sweeps. Measured at T = 2 K.}
+	\label{FIG:DiracPeak}
+\end{figure}
+
+The effect of STO dielectric constant change as the temperature changes is critical for graphene devices on LAO/STO, as discussed in literatures\cite{couto2011transport}. Figure \ref{FIG:ResistanceTemp} demonstrates the change of resistance as a function of $V_\mathrm{bg}$. As the temperature drops, the dielectric constant of STO increase from 300 to 20,000, about two order of magnitude. Therefore the effective gating range under the same backgate sweeping range ($-15$ V to $+15$ V in this figure) also drastically increases. Therefore, at low temperature ($T < 10$ K) gating through 1 mm of STO is still effective.
+
+Another effect of LAO/STO substrate is the hysteresis behavior under backgate sweeping. The position of CNP on $V_\mathrm{bg}$ shifts after each backgate voltage sweep. Although STO is not ferroelectric material, the dipole moment induced by displacement of oxygen atoms would result in ferroelectric-like hysteresis behavior\cite{sachs2014ferroelectric}. Similar hysteresis behavior has been reported elsewhere\cite{jnawali2017room}. The position of CNP has been a widely used indication for the quality of graphene on other substrates like SiO$_2$ or hBN. Graphene doping level is directly related to the contaminant on substrates as dopant, and therefore high quality graphene on these substrates have CNP very close to $V_\mathrm{bg} = 0$ V. For graphene on LAO/STO however, the position of CNP is usually at the positive side, even when the quality of graphene is comparable or better than those on SiO$_2$ substrates. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.8\textwidth]{Drawing/ResistanceTemp.pdf}
+	\caption{Resistance as a function of $V_\mathrm{bg}$ sweep at different temperatures. The width of the CNP clearly shows the change of dielectric constant of STO as a function of temperature.}
+	\label{FIG:ResistanceTemp}
+\end{figure}
 
 \subsection{Carrier densities and mobilities}
 
-\subsection{Quantum Hall effect measurement}
+The carrier density and mobility of graphene can be measured from Hall effect, using equation \ref{EQN:Hall}. From Figure \ref{FIG:CarrierDensityMobility} it can be seen that the high dielectric constant of STO at low temperature enables graphene gating to up to $1 \times 10^{13}$ $\mathrm{cm}^{-2}$ on the hole side (not shown in the Figure). On the electron side, due to the 2DEG electron gas induced by the high backgate voltage, the gating effect on graphene is shielded, and the carrier density usually saturates at about $n = 1 \times 10^{12}$ $\mathrm{cm}^{-2}$. Close to the CNP the carrier density and mobility are not well defined due to the existence of electron-hole puddles. Although it was believed that the high dielectric constant of STO can shield off the scattering effect charge impurity and improve the graphene mobility, the existence of surface dipole reduces the shielding effect\cite{sachs2014ferroelectric}. In spite of this, the Hyflon transfer method followed by contact AFM cleaning leaves the graphene on LAO/STO with high quality. The mobility of graphene reach $30,000$ cm$^{2}$V$^{-1}$s$^{-1}$, higher than most of the graphene on SiO$_2$ substrates. 
 
-\section{p-n junction on graphene/LAO/STO}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/CarrierDensityMobility.pdf}
+	\caption{Carrier density and mobility of graphene measured from Hall effect.}
+	\label{FIG:CarrierDensityMobility}
+\end{figure}
 
-\subsection{Graphene edge channels and p-n junctions}
+\subsection{Landau levels and quantum Hall effect}
 
-\subsection{Fabricating p-n junction with c-AFM lithography}
+As discussed in Section \ref{SEC:QuantumHall}, single layer graphene has unique half integer filling factor with degeneracy $N = 4$ from spin and valley pseudo-spin. The Hall conductance is
+$$
+\sigma_{xy} = \pm 4\left(n + \frac{1}{2}\right)\frac{e^2}{h}.
+$$
+in quantum Hall regime. The longitudinal resistance is suppressed except when the Fermi energy is transiting between Landau levels, and the localized states start to be filled. Figure \ref{FIG:HallResistance} demonstrate the longitudinal and transverse resistance of graphene device in a magnetic field of $B = 5$ T. The blue line is the Hall resistance that shows quantum Hall effect plateaus, with the filling factor $\nu$ marked by the numbers. The red line is the longitudinal resistance, that shows non-zero resistance at the transition energy between Landau levels.
 
-\subsection{Measurement and results}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/HallResistance.pdf}
+	\caption{Integer quantum Hall effect of single layer graphene.}
+	\label{FIG:HallResistance}
+\end{figure}
 
-\chapter{Graphene/LAO/STO superlattice device}
+\section{Graphene p-n junction edge-state engineering}
+
+In this section, the experiment of using c-AFM to dope the graphene into $p$-$n$ junction to engineer the edge state mixing is discussed.
+
+\subsection{Quantum Hall edge channels}
+
+\subsection{Graphene doping using c-AFM}
+
+
+
+\subsection{Measurement of graphene $p$-$n$ junction}
 
 \section{Graphene band structure engineering with superlattice}
-
-\section{c-AFM lithography of graphene/LAO/STO superlattice}
-
-\subsection{Measurement and results}
 
 \chapter{Magneto-Optical Kerr Effect on LAO/STO interface}
 \label{SEC:Kerr}
@@ -1115,7 +1180,7 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 
 \section{MFM measurement}
 
-\section{Optical setup}
+\section{Kerr-rotation optics setup}
 
 \section{Results}
 
@@ -1126,7 +1191,8 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 %
 \appendix                          % After this command, chapters will be formatted as appendices. For example:
 %
-\safebibliography{bibliography}      %\safebibliography is used the same way as \bibliography, but gives pittetd
+\bibliography{bibliography}      %\safebibliography is used the same way as \bibliography, but gives pittetd
+\bibliographystyle{unsrt}
 %                                   a greater chance to succeed in formatting the bibliography when non-standard
 % 
 
