@@ -18,7 +18,7 @@ K~Alex M{\"u}ller and H~Burkard.
 
 \bibitem{sakudo1971dielectric}
 T~Sakudo and H~Unoki.
-\newblock Dielectric properties of srtio$_3$ at low temperatures.
+\newblock Dielectric properties of {SrTiO$_3$} at low temperatures.
 \newblock {\em Physical review letters}, 26(14):851, 1971.
 
 \bibitem{ohtomo2004high}
@@ -55,7 +55,7 @@ H~Lee, N~Campbell, J~Lee, TJ~Asel, TR~Paudel, H~Zhou, JW~Lee, B~Noesges, J~Seo,
 \bibitem{schooley1965dependence}
 JF~Schooley, WR~Hosler, E~Ambler, JH~Becker, Marvin~L Cohen, and CS~Koonce.
 \newblock Dependence of the superconducting transition temperature on carrier
-  concentration in semiconducting srti o$_3$.
+  concentration in semiconducting {SrTi O$_3$}.
 \newblock {\em Physical Review Letters}, 14(9):305, 1965.
 
 \bibitem{thiel2006tunable}
@@ -153,19 +153,19 @@ MI~Katsnelson, KS~Novoselov, and AK~Geim.
 
 \bibitem{young2009quantum}
 Andrea~F Young and Philip Kim.
-\newblock Quantum interference and klein tunnelling in graphene
+\newblock Quantum interference and {Klein} tunnelling in graphene
   heterojunctions.
 \newblock {\em Nature Physics}, 5(3):222, 2009.
 
 \bibitem{shytov2008klein}
 Andrei~V Shytov, Mark~S Rudner, and Leonid~S Levitov.
-\newblock Klein backscattering and fabry-p{\'e}rot interference in graphene
+\newblock Klein backscattering and {Fabry-P{\'e}rot} interference in graphene
   heterojunctions.
 \newblock {\em Physical Review Letters}, 101(15):156804, 2008.
 
 \bibitem{williams2007quantum}
 JR~Williams, L~DiCarlo, and CM~Marcus.
-\newblock Quantum hall effect in a gate-controlled pn junction of graphene.
+\newblock Quantum {Hall} effect in a gate-controlled pn junction of graphene.
 \newblock {\em Science}, 317(5838):638--641, 2007.
 
 \bibitem{abanin2007quantized}
@@ -243,12 +243,12 @@ AH~Castro Neto, Francisco Guinea, Nuno~MR Peres, Kostya~S Novoselov, and
 \bibitem{novoselov2005two}
 Kostya~S Novoselov, Andre~K Geim, SVb Morozov, Da~Jiang, MIc Katsnelson, IVa
   Grigorieva, SVb Dubonos, Firsov, and AA.
-\newblock Two-dimensional gas of massless dirac fermions in graphene.
+\newblock Two-dimensional gas of massless {Dirac} fermions in graphene.
 \newblock {\em nature}, 438(7065):197, 2005.
 
 \bibitem{zhang2005experimental}
 Yuanbo Zhang, Yan-Wen Tan, Horst~L Stormer, and Philip Kim.
-\newblock Experimental observation of the quantum hall effect and {Berry's}
+\newblock Experimental observation of the quantum {Hall} effect and {Berry's}
   phase in graphene.
 \newblock {\em nature}, 438(7065):201, 2005.
 
@@ -263,7 +263,7 @@ Sukang Bae, Hyeongkeun Kim, Youngbin Lee, Xiangfan Xu, Jae-Sung Park, Yi~Zheng,
   Jayakumar Balakrishnan, Tian Lei, Hye Ri~Kim, Young~Il Song, Young-Jin Kim,
   Kwang~S. Kim, Barbaros {\"O}zyilmaz, Jong-Hyun Ahn, Byung~Hee Hong, and Sumio
   Iijima.
-\newblock Roll-to-roll production of$_3$0-inch graphene films for transparent
+\newblock Roll-to-roll production of 30-inch graphene films for transparent
   electrodes.
 \newblock {\em Nature Nanotechnology}, 5:574 -- 578, 06 2010.
 
@@ -297,7 +297,7 @@ Hong Wang, Guanzhong Wang, Pengfei Bao, Shaolin Yang, Wei Zhu, Xing Xie, and
 \bibitem{wofford2010graphene}
 Joseph~M Wofford, Shu Nie, Kevin~F McCarty, Norman~C Bartelt, and Oscar~D
   Dubon.
-\newblock Graphene islands on cu foils: the interplay between shape,
+\newblock Graphene islands on {Cu} foils: the interplay between shape,
   orientation, and defects.
 \newblock {\em Nano letters}, 10(12):4890--4896, 2010.
 
@@ -417,7 +417,30 @@ Raymond Sachs, Zhisheng Lin, and Jing Shi.
 Giriraj Jnawali, Mengchen Huang, Jen-Feng Hsu, Hyungwoo Lee, Jung-Woo Lee,
   Patrick Irvin, Chang-Beom Eom, Brian D'Urso, and Jeremy Levy.
 \newblock Room-temperature quantum transport signatures in
-  graphene/laalo3/srtio3 heterostructures.
+  graphene/{LaAlO$_3$}/{SrTiO$_3$} heterostructures.
 \newblock {\em Advanced Materials}, 29(9):1603488, 2017.
+
+\bibitem{buttiker1986four}
+M~B{\"u}ttiker.
+\newblock Four-terminal phase-coherent conductance.
+\newblock {\em Physical Review Letters}, 57(14):1761, 1986.
+
+\bibitem{buttiker1988absence}
+Markus B{\"u}ttiker.
+\newblock Absence of backscattering in the quantum hall effect in multiprobe
+  conductors.
+\newblock {\em Physical Review B}, 38(14):9375, 1988.
+
+\bibitem{schmidt2013mixing}
+H~Schmidt, JC~Rode, C~Belke, D~Smirnov, and Rolf~J Haug.
+\newblock Mixing of edge states at a bipolar graphene junction.
+\newblock {\em Physical Review B}, 88(7):075418, 2013.
+
+\bibitem{velasco2016nanoscale}
+Jairo Velasco~Jr, Long Ju, Dillon Wong, Salman Kahn, Juwon Lee, Hsin-Zon Tsai,
+  Chad Germany, Sebastian Wickenburg, Jiong Lu, Takashi Taniguchi, et~al.
+\newblock Nanoscale control of rewriteable doping patterns in pristine
+  graphene/boron nitride heterostructures.
+\newblock {\em Nano letters}, 16(3):1620--1625, 2016.
 
 \end{thebibliography}

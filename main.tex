@@ -1040,7 +1040,7 @@ To prove that the sample is clean after AFM cleaning, an room temperature STM me
 
 \subsection{Graphene/LAO/STO nano-scale device lithography}
 
-Pattern nano-scale devices on graphene/LAO/STO with reversibly with c-AFM is one of the major techniques I was trying to develop in my research. As been discussed in Section \ref{SEC:AFMLitho}, conductive channels can be created and erased on the interface of LAO/STO with c-AFM. Similar experiments have been conducted on graphene/LAO/STO samples. 
+The experiments on graphene, such as Klein tunneling\cite{allain2011klein, katsnelson2006chiral, young2009quantum, shytov2008klein}, edge state mixing\cite{williams2007quantum, abanin2007quantized, lohmann2009four, amet2014selective}, band structure engineering using superlattice\cite{forsythe2018band}, rely on the Dirac cone band structure and tunability of carriers from electrons to holes. The ability to control the charge neutrality point is central to controlling these exotic properties of graphene. c-AFM writing is proved to be a powerful tool to create nanostructures on LAO/STO interfaces. Pattern nano-scale devices on graphene/LAO/STO reversibly with c-AFM is one of the major techniques I have been trying to develop in my research. 
 
 \subsection{c-AFM lithography and PFM imaging}
 \begin{figure}[p]
@@ -1118,13 +1118,14 @@ The tight binding model determines that the density of state of graphene near th
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.6\textwidth]{Drawing/DiracPeak.pdf}
-	\caption{Graphene resistance as a function of backgate voltage. The resistance shows a maximum when the chemical potential reaches the CNP. The positions of the CNP are different for forward and backward sweeps. Measured at T = 2 K.}
+	\caption{Graphene resistance as a function of backgate voltage. The resistance shows a maximum when the chemical potential reaches the CNP. The positions of the CNP are different for forward and backward sweeps. The arrows indicate the directions of sweeping. Measured at $T = 2$ K.}
 	\label{FIG:DiracPeak}
 \end{figure}
 
 The effect of STO dielectric constant change as the temperature changes is critical for graphene devices on LAO/STO, as discussed in literatures\cite{couto2011transport}. Figure \ref{FIG:ResistanceTemp} demonstrates the change of resistance as a function of $V_\mathrm{bg}$. As the temperature drops, the dielectric constant of STO increase from 300 to 20,000, about two order of magnitude. Therefore the effective gating range under the same backgate sweeping range ($-15$ V to $+15$ V in this figure) also drastically increases. Therefore, at low temperature ($T < 10$ K) gating through 1 mm of STO is still effective.
 
 Another effect of LAO/STO substrate is the hysteresis behavior under backgate sweeping. The position of CNP on $V_\mathrm{bg}$ shifts after each backgate voltage sweep. Although STO is not ferroelectric material, the dipole moment induced by displacement of oxygen atoms would result in ferroelectric-like hysteresis behavior\cite{sachs2014ferroelectric}. Similar hysteresis behavior has been reported elsewhere\cite{jnawali2017room}. The position of CNP has been a widely used indication for the quality of graphene on other substrates like SiO$_2$ or hBN. Graphene doping level is directly related to the contaminant on substrates as dopant, and therefore high quality graphene on these substrates have CNP very close to $V_\mathrm{bg} = 0$ V. For graphene on LAO/STO however, the position of CNP is usually at the positive side, even when the quality of graphene is comparable or better than those on SiO$_2$ substrates. 
+\\
 
 \begin{figure}[h!]
 	\centering
@@ -1136,21 +1137,23 @@ Another effect of LAO/STO substrate is the hysteresis behavior under backgate sw
 \subsection{Carrier densities and mobilities}
 
 The carrier density and mobility of graphene can be measured from Hall effect, using equation \ref{EQN:Hall}. From Figure \ref{FIG:CarrierDensityMobility} it can be seen that the high dielectric constant of STO at low temperature enables graphene gating to up to $1 \times 10^{13}$ $\mathrm{cm}^{-2}$ on the hole side (not shown in the Figure). On the electron side, due to the 2DEG electron gas induced by the high backgate voltage, the gating effect on graphene is shielded, and the carrier density usually saturates at about $n = 1 \times 10^{12}$ $\mathrm{cm}^{-2}$. Close to the CNP the carrier density and mobility are not well defined due to the existence of electron-hole puddles. Although it was believed that the high dielectric constant of STO can shield off the scattering effect charge impurity and improve the graphene mobility, the existence of surface dipole reduces the shielding effect\cite{sachs2014ferroelectric}. In spite of this, the Hyflon transfer method followed by contact AFM cleaning leaves the graphene on LAO/STO with high quality. The mobility of graphene reach $30,000$ cm$^{2}$V$^{-1}$s$^{-1}$, higher than most of the graphene on SiO$_2$ substrates. 
+\\
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.7\textwidth]{Drawing/CarrierDensityMobility.pdf}
-	\caption{Carrier density and mobility of graphene measured from Hall effect.}
+	\caption{Carrier density and mobility of graphene measured from Hall effect. The high dielectric constant makes it possible for the backgate to tune the graphene to a high carrier density on the hole side. However, the tuning effect saturate on the electron side due to the shielding of 2DEG induced on the interface. The carrier density is not well defined close to the CNP, due to the existence of electron-hole puddles. The quality of graphene is higher than most of the CVD graphene transferred on SiO$_2$, and the mobility can reach 30,000 cm$^2$V$^{-1}$s$^{-1}$.}
 	\label{FIG:CarrierDensityMobility}
 \end{figure}
 
-\subsection{Landau levels and quantum Hall effect}
+\subsection{Quantum Hall effect}
 
 As discussed in Section \ref{SEC:QuantumHall}, single layer graphene has unique half integer filling factor with degeneracy $N = 4$ from spin and valley pseudo-spin. The Hall conductance is
 $$
 \sigma_{xy} = \pm 4\left(n + \frac{1}{2}\right)\frac{e^2}{h}.
 $$
 in quantum Hall regime. The longitudinal resistance is suppressed except when the Fermi energy is transiting between Landau levels, and the localized states start to be filled. Figure \ref{FIG:HallResistance} demonstrate the longitudinal and transverse resistance of graphene device in a magnetic field of $B = 5$ T. The blue line is the Hall resistance that shows quantum Hall effect plateaus, with the filling factor $\nu$ marked by the numbers. The red line is the longitudinal resistance, that shows non-zero resistance at the transition energy between Landau levels.
+\\
 
 \begin{figure}[h!]
 	\centering
@@ -1161,13 +1164,155 @@ in quantum Hall regime. The longitudinal resistance is suppressed except when th
 
 \section{Graphene p-n junction edge-state engineering}
 
-In this section, the experiment of using c-AFM to dope the graphene into $p$-$n$ junction to engineer the edge state mixing is discussed.
+In this section, the experiment of using c-AFM to dope the graphene into $p$-$n$ junction to reversibly engineer the edge state mixing is discussed.
 
-\subsection{Quantum Hall edge channels}
+\subsection{1D waveguide and quantum Hall edge channels}
+
+In semi-classical point of view, the electrons under high magnetic field would cycle in the 2DEG and bounce back from the edges or scattering centers. If the scattering center is far from the edge, the electrons would cycle around the scattering centers and trapped in the localized state. If the scattering centers are close to the edge, the electrons would then collide with the edge and keep moving in the same direction. Therefore, chiral edge channels are formed with back scattering being suppressed. The transport of the edge state in the quantum Hall regime can be quantified with Landauer-B{\"u}ttiker formalism for 1D waveguides\cite{buttiker1986four, buttiker1988absence}.
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/Channel.pdf}
+	\caption{Conductor channel connecting two reservoirs. The chemical potential of the two reservoirs are $\mu_1$ and $\mu_2$. The shaded region introduces elastic scatterings.}
+	\label{FIG:Channel}
+\end{figure}
+
+Consider a strip on $x$-$y$ plane, as shown in Figure \ref{FIG:Channel}. The Hamiltonian is
+$$
+H = \frac{1}{2m}\left(p_x^2 + P_y^2\right) + V(y)
+$$ 
+$x$ is along the direction of the strip and $y$ is transverse to the strip. The wavefunction can be separated into the form
+$$
+\psi_{j, k}(x, y) = e^{ikx} f_j(y),
+$$
+$k$ is the wave vector along the $x$ direction, and $f_j(y)$ is the eigenfunction in $y$ direction with energy $E_j$. The Fermi energy is 
+$$
+E_F = E_j + \frac{\hbar^2 k_j^2}{2m}
+$$
+which is the sum of longitudinal and transverse energies, with 2$N$ state, where $N$ is the number of transverse energy levels $E_j$ below $E_F$. $\mu_1$ and $\mu_2$ are the chemical potentials of the two reservoirs, with $\mu_1 > \mu_2$. Only energy between $\mu_1$ and $\mu_2$ contribute to the current flowing from left to right. The current in channel $j$ is 
+$$
+I_j = \frac{dn}{dE_j}ev_j\Delta\mu,
+$$
+with 
+$$
+v_j = \frac{1}{\hbar}\frac{dE_j}{dk}, \ \ \ \Delta \mu = \mu_1 - \mu_2
+$$
+and $v_j$ being the velocity along channel $j$. In one dimension, density of state
+$$
+\frac{dn}{dk} = \frac{1}{2\pi},
+$$
+and therefore the current in channel $j$ is
+$$
+I_j = \frac{e}{h}\Delta\mu.
+$$
+The current for all $N$ channels is
+$$I = N\frac{e}{h}\Delta\mu.$$
+Using the voltage drop $\Delta \mu = eV$ and Ohm's law, the resistance of the conductor with $N$ channels is
+$$
+R = \frac{h}{e^2}\frac{1}{N}
+$$ 
+which is quantized. Consider there elastic scattering that redistributing energies between the N channels, the resistance becomes\cite{buttiker1988absence}
+$$
+R = \frac{h}{e^2}\frac{1}{T}
+$$
+$T = \sum_{i,j=1\ldots N} T_{ij}$, and $T_{ij}$ is the transmission probability from channel $j$ into channel $i$. 
+
+\subsection{Edge channel mixing of graphene unipolar/bipolar junction in quantum Hall regime}
+
+In the quantum Hall regime, edge channels of graphene can be described by the Landauer-B{\"u}ttiker formalism. When two adjacent regions of graphene have different carrier density and Landau level filling factors in magnetic field, the numbers or directions of channels will be different which would cause channel mixing. In Figure \ref{FIG:Mixing}(a), the two adjacent regions have different carrier densities, and therefore the filling factors and number of edge channels for the two regions are different. The edge currents flow in the same direction (unipolar, but part of the current would be reflected into the interface of the two regions. In Figure \ref{FIG:Mixing}(b), the two regions have opposite carrier types, and the directions of edge currents are the opposite (bipolar). The edge channels would mix on the interface. In both cases, the longitudinal resistance is non-trivial as a result of channel mixing.
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=.45\textwidth]{Drawing/Mixing.pdf}
+	\caption{(a) Two regions with the same carrier type but the region on the left hand side has more edge channels than the right hand side. The currents are flowing in the same directions but part of the current would be reflected on the interface of the two regions. (b) Two regions with different carrier types. The currents flow in opposite directions in the two regions, and would mix on the interface of the two regions.}
+	\label{FIG:Mixing}
+\end{figure}
+
+For the unipolar case, as shown in Figure \ref{FIG:Unipolar}, assume the current is sourced from the left and $\mu_L > \mu_R$. Filling factors $|\nu_1| > |\nu_2|$ and the currents are flowing clock-wise (same as Figure \ref{FIG:Mixing}(a)). The chemical potential of the four voltage leads are $\mu_A$, $\mu_B$, $\mu_C$ and $\mu_D$. $I_1$ to $I_8$ are the currents flowing between the current and voltage leads:
+\begin{equation}
+\label{EQN:MixCurr1}
+	\begin{split}
+		I_1 & = \frac{e}{h}\mu_L|\nu_1|, \ \ \ \  I_2 = \frac{e}{h}\mu_A|\nu_1|, \\
+		I_3 & = I_2 - I_M, \ \ \ \ I_4 = \frac{e}{h}\mu_B|\nu_2| \\
+		I_5 & = \frac{e}{h}\mu_C|\nu_1|, \ \ \ \ I_6 = I_M + I_7 \\
+		I_7 & = \frac{e}{h}\mu_D|\nu_2|, \ \ \ \ I_8 = \frac{e}{h}\mu_R|\nu_2|
+	\end{split}
+\end{equation}
+
+The region on the left hand side has more channels, and therefore the excessive current is reflected into the interface and $I_M = \frac{e}{h}\mu_L(|\nu_1|-|\nu_2|)$. The net currents flowing into and out of the four voltages leads are zero, i.e.
+$$
+I_1 = I_2, \ \ I_3 = I_4, \ \ I_5 = I_6, \ \ I_7 = I_8
+$$
+and therefore the chemical potentials of the four leads are
+\begin{equation}
+\label{EQN:MixMu1}
+\mu_A = \mu_B = \mu_L, \ \ \mu_C = \mu_L + \frac{|\nu_2|}{|\nu_1|}(\mu_L - \mu_R), \ \ \mu_D = \mu_R.
+\end{equation}
+From equation \ref{EQN:MixCurr1} and \ref{EQN:MixMu1}, the total current from left to right is 
+$$
+I = I_1 - I_5 = \frac{e}{h}(\mu_L - \mu_R)|\nu_1|,
+$$ 
+and the longitudinal resistances are 
+\begin{equation}
+\label{EQN:Mixing1}
+\begin{split}
+R_{AB} & = \frac{\mu_A - \mu_B}{eI} = 0, \\
+R_{CD} & = \frac{\mu_C - \mu_D}{eI} = \frac{h}{e^2}\left(\frac{1}{|\nu_2|} - \frac{1}{|\nu_1|}\right).
+\end{split}
+\end{equation}
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/Unipolar.pdf}
+	\caption{Edge currents of the unipolar junction.}
+	\label{FIG:Unipolar}
+\end{figure}
+
+For the bipolar case, as shown in Figure \ref{FIG:Bipolar}, again assume that the chemical potentials $\mu_L > \mu_R$. The two regions have different carrier type and the currents are flowing in the opposite directions. The channels are mixed at the interface, and therefore $I_M$ is equal to the sum of currents from each side, and then redistributed into edge channels on the bottom. Therefore the edge currents are
+\begin{equation}
+\label{EQN:MixCurr2}
+\begin{split}
+I_1 = \frac{e}{h}\mu_L|\nu_1|, & \ \ \ \   I_2 = \frac{e}{h}\mu_A|\nu_1|, \\
+I_3 = \frac{e}{h}\mu_B|\mu_2|, & \ \ \ \ I_4 = \frac{e}{h}\mu_R|\nu_2| \\
+I_5 = \frac{e}{h}\mu_C|\nu_1|, & \ \ \ \  I_6 = \frac{|\nu_1|}{|\nu_1|+|\nu_2|} \cdot I_M \\
+I_7 = \frac{|\nu_2|}{|\nu_1|+|\nu_2|} \cdot I_M, & \ \ \ \ I_8 = \frac{e}{h}\mu_D|\nu_2|,
+\end{split}
+\end{equation}
+with $I_M = I_2 + I_3$. The net currents flowing into and out of the four voltages leads are zero, i.e.
+$$
+I_1 = I_2, \ \ I_3 = I_4, \ \ I_5 = I_6, \ \ I_7 = I_8
+$$
+and therefore the chemical potentials of the four leads are
+\begin{equation}
+\label{EQN:MixMu2}
+\mu_A = \mu_L, \ \ \mu_B = \mu_R, \ \ \mu_C = \mu_D = \frac{\mu_L|\nu_1| + \mu_R|\nu_2|}{|\nu_1| + |\nu_2|}.
+\end{equation}
+From equation \ref{EQN:MixCurr2} and \ref{EQN:MixMu2}, the total current from left to right is 
+$$
+I = I_1 - I_5 = \frac{e}{h} \cdot \frac{|\nu_1||\nu_2|}{|\nu_1| + |\nu_2|} \cdot (\mu_L - \mu_R),
+$$ 
+and the longitudinal resistances are 
+\begin{equation}
+\label{EQN:Mixing2}
+\begin{split}
+R_{AB} & = \frac{\mu_A - \mu_B}{eI} = \frac{h}{e^2}\left(\frac{1}{|\nu_1|} + \frac{1}{|\nu_2|}\right), \\
+R_{CD} & = \frac{\mu_C - \mu_D}{eI} = 0.
+\end{split}
+\end{equation}
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/Bipolar.pdf}
+	\caption{Edge currents of the bipolar junction.}
+	\label{FIG:Bipolar}
+\end{figure}
 
 \subsection{Graphene doping using c-AFM}
 
-
+There have been efforts to locally control the CNP of graphene on silicon or hBN substrates using AFM\cite{schmidt2013mixing} or STM\cite{velasco2016nanoscale}. However, those doping techniques are either non-reversible, or can only be performed in ulrtra-high vacuum and low temperature, which limits the applications. In this work, we demonstrate how local control over the metal-insulator transition in LAO/STO can be used to reversibly pattern interacting edge channels in a proximal graphene layer under ambient conditions. The CNP of graphene can be locally shifted by c-AFM tip with positive bias voltage. Therefore, c-AFM writing can be used to selectively dope graphene regions and engineer edge state mixing in quantum Hall regime.
 
 \subsection{Measurement of graphene $p$-$n$ junction}
 

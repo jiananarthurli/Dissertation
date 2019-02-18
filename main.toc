@@ -55,17 +55,18 @@
 \contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}A\period@or@not }Transport measurement in graphene}{79}{section.3.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}1\period@or@not }Charge-neutrality point}{79}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}2\period@or@not }Carrier densities and mobilities}{83}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Landau levels and quantum Hall effect}{84}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Quantum Hall effect}{84}{subsection.3.1.3}
 \contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}B\period@or@not }Graphene p-n junction edge-state engineering}{85}{section.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }Quantum Hall edge channels}{85}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}2\period@or@not }Graphene doping using c-AFM}{85}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Measurement of graphene $p$-$n$ junction}{85}{subsection.3.2.3}
-\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}C\period@or@not }Graphene band structure engineering with superlattice}{85}{section.3.3}
-\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{86}{chapter.4}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{86}{section.4.1}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{86}{section.4.2}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Kerr-rotation optics setup}{86}{section.4.3}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Results}{86}{section.4.4}
-\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }OUTLOOK}}{87}{chapter.5}
-\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }CONCLUSIONS}}{88}{chapter.6}
-\contentsline {chapter}{{\bfseries \bibname }}{89}{section*.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }1D waveguide and quantum Hall edge channels}{86}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}2\period@or@not }Edge channel mixing of graphene unipolar/bipolar junction in quantum Hall regime}{88}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Graphene doping using c-AFM}{92}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}4\period@or@not }Measurement of graphene $p$-$n$ junction}{92}{subsection.3.2.4}
+\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}C\period@or@not }Graphene band structure engineering with superlattice}{92}{section.3.3}
+\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{93}{chapter.4}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{93}{section.4.1}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{93}{section.4.2}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Kerr-rotation optics setup}{93}{section.4.3}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Results}{93}{section.4.4}
+\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }OUTLOOK}}{94}{chapter.5}
+\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }CONCLUSIONS}}{95}{chapter.6}
+\contentsline {chapter}{{\bfseries \bibname }}{96}{section*.1}
