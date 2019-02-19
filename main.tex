@@ -1173,7 +1173,7 @@ In semi-classical point of view, the electrons under high magnetic field would c
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Drawing/Channel.pdf}
+	\includegraphics[width=.5\textwidth]{Drawing/Channel.pdf}
 	\caption{Conductor channel connecting two reservoirs. The chemical potential of the two reservoirs are $\mu_1$ and $\mu_2$. The shaded region introduces elastic scatterings.}
 	\label{FIG:Channel}
 \end{figure}
@@ -1212,7 +1212,7 @@ Using the voltage drop $\Delta \mu = eV$ and Ohm's law, the resistance of the co
 $$
 R = \frac{h}{e^2}\frac{1}{N}
 $$ 
-which is quantized. Consider there elastic scattering that redistributing energies between the N channels, the resistance becomes\cite{buttiker1988absence}
+which is quantized. Consider there elastic scattering that redistributing energies between the $N$ channels, the resistance becomes\cite{buttiker1988absence}
 $$
 R = \frac{h}{e^2}\frac{1}{T}
 $$
@@ -1222,9 +1222,9 @@ $T = \sum_{i,j=1\ldots N} T_{ij}$, and $T_{ij}$ is the transmission probability 
 
 In the quantum Hall regime, edge channels of graphene can be described by the Landauer-B{\"u}ttiker formalism. When two adjacent regions of graphene have different carrier density and Landau level filling factors in magnetic field, the numbers or directions of channels will be different which would cause channel mixing. In Figure \ref{FIG:Mixing}(a), the two adjacent regions have different carrier densities, and therefore the filling factors and number of edge channels for the two regions are different. The edge currents flow in the same direction (unipolar, but part of the current would be reflected into the interface of the two regions. In Figure \ref{FIG:Mixing}(b), the two regions have opposite carrier types, and the directions of edge currents are the opposite (bipolar). The edge channels would mix on the interface. In both cases, the longitudinal resistance is non-trivial as a result of channel mixing.
 
-\begin{figure}[p]
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width=.45\textwidth]{Drawing/Mixing.pdf}
+	\includegraphics[width=.4\textwidth]{Drawing/Mixing.pdf}
 	\caption{(a) Two regions with the same carrier type but the region on the left hand side has more edge channels than the right hand side. The currents are flowing in the same directions but part of the current would be reflected on the interface of the two regions. (b) Two regions with different carrier types. The currents flow in opposite directions in the two regions, and would mix on the interface of the two regions.}
 	\label{FIG:Mixing}
 \end{figure}
@@ -1314,7 +1314,72 @@ R_{CD} & = \frac{\mu_C - \mu_D}{eI} = 0.
 
 There have been efforts to locally control the CNP of graphene on silicon or hBN substrates using AFM\cite{schmidt2013mixing} or STM\cite{velasco2016nanoscale}. However, those doping techniques are either non-reversible, or can only be performed in ulrtra-high vacuum and low temperature, which limits the applications. In this work, we demonstrate how local control over the metal-insulator transition in LAO/STO can be used to reversibly pattern interacting edge channels in a proximal graphene layer under ambient conditions. The CNP of graphene can be locally shifted by c-AFM tip with positive bias voltage. Therefore, c-AFM writing can be used to selectively dope graphene regions and engineer edge state mixing in quantum Hall regime.
 
-\subsection{Measurement of graphene $p$-$n$ junction}
+The mechanism of using c-AFM to locally shift the CNP is similar to c-AFM nanostructure lithography technique discussed in section \ref{SEC:AFMLitho}. As Figure \ref{FIG:GrapheneAFM} shows, when a positively biased tip in scanning the graphene in contact mode while the graphene is grounded, a trace of protons will be left on graphene, and permeate\cite{hu2014proton} to the interface between graphene and LAO. The proton would locally dope the graphene and shift the CNP. 
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.5\textwidth]{Drawing/GrapheneAFM.pdf}
+	\caption{Graphene doping using c-AFM writing technique. A trace of proton would be left by the tip and permeate to the interface of graphene and LAO. The voltage of back gate is kept at zero during c-AFM writing.}
+	\label{FIG:GrapheneAFM}
+\end{figure}
+
+One common method of monitoring the doping level of graphene is to sweep the back-gate voltage and compare the position of CNP before and after the doping. The method cannot be used for graphene on LAO/STO substrates for two reasons: (1) the surface of LAO is not charge neutral, and therefore the CNP is not at $V_\mathrm{bg}$ is not at 0 V even without c-AFM doping; (2) the $V_\mathrm{bg}$ is subject to significant hysteresis\cite{couto2011transport, jnawali2017room} (also shown in Figure \ref{FIG:DiracPeak}) and is not a reliable indicator of doping level with respect to CNP. Instead, the four-terminal resistance of graphene is measured \emph{in situ} to monitor the doping level change during the c-AFM writing process. 
+
+In Figure \ref{FIG:WritingResistance}, a graphene device is scanned with c-AFM with a tip voltage of $V_\mathrm{tip} = +17$ V continuously. The scanned region covers the entire device, as shown in the inset of the figure. The current flows from left to right, and the longitudinal resistance is measured as a function of time as the scanning proceeds. At $t$ = 0 s, the graphene is $n$-type doped. The AFM scanning speed is 10 $\mu$m/s, and it takes 260 s to scan the graphene device (5 $\mu$m $\times$ 10 $\mu$m). 15 consecutive scans are recorded. Blue dots mark the beginning/ending of the consecutive AFM raster scans. The positive charges left by c-AFM scans increase the local doping level and drives the chemical potential away from the CNP and further into the $n$-type region (illustrated by the Dirac cone in the inset). Within each scan, the resistance decreases at the beginning due to the doping, and then start to recover when the scan is half finished. The green region marks one complete scan. The resistance recovery speed is observed to be related to the environmental humidity, and is possibly caused by the recombination of protons with water molecules in the air. The terminal resistance after each scan (marked by the blue dots) decreases as the scan proceeds, indicating that the $n$-type doping level of graphene is increasing as the scan proceeds.
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\textwidth]{Drawing/WritingResistance.pdf}
+	\caption{Monitoring the doping level change during c-AFM writing process. The rectangle region in the inset is scanned with c-AFM tip continuously, while the four-terminal resistance is measured. The blue dots mark the beginning/ending of the consecutive scans. The green region marks one complete scan. The resistance drop in the first half of each scan, and then recover as the scan proceeds. The terminal resistance of each scan decreases as the scan proceeds, indicating increasing $n$-type doping level of graphene.}
+	\label{FIG:WritingResistance}
+\end{figure}
+
+The graphene doping from the positively biased c-AFM tip is reversible. After the c-AFM writing and the change in four-terminal resistance being observed, a scan with $V_\mathrm{tip}= -5$ V voltage on the c-AFM tip will partially remove the previous writing effect. Scans with negative $V_\mathrm{tip}$ need to be carefully conducted and the c-AFM tip should be connected in series with a 1 G$\Omega$ resistor, due to the fact that graphene can be oxidized as anode\cite{alaboson2011conductive, byun2011nanoscale}. Also, graphene has to be detached from measurement leads or groundings so that there is no significant current flowing through graphene\cite{alaboson2011conductive}. 
+
+\subsection{Measurement of graphene edge state mixing}
+
+The edge state mixing engineering can be achieved by doping graphene regions with c-AFM writing technique. In Figure \ref{FIG:GrapheneDopedHall}, the right-hand-side region of the graphene device is written with c-AFM tip and locally doped with positive charges. Carrier densities measured on the two pairs of Hall electrodes (Hall A and Hall B) indicate that the CNP for the written area (B) is shifted to the left.
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Drawing/GrapheneDopedHall.pdf}
+	\caption{Carrier density of locally doped graphene. Carrier densities of the two pairs of Hall electrodes (Hall A and Hall B) are measured at $T = 2$ K. The CNP of the written region (B) is shifted to the left, indicating the doping effect of positive charges.}
+	\label{FIG:GrapheneDopedHall}
+\end{figure}
+
+The longitudinal resistance (as shown in the inset of Figure \ref{FIG:GrapheneDopedHall}) is also measured as a function of $V_\mathrm{bg}$ to indicate the effect of c-AFM writing. Figure \ref{FIG:DiracPointSplit}(a) is the resistance measured before c-AFM writing, and a single Dirac peak can be seen. Figure \ref{FIG:DiracPointSplit}(b) is measured after the writing, and a second Dirac peak is distinguishable. The peak on the left hand side is correspond to the written area (B in the inset of Figure \ref{FIG:GrapheneDopedHall}).
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.75\textwidth]{Drawing/DiracPointSplit.pdf}
+	\caption{Longitudinal resistance as a function as $V_\mathrm{bg}$. (a) is measured before c-AFM writing as a control measurement. Dirac peak is clearly visible. (b) is measured after c-AFM writing. Splitting of Dirac peak can be observed. The peak on the left hand side is correspond to the written area (shown in the inset of Figure \ref{FIG:GrapheneDopedHall}).}
+	\label{FIG:DiracPointSplit}
+\end{figure}
+
+Graphene sample with half of the device written by c-AFM is then measured in magnetic field with $B = 7$ T. The longitudinal resistances are measured from the bottom ($R_\mathrm{xx1}$) and top ($R_\mathrm{xx2}$) pairs of electrodes as functions of $V_\mathrm{bg}$. The result is shown in Figure \ref{FIG:EdgeChannels}(a). $R_\mathrm{xx1}$ is quantized at $h/3e^2$ at around $V_\mathrm{bg} = 0$ V, then is suppressed between 1 V and 3 V, and then quantized at $h/3e^2$ again around $V_\mathrm{bg} = 5$ V. $R_\mathrm{xx2}$ is suppressed around $V_\mathrm{bg} = 0$ V and 5 V, and is quantized at $h/e^2$. 
+
+Figure \ref{FIG:EdgeChannels}(b) is the zoomed-in plot of Figure \ref{FIG:GrapheneDopedHall} around the CNP. At line cut (I), both regions are $p$-type doped, as shown in the left sub-figure of (c). However, the two regions have different Landau level filling factors in magnetic field, and therefore the number of edge channels are different, although the currents are all flowing in clock-wise direction. The excessive currents from the left region are reflected into the interface in the middle, and then mixed with the currents from the right on the bottom. The channel mixing result in non-trivial longitudinal resistance and the values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ can be predicted with equation \ref{EQN:Mixing1}. At line cut (III), both regions are $n$-type dope, but again with different carrier densities and therefore different filling factors and number of edge channels in magnetic field. The longitudinal resistances can also be calculated using the same formalism. At line cut (II), the two regions have opposite carrier type, and the currents are flowing different directions and mixed on the interface in the middle (shown by the arrows in the middle sub-figure of \ref{FIG:GrapheneDopedHall}(c)). The quantized resistances can be calculated from equation \ref{EQN:Mixing2}.
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=1.0\textwidth]{Drawing/EdgeChannels.pdf}
+	\caption{The edge channel mixing changes as $V_\mathrm{bg}$ is swept from $-10$ V to $+10$ V. (a) $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are quantized at values predicted by equation \ref{EQN:Mixing1} and \ref{EQN:Mixing2}. (b) Zoomed-in plot of Figure \ref{FIG:GrapheneDopedHall}. (c) Filling factors and edge current directions of the three cases of edge state mixing.}
+	\label{FIG:EdgeChannels}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{Drawing/MixingIntensityPlot.pdf}
+	\caption{Intensity plot of longitudinal resistance $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ as functions of $V_\mathrm{bg}$ and magnetic field sweep. The values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped when the direction of magnetic field is reversed.}
+	\label{FIG:MixingIntensityPlot}
+\end{figure}
+ 
+When the magnetic field is reversed, the directions of current in all three cases are reversed. Therefore the values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped. To demonstrate the transition of longitudinal resistances when the direction of magnetic field is flipped, $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are measured at magnetic fields from $-7$ T to $+7$ T, while $V_\mathrm{bg}$ is swept at each magnetic field step. Figure \ref{FIG:MixingIntensityPlot} is the intensity plot of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ as functions of $V_\mathrm{bg}$ and $B$. In Figure \ref{FIG:MixingIntensityPlot}(a) $R_\mathrm{xx1}$ is clearly quantized at $h/3e^2 \approx 8.6 \ \mathrm{k}\Omega$ at $B = +7$ T. The quantization gradually disappears as $B$ gets close to 0. Then $R_\mathrm{xx1}$ start to be quantized at $h/e^2 \approx 25.9 \ \mathrm{k}\Omega$ when the field increases in the opposite direction. In Figure \ref{FIG:MixingIntensityPlot}(b) $R_\mathrm{xx1}$ shows the opposite behavior as the field is stepped from $-7$ T to $+7$ T. The observation of mixed edge channel is the direct proof of doping effect from c-AFM writing on graphene.
 
 \section{Graphene band structure engineering with superlattice}
 
