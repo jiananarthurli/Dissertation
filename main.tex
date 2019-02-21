@@ -700,6 +700,7 @@ In the non-contact mode, the tip is maintained at the attractive regime so that 
 \end{figure}
 
 \subsection{Magnetic force microscopy}
+\label{SEC:AFMMFM}
 
 When the tip is coated with ferromagnetic materials (e.g. Co, Fe), the AFM is able to measure the magnetic interaction with magnetic force microscopy (MFM). Similar to AC mode, the tip is driven by an oscillating AC voltage close to the resonance frequency (about 100 kHz in my experiments), and the change of interaction is monitored by the amplitude $A$ and phase $\theta$ of the differential voltage on quad detector. The challenge of MFM is that the magnetic and Van der Waals interactions are coupled together. The two-pass technique is used to solve this problem, considering that Van der Waals interaction is short-ranged and decays much faster than the magnetic interaction. First, the tip scans the sample close to the surface, and measures the topography. Second, the tip is lifted and maintained at a constant distance (such as 50 nm) from the sample surface using the height information obtained from the previous scan, so that the Van der Waals interaction is negligible, and the spatial gradient of magnetic force can be measured\cite{hartmann1999magnetic}:
 \begin{equation}
@@ -1088,11 +1089,11 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 
 \chapter{Graphene/LAO/STO heterostructure device}
 
-This chapter is about the transport properties of graphene device on graphene/LAO/STO. It is also found that graphene can be reversibly doped with c-AFM lithography technique, similar to the nanostructure lithography on bare LAO/STO. Two experiments are discussed in details: edge-state mixing on graphene $p$-$n$ junctions and graphene superlattice.
+This chapter is about the transport properties of graphene device on graphene/LAO/STO. It is also found that graphene can be reversibly doped with c-AFM lithography technique, similar to the nanostructure lithography on bare LAO/STO. Two experiments are discussed in details: edge-state mixing on graphene $p$-$n$ junctions and graphene superlattice patterning.
 
 \section{Transport measurement in graphene}
 
-The properties of graphene on LAO/STO is different from SiO$_2$ or hBN substrates due to the unique properties of the LAO/STO substrate. This section will discuss the transport properties of graphene/LAO/STO samples. 
+The properties of graphene on LAO/STO is different from those on SiO$_2$ or hBN substrates due to the unique properties of the LAO/STO. This section will discuss the transport properties of graphene/LAO/STO samples. 
 
 The geometry of the sample is illustrated in Figure \ref{FIG:HallDevice}. The graphene on LAO/STO is patterned into Hall bar shapes, with the procedure discussed in previous chapters. Gold electrodes make contact to the graphene from the surface of LAO. The bottom of the sample is pained with silver epoxy, and backgate voltage is applied to the bottom to control the global chemical potential of graphene. Current flows through the main channel of graphene, with a typical $I = 100$ nA. Longitudinal and transverse voltages are measured from the leads shown in Figure \ref{FIG:HallDevice}(b).
 
@@ -1275,7 +1276,7 @@ For the bipolar case, as shown in Figure \ref{FIG:Bipolar}, again assume that th
 \label{EQN:MixCurr2}
 \begin{split}
 I_1 = \frac{e}{h}\mu_L|\nu_1|, & \ \ \ \   I_2 = \frac{e}{h}\mu_A|\nu_1|, \\
-I_3 = \frac{e}{h}\mu_B|\mu_2|, & \ \ \ \ I_4 = \frac{e}{h}\mu_R|\nu_2| \\
+I_3 = \frac{e}{h}\mu_B|\nu_2|, & \ \ \ \ I_4 = \frac{e}{h}\mu_R|\nu_2| \\
 I_5 = \frac{e}{h}\mu_C|\nu_1|, & \ \ \ \  I_6 = \frac{|\nu_1|}{|\nu_1|+|\nu_2|} \cdot I_M \\
 I_7 = \frac{|\nu_2|}{|\nu_1|+|\nu_2|} \cdot I_M, & \ \ \ \ I_8 = \frac{e}{h}\mu_D|\nu_2|,
 \end{split}
@@ -1319,7 +1320,7 @@ The mechanism of using c-AFM to locally shift the CNP is similar to c-AFM nanost
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.5\textwidth]{Drawing/GrapheneAFM.pdf}
+	\includegraphics[width=.45\textwidth]{Drawing/GrapheneAFM.pdf}
 	\caption{Graphene doping using c-AFM writing technique. A trace of proton would be left by the tip and permeate to the interface of graphene and LAO. The voltage of back gate is kept at zero during c-AFM writing.}
 	\label{FIG:GrapheneAFM}
 \end{figure}
@@ -1379,18 +1380,39 @@ Figure \ref{FIG:EdgeChannels}(b) is the zoomed-in plot of Figure \ref{FIG:Graphe
 	\label{FIG:MixingIntensityPlot}
 \end{figure}
  
-When the magnetic field is reversed, the directions of current in all three cases are reversed. Therefore the values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped. To demonstrate the transition of longitudinal resistances when the direction of magnetic field is flipped, $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are measured at magnetic fields from $-7$ T to $+7$ T, while $V_\mathrm{bg}$ is swept at each magnetic field step. Figure \ref{FIG:MixingIntensityPlot} is the intensity plot of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ as functions of $V_\mathrm{bg}$ and $B$. In Figure \ref{FIG:MixingIntensityPlot}(a) $R_\mathrm{xx1}$ is clearly quantized at $h/3e^2 \approx 8.6 \ \mathrm{k}\Omega$ at $B = +7$ T. The quantization gradually disappears as $B$ gets close to 0. Then $R_\mathrm{xx1}$ start to be quantized at $h/e^2 \approx 25.9 \ \mathrm{k}\Omega$ when the field increases in the opposite direction. In Figure \ref{FIG:MixingIntensityPlot}(b) $R_\mathrm{xx1}$ shows the opposite behavior as the field is stepped from $-7$ T to $+7$ T. The observation of mixed edge channel is the direct proof of doping effect from c-AFM writing on graphene.
+When the magnetic field is reversed, the directions of current in all three cases are reversed. Therefore the values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped. To demonstrate the transition of longitudinal resistances when the direction of magnetic field is flipped, $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are measured at magnetic fields from $-7$ T to $+7$ T, while $V_\mathrm{bg}$ is swept at each magnetic field step. Figure \ref{FIG:MixingIntensityPlot} is the intensity plot of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ as functions of $V_\mathrm{bg}$ and $B$. In Figure \ref{FIG:MixingIntensityPlot}(a) $R_\mathrm{xx1}$ is clearly quantized at $h/3e^2 \approx 8.6 \ \mathrm{k}\Omega$ at $B = +7$ T. The quantization gradually disappears as $B$ gets close to 0. Then $R_\mathrm{xx1}$ start to be quantized at $h/e^2 \approx 25.8 \ \mathrm{k}\Omega$ when the field increases in the opposite direction. In Figure \ref{FIG:MixingIntensityPlot}(b) $R_\mathrm{xx1}$ shows the opposite behavior as the field is stepped from $-7$ T to $+7$ T. The observation of mixed edge channel is consistent with results reported elsewhere\cite{williams2007quantum, lohmann2009four, amet2014selective, abanin2007quantized, amet2014selective, ki2010dependence, klimov2015edge, woszczyna2011graphene, ozyilmaz2007electronic, schmidt2013mixing} and is the direct proof of doping effect of c-AFM writing on graphene.
 
 \section{Graphene band structure engineering with superlattice}
 
 \chapter{Magneto-Optical Kerr Effect on LAO/STO interface}
 \label{SEC:Kerr}
 
+This sections will discuss the experiment of probing ferromagnetism in LAO/STO using MFM and magneto-optical Kerr effect. 
+
 \section{Magnetism on LAO/STO interface}
+
+The signature magnetism on the interface of LAO/STO was first observed in the low temperature transport data by Brinkman et al in 2007\cite{brinkman2007magnetic}. Micron-scale magnetic dipole patches was later imaged using scanning SQUID\cite{bert2011direct, kalisky2012scanning, kalisky2012critical}. The origin of the magnetism is still controversial. X-ray dichroism (XMCD) signal indicates that the ferromagnetism is intrinsic and is linked to $d_{xy}$ orbitals of Ti$^{3+}$\cite{lee2013titanium}. Extrinsic sources of magnetic impurities have been ruled out experimentally\cite{brinkman2007magnetic, lee2013titanium, ariando2011electronic}. DFT calculation further suggests that the oxygen vacancies near the interface are possible source of localized magnetic moments\cite{pentcheva2006charge}. 
+
+The LAO/STO interface magnetism is also discovered to be electronically tunable in room temperature from MFM measurement\cite{bi2014room}. The in-plane magnetism could only be detected when the electrons are depleted by a top-gate voltage. Reintroducing the itinerant electrons would screen and destabilize the interface magnetism, suggesting that itinerant carriers are critical for coupling localized unpaired $d_{xy}$ electron spins\cite{fidkowski2013magnetic, Joshua2013gate, banerjee2013ferromagnetic}. MFM has high sensitivity for magnetism, and the measurement can be performed in ambient conditions. However, as discussed in \ref{SEC:AFMMFM}, the signal is dependent on the spatial gradient of magnetic force. Therefore it would be challenging to perform time-resolved measurement. Observation of magnetic circular dichroism (MCD) signal in oxygen-deficit STO samples\cite{rice2014persistent} make it possible to use circularly polarized laser to detect magnetism in LAO/STO. By using pulsed laser for magneto-optical Kerr measurement, time-evolution of gate tunable magnetism in LAO/STO can be measured. 
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Drawing/MCDRice.jpg}
+	\caption{MCD experiment on oxygen-deficit STO. (a) The schematics of the optical setup of MCD. (b) An additional peak at $\lambda=425$ nm is observed in the absorption spectra of the oxygen-deficit STO samples. (c) MCD spectra of oxygen-deficit and as-received samples after illuminated by circular and linearly polarized pump laser. (d) Temperature dependence of the MCD signal. (e) Temperature dependent magnetic signal measured by SQUID. Adapted from \cite{rice2014persistent}.}
+	\label{FIG:MCDRice}
+\end{figure}
+
+Similar to magneto-optical Kerr measurement, MCD also utilize the broken time-reversal symmetry to measure magnetism. The experimental setup and results of MCD on oxygen-deficit STO samples are shown in Figure \ref{FIG:MCDRice}. The sample is loaded in a cryostat with variable temperature from 1.7 K to 300 K. The magnetism is induced by a circularly polarized pump laser (circularly polarized laser through a quarter wave plate). Continuous wave probe laser is modulated between left- and right-circularly polarized by a linear polarizer and a photo-elastic modulator (PEM). The probe laser transmits through the sample and is then detected by an avalanche photo-detector for MCD signal (as shown in Figure \ref{FIG:MCDRice}(a)). For the At $T = 3$ K, an additional peak can be observed around $\lambda = 425$ nm in the absorption spectra for the oxygen-deficit samples(Figure \ref{FIG:MCDRice}(b)). Around the absorption peak, oscillatory MCD signal can be measured as a function of wavelength of probe laser while pump laser wavelength is fixed at $\lambda_{\mathrm{pump}} = 405$ nm, suggesting pump-induced magnetism (Figure \ref{FIG:MCDRice}(c)). Figure \ref{FIG:MCDRice}(d, e) shows the temperature dependence of magnetic signal measured with MCD and SQUID, suggesting that the magnetism in the oxygen-deficit STO sample appears only at $T < 18$ K. The MCD signal suggests that the magnetism in STO is related to oxygen-vacancy complex and also proves that it is possible to use optical method to probe magnetism in LAO/STO. In this section I will discuss the experimental details of using magneto-optical Kerr effect of circularly polarized laser to detect LAO/STO interface magnetism.
 
 \section{MFM measurement}
 
-\section{Kerr-rotation optics setup}
+In spite of the limitation of MFM, it is proved to be a technique with highly sensitivity\cite{bi2014room} for magnetism detection, and therefore I used it for sample screening before the magneto-optical Kerr experiment was performed. 
+
+\section{Magneto-Optical Kerr measurement}
+
+\subsection{Jone's matrix formalism}
+
+\subsection{Optical setup}
 
 \section{Results}
 

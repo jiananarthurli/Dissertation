@@ -133,7 +133,7 @@ Feng Bi, Mengchen Huang, Sangwoo Ryu, Hyungwoo Lee, Chung-Wung Bark, Chang-Beom
 Kostya~S Novoselov, Andre~K Geim, Sergei~V Morozov, DA~Jiang, Y\_ Zhang,
   Sergey~V Dubonos, Irina~V Grigorieva, and Alexandr~A Firsov.
 \newblock Electric field effect in atomically thin carbon films.
-\newblock {\em science}, 306(5696):666--669, 2004.
+\newblock {\em Science}, 306(5696):666--669, 2004.
 
 \bibitem{wilson2006electrons}
 Mark Wilson.
@@ -463,5 +463,85 @@ Ik-Su Byun, Duhee Yoon, Jin~Sik Choi, Inrok Hwang, Duk~Hyun Lee, Mi~Jung Lee,
 \newblock Nanoscale lithography on monolayer graphene using hydrogenation and
   oxidation.
 \newblock {\em ACS Nano}, 5(8):6417--6424, 2011.
+
+\bibitem{ki2010dependence}
+Dong-Keun Ki, Seung-Geol Nam, Hu-Jong Lee, and Barbaros {\"O}zyilmaz.
+\newblock Dependence of quantum-hall conductance on the edge-state
+  equilibration position in a bipolar graphene sheet.
+\newblock {\em Physical Review B}, 81(3):033301, 2010.
+
+\bibitem{klimov2015edge}
+Nikolai~N Klimov, Son~T Le, Jun Yan, Pratik Agnihotri, Everett Comfort, Ji~Ung
+  Lee, David~B Newell, and Curt~A Richter.
+\newblock Edge-state transport in graphene p-n junctions in the quantum hall
+  regime.
+\newblock {\em Physical Review B}, 92(24):241301, 2015.
+
+\bibitem{woszczyna2011graphene}
+Miros{\l}aw Woszczyna, Miriam Friedemann, Thorsten Dziomba, Th~Weimann, and
+  Franz~J Ahlers.
+\newblock Graphene pn junction arrays as quantum-hall resistance standards.
+\newblock {\em Applied Physics Letters}, 99(2):022112, 2011.
+
+\bibitem{ozyilmaz2007electronic}
+Barbaros {\"O}zyilmaz, Pablo Jarillo-Herrero, Dmitri Efetov, Dmitry~A Abanin,
+  Leonid~S Levitov, and Philip Kim.
+\newblock Electronic transport and quantum hall effect in bipolar graphene
+  p-n-p junctions.
+\newblock {\em Physical Review Letters}, 99(16):166804, 2007.
+
+\bibitem{kalisky2012scanning}
+Beena Kalisky, Julie~A. Bert, Christopher Bell, Yanwu Xie, Hiroki~K. Sato,
+  Masayuki Hosoda, Yasuyuki Hikita, Harold~Y. Hwang, and Kathryn~A. Moler.
+\newblock Scanning probe manipulation of magnetism at the {LaAlO$_3$/SrTiO$_3$}
+  heterointerface.
+\newblock {\em Nano Letters}, 12(8):4055--4059, 08 2012.
+
+\bibitem{kalisky2012critical}
+Beena Kalisky, Julie~A. Bert, Brannon~B. Klopfer, Christopher Bell, Hiroki~K.
+  Sato, Masayuki Hosoda, Yasuyuki Hikita, Harold~Y. Hwang, and Kathryn~A.
+  Moler.
+\newblock Critical thickness for ferromagnetism in {LaAlO$_3$/SrTiO$_3$}
+  heterostructures.
+\newblock {\em Nature Communications}, 3:922 EP --, 06 2012.
+
+\bibitem{ariando2011electronic}
+Ariando, X.~Wang, G.~Baskaran, Z.~Q. Liu, J.~Huijben, J.~B. Yi, A.~Annadi,
+  A.~Roy Barman, A.~Rusydi, S.~Dhar, Y.~P. Feng, J.~Ding, H.~Hilgenkamp, and
+  T.~Venkatesan.
+\newblock Electronic phase separation at the {LaAlO$_3$/SrTiO$_3$} interface.
+\newblock {\em Nature Communications}, 2:188 EP --, 02 2011.
+
+\bibitem{pentcheva2006charge}
+R.~Pentcheva and W.~E. Pickett.
+\newblock Charge localization or itineracy at {LaAlO$_3$/SrTiO$_3$} interfaces:
+  Hole polarons, oxygen vacancies, and mobile electrons.
+\newblock {\em Phys. Rev. B}, 74:035112, Jul 2006.
+
+\bibitem{fidkowski2013magnetic}
+Lukasz Fidkowski, Hong-Chen Jiang, Roman~M. Lutchyn, and Chetan Nayak.
+\newblock Magnetic and superconducting ordering in one-dimensional
+  nanostructures at the {LaAlO$_{3}$/SrTiO$_{3}$} interface.
+\newblock {\em Phys. Rev. B}, 87:014436, Jan 2013.
+
+\bibitem{Joshua2013gate}
+Arjun Joshua, Jonathan Ruhman, Sharon Pecker, Ehud Altman, and Shahal Ilani.
+\newblock Gate-tunable polarized phase of two-dimensional electrons at the
+  {LaAlO$_3$/SrTiO$_3$} interface.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  110(24):9633--9638, 2013.
+
+\bibitem{banerjee2013ferromagnetic}
+Sumilan Banerjee, Onur Erten, and Mohit Randeria.
+\newblock Ferromagnetic exchange, spin--orbit coupling and spiral magnetism at
+  the {LaAlO$_3$/SrTiO$_3$} interface.
+\newblock {\em Nature Physics}, 9:626 EP --, 08 2013.
+
+\bibitem{rice2014persistent}
+W.~D. Rice, P.~Ambwani, M.~Bombeck, J.~D. Thompson, G.~Haugstad, C.~Leighton,
+  and S.~A. Crooker.
+\newblock Persistent optically induced magnetism in oxygen-deficient strontium
+  titanate.
+\newblock {\em Nature Materials}, 13:481 EP --, 03 2014.
 
 \end{thebibliography}
