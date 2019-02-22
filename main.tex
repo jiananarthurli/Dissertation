@@ -1393,7 +1393,7 @@ This sections will discuss the experiment of probing ferromagnetism in LAO/STO u
 
 The signature magnetism on the interface of LAO/STO was first observed in the low temperature transport data by Brinkman et al in 2007\cite{brinkman2007magnetic}. Micron-scale magnetic dipole patches was later imaged using scanning SQUID\cite{bert2011direct, kalisky2012scanning, kalisky2012critical}. The origin of the magnetism is still controversial. X-ray dichroism (XMCD) signal indicates that the ferromagnetism is intrinsic and is linked to $d_{xy}$ orbitals of Ti$^{3+}$\cite{lee2013titanium}. Extrinsic sources of magnetic impurities have been ruled out experimentally\cite{brinkman2007magnetic, lee2013titanium, ariando2011electronic}. DFT calculation further suggests that the oxygen vacancies near the interface are possible source of localized magnetic moments\cite{pentcheva2006charge}. 
 
-The LAO/STO interface magnetism is also discovered to be electronically tunable in room temperature from MFM measurement\cite{bi2014room}. The in-plane magnetism could only be detected when the electrons are depleted by a top-gate voltage. Reintroducing the itinerant electrons would screen and destabilize the interface magnetism, suggesting that itinerant carriers are critical for coupling localized unpaired $d_{xy}$ electron spins\cite{fidkowski2013magnetic, Joshua2013gate, banerjee2013ferromagnetic}. MFM has high sensitivity for magnetism, and the measurement can be performed in ambient conditions. However, as discussed in \ref{SEC:AFMMFM}, the signal is dependent on the spatial gradient of magnetic force. Therefore it would be challenging to perform time-resolved measurement. Observation of magnetic circular dichroism (MCD) signal in oxygen-deficit STO samples\cite{rice2014persistent} make it possible to use circularly polarized laser to detect magnetism in LAO/STO. By using pulsed laser for magneto-optical Kerr measurement, time-evolution of gate tunable magnetism in LAO/STO can be measured. 
+The LAO/STO interface magnetism is also discovered to be electronically tunable in room temperature from MFM measurement\cite{bi2014room}. The in-plane magnetism could only be detected when the electrons are depleted by a top-gate voltage. Reintroducing the itinerant electrons would screen and destabilize the interface magnetism, suggesting that itinerant carriers are critical for coupling localized unpaired $d_{xy}$ electron spins\cite{fidkowski2013magnetic, Joshua2013gate, banerjee2013ferromagnetic}. MFM has high sensitivity for magnetism, and the measurement can be performed in ambient conditions. However, as discussed in \ref{SEC:AFMMFM}, the signal is dependent on the spatial gradient of magnetic force. Therefore it would be challenging to perform time-resolved measurement. Observation of magnetic circular dichroism (MCD) signal in oxygen-deficit STO samples\cite{rice2014persistent} make it possible to use circularly polarized laser to detect magnetism in LAO/STO. By using pulsed laser for magneto-optical Kerr measurement, time-evolution of gate tunable magnetism in LAO/STO can be measured, so that the origin of magnetism in LAO/STO can be further investigated.
 
 \begin{figure}[p]
 	\centering
@@ -1406,19 +1406,37 @@ Similar to magneto-optical Kerr measurement, MCD also utilize the broken time-re
 
 \section{MFM measurement}
 
-In spite of the limitation of MFM, it is proved to be a technique with highly sensitivity\cite{bi2014room} for magnetism detection, and therefore I used it for sample screening before the magneto-optical Kerr experiment was performed. 
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=1.0\textwidth]{Drawing/LAOSTOMFM.pdf}
+	\caption{(a) MFM experiment setup. The sample within ferromagnetism thickness window of LAO (8 u.c. to 25 u.c.) is patterned with a top gate electrode and interface electrode. The top gate is connected with the conductive MFM tip and grounded. The interface and top gate form a capacitor. A positive voltage of $+1$ V to $+3$ V is applied to the interface and the interface electrons are depleted. The MFM tip coated with 50 nm of Co/Fe alloy is magnetized in the in-plane direction. When the itinerant electrons are depleted by gate voltages, the ferromagnetism is visible from MFM measurements. (b) and (c) are the capacitance and leakage current between the interface and top gate, as functions of relative voltage between the interface electrode and top gate. The top-gate voltage in the figures is equal to the potential on the top gate (grounded) minus the potential on the interface. When the top-gate voltage is lower than $-0.5$ V, both the capacitance and leakage are close to zero, meaning the interface carriers are depleted.}
+	\label{FIG:LAOSTOMFM}
+\end{figure}
+
+In spite of the limitation of MFM, it is proved to be a technique with highly sensitivity\cite{bi2014room} for magnetism detection, and therefore I used it for sample screening before the magneto-optical Kerr experiment was performed. The experimental setup is shown in Figure \ref{FIG:LAOSTOMFM}. An LAO/STO sample within ferromagnetism  thickness window (8 u.c. to 25 u.c.) of LAO\cite{bi2015laalo3} is patterned with an interface electrodes and top electrodes. The thickness of LAO is greater than the critical thickness for 2DEG formation, and therefore the interface is conductive when the gate voltages is zero. The interface and top gate form a capacitor, and the capacitance depends on the carrier concentration on the interface. By applying a voltage between the top gate and interface, the carriers can be depleted. As shown in Figure \ref{FIG:LAOSTOMFM}(b) and (c), the capacitance and leakage current is measured as functions of top-gate voltage, the potential difference between the top gate and the interface $V_\mathrm{tg} = \phi_\mathrm{tg} - \phi_\mathrm{int}$. When $V_\mathrm{tg} < -0.5$ V, both the capacitance and leakage current are close to zero as the electrons are depleted. The magnetism is measured with an MFM tip magnetized in the in-plane direction, when $V_\mathrm{tg} < -0.5$ V. In practice, the MFM tip and the top gates are both grounded, and a positive voltage is applied to the interface to deplete the electrons under the top gate, so that the electrical potential would not be coupled to the MFM signal. Figure \ref{FIG:MFMSignal} shows the optical image (left) of an MFM device on LAO/STO and the magnetic signal from MFM scan. The diagonal strips are ferromagnetic domains on the interface of LAO/STO.
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Drawing/MFMSignal.pdf}
+	\caption{Optical image of the MFM device and MFM signal for interface magnetism. The circular shape region is the top gate, and the arc-shape electrode is the interface electrode. MFM image is scanned on a 30 $\mu$m $
+		\times$ 30 $\mu$m region on the top gate while the electrons are depleted. Diagonal strips are visible in the MFM image.}
+	\label{FIG:MFMSignal}
+\end{figure}
+
 
 \section{Magneto-Optical Kerr measurement}
 
+The samples having MFM signal are used for magneto-Optical Kerr measurement. In this section, principles of measurement is derived using Jone's matrix formalism. Optical setup and measurement results are also discussed.
+
 \subsection{Jone's matrix formalism}
 
-\subsection{Optical setup}
+\subsection{Optical measurement}
 
-\section{Results}
+\chapter{Conclusions}
 
 \chapter{Outlook}
 
-\chapter{Conclusions}
 
 %
 \appendix                          % After this command, chapters will be formatted as appendices. For example:
