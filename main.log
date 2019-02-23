@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  21 FEB 2019 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  22 FEB 2019 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3147,12 +3147,12 @@ Class pittetd Warning: Remember to run the document with `final' option.
 
 \openout3 = `main.etd'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1450.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1514.
 [114]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1450.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1514.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1450.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1450.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1514.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1514.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D7D1CAB89BA231E917B858F6454339C1;6285.
@@ -3160,7 +3160,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1450.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1514.
  ) 
 Here is how much of TeX's memory you used:
  7097 strings out of 493027
@@ -3175,19 +3175,20 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (134 pages, 14805588 bytes).
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (134 pages, 14815780 bytes).
 PDF statistics:
- 4293 PDF objects out of 4296 (max. 8388607)
- 3084 compressed objects within 31 object streams
+ 4297 PDF objects out of 5155 (max. 8388607)
+ 3087 compressed objects within 31 object streams
  388 named destinations out of 1000 (max. 500000)
  1529 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1431,7 +1431,73 @@ The samples having MFM signal are used for magneto-Optical Kerr measurement. In 
 
 \subsection{Jone's matrix formalism}
 
-The Jone's matrix is used for describing polarized light.
+The Jone's matrix is used for describing polarized light. Assume the light propagates in $z$ direction and is polarized in the $x$-$y$ plane. The amplitude of $\mathbf{E}$ can be written as
+$$
+\mathbf{E} = 
+\begin{pmatrix}
+E_x \\
+E_y
+\end{pmatrix}
+=
+\begin{pmatrix}
+E_{0x} e^{i\phi_x} \\
+E_{0y} e^{i\phi_y}
+\end{pmatrix}
+e^{i(kz - \omega t)}
+$$
+and the vector 
+$$
+\begin{pmatrix}
+E_{0x} e^{i\phi_x} \\
+E_{0y} e^{i\phi_y}
+\end{pmatrix}
+$$
+can be used to describe the phase and amplitude of the electric field in $x$ and $y$ direction. Using linearly polarized light in vertical and horizontal directions as basis, 
+$$
+|H \rangle = 
+\begin{pmatrix}
+1 \\
+0
+\end{pmatrix}, \ \ \ \
+|V \rangle = 
+\begin{pmatrix}
+0 \\
+1
+\end{pmatrix}
+$$
+the left- and right-hand circular polarized light can be written as
+$$
+|L \rangle = \frac{1}{\sqrt{2}}
+\begin{pmatrix}
+1 \\
+i
+\end{pmatrix}, \ \ \ \
+|R \rangle = \frac{1}{\sqrt{2}}
+\begin{pmatrix}
+1 \\
+-i
+\end{pmatrix}
+$$
+The optical components can be represented by matrices, such as linear polarizer at $\pm$45$^{\circ}$
+$$
+\frac{1}{2}
+\begin{pmatrix}
+1 & \pm 1 \\
+\pm 1 & 1
+\end{pmatrix}
+$$
+and a phase retarder
+$$
+\begin{pmatrix}
+1 & 0 \\
+0 & e^{i\delta}
+\end{pmatrix}.
+$$
+The Jone's matrix formalism proves to be a convenient way to analyze the response of optical components samples.
+
+\subsection{Magneto-optical Ker effect}
+
+
 
 \subsection{Optical measurement}
 
