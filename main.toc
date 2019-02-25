@@ -67,7 +67,9 @@
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{100}{section.4.2}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{104}{section.4.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{104}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Optical measurement}{104}{subsection.4.3.2}
-\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS}}{105}{chapter.5}
-\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{106}{chapter.6}
-\contentsline {chapter}{{\bfseries \bibname }}{107}{section*.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{105}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{108}{subsection.4.3.3}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Future improvement}{111}{section.4.4}
+\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS}}{113}{chapter.5}
+\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{114}{chapter.6}
+\contentsline {chapter}{{\bfseries \bibname }}{115}{section*.1}

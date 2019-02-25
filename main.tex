@@ -946,7 +946,7 @@ To address the interface-damaging issue, I started to use the two-step etching m
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=1\textwidth]{Drawing/TwoStepEtching.pdf}
+	\includegraphics[width=.8\textwidth]{Drawing/TwoStepEtching.pdf}
 	\caption{Two-step graphene etching. (a) AZ4210 is spin-coated on Hyflon. (b) The photoresist is patterned into square-shape protection layer for the canvas. (c) An aggressive RIE process is used to fully remove the contaminants outside the canvas. (a) to (c) might be repeated if necessary. (d) AZ4110 is spin-coated. (e) Hall bar shape is patterned, to protect the Hyflon and graphene on the regions of interest. (f) A weak oxygen plasma etching step is used to remove the unwanted Hyflon and graphene. (g) AZ110 is washed of by solvents. (h) Hyflon is removed by FC-40.}
 	\label{FIG:TwoStepEtching}
 \end{figure}
@@ -1376,7 +1376,7 @@ Figure \ref{FIG:EdgeChannels}(b) is the zoomed-in plot of Figure \ref{FIG:Graphe
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{Drawing/MixingIntensityPlot.pdf}
-	\caption{Intensity plot of longitudinal resistance $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ as functions of $V_\mathrm{bg}$ and magnetic field sweep. The values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped when the direction of magnetic field is reversed.}
+	\caption{Intensity plot of longitudinal resistance $R_\mathrm{xx1}$ (a) and $R_\mathrm{xx2}$ (b) as functions of $V_\mathrm{bg}$ and magnetic field sweep. The values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped when the direction of magnetic field is reversed.}
 	\label{FIG:MixingIntensityPlot}
 \end{figure}
  
@@ -1465,7 +1465,7 @@ $$
 1
 \end{pmatrix}
 $$
-the left- and right-hand circular polarized light can be written as
+the left- and right-hand circular polarized (LCP and RCP) light can be written as
 $$
 |L \rangle = \frac{1}{\sqrt{2}}
 \begin{pmatrix}
@@ -1495,13 +1495,96 @@ $$
 $$
 The Jone's matrix formalism proves to be a convenient way to analyze the response of optical components samples.
 
-\subsection{Magneto-optical Ker effect}
+\subsection{Magneto-optical Kerr effect}
 
+A linearly polarized laser can be decomposed into an LCP and RCP with equal amplitude and phase ($\sigma^+$ and $\sigma^-$ in Figure \ref{FIG:CircularDecompose}(a)). When the laser is reflected from a magnetized surface, the time reversal symmetry is broken and the LCP and RCP respond differently to the sample, and therefore the reflected light is elliptically polarized (Figure \ref{FIG:CircularDecompose}(b)). The elliptically polarized light is described by the rotation angle $\theta_k$ and ellipticity $\epsilon_k = r_p/r_s$, the ratio of the major and minor axis of the ellipse (Figure \ref{FIG:CircularDecompose}(c)).
+\\
 
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Drawing/CircularDecompose.pdf}
+	\caption{Circular decomposition of linearly polarized light and magneto-optical Kerr response. (a) A linearly polarized light can be decomposed into LCP and RCP with equal amplitudes and phases. (b) When the linearly polarized light is reflected from the magnetized surface, the LCP and RCP will end up with different amplitude and phase, and the reflected light is elliptically polarized. (c) the elliptically polarized light is described by rotation angle $\theta_k$ and ellipticity $\epsilon_k = r_p/r_s$.}
+	\label{FIG:CircularDecompose}
+\end{figure}
+
+The rotation and ellipticity induced by Kerr effect is measured with photo-elastic modulator (PEM) and linear polarizers. The polarization change is modulated into intensity change and detected with a photodetector, and the signal-to-noise ratio is maximized using lock-in amplifiers. The PEM is a piece of crystal (e.g. fused silica) with birefringence that oscillates at a frequency at $\sim 50$ kHz. The refraction index is different for horizontal and vertical components of light. The mechanical oscillation changes the optical path periodically, and therefore the relative phase delay between the two components are modulated. For an linearly polarized (LP) incident light with 45$^{\circ}$ degrees from the fast axis of the PEM, the polarization of the modulated light would be LP, RCP, LP, LCP within one cycle. In Jone's matrix formalism, the PEM can be represented by
+$$
+\begin{pmatrix}
+e^{-i\delta/2} & 0 \\
+0 & e^{i\delta/2}
+\end{pmatrix}.
+$$ 
+with $\delta = A_0 \sin (\omega t)$. $A_0$ is the amplitude of phase modulation, and $\omega$ is the oscillation frequency of PEM.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Drawing/PEMOptics_small.png}
+	\caption{The PEM measurement setup. Linearly polarized light is reflected towards the sample and focused by an objective. The reflected light is elliptically polarized and modulated by a PEM. The polarization modulation is converted to intensity modulation and measured by a photodetector.}
+	\label{FIG:PEMOptics}
+\end{figure}
+
+As Figure \ref{FIG:PEMOptics} shows, the incident laser is linearly polarized, and is reflected by a beam splitter towards the sample. The beam is focused with an objective and reflected from the magnetized surface, and the becomes elliptically polarized. The reflected beam goes through the beam splitter again and is then modulated by the PEM. The polarization modulation is then converted to intensity modulation with another polarizer, and the signal is measured with a silicon detector.
+
+Using Jone's matrix formalism, the intensity is described by\cite{bennemann1998non}
+$$
+I(t) = I_0[1 + 2\theta_k \cos(A_0 \cos(\omega t)) - 2\epsilon_k \sin(A_0 \cos(\omega t))]
+$$
+assuming the phase retardation from the PEM is $\delta_p = A_0 \sin(\omega t)$. The above expression can be expanded using Fourier series
+$$
+I(t) \approx I_0[1+2\theta_k J_0(A_0) - 4\epsilon_k J_1(A_0)\mathrm{sin}(\omega t) + 4\theta_k J_2(A_0)\mathrm{cos}(2\omega t)]
+$$
+where $J_0$ and $J_1$ are the 1st and 2nd order Bessel functions. The rotation angle $\theta_k$ and ellipticity $\epsilon_k$ can be distinguished using lock-in amplifiers modulated at $\omega$ and $2\omega$
+$$
+\theta_k = \frac{\sqrt{2}}{4J_2(A_0)}\frac{V_{2f}}{V_{\mathrm{DC}}}, \ \ \ 
+\epsilon_k = \frac{\sqrt{2}}{4J_1(A_0)}\frac{V_{1f}}{V_{\mathrm{DC}}},
+$$
+where $V_{1f}$ and $V_{2f}$ are the voltage signals at 1st and 2nd harmonic of the PEM modulation frequency, and $V_\mathrm{DC}$ is the DC voltage offset.
 
 \subsection{Optical measurement}
 
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=.9\textwidth]{Drawing/KerrOptics.pdf}
+	\caption{The Kerr rotation measurement optics. $\lambda = 850$ nm pulsed laser is generated from a Tsunami oscillator, at 78 MHz repetition rate and 150 fs duration. The laser frequency is doubled with BBO. $\lambda = 425$ nm laser passes through a band-pass filter and is then horizontally polarized. The laser is focused onto the sample with a 100$\times$ objective. The reflected laser is modulated by a PEM and then split into two branches that pass through two polarizers at 45$^{\circ}$ and 135$^{\circ}$. The intensity signal is measured with a balanced detector.}
+	\label{FIG:KerrOptics}
+\end{figure}
+
+The laser with $\lambda = 425$ nm wavelength is chosen for Kerr rotation measurement, to match the energy of the in-gap state from oxygen vacancies\cite{rice2014persistent}. The schematics of the optics for Kerr rotation measurement is shown in Figure \ref{FIG:KerrOptics}. A CW pump laser at $\lambda=532$ nm with 9.6 W power is generated from Spetra-Physics Millenia laser. The pumup laser is sent to a Tsunami oscillator, and laser pulses with 150 fs duration, 78 MHz repetition frequency and 850 nm central wavelength is generated with 1.4 W power. 
+
+The pulsed laser is then focused onto a beta barium borate (BBO) crystal for frequency doubling, and laser with $\lambda=425$ nm wavelength (blue) is generated at 20 mW power ($\sim$ 1\% conversion). A higher conversion rate can be reached if the incident pulsed laser is focused to a smaller spot, but the higher power density would exceed the damage threshold of BBO and limit the power of second harmonic laser. An optical isolator that utilizes Faraday rotation is also installed to avoid laser back-reflection into the Tsunami oscillator so that the laser pulses are more stable. The laser with both wavelengths are collimated by another lens, and a band-pass dielectric filter blocks the $\lambda=425$ nm portion. The blue laser from second harmonic generation does not have the same polarization as the incident laser, and therefore the polarization and ellipticity are adjusted with a Berek's compensator to maximize the laser power through the horizontal (0$^{\circ}$) linear polarizer. 
+
+The polarized blue laser is then reflected by a 50/50 beam splitter to a 100$\times$ objective with 0.73 numerical aperture (NA). The objective is mounted on a piezo-stage and the motion is controlled with a PC. The laser is focused onto a sample loaded in an open cycle cryostat, with a temperature range of 4.2 K to 300 K. The sample is cooled using liquid nitrogen (78 K) or liquid helium (4.2 K). The reflected light with Kerr rotation is then modulated with PEM at $f = 42$ kHz. The laser with polarization modulation is then split by another 50/50 beam splitter, with each going through a polarizer at 45$^{\circ}$ and 135$^{\circ}$ respectively. Both beams are sent to a balanced detector, where the common modes are subtracted and then the voltage signal is measured with a lock-in amplifier modulated at $2f$ frequency generated from the PEM. 
+
+The signal monitoring and piezo-stage controlling are accomplished by the same PC, so that the optical signal can be mapped onto each spot on the sample. A typical imaging performed by the Kerr optics system has a scanning range of 50 $\mu$m $\times$ 50 $\mu$m, with 256 lines. The scanning speed is determined by the time constant ($t_c$) of the lock-in amplifier. With $t_c = 1$ ms, the speed is set to 60 $\mu$m/s and total scanning time for a 50 $\mu$m image is about 6 minutes.
+
+The measurement accuracy is subject to noise level. The typical Kerr rotation signal is in the order of $10^{-4} \sim 10^{-3}$ rad. There are two sources of noise: laser source and environmental vibration. The intensity of laser is unstable when the oscillator is not optimized. It can be caused by back-reflection of laser into the oscillator, temperature change, etc. The back-reflection is suppressed using an isolator. Usually the system is warmed up for a few hours before the measurement, so that the temperature is stabilized. Environmental vibration is damped by floating the optical table with compressed air.
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.6\textwidth]{Drawing/KerrLAOSTO.pdf}
+	\caption{Kerr rotation signal from LAO/STO.}
+	\label{FIG:KerrLAOSTO}
+\end{figure}
+
+Figure \ref{FIG:KerrLAOSTO} is an image of Kerr rotation signal from LAO/STO. The scanning size is 30 $\mu$m $\times$ 30 $\mu$m. The horizontal lines are the artifacts. Oblique lines resembling the MFM signal in Figure \ref{FIG:MFMSignal} are believed to be magnetic signal. The rotation has the order of $10^{-4}$ rad, close to the detection limit of the system. However, unlike the MFM signal, the signal measured from Kerr rotation is not gate-tunable. This make it impossible to use electrical gating to study the time-evolution of magnetism. The reason for magnetism not being gate-tunable is unknown. It has been reported in the literature that the LAO/STO magnetism is highly affected by the growth condition\cite{ariando2011electronic, salluzzo2013origin, huijben2009structure, liu2014dominant}, and it is possible that the magnetism found in this specific sample has a different nature as the magnetism in \cite{bi2014room}. 
+
+\section{Future improvement}
+
+From the MFM signal in LAO/STO, the dipoles are in-plane. Therefore, the Kerr signal can be optimized using a quad detector. For laser focused on in-plane dipoles, the light incident on one side would be reflected and collected by the objective from the other side, and the PEM polarization modulation only changes the relative intensity between left/right or top/down. 
+\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.8\textwidth]{Drawing/KerrInPlane.pdf}
+	\caption{The Kerr rotation intensity signal from in-plane magnetic dipole only changes in distribution after PEM modulation.}
+	\label{FIG:KerrInPlane}
+\end{figure}
+
+For example, in Figure \ref{FIG:KerrInPlane}(a), the dipole moment is in horizontal direction. 
+
 \chapter{Conclusions}
+
 
 \chapter{Outlook}
 
