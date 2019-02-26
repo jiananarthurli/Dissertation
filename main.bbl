@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{geller1956crystallographic}
 S~Geller and VB~Bala.
@@ -203,9 +203,17 @@ Cory~R Dean, L~Wang, P~Maher, C~Forsythe, Fereshte Ghahari, Y~Gao, Jyoti
 \bibitem{hunt2013massive}
 B~Hunt, JD~Sanchez-Yamagishi, AF~Young, M~Yankowitz, Brian~J LeRoy, K~Watanabe,
   T~Taniguchi, Pilkyung Moon, M~Koshino, P~Jarillo-Herrero, et~al.
-\newblock Massive dirac fermions and {Hofstadter} butterfly in a van der
+\newblock Massive {Dirac} fermions and {Hofstadter} butterfly in a van der
   {Waals} heterostructure.
 \newblock {\em Science}, page 1237240, 2013.
+
+\bibitem{ponomarenko2013cloing}
+L.~A. Ponomarenko, R.~V. Gorbachev, G.~L. Yu, D.~C. Elias, R.~Jalil, A.~A.
+  Patel, A.~Mishchenko, A.~S. Mayorov, C.~R. Woods, J.~R. Wallbank,
+  M.~Mucha-Kruczynski, B.~A. Piot, M.~Potemski, I.~V. Grigorieva, K.~S.
+  Novoselov, F.~Guinea, V.~I. Fal'ko, and A.~K. Geim.
+\newblock Cloning of {Dirac} fermions in graphene superlattices.
+\newblock {\em Nature}, 497:594 EP --, 05 2013.
 
 \bibitem{cao2018correlated}
 Yuan Cao, Valla Fatemi, Ahmet Demir, Shiang Fang, Spencer~L Tomarken, Jason~Y
@@ -490,6 +498,96 @@ Barbaros {\"O}zyilmaz, Pablo Jarillo-Herrero, Dmitri Efetov, Dmitry~A Abanin,
   p-n-p junctions.
 \newblock {\em Physical Review Letters}, 99(16):166804, 2007.
 
+\bibitem{tsu2010superlattice}
+Raphael Tsu.
+\newblock {\em Superlattice to nanoelectronics}.
+\newblock Elsevier, 2010.
+
+\bibitem{park2008anisotropic}
+Cheol-Hwan Park, Li~Yang, Young-Woo Son, Marvin~L. Cohen, and Steven~G. Louie.
+\newblock Anisotropic behaviours of massless {Dirac} fermions in graphene under
+  periodic potentials.
+\newblock {\em Nature Physics}, 4:213 EP --, 02 2008.
+
+\bibitem{park2008electron}
+Cheol-Hwan Park, Young-Woo Son, Li~Yang, Marvin~L. Cohen, and Steven~G. Louie.
+\newblock Electron beam supercollimation in graphene superlattices.
+\newblock {\em Nano Letters}, 8(9):2920--2924, 09 2008.
+
+\bibitem{park2008new}
+Cheol-Hwan Park, Li~Yang, Young-Woo Son, Marvin~L. Cohen, and Steven~G. Louie.
+\newblock New generation of massless {Dirac} fermions in graphene under
+  external periodic potentials.
+\newblock {\em Phys. Rev. Lett.}, 101:126804, Sep 2008.
+
+\bibitem{dubey2013tunable}
+Sudipta Dubey, Vibhor Singh, Ajay~K. Bhat, Pritesh Parikh, Sameer Grover,
+  Rajdeep Sensarma, Vikram Tripathi, K.~Sengupta, and Mandar~M. Deshmukh.
+\newblock Tunable superlattice in graphene to control the number of {Dirac}
+  points.
+\newblock {\em Nano Letters}, 13(9):3990--3995, 09 2013.
+
+\bibitem{jessen2019lithographic}
+Bjarke~S. Jessen, Lene Gammelgaard, Morten~R. Thomsen, David M.~A. Mackenzie,
+  Joachim~D. Thomsen, Jos{\'e}M. Caridad, Emil Duegaard, Kenji Watanabe,
+  Takashi Taniguchi, Timothy~J. Booth, Thomas~G. Pedersen, Antti-Pekka Jauho,
+  and Peter B{\o}ggild.
+\newblock Lithographic band structure engineering of graphene.
+\newblock {\em Nature Nanotechnology}, page~1, 2019.
+
+\bibitem{cao2016superlattice}
+Y.~Cao, J.~Y. Luo, V.~Fatemi, S.~Fang, J.~D. Sanchez-Yamagishi, K.~Watanabe,
+  T.~Taniguchi, E.~Kaxiras, and P.~Jarillo-Herrero.
+\newblock Superlattice-induced insulating states and valley-protected orbits in
+  twisted bilayer graphene.
+\newblock {\em Phys. Rev. Lett.}, 117:116804, Sep 2016.
+
+\bibitem{chen2018gate}
+Guorui Chen, Lili Jiang, Shuang Wu, Bosai Lv, Hongyuan Li, Kenji Watanabe,
+  Takashi Taniguchi, Zhiwen Shi, Yuanbo Zhang, and Feng Wang.
+\newblock Gate-tunable {Mott} insulator in trilayer graphene-boron nitride
+  moir{\'e} superlattice.
+\newblock {\em arXiv preprint arXiv:1803.01985}, 2018.
+
+\bibitem{yankowitz2018dynamic}
+Matthew Yankowitz, Jeil Jung, Evan Laksono, Nicolas Leconte, Bheema~L.
+  Chittari, K.~Watanabe, T.~Taniguchi, Shaffique Adam, David Graf, and Cory~R.
+  Dean.
+\newblock Dynamic band-structure tuning of graphene moir{\'e} superlattices
+  with pressure.
+\newblock {\em Nature}, 557(7705):404--408, 2018.
+
+\bibitem{bistritzer2011moire}
+Rafi Bistritzer and Allan~H. MacDonald.
+\newblock Moir{\'e} bands in twisted double-layer graphene.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  108(30):12233--12237, 2011.
+
+\bibitem{suarez2010flat}
+E.~Su\'arez~Morell, J.~D. Correa, P.~Vargas, M.~Pacheco, and Z.~Barticevic.
+\newblock Flat bands in slightly twisted bilayer graphene: Tight-binding
+  calculations.
+\newblock {\em Phys. Rev. B}, 82:121407, Sep 2010.
+
+\bibitem{lopes2012continuum}
+J.~M.~B. Lopes~dos Santos, N.~M.~R. Peres, and A.~H. Castro~Neto.
+\newblock Continuum model of the twisted graphene bilayer.
+\newblock {\em Phys. Rev. B}, 86:155449, Oct 2012.
+
+\bibitem{huang2015electric}
+Mengchen Huang, Giriraj Jnawali, Jen-Feng Hsu, Shonali Dhingra, Hyungwoo Lee,
+  Sangwoo Ryu, Feng Bi, Fereshte Ghahari, Jayakanth Ravichandran, Lu~Chen,
+  Philip Kim, Chang-Beom Eom, Brian D'Urso, Patrick Irvin, and Jeremy Levy.
+\newblock Electric field effects in graphene/{LaAlO$_3$/SrTiO$_3$}
+  heterostructures and nanostructures.
+\newblock {\em APL Materials}, 3(6):062502, 2015.
+
+\bibitem{zhong2013theory}
+Zhicheng Zhong, Anna T\'oth, and Karsten Held.
+\newblock Theory of spin-orbit coupling at laalo${}_{3}$/srtio${}_{3}$
+  interfaces and srtio${}_{3}$ surfaces.
+\newblock {\em Phys. Rev. B}, 87:161102, Apr 2013.
+
 \bibitem{kalisky2012scanning}
 Beena Kalisky, Julie~A. Bert, Christopher Bell, Yanwu Xie, Hiroki~K. Sato,
   Masayuki Hosoda, Yasuyuki Hikita, Harold~Y. Hwang, and Kathryn~A. Moler.
@@ -577,5 +675,17 @@ Z.~Q. Liu, L.~Sun, Z.~Huang, C.~J. Li, S.~W. Zeng, K.~Han, W.~M. LÃŒ,
 \newblock Dominant role of oxygen vacancies in electrical properties of
   unannealed laalo3/srtio3 interfaces.
 \newblock {\em Journal of Applied Physics}, 115(5):054303, 2014.
+
+\bibitem{smith1986noble}
+G.~B. Smith, G.~A. Niklasson, J.~S. E.~M. Svensson, and C.~G. Granqvist.
+\newblock Noble-metal-based transparent infrared reflectors: Experiments and
+  theoretical analyses for very thin gold films.
+\newblock {\em Journal of Applied Physics}, 59(2):571--581, 1986.
+
+\bibitem{nair2008fine}
+R.~R. Nair, P.~Blake, A.~N. Grigorenko, K.~S. Novoselov, T.~J. Booth,
+  T.~Stauber, N.~M.~R. Peres, and A.~K. Geim.
+\newblock Fine structure constant defines visual transparency of graphene.
+\newblock {\em Science}, 320(5881):1308--1308, 2008.
 
 \end{thebibliography}

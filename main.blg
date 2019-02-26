@@ -14,45 +14,45 @@ while executing---line 944 of file unsrt.bst
 Name 1 in "Ariando, and Wang, X. and Baskaran, G. and Liu, Z. Q. and Huijben, J. and Yi, J. B. and Annadi, A. and Barman, A. Roy and Rusydi, A. and Dhar, S. and Feng, Y. P. and Ding, J. and Hilgenkamp, H. and Venkatesan, T." has a comma at the end for entry ariando2011electronic
 while executing---line 944 of file unsrt.bst
 Warning--there's a number but no series in bennemann1998non
-You've used 91 entries,
+You've used 108 entries,
             1791 wiz_defined-function locations,
-            967 strings with 23991 characters,
-and the built_in function-call counts, 24902 in all, are:
-= -- 1831
-> -- 1861
-< -- 3
-+ -- 653
-- -- 562
-* -- 2325
-:= -- 4333
-add.period$ -- 274
-call.type$ -- 91
-change.case$ -- 89
+            1047 strings with 27908 characters,
+and the built_in function-call counts, 29874 in all, are:
+= -- 2180
+> -- 2269
+< -- 4
++ -- 795
+- -- 687
+* -- 2800
+:= -- 5207
+add.period$ -- 325
+call.type$ -- 108
+change.case$ -- 105
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 835
-empty$ -- 2041
-format.name$ -- 562
-if$ -- 5152
+cite$ -- 109
+duplicate$ -- 991
+empty$ -- 2427
+format.name$ -- 687
+if$ -- 6170
 int.to.chr$ -- 0
-int.to.str$ -- 91
-missing$ -- 91
-newline$ -- 458
-num.names$ -- 91
-pop$ -- 102
+int.to.str$ -- 108
+missing$ -- 109
+newline$ -- 543
+num.names$ -- 108
+pop$ -- 130
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 300
+skip$ -- 352
 stack$ -- 0
-substring$ -- 1648
-swap$ -- 110
-text.length$ -- 3
+substring$ -- 1982
+swap$ -- 130
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 206
-width$ -- 93
-write$ -- 1003
+while$ -- 243
+width$ -- 111
+write$ -- 1188
 (There were 3 error messages)

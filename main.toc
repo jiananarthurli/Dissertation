@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}C\period@or@not .}1\period@or@not }Graphene band structure and Dirac fermion}{9}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}C\period@or@not .}2\period@or@not }Quantum Hall effect}{12}{subsection.1.3.2}
 \contentsline {subsubsection}{\numberline {a.}Classical Hall effect}{13}{subsubsection.1.3.2.1}
-\contentsline {subsubsection}{\numberline {b.}Quantum Hall effect of Graphene}{14}{subsubsection.1.3.2.2}
+\contentsline {subsubsection}{\numberline {b.}Quantum Hall effect in Graphene}{14}{subsubsection.1.3.2.2}
 \contentsline {chapter}{{\bfseries \numberline {II\period@or@not }EXPERIMENTAL METHODS}}{16}{chapter.2}
 \contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}A\period@or@not }Sample growth}{16}{section.2.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}A\period@or@not .}1\period@or@not }LAO/STO growth}{16}{subsection.2.1.1}
@@ -57,19 +57,23 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}2\period@or@not }Carrier densities and mobilities}{83}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Quantum Hall effect}{84}{subsection.3.1.3}
 \contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}B\period@or@not }Graphene p-n junction edge-state engineering}{85}{section.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }1D waveguide and quantum Hall edge channels}{86}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}1\period@or@not }1D waveguide and quantum Hall edge channels}{85}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}2\period@or@not }Edge channel mixing of graphene unipolar/bipolar junction in quantum Hall regime}{88}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Graphene doping using c-AFM}{92}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}4\period@or@not }Measurement of graphene edge state mixing}{94}{subsection.3.2.4}
-\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}C\period@or@not }Graphene band structure engineering with superlattice}{98}{section.3.3}
-\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{99}{chapter.4}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{99}{section.4.1}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{100}{section.4.2}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{104}{section.4.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{104}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{105}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{108}{subsection.4.3.3}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Future improvement}{111}{section.4.4}
-\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS}}{113}{chapter.5}
-\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{114}{chapter.6}
-\contentsline {chapter}{{\bfseries \bibname }}{115}{section*.1}
+\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}C\period@or@not }Graphene band-structure engineering with superlattice}{99}{section.3.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}1\period@or@not }Superlattice lithography}{100}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}2\period@or@not }Transport results}{100}{subsection.3.3.2}
+\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{101}{chapter.4}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{101}{section.4.1}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{102}{section.4.2}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{106}{section.4.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{106}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{107}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{110}{subsection.4.3.3}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Improvements}{113}{section.4.4}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}1\period@or@not }Quad-detector}{113}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}2\period@or@not }Graphene top gate}{116}{subsection.4.4.2}
+\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS}}{118}{chapter.5}
+\contentsline {chapter}{{\bfseries \numberline {VI\period@or@not }OUTLOOK}}{119}{chapter.6}
+\contentsline {chapter}{{\bfseries \bibname }}{120}{section*.1}
