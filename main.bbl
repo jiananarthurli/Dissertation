@@ -1,5 +1,226 @@
 \begin{thebibliography}{100}
 
+\bibitem{vinet2017cmos}
+Maud Vinet and Nicolas Posseme.
+\newblock 1 - {CMOS} devices through the years.
+\newblock In Nicolas Posseme, editor, {\em Plasma Etching Processes for CMOS
+  Devices Realization}, pages 1 -- 21. Elsevier, 2017.
+
+\bibitem{dingle1979high}
+Raymond Dingle, Arthur~C Gossard, and Horst~L Stormer.
+\newblock High mobility multilayered heterojunction devices employing modulated
+  doping, 1979.
+\newblock US Patent 4,163,237.
+
+\bibitem{klitzing1980new}
+K.~v. Klitzing, G.~Dorda, and M.~Pepper.
+\newblock New method for high-accuracy determination of the fine-structure
+  constant based on quantized {Hall} resistance.
+\newblock {\em Phys. Rev. Lett.}, 45:494--497, Aug 1980.
+
+\bibitem{chang1983fractional}
+A.~M. Chang, M.~A. Paalanen, D.~C. Tsui, H.~L. St\"ormer, and J.~C.~M. Hwang.
+\newblock Fractional quantum {Hall} effect at low temperatures.
+\newblock {\em Phys. Rev. B}, 28:6133--6136, Nov 1983.
+
+\bibitem{ohtomo2004high}
+A~Ohtomo and HY~Hwang.
+\newblock A high-mobility electron gas at the {LaAlO$_3$/SrTiO$_3$}
+  heterointerface.
+\newblock {\em Nature}, 427(6973):423, 2004.
+
+\bibitem{nakagawa2006some}
+Naoyuki Nakagawa, Harold~Y Hwang, and David~A Muller.
+\newblock Why some interfaces cannot be sharp.
+\newblock {\em Nature materials}, 5(3):204, 2006.
+
+\bibitem{bogorin2010laalo3}
+Daniela~F Bogorin, Patrick Irvin, Cheng Cen, and Jeremy Levy.
+\newblock {LaAlO$_3$/SrTiO$_3$}-based device concepts.
+\newblock In E.~Y. Tsymbal, editor, {\em Multifunctional oxide
+  heterostructures}, chapter~13, pages 364--388. Oxford University Press,
+  Oxford, 2012.
+
+\bibitem{salluzzo2009orbital}
+M.~Salluzzo, J.~C. Cezar, N.~B. Brookes, V.~Bisogni, G.~M. De~Luca, C.~Richter,
+  S.~Thiel, J.~Mannhart, M.~Huijben, A.~Brinkman, G.~Rijnders, and
+  G.~Ghiringhelli.
+\newblock Orbital reconstruction and the two-dimensional electron gas at the
+  {LaAlO$_3$/SrTiO$_3$} interface.
+\newblock {\em Phys. Rev. Lett.}, 102:166804, Apr 2009.
+
+\bibitem{annadi2013anisotropic}
+A.~Annadi, Q.~Zhang, X.~Renshaw~Wang, N.~Tuzla, K.~Gopinadhan, W.~M. L{\"u},
+  A.~Roy~Barman, Z.~Q. Liu, A.~Srivastava, S.~Saha, Y.~L. Zhao, S.~W. Zeng,
+  S.~Dhar, E.~Olsson, B.~Gu, S.~Yunoki, S.~Maekawa, H.~Hilgenkamp,
+  T.~Venkatesan, and Ariando.
+\newblock Anisotropic two-dimensional electron gas at the {LaAlO$_3$/SrTiO$_3$}
+  (110) interface.
+\newblock {\em Nature Communications}, 4:1838 EP --, 05 2013.
+
+\bibitem{hwang2012emergent}
+H.~Y. Hwang, Y.~Iwasa, M.~Kawasaki, B.~Keimer, N.~Nagaosa, and Y.~Tokura.
+\newblock Emergent phenomena at oxide interfaces.
+\newblock {\em Nature Materials}, 11:103 EP --, 01 2012.
+
+\bibitem{reyren2007superconducting}
+Nicolas Reyren, S~Thiel, AD~Caviglia, L~Fitting Kourkoutis, German Hammerl,
+  Christoph Richter, CW~Schneider, Thilo Kopp, A-S R{\"u}etschi, Didier
+  Jaccard, et~al.
+\newblock Superconducting interfaces between insulating oxides.
+\newblock {\em Science}, 317(5842):1196--1199, 2007.
+
+\bibitem{brinkman2007magnetic}
+Alexander Brinkman, Mark Huijben, M~Van~Zalk, J~Huijben, U~Zeitler, JC~Maan,
+  Wilfred~Gerard van~der Wiel, GJHM Rijnders, David~HA Blank, and H~Hilgenkamp.
+\newblock Magnetic effects at the interface between non-magnetic oxides.
+\newblock {\em Nature materials}, 6(7):493, 2007.
+
+\bibitem{caviglia2010tunable}
+A.~D. Caviglia, M.~Gabay, S.~Gariglio, N.~Reyren, C.~Cancellieri, and J.-M.
+  Triscone.
+\newblock Tunable {Rashba} spin-orbit interaction at oxide interfaces.
+\newblock {\em Phys. Rev. Lett.}, 104:126803, Mar 2010.
+
+\bibitem{cheng2015electron}
+Guanglei Cheng, Michelle Tomczyk, Shicheng Lu, Joshua~P Veazey, Mengchen Huang,
+  Patrick Irvin, Sangwoo Ryu, Hyungwoo Lee, Chang-Beom Eom, C~Stephen Hellberg,
+  et~al.
+\newblock Electron pairing without superconductivity.
+\newblock {\em Nature}, 521(7551):196, 2015.
+
+\bibitem{thiel2006tunable}
+Stefan Thiel, German Hammerl, A~Schmehl, CW~Schneider, and Jochen Mannhart.
+\newblock Tunable quasi-two-dimensional electron gases in oxide
+  heterostructures.
+\newblock {\em Science}, 313(5795):1942--1945, 2006.
+
+\bibitem{cen2008nanoscale}
+Cheng Cen, S~Thiel, G~Hammerl, CW~Schneider, KE~Andersen, CS~Hellberg,
+  J~Mannhart, and J~Levy.
+\newblock Nanoscale control of an interfacial metal--insulator transition at
+  room temperature.
+\newblock {\em Nature materials}, 7(4):298, 2008.
+
+\bibitem{cen2009oxide}
+Cheng Cen, Stefan Thiel, Jochen Mannhart, and Jeremy Levy.
+\newblock Oxide nanoelectronics on demand.
+\newblock {\em Science}, 323(5917):1026--1030, 2009.
+
+\bibitem{irvin2010rewritable}
+Patrick Irvin, Yanjun Ma, Daniela~F. Bogorin, Cheng Cen, Chung~Wung Bark,
+  Chad~M. Folkman, Chang-Beom Eom, and Jeremy Levy.
+\newblock Rewritable nanoscale oxide photodetector.
+\newblock {\em Nature Photonics}, 4:849 EP --, 11 2010.
+
+\bibitem{cheng2011sketched}
+Guanglei Cheng, Pablo~F. Siles, Feng Bi, Cheng Cen, Daniela~F. Bogorin,
+  Chung~Wung Bark, Chad~M. Folkman, Jae-Wan Park, Chang-Beom Eom, Gilberto
+  Medeiros-Ribeiro, and Jeremy Levy.
+\newblock Sketched oxide single-electron transistor.
+\newblock {\em Nature Nanotechnology}, 6:343 EP --, 04 2011.
+
+\bibitem{jnawali2015photoconductive}
+Giriraj Jnawali, Lu~Chen, Mengchen Huang, Hyungwoo Lee, Sangwoo Ryu, Jacob~P.
+  Podkaminer, Chang-Beom Eom, Patrick Irvin, and Jeremy Levy.
+\newblock Photoconductive response of a single {Au} nanorod coupled to
+  {LaAlO$_3$/SrTiO$_3$} nanowires.
+\newblock {\em Applied Physics Letters}, 106(21):211101, 2015.
+
+\bibitem{tomczyk2016micrometer}
+Michelle Tomczyk, Guanglei Cheng, Hyungwoo Lee, Shicheng Lu, Anil Annadi,
+  Joshua~P. Veazey, Mengchen Huang, Patrick Irvin, Sangwoo Ryu, Chang-Beom Eom,
+  and Jeremy Levy.
+\newblock Micrometer-scale ballistic transport of electron pairs in
+  {LaAlO$_3$/SrTiO$_3$} nanowires.
+\newblock {\em Phys. Rev. Lett.}, 117:096801, Aug 2016.
+
+\bibitem{jiang2017direct}
+Zhanzhi Jiang, Xiaoyu Wu, Hyungwoo Lee, Jung-Woo Lee, Jianan Li, Guanglei
+  Cheng, Chang-Beom Eom, Jeremy Levy, and Keji Lai.
+\newblock Direct imaging of sketched conductive nanostructures at the
+  {LaAlO$_3$/SrTiO$_3$} interface.
+\newblock {\em Applied Physics Letters}, 111(23):233104, 2017.
+
+\bibitem{chen2019over}
+Lu~Chen, Erin Sutton, Hyungwoo Lee, Jung-Woo Lee, Jianan Li, Chang-Beom Eom,
+  Patrick Irvin, and Jeremy Levy.
+\newblock Over 100-thz bandwidth selective difference frequency generation at
+  {LaAlO$_3$/SrTiO$_3$} nanojunctions.
+\newblock {\em Light: Science \& Applications}, 8(1):24, 2019.
+
+\bibitem{novoselov2004electric}
+Kostya~S Novoselov, Andre~K Geim, Sergei~V Morozov, DA~Jiang, Y\_ Zhang,
+  Sergey~V Dubonos, Irina~V Grigorieva, and Alexandr~A Firsov.
+\newblock Electric field effect in atomically thin carbon films.
+\newblock {\em Science}, 306(5696):666--669, 2004.
+
+\bibitem{wallace1947band}
+Philip~Richard Wallace.
+\newblock The band theory of graphite.
+\newblock {\em Physical Review}, 71(9):622, 1947.
+
+\bibitem{neto2009electronic}
+AH~Castro Neto, Francisco Guinea, Nuno~MR Peres, Kostya~S Novoselov, and
+  Andre~K Geim.
+\newblock The electronic properties of graphene.
+\newblock {\em Reviews of modern physics}, 81(1):109, 2009.
+
+\bibitem{zhang2005experimental}
+Yuanbo Zhang, Yan-Wen Tan, Horst~L Stormer, and Philip Kim.
+\newblock Experimental observation of the quantum {Hall} effect and {Berry's}
+  phase in graphene.
+\newblock {\em nature}, 438(7065):201, 2005.
+
+\bibitem{ando1998berry}
+Tsuneya Ando, Takeshi Nakanishi, and Riichiro Saito.
+\newblock Berry's phase and absence of back scattering in carbon nanotubes.
+\newblock {\em Journal of the Physical Society of Japan}, 67(8):2857--2862,
+  1998.
+
+\bibitem{dean2010naturenano}
+C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe,
+  T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
+\newblock Boron nitride substrates for high-quality graphene electronics.
+\newblock {\em Nature Nanotechnology}, 5:722 EP --, 08 2010.
+
+\bibitem{mayorov2011micrometer}
+Alexander~S. Mayorov, Roman~V. Gorbachev, Sergey~V. Morozov, Liam Britnell,
+  Rashid Jalil, Leonid~A. Ponomarenko, Peter Blake, Kostya~S. Novoselov, Kenji
+  Watanabe, Takashi Taniguchi, and A.~K. Geim.
+\newblock Micrometer-scale ballistic transport in encapsulated graphene at room
+  temperature.
+\newblock {\em Nano Letters}, 11(6):2396--2399, 06 2011.
+
+\bibitem{cao2016superlattice}
+Y.~Cao, J.~Y. Luo, V.~Fatemi, S.~Fang, J.~D. Sanchez-Yamagishi, K.~Watanabe,
+  T.~Taniguchi, E.~Kaxiras, and P.~Jarillo-Herrero.
+\newblock Superlattice-induced insulating states and valley-protected orbits in
+  twisted bilayer graphene.
+\newblock {\em Phys. Rev. Lett.}, 117:116804, Sep 2016.
+
+\bibitem{cao2018correlated}
+Yuan Cao, Valla Fatemi, Ahmet Demir, Shiang Fang, Spencer~L Tomarken, Jason~Y
+  Luo, Javier~D Sanchez-Yamagishi, Kenji Watanabe, Takashi Taniguchi, Efthimios
+  Kaxiras, et~al.
+\newblock Correlated insulator behaviour at half-filling in magic-angle
+  graphene superlattices.
+\newblock {\em Nature}, 556(7699):80, 2018.
+
+\bibitem{chen2018gate}
+Guorui Chen, Lili Jiang, Shuang Wu, Bosai Lv, Hongyuan Li, Kenji Watanabe,
+  Takashi Taniguchi, Zhiwen Shi, Yuanbo Zhang, and Feng Wang.
+\newblock Gate-tunable {Mott} insulator in trilayer graphene-boron nitride
+  moir{\'e} superlattice.
+\newblock {\em arXiv preprint arXiv:1803.01985}, 2018.
+
+\bibitem{cao2018unconventional}
+Yuan Cao, Valla Fatemi, Shiang Fang, Kenji Watanabe, Takashi Taniguchi,
+  Efthimios Kaxiras, and Pablo Jarillo-Herrero.
+\newblock Unconventional superconductivity in magic-angle graphene
+  superlattices.
+\newblock {\em Nature}, 556(7699):43, 2018.
+
 \bibitem{geller1956crystallographic}
 S~Geller and VB~Bala.
 \newblock Crystallographic studies of perovskite-like compounds. ii. rare earth
@@ -20,17 +241,6 @@ K~Alex M{\"u}ller and H~Burkard.
 T~Sakudo and H~Unoki.
 \newblock Dielectric properties of {SrTiO$_3$} at low temperatures.
 \newblock {\em Physical review letters}, 26(14):851, 1971.
-
-\bibitem{ohtomo2004high}
-A~Ohtomo and HY~Hwang.
-\newblock A high-mobility electron gas at the {LaAlO$_3$/SrTiO$_3$}
-  heterointerface.
-\newblock {\em Nature}, 427(6973):423, 2004.
-
-\bibitem{nakagawa2006some}
-Naoyuki Nakagawa, Harold~Y Hwang, and David~A Muller.
-\newblock Why some interfaces cannot be sharp.
-\newblock {\em Nature materials}, 5(3):204, 2006.
 
 \bibitem{kalabukhov2007effect}
 Alexey Kalabukhov, Robert Gunnarsson, Johan B{\"o}rjesson, Eva Olsson, Tord
@@ -58,19 +268,6 @@ JF~Schooley, WR~Hosler, E~Ambler, JH~Becker, Marvin~L Cohen, and CS~Koonce.
   concentration in semiconducting {SrTi O$_3$}.
 \newblock {\em Physical Review Letters}, 14(9):305, 1965.
 
-\bibitem{thiel2006tunable}
-Stefan Thiel, German Hammerl, A~Schmehl, CW~Schneider, and Jochen Mannhart.
-\newblock Tunable quasi-two-dimensional electron gases in oxide
-  heterostructures.
-\newblock {\em Science}, 313(5795):1942--1945, 2006.
-
-\bibitem{cen2008nanoscale}
-Cheng Cen, S~Thiel, G~Hammerl, CW~Schneider, KE~Andersen, CS~Hellberg,
-  J~Mannhart, and J~Levy.
-\newblock Nanoscale control of an interfacial metal--insulator transition at
-  room temperature.
-\newblock {\em Nature materials}, 7(4):298, 2008.
-
 \bibitem{bi2010water}
 Feng Bi, Daniela~F Bogorin, Cheng Cen, Chung~Wung Bark, Jae-Wan Park,
   Chang-Beom Eom, and Jeremy Levy.
@@ -82,26 +279,6 @@ Feng Bi, Daniela~F Bogorin, Cheng Cen, Chung~Wung Bark, Jae-Wan Park,
 JF~Schooley, WR~Hosler, and Marvin~L Cohen.
 \newblock Superconductivity in semiconducting srtio$_3$.
 \newblock {\em Physical Review Letters}, 12(17):474, 1964.
-
-\bibitem{reyren2007superconducting}
-Nicolas Reyren, S~Thiel, AD~Caviglia, L~Fitting Kourkoutis, German Hammerl,
-  Christoph Richter, CW~Schneider, Thilo Kopp, A-S R{\"u}etschi, Didier
-  Jaccard, et~al.
-\newblock Superconducting interfaces between insulating oxides.
-\newblock {\em Science}, 317(5842):1196--1199, 2007.
-
-\bibitem{cheng2015electron}
-Guanglei Cheng, Michelle Tomczyk, Shicheng Lu, Joshua~P Veazey, Mengchen Huang,
-  Patrick Irvin, Sangwoo Ryu, Hyungwoo Lee, Chang-Beom Eom, C~Stephen Hellberg,
-  et~al.
-\newblock Electron pairing without superconductivity.
-\newblock {\em Nature}, 521(7551):196, 2015.
-
-\bibitem{brinkman2007magnetic}
-Alexander Brinkman, Mark Huijben, M~Van~Zalk, J~Huijben, U~Zeitler, JC~Maan,
-  Wilfred~Gerard van~der Wiel, GJHM Rijnders, David~HA Blank, and H~Hilgenkamp.
-\newblock Magnetic effects at the interface between non-magnetic oxides.
-\newblock {\em Nature materials}, 6(7):493, 2007.
 
 \bibitem{li2011coexistence}
 Lu~Li, Christoph Richter, Jochen Mannhart, and RC~Ashoori.
@@ -128,12 +305,6 @@ Feng Bi, Mengchen Huang, Sangwoo Ryu, Hyungwoo Lee, Chung-Wung Bark, Chang-Beom
 \newblock Room-temperature electronically-controlled ferromagnetism at the
   {LaAlO$_3$}/{SrTiO$_3$} interface.
 \newblock {\em Nature communications}, 5:5019, 2014.
-
-\bibitem{novoselov2004electric}
-Kostya~S Novoselov, Andre~K Geim, Sergei~V Morozov, DA~Jiang, Y\_ Zhang,
-  Sergey~V Dubonos, Irina~V Grigorieva, and Alexandr~A Firsov.
-\newblock Electric field effect in atomically thin carbon films.
-\newblock {\em Science}, 306(5696):666--669, 2004.
 
 \bibitem{wilson2006electrons}
 Mark Wilson.
@@ -215,21 +386,6 @@ L.~A. Ponomarenko, R.~V. Gorbachev, G.~L. Yu, D.~C. Elias, R.~Jalil, A.~A.
 \newblock Cloning of {Dirac} fermions in graphene superlattices.
 \newblock {\em Nature}, 497:594 EP --, 05 2013.
 
-\bibitem{cao2018correlated}
-Yuan Cao, Valla Fatemi, Ahmet Demir, Shiang Fang, Spencer~L Tomarken, Jason~Y
-  Luo, Javier~D Sanchez-Yamagishi, Kenji Watanabe, Takashi Taniguchi, Efthimios
-  Kaxiras, et~al.
-\newblock Correlated insulator behaviour at half-filling in magic-angle
-  graphene superlattices.
-\newblock {\em Nature}, 556(7699):80, 2018.
-
-\bibitem{cao2018unconventional}
-Yuan Cao, Valla Fatemi, Shiang Fang, Kenji Watanabe, Takashi Taniguchi,
-  Efthimios Kaxiras, and Pablo Jarillo-Herrero.
-\newblock Unconventional superconductivity in magic-angle graphene
-  superlattices.
-\newblock {\em Nature}, 556(7699):43, 2018.
-
 \bibitem{forsythe2018band}
 Carlos Forsythe, Xiaodong Zhou, Kenji Watanabe, Takashi Taniguchi, Abhay
   Pasupathy, Pilkyung Moon, Mikito Koshino, Philip Kim, and Cory~R Dean.
@@ -237,28 +393,11 @@ Carlos Forsythe, Xiaodong Zhou, Kenji Watanabe, Takashi Taniguchi, Abhay
   superlattices.
 \newblock {\em Nature nanotechnology}, page~1, 2018.
 
-\bibitem{wallace1947band}
-Philip~Richard Wallace.
-\newblock The band theory of graphite.
-\newblock {\em Physical Review}, 71(9):622, 1947.
-
-\bibitem{neto2009electronic}
-AH~Castro Neto, Francisco Guinea, Nuno~MR Peres, Kostya~S Novoselov, and
-  Andre~K Geim.
-\newblock The electronic properties of graphene.
-\newblock {\em Reviews of modern physics}, 81(1):109, 2009.
-
 \bibitem{novoselov2005two}
 Kostya~S Novoselov, Andre~K Geim, SVb Morozov, Da~Jiang, MIc Katsnelson, IVa
   Grigorieva, SVb Dubonos, Firsov, and AA.
 \newblock Two-dimensional gas of massless {Dirac} fermions in graphene.
 \newblock {\em nature}, 438(7065):197, 2005.
-
-\bibitem{zhang2005experimental}
-Yuanbo Zhang, Yan-Wen Tan, Horst~L Stormer, and Philip Kim.
-\newblock Experimental observation of the quantum {Hall} effect and {Berry's}
-  phase in graphene.
-\newblock {\em nature}, 438(7065):201, 2005.
 
 \bibitem{podkaminer2016real}
 JP~Podkaminer, JJ~Patzner, BA~Davidson, and CB~Eom.
@@ -322,16 +461,24 @@ Shonali Dhingra.
   and a single spin}.
 \newblock PhD thesis, University of Pittsburgh, 2015.
 
+\bibitem{xie2011control}
+Yanwu Xie, Yasuyuki Hikita, Christopher Bell, and Harold~Y. Hwang.
+\newblock Control of electronic conduction at an oxide heterointerface using
+  surface polar adsorbates.
+\newblock {\em Nature Communications}, 2:494 EP --, 10 2011.
+
+\bibitem{brown2016giant}
+Keith~A. Brown, Shu He, Daniel~J. Eichelsdoerfer, Mengchen Huang, Ishan Levy,
+  Hyungwoo Lee, Sangwoo Ryu, Patrick Irvin, Jose Mendez-Arroyo, Chang-Beom Eom,
+  Chad~A. Mirkin, and Jeremy Levy.
+\newblock Giant conductivity switching of {LaAlO$_3$/SrTiO$_3$}
+  heterointerfaces governed by surface protonation.
+\newblock {\em Nature Communications}, 7:10681 EP --, 02 2016.
+
 \bibitem{hartmann1999magnetic}
 U~Hartmann.
 \newblock Magnetic force microscopy.
 \newblock {\em Annual review of materials science}, 29(1):53--87, 1999.
-
-\bibitem{dean2010naturenano}
-C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe,
-  T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
-\newblock Boron nitride substrates for high-quality graphene electronics.
-\newblock {\em Nature Nanotechnology}, 5:722 EP --, 08 2010.
 
 \bibitem{Novoselovaac9439}
 K.~S. Novoselov, A.~Mishchenko, A.~Carvalho, and A.~H. Castro~Neto.
@@ -404,12 +551,59 @@ Cecilia Mattevi, Florian Coll{\'e}aux, HoKwon Kim, Yen-Hung Lin, Kyung~T Park,
 \newblock Solution-processable organic dielectrics for graphene electronics.
 \newblock {\em Nanotechnology}, 23(34):344017, 2012.
 
+\bibitem{lee2008measurement}
+Changgu Lee, Xiaoding Wei, Jeffrey~W. Kysar, and James Hone.
+\newblock Measurement of the elastic properties and intrinsic strength of
+  monolayer graphene.
+\newblock {\em Science}, 321(5887):385--388, 2008.
+
+\bibitem{vonk2007interface}
+V.~Vonk, M.~Huijben, K.~J.~I. Driessen, P.~Tinnemans, A.~Brinkman, S.~Harkema,
+  and H.~Graafsma.
+\newblock Interface structure of {LaAlO$_3$/SrTiO$_3$} at elevated temperatures
+  studied in situ by synchrotron x rays.
+\newblock {\em Phys. Rev. B}, 75:235417, Jun 2007.
+
+\bibitem{park2006charge}
+Min~Sik Park, S.~H. Rhim, and Arthur~J. Freeman.
+\newblock Charge compensation and mixed valency in {LaAlO$_3$/SrTiO$_3$}
+  heterointerfaces studied by the {FLAPW} method.
+\newblock {\em Phys. Rev. B}, 74:205416, Nov 2006.
+
+\bibitem{huang2013direct}
+Mengchen Huang, Feng Bi, Sangwoo Ryu, Chang-Beom Eom, Patrick Irvin, and Jeremy
+  Levy.
+\newblock Direct imaging of {LaAlO$_3$/SrTiO$_3$} nanostructures using
+  piezoresponse force microscopy.
+\newblock {\em APL Materials}, 1(5):052110, 2013.
+
+\bibitem{xie2013enhancing}
+Yanwu Xie, Christopher Bell, Yasuyuki Hikita, Satoshi Harashima, and Harold~Y.
+  Hwang.
+\newblock Enhancing electron mobility at the {LaAlO$_3$/SrTiO$_3$} interface by
+  surface control.
+\newblock {\em Advanced Materials}, 25(34):4735--4738, 2013.
+
 \bibitem{aliaj2018probing}
 I~Aliaj, A~Sambri, V~Miseikis, D~Stornaiuolo, E~di~Gennaro, C~Coletti,
   V~Pellegrini, F~Miletto~Granozio, and S~Roddaro.
 \newblock Probing charge transfer during metal-insulator transitions in
   graphene-{LaAlO$_3$/SrTiO$_3$} systems.
 \newblock {\em APL Materials}, 6(6):066103, 2018.
+
+\bibitem{alaboson2011conductive}
+Justice M.~P. Alaboson, Qing~Hua Wang, Joshua~A. Kellar, Joohee Park,
+  Jeffrey~W. Elam, Michael~J. Pellin, and Mark~C. Hersam.
+\newblock Conductive atomic force microscope nanopatterning of epitaxial
+  graphene on {SiC(0001)} in ambient conditions.
+\newblock {\em Advanced Materials}, 23(19):2181--2184, 2011.
+
+\bibitem{byun2011nanoscale}
+Ik-Su Byun, Duhee Yoon, Jin~Sik Choi, Inrok Hwang, Duk~Hyun Lee, Mi~Jung Lee,
+  Tomoji Kawai, Young-Woo Son, Quanxi Jia, Hyeonsik Cheong, et~al.
+\newblock Nanoscale lithography on monolayer graphene using hydrogenation and
+  oxidation.
+\newblock {\em ACS Nano}, 5(8):6417--6424, 2011.
 
 \bibitem{couto2011transport}
 Nuno J.~G. Couto, Benjamin Sac\'ep\'e, and Alberto~F. Morpurgo.
@@ -457,20 +651,6 @@ S.~Hu, M.~Lozada-Hidalgo, F.~C. Wang, A.~Mishchenko, F.~Schedin, R.~R. Nair,
   Grigorieva, H.~A. Wu, and A.~K. Geim.
 \newblock Proton transport through one-atom-thick crystals.
 \newblock {\em Nature}, 516:227 EP --, 11 2014.
-
-\bibitem{alaboson2011conductive}
-Justice M.~P. Alaboson, Qing~Hua Wang, Joshua~A. Kellar, Joohee Park,
-  Jeffrey~W. Elam, Michael~J. Pellin, and Mark~C. Hersam.
-\newblock Conductive atomic force microscope nanopatterning of epitaxial
-  graphene on {SiC(0001)} in ambient conditions.
-\newblock {\em Advanced Materials}, 23(19):2181--2184, 2011.
-
-\bibitem{byun2011nanoscale}
-Ik-Su Byun, Duhee Yoon, Jin~Sik Choi, Inrok Hwang, Duk~Hyun Lee, Mi~Jung Lee,
-  Tomoji Kawai, Young-Woo Son, Quanxi Jia, Hyeonsik Cheong, et~al.
-\newblock Nanoscale lithography on monolayer graphene using hydrogenation and
-  oxidation.
-\newblock {\em ACS Nano}, 5(8):6417--6424, 2011.
 
 \bibitem{ki2010dependence}
 Dong-Keun Ki, Seung-Geol Nam, Hu-Jong Lee, and Barbaros {\"O}zyilmaz.
@@ -535,20 +715,6 @@ Bjarke~S. Jessen, Lene Gammelgaard, Morten~R. Thomsen, David M.~A. Mackenzie,
 \newblock Lithographic band structure engineering of graphene.
 \newblock {\em Nature Nanotechnology}, page~1, 2019.
 
-\bibitem{cao2016superlattice}
-Y.~Cao, J.~Y. Luo, V.~Fatemi, S.~Fang, J.~D. Sanchez-Yamagishi, K.~Watanabe,
-  T.~Taniguchi, E.~Kaxiras, and P.~Jarillo-Herrero.
-\newblock Superlattice-induced insulating states and valley-protected orbits in
-  twisted bilayer graphene.
-\newblock {\em Phys. Rev. Lett.}, 117:116804, Sep 2016.
-
-\bibitem{chen2018gate}
-Guorui Chen, Lili Jiang, Shuang Wu, Bosai Lv, Hongyuan Li, Kenji Watanabe,
-  Takashi Taniguchi, Zhiwen Shi, Yuanbo Zhang, and Feng Wang.
-\newblock Gate-tunable {Mott} insulator in trilayer graphene-boron nitride
-  moir{\'e} superlattice.
-\newblock {\em arXiv preprint arXiv:1803.01985}, 2018.
-
 \bibitem{yankowitz2018dynamic}
 Matthew Yankowitz, Jeil Jung, Evan Laksono, Nicolas Leconte, Bheema~L.
   Chittari, K.~Watanabe, T.~Taniguchi, Shaffique Adam, David Graf, and Cory~R.
@@ -584,9 +750,31 @@ Mengchen Huang, Giriraj Jnawali, Jen-Feng Hsu, Shonali Dhingra, Hyungwoo Lee,
 
 \bibitem{zhong2013theory}
 Zhicheng Zhong, Anna T\'oth, and Karsten Held.
-\newblock Theory of spin-orbit coupling at laalo${}_{3}$/srtio${}_{3}$
-  interfaces and srtio${}_{3}$ surfaces.
+\newblock Theory of spin-orbit coupling at {LaAlO$_3$/SrTiO$_3$} interfaces and
+  {SrTiO$_3$} surfaces.
 \newblock {\em Phys. Rev. B}, 87:161102, Apr 2013.
+
+\bibitem{hofstadter1976energy}
+Douglas~R. Hofstadter.
+\newblock Energy levels and wave functions of bloch electrons in rational and
+  irrational magnetic fields.
+\newblock {\em Phys. Rev. B}, 14:2239--2249, Sep 1976.
+
+\bibitem{wannier1978result}
+G.~H. Wannier.
+\newblock A result not dependent on rationality for bloch electrons in a
+  magnetic field.
+\newblock {\em physica status solidi (b)}, 88(2):757--765, 1978.
+
+\bibitem{streda1982quantised}
+P~Streda.
+\newblock Quantised hall effect in a two-dimensional periodic potential.
+\newblock 15(36):L1299--L1303, dec 1982.
+
+\bibitem{thouless1984quantized}
+David Thouless.
+\newblock Quantized {Hall} effect in two-dimensional periodic potentials.
+\newblock {\em Physics Reports}, 110(5):279 -- 291, 1984.
 
 \bibitem{kalisky2012scanning}
 Beena Kalisky, Julie~A. Bert, Christopher Bell, Yanwu Xie, Hiroki~K. Sato,
@@ -673,8 +861,7 @@ Mark Huijben, Alexander Brinkman, Gertjan Koster, Guus Rijnders, Hans
 Z.~Q. Liu, L.~Sun, Z.~Huang, C.~J. Li, S.~W. Zeng, K.~Han, W.~M. LÃŒ,
   T.~Venkatesan, and Ariando.
 \newblock Dominant role of oxygen vacancies in electrical properties of
-  unannealed laalo3/srtio3 interfaces.
-\newblock {\em Journal of Applied Physics}, 115(5):054303, 2014.
+  unannealed {LaAlO$_3$/SrTiO$_3$}.
 
 \bibitem{smith1986noble}
 G.~B. Smith, G.~A. Niklasson, J.~S. E.~M. Svensson, and C.~G. Granqvist.
