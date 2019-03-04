@@ -406,6 +406,19 @@ C.~Cancellieri, N.~Reyren, S.~Gariglio, A.~D. Caviglia, A.~F{\^e}te, and J.~M.
   interface electronic properties.
 \newblock 91(1):17004, 2010.
 
+\bibitem{fix2011influence}
+T.~Fix, F.~Schoofs, Z.~Bi, A.~Chen, H.~Wang, J.~L. MacManus-Driscoll, and M.~G.
+  Blamire.
+\newblock Influence of {SrTiO$_3$} substrate miscut angle on the transport
+  properties of {LaAlO$_3$/SrTiO$_3$} interfaces.
+\newblock {\em Applied Physics Letters}, 99(2):022103, 2011.
+
+\bibitem{radovic2008low}
+Milan Radovi{\'c}.
+\newblock {\em Low Dimensional {Ti}-oxide based structures: surface, interface
+  and ultrathin films of {SrTiO$_3$} and {TiO$_2$}}.
+\newblock PhD thesis, Universit{\`a} degli Studi di Napoli Federico II, 2008.
+
 \bibitem{podkaminer2016real}
 JP~Podkaminer, JJ~Patzner, BA~Davidson, and CB~Eom.
 \newblock Real-time and in situ monitoring of sputter deposition with rheed for
@@ -512,6 +525,24 @@ Keith~A. Brown, Shu He, Daniel~J. Eichelsdoerfer, Mengchen Huang, Ishan Levy,
   heterointerfaces governed by surface protonation.
 \newblock {\em Nature Communications}, 7:10681 EP --, 02 2016.
 
+\bibitem{binning1986atomic}
+G.~Binnig, C.~F. Quate, and Ch. Gerber.
+\newblock Atomic force microscope.
+\newblock {\em Phys. Rev. Lett.}, 56:930--933, Mar 1986.
+
+\bibitem{hammiche1999photothermal}
+A.~Hammiche, H.~M. Pollock, M.~Reading, M.~Claybourn, P.~H. Turner, and
+  K.~Jewkes.
+\newblock Photothermal {FT-IR} spectroscopy: A step towards {FT-IR} microscopy
+  at a resolution better than the diffraction limit.
+\newblock {\em Applied Spectroscopy}, 53(7):810--815, 1999.
+
+\bibitem{pollock2006handbook}
+Hubert~M. Pollock and D.~Alastair Smith.
+\newblock {\em The Use of Near-Field Probes for Vibrational Spectroscopy and
+  Photothermal Imaging}.
+\newblock American Cancer Society, 2006.
+
 \bibitem{hartmann1999magnetic}
 U~Hartmann.
 \newblock Magnetic force microscopy.
@@ -523,6 +554,17 @@ Mengchen Huang, Feng Bi, Sangwoo Ryu, Chang-Beom Eom, Patrick Irvin, and Jeremy
 \newblock Direct imaging of {LaAlO$_3$/SrTiO$_3$} nanostructures using
   piezoresponse force microscopy.
 \newblock {\em APL Materials}, 1(5):052110, 2013.
+
+\bibitem{soergel2011piezoresponse}
+Elisabeth Soergel.
+\newblock Piezoresponse force microscopy ({PFM}).
+\newblock {\em Journal of Physics D: Applied Physics}, 44(46):464003, 2011.
+
+\bibitem{potnis2011review}
+Prashant~R Potnis, Nien-Ti Tsou, and John~E Huber.
+\newblock A review of domain modelling and domain imaging techniques in
+  ferroelectric crystals.
+\newblock {\em Materials (Basel, Switzerland)}, 4(2):417--447, 02 2011.
 
 \bibitem{berlincourt1958elastic}
 Don Berlincourt and Hans Jaffe.
