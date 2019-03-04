@@ -38,8 +38,8 @@
 \title[Graphene-Complex Oxide Heterostructure]{Graphene-Complex Oxide Heterostructure}% The optional argument is the %                                   version of the title that will appear in Acrobat Reader's Document Info dialog box.
 \author{Jianan Li}
 \degree{Bachelor of Science, Hong Kong Baptist University, 2011}
-\date{\today}%             This date is the date of the thesis defense. Default is \today
-%\year{2019}                        %pittetd will use the current year unless otherwise indicated. So this command is not
+\date{April 15th, 2019}%             This date is the date of the thesis defense. Default is \today
+\year{2019}                        %pittetd will use the current year unless otherwise indicated. So this command is not
 %                                   necessary.
 \keywords{Physics, graphene, oxide, nanoscale}% This list appears in the field 'Keywords' of Acrobat Reader's Document Info
 %                                   dialog box, and also, optionally, after the abstract.
@@ -53,15 +53,15 @@
 %
 % For the committee membership page, you have to provide the names and affiliations of the members. The first one will 
 % be treated by pittetd as the committee chair (thesis/dissertation advisor).
-\committeemember{Jeremy Levy \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{Dr. Jeremy Levy \\ Department of Physics and Astronomy, University of Pittsburgh}
 %\coadvisor{Second advisor, Dept. Aff.}%         This is used if there are two advisors.
-\committeemember{Vincent Liu \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{Dr. Vincent Liu \\ Department of Physics and Astronomy, University of Pittsburgh}
 
-\committeemember{Gurudev Dutt \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{Dr. Gurudev Dutt \\ Department of Physics and Astronomy, University of Pittsburgh}
 
-\committeemember{Adam Leibovich \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{Dr. Adam Leibovich \\ Department of Physics and Astronomy, University of Pittsburgh}
 
-\committeemember{Xiao Di \\ Department of Physics, Carnegie Mellon University}
+\committeemember{Dr. Xiao Di \\ Department of Physics, Carnegie Mellon University}
 % etc., as many as needed. For master's theses, the committee may be omitted, naming only the advisor.
 \school{Department of Physics and Astronomy}
 
@@ -70,7 +70,7 @@
 
 \begin{abstract}
 
-
+Graphene and complex-oxide interface are two paradigms of 2D systems that attracted numerous researches for more than a decade. The two dimensional gas (2DEG) in both systems differ in many ways from the properties of the traditional semiconductor materials. This research is dedicated to integrating these two versatile systems and study the interactions between the carrier in graphene and complex-oxide interface. Conventionally, the transfer of graphene grown by chemical vapor deposition is assisted by poly(methyl methacrylate) (PMMA) and is widely used for electronic device fabrication for its flexibility. The downside of the method is that the quality of graphene is limited by the residue left by the polymer. A new transfer method is developed in this research that protect the graphene against contaminations. The graphene transferred onto the complex-oxide heterostructure substrates is atomically clean with with mobility. Conductive atomic force microscope (c-AFM) writing technique is applied to graphene-complex-oxide heterostructure to reversibly control the position of charge-neutrality point (CNP) with nanoscale resolution, utilizing the tunability complex-oxide substrate. The local electron density and conductivity of the complex-oxide heterostructure interface can be patterned with the c-AFM tip, and the CNP of the proximal graphene is shifted. Using this effect, the mixing of edge state in quantum Hall regime on the edge of graphene p-n junctions can be reversibly controlled. Quantization of resistance are observed as a result of the mixing at low temperature, depending on the directions of currents and magnetic fields. Nanoscale devices such as superlattice can be readily produced on two dimensional material heterostructure from this technique.
 
 \end{abstract}
 % If you say \begin{abstract}[Keywords:] instead of the simple \begin{abstract}, a list of the keywords is appended.
@@ -81,10 +81,8 @@
 \listoftables                      %Pittetd will complain if you tell it to create a list of tables when there are no
 %                                   tables (as in this sample file). Uncomment this command if you have tables.
 \listoffigures                     %Obvious analogous for figures.
-\preface
 
-I want to thank everyone that made this happened.
-
+%\preface
 
 % This is the text of the preface, with acknowledgments, dedication, etc. It is optional, and you create, as shown, by 
 % just saying \preface and starting the preface's actual text. Note that 'foreword' is no longer acceptable as title
@@ -156,6 +154,7 @@ In 2006, Thiel \textit{et al.} \cite{thiel2006tunable} reported that the interfa
 \end{figure}
 
 \subsection{c-AFM lithography of 2DEG and ``water-cycle'' mechanism}
+\label{SEC:WaterCycle}
 
 Following the discovery of backgate tunable interface 2DEG, Cen \textit{et al.}  demonstrated in 2008 that LAO/STO interface conductivity can also be induced with a gate voltage applied with a c-AFM tip on sample surface\cite{cen2008nanoscale}. For a 3 u.c. LAO/STO sample, the previously discussed polar catastrophe mechanism is not strong enough to reconstruct the band structure and form 2DEG on the interface. With gate voltage locally applied with a nanoscale AFM tip, positive charge can be transferred on the surface of LAO and build up a potential to cause polar catastrophe. The threshold voltage on the tip is about $V_\mathrm{thresh} \approx 6$ V\cite{cen2008nanoscale}. The with conductive channel created in this method is in the same order as the AFM tip, $\sim$ 10 nm. The process is reversible, and the positive charge can be removed with a negative voltage. An insulating gap can therefore be created on the nanowire. More experimental details are discussed in Section \ref{SEC:AFMLitho}.
 
@@ -254,7 +253,7 @@ e^{i\theta_{\mathbf{q}}/2} \\
 \end{equation}
 with 
 $$\theta_\mathbf{q} = \mathrm{tan}^{-1}\left(\frac{q_x}{q_y}\right)$$
-The plus and minus signs are corresponding to states in the conductance and valence bands. Notice that when $\mathbf{q}$ rotates around $\mathbf{K}$ (or $\mathbf{K'}$), the phase of $\psi_{\pm, \mathbf{K}}$ (or $\psi_{\pm, \mathbf{K'}}$) only changes by $\pi$ instead of $2\pi$. Therefore the sublattice states are also called ``pseudo-spin'' states\cite{neto2009electronic}. 
+The plus and minus signs are corresponding to states in the conductance and valence bands. Notice that when $\mathbf{q}$ rotates around $\mathbf{K}$ (or $\mathbf{K'}$), the phase of $\psi_{\pm, \mathbf{K}}$ (or $\psi_{\pm, \mathbf{K'}}$) only changes by $\pi$ instead of $2\pi$ and resembles electron 1/2 spin. Therefore the sublattice states are also called ``pseudo-spin'' states\cite{neto2009electronic}. 
 
 \begin{figure}[h!]
 	\centering
@@ -265,7 +264,7 @@ The plus and minus signs are corresponding to states in the conductance and vale
 
 A significant difference between graphene and normal semiconductor is that, the electron and hole states are described by the same wavefunction, and both are obtained from a Hamiltonian of the form of a relativistic particle described by the 2D Dirac equation\cite{neto2009electronic}. Therefore the electrons in graphene has the properties of Dirac fermions, such as handedness. Also notice that the spinors for $\mathbf{q}$ around $\mathbf{K}$ and $\mathbf{K'}$ differ by a phase of $\pi$ (equation \ref{EQN:Eigenstates}), therefore the states are opposite in handedness around $\mathbf{K}$ and $\mathbf{K'}$. However, at $\mathbf{K}$ and $\mathbf{K'}$ the wavefunctions are still the linear combination of the two sublattice states, or the pseudo-spin states. This degree of freedom will introduce extra degeneracies and will be discussed in the following section.
 
-\subsection{Quantum Hall effect}
+\subsection{Hall effect}
 
 Quantum Hall effect is one of the most important discovery in physics in the 20th century. In the classical Hall effect, a Hall voltage will be built by in the transverse direction of current in magnetic field. In the quantum Hall effect however, the Hall voltage built up by the magnetic field is quantized. This section will start from the classical behavior of electron in magnetic field, and discuss the unique quantum Hall effect in graphene.
 
@@ -361,11 +360,11 @@ The 4 is from the degeneracy of two spin degree of freedom and two pseudo-spin d
 \section{Sample growth}
 
 \subsection{LAO/STO growth}
-The properties of LAO/STO interfaces is extremely sensitive to growth conditions such as substrate temperature, background oxygen pressure, annealing conditions, etc\cite{}. The samples in my experiments are grown with pulsed laser deposition (PLD) by our collaborators at University of Wisconsin-Madison.
+The properties of LAO/STO interfaces is extremely sensitive to growth conditions such as substrate temperature, background oxygen pressure, annealing conditions, etc\cite{cancellieri2010influence}. The samples in my experiments are grown with pulsed laser deposition (PLD) by our collaborators, Sangwoo Ryu, Hyungwoo Lee, Jung-Woo Lee, Kitae Eom, and Chang-Beom Eom, at University of Wisconsin-Madison.
 
 \subsubsection{Pre-growth treatment}
 
-STO (001) substrates are purchased from commercial crystal suppliers. The substrates have a carefully controlled mis-cut angle $< 0.1^{\circ}$, so that the width atomic terraces on STO surface is about 500nm (Figure \ref{FIG:RHEED}(a)). It has been reported that the terraces on LAO/STO surface can affect the properties of the LAO/STO interface\cite{}, therefore I would like to place the nano-devices on a single terrace. If the terraces are too wide however, the LAO cannot grow evenly on STO surface during the PLD process due to the high activation energy for atomic migrations, and end up forming holes on the sample (FIG. \cite{}). 
+STO (001) substrates are purchased from commercial crystal suppliers. The substrates have a carefully controlled mis-cut angle $< 0.1^{\circ}$, so that the width atomic terraces on STO surface is about 500nm (Figure \ref{FIG:RHEED}(a)). It has been reported that the terraces on LAO/STO surface can affect the properties of the LAO/STO interface\cite{}, therefore I would like to place the nano-devices on a single terrace. If the terraces are too wide however, the LAO cannot grow evenly on STO surface during the PLD process due to the high activation energy for atomic migrations, and end up forming holes on the sample. 
 
 Before PLD growth, the STO (001) substrates are etched with buffered HF acid to remove SrO and become TiO$_2$ terminated. Then they are annealed at $1000^{\circ}$C for several hours, so that the surface will reconstruct and form crystal terraces\cite{}. Then the samples are etched in HF acid for a second time for a clean surface to start with. 
 
@@ -394,13 +393,11 @@ During the PLD growth, the reflection high-energy electron diffraction (RHEED) i
 
 \subsection{Graphene growth}
 
-The two most popular methods to obtain single-layer/few-layer graphene are mechanical exfoliation and chemical vapor deposition (CVD). 
+The graphene growth is in collaboration with Shonali Dhingra, Jen-Feng Hsu, and Brian D'Urso from University of Pittsburgh. The graphene condition parameters are from Shonali Dhingra's Ph.D. dissertation\cite{dhingra2015quadratic}.
 
-The mechanical exfoliation isolate single layer graphene directly with adhesive tapes. Graphene is a type of Van der Waals material, which means that the carbon atoms within a layer are tightly bonded with covalent bond while the layers are bonded by the much weaker Van der Waals force. Adhesive tapes can easily separate graphene layers. After multiple exfoliation steps, single layer graphene flakes can be separated and identified\cite{}. One key aspect of the exfoliation method is choosing a proper substrate so that single layer graphene can be easily identified with optical microscopes. Although graphene has the highest absorption coefficient in the visible light regime\cite{}, spotting a single layer graphene flake on a transparent substrate is still challenging, and is always assisted with other characterization methods such as Raman spectroscopy\cite{} to ensure the graphene is single layer. The most commonly used substrate is silicon wafer with 400 nm thick silicon oxide coating. The graphene on SiO$_2$ surface modifies the interference of visible light between the top and bottom layer of the coating, and make graphene layers distinguishable\cite{}. 
+The two most popular methods to obtain single-layer/few-layer graphene are mechanical exfoliation and chemical vapor deposition (CVD). The mechanical exfoliation isolate single layer graphene directly with adhesive tapes. Graphene is a type of van der Waals material, where the carbon atoms within a layer are tightly bonded with covalent bond while the layers are bonded by the much weaker van der Waals force. Adhesive tapes can easily separate graphene layers. After multiple exfoliation steps, single layer graphene flakes can be separated and identified\cite{novoselov2004electric}. One key aspect of the exfoliation method is choosing a proper substrate so that single layer graphene can be easily identified with optical microscopes. Although graphene has the highest absorption coefficient in the visible light regime\cite{nair2008fine}, spotting a single layer graphene flake on a transparent substrate is still challenging, and is always assisted with other characterization methods such as Raman spectroscopy\cite{ferrari2006raman}. Silicon wafers with 400 nm thick oxide is commonly used for assisting graphene transfer. Graphene with different thickness on silicon oxide substrates would have different colors due to interference. 
 
-CVD is another method to obtain single layer graphene. Graphene flake from mechanical exfoliation is mostly a few micrometers or tens of micrometers; the size and shape cannot be well controlled. CVD on the other hand, can grow continuous graphene of wafer sizes\cite{}, and then etch it into any desired shapes through post processing. 
-
-The CVD process uses gaseous organic molecules (methane, ethylene, etc) as carbon source, and graphene lattice-matching crystal such as SiC, Ni and Cu as substrate. In high temperature (about 1000 $^{\circ}$C), the metal surface has highly reactive and can serve as a catalyst, so the gas molecules will react with the surface and carbon atoms are detached. At the high temperature, the carbon atoms will self-assemble into graphene. Over the entire process the substrate is in continuous gas flow so the gaseous byproducts are flushed away. Hydrogen is used to assist the growth. Without hydrogen molecules, graphene will grow simultaneously on the entire surface and form many small domains. Hydrogen will etch away the smaller domains while the larger domains are growing\cite{} until the domains meet or the process is terminated. If the hydrogen portion is too high however, the larger graphene domains will also be etched. CVD is a dynamic process of etching and growth. The ratio of methane and hydrogen need to be carefully controlled.
+CVD is another method to obtain single layer graphene. Graphene flake from mechanical exfoliation is mostly a few micrometers or tens of micrometers; the size and shape cannot be well controlled. CVD on the other hand, can grow continuous graphene of wafer sizes\cite{lee2010wafer}, and then etch it into any desired shapes through post processing. The CVD process uses gaseous organic molecules (methane, ethylene, etc) as carbon source, and graphene lattice-matching crystal such as SiC, Ni and Cu as substrate. In high temperature ($\sim$ 1000 $^{\circ}$C), the metal surface has highly reactive and can serve as a catalyst, so the gas molecules will react with the surface and carbon atoms are detached. At the high temperature, the carbon atoms will self-assemble into graphene. Over the entire process the substrate is in continuous gas flow so the gaseous byproducts are flushed away. Hydrogen is used to assist the growth. Without hydrogen molecules, graphene will grow simultaneously on the entire surface and form many small domains. Hydrogen will etch away the smaller domains while the larger domains are growing\cite{vlassiouk2011role, zhang2012anisotropic} until the domains are in contact with each other or the process is terminated. If the hydrogen portion is too high however, the larger graphene domains will also be etched. CVD is a dynamic process of etching and growth. The ratio of methane and hydrogen need to be carefully controlled.
 
 \begin{figure}[h!]
 	\centering
@@ -434,7 +431,7 @@ Instead of using high-speed-steel tool, the DTM uses a curved-edge (radius of cu
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{Drawing/DTMCopper.pdf}
-	\caption{(a) The copper foil after DTM thinning and polishing. The final thickness is about 100 $\mu$m. (b) The AFM image of the copper foil surface. The roughness is within 2 nm. Some nanoscale particles can be seen. They will serve as nucleation centers for graphene CVD growth. Reducing the density of surface contaminants will reduce the density of nucleation centers and enlarge the domain size. The vertical groves are left by the dents on the diamond tool for each revolution. The spacing between groves is the same as the approaching speed of the tool towards the center. The copper is annealed at $T = 1050^{\circ}$C for another time before growth starts and the surface will reconstruct, possibly remove those groves.}
+	\caption{(a) The copper foil after DTM thinning and polishing. The final thickness is about 100 $\mu$m. (b) The AFM image of the copper foil surface. The roughness is within 2 nm. Some nanoscale particles can be seen. They will serve as nucleation centers for graphene CVD growth. Reducing the density of surface contaminants will reduce the density of nucleation centers and enlarge the domain size. The vertical groves are left by the dents on the diamond tool for each revolution. The spacing between groves is the same as the approaching speed of the tool towards the center. The copper is annealed at $T = 1050$ $^{\circ}$C for another time before growth starts and the surface will reconstruct, possibly remove those groves.}
 	\label{FIG:DTMFinishing}
 \end{figure}
 
@@ -443,11 +440,11 @@ Other than surface roughness, the copper domain size is another limiting factor 
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=1\textwidth]{Drawing/CopperProcessing.pdf}
-	\caption{Procedure of cutting copper rods into 100$\mu$m foils for graphene growth. High purity OFHC copper rods are purchased from McMaster Carr. The rod is first annealed at 1050$^{\circ}$C for 24 h so that the polycrystalline domains merge into larger domains. Then the rod is cut into 2 mm thick copper discs in the machine shop. The discs are cleaned with DTM and then annealed again to ``heal'' the domains broken by the mechanical cutting. Domain re-formation would cause surface corrugation, therefore the copper disc surface is cleaned with DTM and then cut into 100 $\mu$m foils and ready for graphene CVD growth. }
+	\caption{Procedure of cutting copper rods into 100 $\mu$m foils for graphene growth. High purity OFHC copper rods are purchased from McMaster Carr. The rod is first annealed at 1050 $^{\circ}$C for 24 h so that the polycrystalline domains merge into larger domains. Then the rod is cut into 2 mm thick copper discs in the machine shop. The discs are cleaned with DTM and then annealed again to ``heal'' the domains broken by the mechanical cutting. Domain re-formation would cause surface corrugation, therefore the copper disc surface is cleaned with DTM and then cut into 100 $\mu$m foils and ready for graphene CVD growth. }
 	\label{FIG:CopperProcessing}
 \end{figure}
 
-The procedure of making copper rods into copper foils for graphene growth in shown in Figure \ref{FIG:CopperProcessing}. 1' long oxygen-free high thermal conductivity copper (OFHC) rods with ultra high purity (99.99\%) are purchased form McMaster Carr. The rod is first annealed at $T=1050^{\circ}$C for 24 h, and the polycrystalline domains will merge into larger domains within the rod. Then the rod is cut into copper discs of 2 mm thick in the machine shop. The mechanical cutting process will break the domains and introduce surface contaminant, so the surfaces copper discs are cleaned on the DTM, and then annealed again at 1050 $^{\circ}$C for 8 h. After annealing, the domain re-formation in the disc will cause corrugation on the surface. Therefore, the copper surface is cut with DTM for a second time. Then the copper discs are cut into 100 $\mu$m foils, by 10$\mu$m steps. During the thinning procedure, the copper will expand on the cutting face and cause deformation, and eventually break the vacuum sealing between the disc and spindle on the backside. Therefore the copper disc needs to be flipped several times to balance out the expansion and keep it flat when thinned from 2 mm to 100 $\mu$m. The process takes about 5 h. 
+The procedure of making copper rods into copper foils for graphene growth in shown in Figure \ref{FIG:CopperProcessing}. 1' long oxygen-free high thermal conductivity copper (OFHC) rods with ultra high purity (99.99\%) are purchased form McMaster Carr. The rod is first annealed at $T=1050$ $^{\circ}$C for 24 h, and the polycrystalline domains will merge into larger domains within the rod. Then the rod is cut into copper discs of 2 mm thick in the machine shop. The mechanical cutting process will break the domains and introduce surface contaminant, so the surfaces copper discs are cleaned on the DTM, and then annealed again at 1050 $^{\circ}$C for 8 h. After annealing, the domain re-formation in the disc will cause corrugation on the surface. Therefore, the copper surface is cut with DTM for a second time. Then the copper discs are cut into 100 $\mu$m foils, by 10 $\mu$m steps. During the thinning procedure, the copper will expand on the cutting face and cause deformation, and eventually break the vacuum sealing between the disc and spindle on the backside. Therefore the copper disc needs to be flipped several times to balance out the expansion and keep it flat when thinned from 2 mm to 100 $\mu$m. The process takes about 5 h. 
 
 \subsubsection{CVD growth}
 
@@ -456,16 +453,16 @@ The CVD graphene growth can be performed in low pressure (LPCVD) or atmospheric 
 \begin{itemize}
 	\item The furnace is pumped down to $\sim$ 10 mTorr.
 	\item Backfill the furnace with H$_2$/Ar mixture at 186 sccm, up to $\sim$ 100 Torr.
-	\item Start the furnace temperature controller to ramp up to $T = 1050 ^{\circ}$C, and let the furnace stay at this temperature for 1 h.
+	\item Start the furnace temperature controller to ramp up to $T = 1050$ $^{\circ}$C, and let the furnace stay at this temperature for 1 h.
 	\item Start flowing mixture of CH$_4$/Ar at 14 sccm into the furnace, and let the copper foil stay in graphene CVD growth condition for 1.5 h.
-	\item Cool down the system to room temperature. The flow of CH$_4$/Ar mixture is turned off at $\sim$ 650$^{\circ}$C. H$_2$/Ar mixture keeps flowing overnight until the system is below 50$^{\circ}$C. 
+	\item Cool down the system to room temperature. The flow of CH$_4$/Ar mixture is turned off at $\sim$ 650 $^{\circ}$C. H$_2$/Ar mixture keeps flowing overnight until the system is below 50 $^{\circ}$C. 
 	
 \end{itemize}
 
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Drawing/CVDGraphene.pdf}
-	\caption{Dark field mode microscope images of CVD graphene on copper substrates. (a) The copper substrate is partially covered with graphene. Hexagonal shape single domain graphene can be observed. Growth was terminated before graphene fully covered the substrate. (b) Graphene covers the entire copper substrate. Copper domains of two different orientations can be observed. }
+	\caption{Dark field mode microscope images of CVD graphene on copper substrates. (a) The copper substrate is partially covered with graphene. Hexagonal shape single domain graphene can be observed. Growth was terminated before graphene fully covered the substrate. (b) Graphene covers the entire copper substrate. Copper domains of two different orientations can be observed.}
 	\label{FIG:CVDGraphene}
 \end{figure}
 
@@ -473,7 +470,7 @@ In Figure \ref{FIG:CVDGraphene} the dark-field mode of optical microscope clearl
 
 \section{LAO/STO sample processing}
 
-One of the challenges with experiments on LAO/STO interface is to make good electrical contact from the bonding pads to the interface. A major part of my research is process the samples before the c-AFM writing can be performed, or graphene can be transferred. The processing methods have to be carefully chosen, so that the 2DEG and interface switchability will not be affected. Sample cleanness is another concern. Any nano-particles introduced in the processing would affect sample quality, considering that the dimensions of devices are also nanoscale. The procedure has those steps. Details of each steps can be found in the following subsections.
+One of the challenges with experiments on LAO/STO interface is to make good electrical contact from the bonding pads to the interface. A major part of my research is process the samples before the c-AFM writing can be performed, or graphene can be transferred. The processing methods have to be carefully chosen, so that the 2DEG and interface switchability will not be affected. Sample cleanness is another concern. Any nano-particles introduced in the processing would affect sample quality, considering that the dimensions of devices are also nanoscale. The procedure has those steps. Details of each steps can be found in the following subsections. The LAO/STO sample processing recipe are adapted from the previous work of Daniela Bogorin and Mengchen Huang from University of Pittsburgh.
 
 \begin{itemize}
 	
@@ -490,10 +487,6 @@ One of the challenges with experiments on LAO/STO interface is to make good elec
 	\item \textbf{Oxygen plasma cleaning}: the sample is covered with residue from liquid and photoresist, until it is cleaned with oxygen plasma cleaner. Then the atomic steps can be seen with AFM.
 	
 \end{itemize}
-	
-% The sample processing procedures are shown in FIG. \ref{}. 
-
-% figure of processing
 
 \subsection{Photolithography}
 \label{SEC:Photolithography}
@@ -505,7 +498,7 @@ Photolithography is a commonly used technology in semiconductor industry. The su
 
 There are two limiting factors of the feature resolutions in photolithography: diffraction limit of light and photoresist thickness. Spin-coating is a standard technique to keep the photoresist thin and uniformly covering the sample surface. When the sample is spinning at a speed between 1000 rpm and 6000 rpm, the photoresist solution on sample surface would spread out. The liquid will be finally in equilibrium of viscosity, roughness of sample surface and centrifugation from spinning. After the spin-coating the sample is baked at a temperature around 100$^{\circ}$C to vaporize the remaining solvent in photoresist and stabilize the film before UV exposure. In my experiment, the spinning speed is 4000 rpm. Thickness of AZ4210 and AZ4110 are 2.1 $\mu$m and 1.1 $\mu$m, respectively. These two types of photoresists have the same chemical composition. They have different concentrations so they end up with different thickness at the same speed. Usually thinner films will have more stable performances for fine features (2 $\mu$m, to be specific). In the cases where photoresists are consumed in the processing, such as reactive ion etching, thicker photoresist will be a better option.
 
-The spin-coating conditions are listed in Table \ref{tab:photoresistsCoating}.
+The spin-coating conditions are listed in Table \ref{TAB:photoresistsCoating}.
 
 \begin{table}
 	\centering
@@ -519,7 +512,7 @@ The spin-coating conditions are listed in Table \ref{tab:photoresistsCoating}.
 		Thickness	&	2.1 $\mu$m	&	1.1 $\mu$m \\ \hline
 	\end{tabular}
 	\caption{Spin-coating conditions for AZ4210 and AZ4110}
-	\label{tab:photoresistsCoating}
+	\label{TAB:photoresistsCoating}
 
 \end{table}
 
@@ -567,7 +560,7 @@ A picture of sample after UV exposure and developing is shown in Figure \ref{FIG
 	\label{FIG:Developed}
 \end{figure}
 
-The conditions for exposure and developing are listed in Table \ref{tab:photoresistsExposureDeveloping}.
+The conditions for exposure and developing are listed in Table \ref{TAB:photoresistsExposureDeveloping}.
 
 \begin{table}[h!]
 	\centering
@@ -580,14 +573,14 @@ The conditions for exposure and developing are listed in Table \ref{tab:photores
 		Resolution	&	3 - 5 $\mu$m	&	2 $\mu$m	\\ \hline
 	\end{tabular}
 	\caption{UV exposure and developing conditions for AZ4210 and AZ4110}
-	\label{tab:photoresistsExposureDeveloping}	
+	\label{TAB:photoresistsExposureDeveloping}	
 \end{table}
 
  Photolithography is the part that has the most uncertainty in the entire processing, and can affect some samples (like graphene/LAO/STO) more significantly. This will be discussed in future sections. 
 
 \subsection{Ion milling}
 \label{SEC:IonMilling}
-LAO/STO interface is buried underneath LAO, so if contact need to make with the interface the LAO has to be etched. Usually there are three methods for etching: wet chemical etching, dry plasma etching and ion milling. Wet chemical etching using reactive chemical solutions (such as HF, HCl) to etch away the materials. This is  cheaper but less controlled, and etching is isotropic. Plasma etching, uses the plasma or free radicals of active gas molecules (such as O$_2$, SF$_6$, etc) to react and remove materials, at pressure between 0.1 and 5 Torr. It is better controlled in etching rate and directionality, but the instrument is more expensive, and finding the right gas to selectively etch the target material while keeping the protecting layer intact is not always feasible. Although there are mature industrial solutions for silicon, alumina and silica etching with plasma, there is not a good solution to etch complex oxides like LAO/STO with our facility plasma etcher. Ion mill uses accelerated ionized argon plasma to physically bombard sample. The etching rate is slower than the previous two methods, but performs well on most inorganic materials including LAO/STO. Also, the etching is more directional. In Table \ref{tab:etching} is a comparison of the three etching methods.
+LAO/STO interface is buried underneath LAO, so if contact need to make with the interface the LAO has to be etched. Usually there are three methods for etching: wet chemical etching, dry plasma etching and ion milling. Wet chemical etching using reactive chemical solutions (such as HF, HCl) to etch away the materials. This is  cheaper but less controlled, and etching is isotropic. Plasma etching, uses the plasma or free radicals of active gas molecules (such as O$_2$, SF$_6$, etc) to react and remove materials, at pressure between 0.1 and 5 Torr. It is better controlled in etching rate and directionality, but the instrument is more expensive, and finding the right gas to selectively etch the target material while keeping the protecting layer intact is not always feasible. Although there are mature industrial solutions for silicon, alumina and silica etching with plasma, there is not a good solution to etch complex oxides like LAO/STO with our facility plasma etcher. Ion mill uses accelerated ionized argon plasma to physically bombard sample. The etching rate is slower than the previous two methods, but performs well on most inorganic materials including LAO/STO. Also, the etching is more directional. In Table \ref{TAB:etching} is a comparison of the three etching methods.
 
 \begin{table}
 	\centering
@@ -604,11 +597,11 @@ LAO/STO interface is buried underneath LAO, so if contact need to make with the 
 		
 	\end{tabular}
 	\caption{Comparison of etching methods.}
-	\label{tab:etching}
+	\label{TAB:etching}
 	
 \end{table}
 
-Ion mill accelerates Ar ions to a certain kinetic energy and physically etch samples with bombardment. As shown in Figure \ref{FIG:IonMill}, Ar$^+$ is generated from the discharge chamber. The entire chamber is pumped to high vacuum ($< 10^{-6}$ Torr), and back filled with Ar gas to $10^-4$ Torr. On the right-hand-side of the figure, a filament is heated up and a biased voltage is applied between the filament and chamber wall. Electrons are extracted from the filament and ionize the argon molecules. Usually a magnetic field is applied through a solenoid to increase the path and ion yield before the electrons reach the chamber wall. At the opening side of the discharge chamber, there are two or three layers of electrically isolated screen grids (made of sputter-resisting materials like Mo or W). A voltage of 500eV is applied between the grids so that Ar$^+$ can be accelerated to the same energy. The pores on the grids are aligned so that the Ar$^{+}$ flow is collimated. Right after the Ar$^{+}$ exits the chamber, it is mixed with free electrons from a neutralizer filament, so that flow will not be diverged by coulomb attraction between Ar$^{+}$ before they reach the sample. The sample is 20$^{\circ}$ to 30$^{\circ}$ off the normal direction, to create undercut and facilitate electrical contact between the interface and the electrodes. The kinetic energy of the plasma is converted to heat on the sample surface. Either the sample is cooled down with flowing water inside the chuck, or the plasma flow is shutoff with a duty cycle so that the sample can cool down by radiation. Temperature over 150 $^{\circ}$C will cause phase transition of the photoresist on the sample, and make hard to remove by lift-off.
+Ion mill accelerates Ar ions to a certain kinetic energy and physically etch samples with bombardment. As shown in Figure \ref{FIG:IonMill}, Ar$^+$ is generated from the discharge chamber. The entire chamber is pumped to high vacuum ($< 10^{-6}$ Torr), and back filled with Ar gas to $10^-4$ Torr. On the right-hand-side of the figure, a filament is heated up and a biased voltage is applied between the filament and chamber wall. Electrons are extracted from the filament and ionize the argon molecules. Usually a magnetic field is applied through a solenoid to increase the path and ion yield before the electrons reach the chamber wall. At the opening side of the discharge chamber, there are two or three layers of electrically isolated screen grids (made of sputter-resisting materials like Mo or W). A voltage of 500eV is applied between the grids so that Ar$^+$ can be accelerated to the same energy. The pores on the grids are aligned so that the Ar$^{+}$ flow is collimated. Right after the Ar$^{+}$ exits the chamber, it is mixed with free electrons from a neutralizer filament, so that flow will not be diverged by coulomb attraction between Ar$^{+}$ before they reach the sample. The sample is 20$^{\circ}$ to 30$^{\circ}$ off the normal direction, to create undercut and facilitate electrical contact between the interface and the electrodes. The kinetic energy of the plasma is converted to heat on the sample surface. Either the sample is cooled down with flowing water inside the chuck, or the plasma flow is shutoff with a duty cycle so that the sample can cool down by radiation. Temperature over 150 $^{\circ}$C will cause phase-transition of the photoresist, and make it hard to remove by lift-off.
 
 \begin{figure}[hp]
 	\centering
@@ -672,7 +665,7 @@ Where $x$ is the amount deformation, and $k$ is the spring constant of the tip c
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Drawing/Interaction.pdf}
+	\includegraphics[width=0.5\textwidth]{Drawing/Interaction.pdf}
 	\caption{The interaction between tip and the sample surface. At long distance the interaction zero. When the tip moves towards the sample, the interaction is attractive. As the tip gets closer, the interaction would switch from attraction to repulsion, and gets larger and larger the tip moves closer.}
 	\label{FIG:Interaction}
 \end{figure}
@@ -768,7 +761,7 @@ E_{2} \\
 E_{3}
 \end{bmatrix}
 $$
-When a field is applied in $E_3$ direction, the resulting non-zero strain terms are $X_1 = d_{31}E_3$, $X_2 = d_{32}E_3$ and $X_3 = d_{33}E_3$. Therefore, an electric field in the c-axis of the crystal will cause elongation in the c-axis and contraction in the other two orthogonal directions, or vice versa. The piezoresponse of sample can bring insights of the sample properties such as carrier concentration\cite{}, ferroelectric domain orientation\cite{}, domain boundary\cite{}, etc. The piezoresponse of the LAO/STO system can be used to characterize the carrier density change on the interface. More details will be discussed in the following section.
+When a field is applied in $E_3$ direction, the resulting non-zero strain terms are $X_1 = d_{31}E_3$, $X_2 = d_{32}E_3$ and $X_3 = d_{33}E_3$. Therefore, an electric field in the c-axis of the crystal will cause elongation in the c-axis and contraction in the other two orthogonal directions, or vice versa. The piezoresponse of sample can bring insights of the sample properties such as carrier concentration\cite{huang2013direct}, ferroelectric domain orientation\cite{}, domain boundary\cite{}, etc. The piezoresponse of the LAO/STO system can be used to characterize the carrier density change on the interface. More details will be discussed in the following section.
 
 \begin{figure}[p]
 	\centering
@@ -777,12 +770,12 @@ When a field is applied in $E_3$ direction, the resulting non-zero strain terms 
 	\label{FIG:PFM}
 \end{figure}
 
-In PFM measurement, a conductive tip made of doped silicon or coated with metal is in contact with the sample and a sinusoidal voltage signal is applied to the tip. For a sample with piezoresponse, the electric field will cause a deformation of the sample topography sinusoidal in time. Since the sample is in contact with the tip, the topographical change of sample will cause slight change of tip deformation and the change is recorded by the differential voltage on the quad detector. The sample deformation is usually in the order of 10 pm/V (e.g. 85.6 pm/V for BaTiO$_3$\cite{}). Therefore, PFM signal is measured with lock-in technique for the best signal-to-noise ratio. As shown in Figure \ref{FIG:PFM}, If the sample contract in the direction of the electric field, the piezoresponse signal will be in phase with the electric signal; if the sample elongate in the direction of the field, the signal will be out of phase.
+In PFM measurement, a conductive tip made of doped silicon or coated with metal is in contact with the sample and a sinusoidal voltage signal is applied to the tip. For a sample with piezoresponse, the electric field will cause a deformation of the sample topography sinusoidal in time. Since the sample is in contact with the tip, the topographical change of sample will cause slight change of tip deformation and the change is recorded by the differential voltage on the quad detector. The sample deformation is usually in the order of 10 pm/V (e.g. $d_{33} = 85.6$ pm/V for BaTiO$_3$\cite{berlincourt1958elastic}). Therefore, PFM signal is measured with lock-in technique for the best signal-to-noise ratio. As shown in Figure \ref{FIG:PFM}, If the sample contract in the direction of the electric field, the piezoresponse signal will be in phase with the electric signal; if the sample elongate in the direction of the field, the signal will be out of phase.
 
 \subsection{LAO/STO nano-device c-AFM lithography}
 \label{SEC:AFMLitho}
 
-Other than performing surface characterization, the main application of AFM in our lab is to create nano-scale structures on the interface of LAO/STO. As discussed in Section \ref{}, the ``water-cycle'' mechanism\cite{bi2010water} and surface protonation\cite{} are central for the reversible AFM lithography on LAO/STO interface. In contact mode, the AFM tip is in direct contact with the LAO/STO sample surface. When a positive voltage is applied to the conductive AFM tip, and $V_\mathrm{tip} > +6$V\cite{cen2008nanoscale}, the electric field from the tip will dissociate the water molecules between the tip and sample surface, and leaves a trace of proton, as the tip scans through the LAO surface. 
+Other than performing surface characterization, the main application of AFM in our lab is to create nano-scale structures on the interface of LAO/STO. As discussed in Section \ref{SEC:WaterCycle}, the ``water-cycle'' mechanism\cite{bi2010water} and surface protonation\cite{brown2016giant} are central for the reversible AFM lithography on LAO/STO interface. In contact mode, the AFM tip is in direct contact with the LAO/STO sample surface. When a positive voltage is applied to the conductive AFM tip, and $V_\mathrm{tip} > +6$V\cite{cen2008nanoscale}, the electric field from the tip will dissociate the water molecules between the tip and sample surface, and leaves a trace of proton, as the tip scans through the LAO surface. 
 
 \begin{figure}[p]
 	\centering
@@ -820,6 +813,8 @@ The sample is patterned in such a way that I can do AFM lithography and electric
 
 \section{Graphene/LAO/STO device fabrication}
 
+This section discuses the details of graphene/LAO/STO device fabrication. The project is in collaboration with Qing Guo, Jen-Feng Hsu, Shonali Dhingra and Shivendra Tripathi.
+
 Current state-of-the-art high quality graphene devices are fabricated from mechanically transferred exfoliated graphene encapsulated with hexagonal boron nitride (h-BN)\cite{dean2010naturenano}, where the mean-free-path of the electron can exceed the dimension of the device\cite{Novoselovaac9439} (tens of micrometers). For applications requiring an arbitrary substrate and graphene shape like my experiment, graphene grown from CVD method and transfer in liquid (``wet-transfer'') is preferred. The basic idea of wet-transfer is to use wet chemical etchant such as nitric acid, hydrochloric acid, FeCl$_3$ or ammonium persulfate (AP) to etch away the metal substrate while the graphene is floating on the liquid surface. The graphene is then scooped out and rinsed in DI-water for several times while floating on water. The substrate is then immersed in the DI-water and used to catch the graphene piece from the bottom. Conventionally, the wet-transfer needs polymers like poly(methyl methacrylate) (PMMA) a scaffold layer to support  graphene on the liquid surface before it is transferred onto the substrate\cite{li2009transfer, reina2008transferring, reina2008large}. The PMMA is then patterned with deep UV exposure or e-beam lithography, so that graphene can be etched in to the designed shape. In the end the PMMA is cleaned with organic solvent. The procedure of using PMMA to transfer and pattern graphene shown in Figure \ref{FIG:PMMATransfer}. 
 
 \begin{figure}[p]
@@ -839,9 +834,9 @@ The issue with PMMA as transfer medium is that, the residual PMMA is known to be
 	\label{FIG:PMMAResidue}
 \end{figure}
 
-Another drawback of using PMMA as a transfer medium is that LAO/STO substrate is susceptible to PMMA contaminants. Figure \ref{FIG:PMMAResidue} shows the AFM AC phase image of  LAO/STO with a graphene piece transferred and patterned with PMMA. The inside the circular region is graphene. On the LAO/STO surface, contamination particles can be seen. Many experiments in my project require tuning the 2D electron gas on the interface of LAO/STO with c-AFM (will be discussed in Section \ref{SEC:AFM}). Most of the LAO/STO samples were found to lost the interface tunability after the graphene transfer with PMMA. 
+Another drawback of using PMMA as a transfer medium is that LAO/STO substrate is susceptible to PMMA contaminants. Figure \ref{FIG:PMMAResidue} shows the AFM AC phase image of  LAO/STO with a graphene piece transferred and patterned with PMMA. The inside the circular region is graphene. On the LAO/STO surface, contamination particles can be seen. Many experiments in my project require tuning the 2D electron gas on the interface of LAO/STO with c-AFM (will be discussed in Section \ref{SEC:AFM}). Most of the LAO/STO samples were found to lost the interface tunability after the graphene transfer with PMMA\cite{li2016method}. 
 
-A replacement for PMMA is a type of perfluoropolymer Hyflon from Solvay. Our collaborator Brian D'Urso has used Hyflon for hydrodynamic experiment, and suggested it might work as a perfect protection layer for graphene. Hyflon is a type of perfluorinated polymer (similar to Teflon), and is highly hydrophobic and chemically stable. Hyflon has been reported to be widely used in membrane applications such as fuel cells, due to the inertness of C-F bonds\cite{arcella2005hyflon, merlo2007membrane, zhang2012recent}. It has also been reported that the Hyflon membrane between graphene and substrates like SiO$_2$ can reduce the extrinsic p-type doping in graphene by preventing water molecule adsorption to the dangling bonds on the substrates\cite{mattevi2012solution}. It means that, unlike PMMA that leaves residue and deteriorate graphene quality, Hyflon can actually preserve the graphene while used as a transfer medium. Hyflon is also high selectivity to solvent. Most of the organic or inorganic solvent such as acetone, IPA or DI-water cannot dissolve Hyflon, which makes it a perfect protection layer for graphene. 
+A replacement for PMMA is a type of perfluoropolymer Hyflon from Solvay. Our collaborator Brian D'Urso has used Hyflon for hydrodynamic experiment, suggesting the possibility for graphene protection. Hyflon is a type of perfluorinated polymer (similar to Teflon), and is highly hydrophobic and chemically stable. Hyflon has been reported to be widely used in membrane applications such as fuel cells, due to the inertness of C-F bonds\cite{arcella2005hyflon, merlo2007membrane, zhang2012recent}. It has also been reported that the Hyflon membrane between graphene and substrates like SiO$_2$ can reduce the extrinsic p-type doping in graphene by preventing water molecule adsorption to the dangling bonds on the substrates\cite{mattevi2012solution}. It means that, unlike PMMA that leaves residue and deteriorate graphene quality, Hyflon can actually preserve the graphene while used as a transfer medium. Hyflon is also high selectivity to solvent. Most of the organic or inorganic solvent such as acetone, IPA or DI-water cannot dissolve Hyflon, which makes it a perfect protection layer for graphene. 
 
 The commercially available Hyflon is in power form. It is only soluble in a few types of perfluorinated solvent. In my experiment I used FC-40 to make Hyflon solutions. There are different types of Hyflon available, mainly Hyflon AD 40 and Hyflon AD 60, with different molecular weights and phase transition temperature. I have tested both types, and found that graphene transferred with Hyflon AD 60 has higher quality. Although AD 40 has smaller molecular weight and easier to be dissolved, the sample soft-baking temperature is higher than the phase transition temperature of AD 40, and would cause cross-linking of the polymer chains. This makes Hyflon AD 40 hard to be removed and affects graphene quality as a result. 
 
@@ -1097,7 +1092,7 @@ The LAO/STO is fairly robust under the writing and erasing with c-AFM. The graph
 \chapter{Graphene/LAO/STO heterostructure device}
 \label{SEC:GCO}
 
-This chapter is about the transport properties of graphene device on graphene/LAO/STO. It is also found that graphene can be reversibly doped with c-AFM lithography technique, similar to the nanostructure lithography on bare LAO/STO. Two experiments are discussed in details: edge-state mixing on graphene $p$-$n$ junctions and graphene superlattice patterning.
+This chapter is about the transport properties of graphene device on graphene/LAO/STO. It is also found that graphene can be reversibly doped with c-AFM lithography technique, similar to the nanostructure lithography on bare LAO/STO. Two experiments are discussed in details: edge-state mixing on graphene $p$-$n$ junctions and graphene superlattice patterning. This project is in collaboration with Qing Guo from University of Pittsburgh.
 
 \section{Transport measurement in graphene}
 
@@ -1401,8 +1396,8 @@ The moir{\'e} pattern (Figure \ref{FIG:Moire}) can generate superlattice with pe
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Drawing/Moire.pdf}
-	\caption{Moir{\'e} pattern generated from two layers of honeycomb lattice with angular mismatch. The lattice constant can be an order of magnitude greater than the crystal lattice constant, depending on the mismatch angle}
+	\includegraphics[width=0.8\textwidth]{Drawing/Moire.pdf}
+	\caption{Moir{\'e} pattern generated from two layers of honeycomb lattice with angular mismatch. The lattice constant can be an order of magnitude greater than the crystal lattice constant, depending on the mismatch angle.}
 	\label{FIG:Moire}
 \end{figure}
 
@@ -1415,7 +1410,7 @@ The c-AFM writing technique provides a method to reversibly pattern superlattice
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{Drawing/HofstadterLandau.pdf}
-	\caption{Landau levels and Hofstadter spectra. (a) Magnetic flux through the electron orbits in magnetic field is quantized. (b) Landau fan diagram for 2D system. (c) Additional Landau fans emerge under the periodic potential.}
+	\caption{Landau levels and Hofstadter spectra. (a) Magnetic flux through the electron orbits in magnetic field is quantized. (b) Landau fan diagram of the energy gaps in 2D system. (c) Additional Landau fans emerge under the periodic potential. The energy gaps can be described by equation \ref{EQN:Wannier}.}
 	\label{FIG:HofstadterLandau}
 \end{figure}
 
@@ -1433,14 +1428,15 @@ As Figure \ref{FIG:HofstadterLandau}(b) shows, for electrons in magnetic field w
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Drawing/SuperlatticeWriting.pdf}
-	\caption{Lithography of hexagonal superlattice on graphene. (a) The written and control devices. (b) The hexagonal pattern of superlattice, with $V_\mathrm{min} = -5$ V and $V_\mathrm{max} = +5$ V.}
+	\caption{Lithography of hexagonal superlattice on graphene. (a) The written and control devices. (b) The hexagonal pattern of superlattice, with $V_\mathrm{min} = -5$ V and $V_\mathrm{max} = +5$ V. The pattern is generated using equation \ref{EQN:Superlattice}.}
 	\label{FIG:SuperlatticeWriting}
 \end{figure}
 
 As Figure \ref{FIG:SuperlatticeWriting} demonstrates, a graphene device with two Hall bars in series connected is fabricated. The hexagonal pattern is written on one device, while the other device is measured as control. The current is sourced in the main channel; the resistances for the control device ($R_\mathrm{xx1}$) and for the written device ($R_\mathrm{xx2}$) are measured. The hexagonal pattern is generated using equation
-$$
+\begin{equation}
+\label{EQN:Superlattice}
 V(x, y) = V_0 \left[\cos(kx) + \cos\left( k \left( \frac{1}{2}  x + \frac{\sqrt{3}}{2} y \right) \right) + \cos \left( k \left( \frac{1}{2} x - \frac{\sqrt{3}}{2} y \right) \right) \right] + V_\mathrm{off}
-$$
+\end{equation}
 where $k = 2\pi/a$ and $a$ is the lattice constant, $V_0$ is the amplitude of the voltage modulation and $V_\mathrm{off}$ is the offset (as shown in Figure \ref{FIG:SuperlatticeWriting}(b)). 
 
 The lithography of graphene superlattice is performed with similar c-AFM writing parameters in section \ref{SEC:PNJunction}. The device is scanned in contact mode, with the bias voltage modulated between $-5$ V and $+5$ V. For a 5 $\mu$m $\times$ 5 $\mu$m region, 512 lines are written, at 5 $\mu$m/s. The contact force is between 20 nN and 80 nN.
@@ -1473,7 +1469,7 @@ Another factor that complicates the analysis on the data shown in Figure \ref{FI
 \chapter{Magneto-Optical Kerr Effect on LAO/STO interface}
 \label{SEC:Kerr}
 
-This sections will discuss the experiment of probing ferromagnetism in LAO/STO using MFM and magneto-optical Kerr effect. 
+This sections will discuss the experiment of probing ferromagnetism in LAO/STO using MFM and magneto-optical Kerr effect. The project is in collaboration with Qing Guo from University of Pittsburgh.
 
 \section{Magnetism on LAO/STO interface}
 
@@ -1703,9 +1699,18 @@ The high electrical conductivity and a transmittance of 97.7\% for visible light
 
 \chapter{Conclusions and Outlook}
 
+Numerous researches have been performed in recent years on the two dimensional systems due to their unique physical properties from the spatial confinement of carriers. Among the 2DEG systems, graphene and LAO/STO are two most well-studies paradigms. The integration of graphene and complex-oxide heterostructure is investigate in this dissertation. 
+
+A processing recipe has been developed to make electrical contact to the LAO/STO interface, using standard photolithography, ion milling, and e-beam evaporation. The parameters of the recipe are carefully calibrated, such that the electrical connections are ohmic at low temperature while the writability of LAO/STO interface is preserved. Graphene with large domain size is grown on ultra-flat copper substrates prepared using DTM, with fine-tuned cutting parameters to ensure nanometer-scale flatness. Various graphene transfer methods have been attempted, and a new Hyflon-assisted graphene transfer method is developed. The graphene etching process with oxygen plasma is also calibrated so that the LAO/STO interface is not damaged. Graphene/LAO/STO devices fabricated from this recipe demonstrates high mobilities that exceed those on silicon substrates. The residue issue from the conventional PMMA wet-transfer method is overcome with the utilization of Hyflon.
+
+The dissertation has also demonstrated that the CNP of graphene on LAO/STO substrates can be shifted locally on nanoscale with c-AFM writing technique. PN junctions can be formed as a result of positive charge doping from c-AFM writing. Edge-state engineering in quantum Hall regime and the subsequent non-trivial quantized longitudinal resistances have been observed as direct proofs of the doping effect. Similar to the nanoscale structures created on the interface bare LAO/STO samples, the writing effect on graphene can be erased with a negative voltage on the c-AFM tip, given that the voltage is within the damage threshold of graphene. This preliminary result of the reversible c-AFM writing technique opens a gate to the fabrication of more complicated nanoscale devices on graphene. A superlattice writing experiment using with c-AFM have been performed. Further studies with more carefully controlled writing parameters need to be conducted for more quantitative results.
+
+To study the interactions between graphene and LAO/STO interface, one experiment can be performed is the coulomb drab between the two layer of 2DEG. Experiments have suggested that interaction between two superconducting nanowires on the LAO/STO interface is non-coulombic\cite{tang2017non}. It will be illuminating to observe the interaction between the carriers in graphene and superconducting LAO/STO interface, considering the strong electron-electron pairing in LAO/STO and the electron-hole duality of carriers in graphene. The flexibility of device fabrication using c-AFM also makes it possible to study the interaction between 1D and 2D systems with distinct carrier natures.
+
+The Hyflon-assisted wet-transfer method explored in this work can be applied to assemble other 2D-material heterostructure, such as transition metal dichalcogenide and LAO/STO thin films on complex oxide or conventional semiconductor substrates. Utilizing the c-AFM writing technique, more novel nanoscale devices or meta-materials can be produced in the future.
 
 %
-\appendix                          % After this command, chapters will be formatted as appendices. For example:
+%\appendix                          % After this command, chapters will be formatted as appendices. For example:
 %
 \bibliography{bibliography}      %\safebibliography is used the same way as \bibliography, but gives pittetd
 \bibliographystyle{unsrt}

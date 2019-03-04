@@ -4,82 +4,81 @@
 \BOOKMARK [0][]{prelim.4}{TABLE OF CONTENTS}{}
 \BOOKMARK [0][]{prelim.5}{LIST OF TABLES}{}\begingroup \makeatletter \prepare@bookmarks 5 \@input {main.lot} \endgroup 
 \BOOKMARK [0][]{prelim.6}{LIST OF FIGURES}{}\begingroup \makeatletter \prepare@bookmarks 6 \@input {main.lof} \endgroup 
-\BOOKMARK [0][]{Doc-Start}{PREFACE}{}% 1
-\BOOKMARK [0][]{chapter.1}{I. INTRODUCTION}{}% 2
-\BOOKMARK [1][]{section.1.1}{A. LAO/STO heterostructure}{chapter.1}% 3
-\BOOKMARK [2][]{subsection.1.1.1}{1. 2DEG on LAO/STO interface}{section.1.1}% 4
-\BOOKMARK [2][]{subsection.1.1.2}{2. Metal-insulator transition and critical thickness}{section.1.1}% 5
-\BOOKMARK [2][]{subsection.1.1.3}{3. c-AFM lithography of 2DEG and ``water-cycle'' mechanism}{section.1.1}% 6
-\BOOKMARK [2][]{subsection.1.1.4}{4. Superconductivity}{section.1.1}% 7
-\BOOKMARK [2][]{subsection.1.1.5}{5. Magnetism}{section.1.1}% 8
-\BOOKMARK [1][]{section.1.2}{B. Graphene}{chapter.1}% 9
-\BOOKMARK [2][]{subsection.1.2.1}{1. Graphene band structure and Dirac fermion}{section.1.2}% 10
-\BOOKMARK [2][]{subsection.1.2.2}{2. Quantum Hall effect}{section.1.2}% 11
-\BOOKMARK [3][]{subsubsection.1.2.2.1}{a. Classical Hall effect}{subsection.1.2.2}% 12
-\BOOKMARK [3][]{subsubsection.1.2.2.2}{b. Quantum Hall effect in Graphene}{subsection.1.2.2}% 13
-\BOOKMARK [0][]{chapter.2}{II. EXPERIMENTAL METHODS}{}% 14
-\BOOKMARK [1][]{section.2.1}{A. Sample growth}{chapter.2}% 15
-\BOOKMARK [2][]{subsection.2.1.1}{1. LAO/STO growth}{section.2.1}% 16
-\BOOKMARK [3][]{subsubsection.2.1.1.1}{a. Pre-growth treatment}{subsection.2.1.1}% 17
-\BOOKMARK [3][]{subsubsection.2.1.1.2}{b. PLD deposition}{subsection.2.1.1}% 18
-\BOOKMARK [2][]{subsection.2.1.2}{2. Graphene growth}{section.2.1}% 19
-\BOOKMARK [3][]{subsubsection.2.1.2.1}{a. Copper substrate preparation}{subsection.2.1.2}% 20
-\BOOKMARK [3][]{subsubsection.2.1.2.2}{b. CVD growth}{subsection.2.1.2}% 21
-\BOOKMARK [1][]{section.2.2}{B. LAO/STO sample processing}{chapter.2}% 22
-\BOOKMARK [2][]{subsection.2.2.1}{1. Photolithography}{section.2.2}% 23
-\BOOKMARK [3][]{subsubsection.2.2.1.1}{a. Spin-coating}{subsection.2.2.1}% 24
-\BOOKMARK [3][]{subsubsection.2.2.1.2}{b. UV exposure}{subsection.2.2.1}% 25
-\BOOKMARK [3][]{subsubsection.2.2.1.3}{c. Developing}{subsection.2.2.1}% 26
-\BOOKMARK [2][]{subsection.2.2.2}{2. Ion milling}{section.2.2}% 27
-\BOOKMARK [2][]{subsection.2.2.3}{3. Deposition}{section.2.2}% 28
-\BOOKMARK [2][]{subsection.2.2.4}{4. Lift-off}{section.2.2}% 29
-\BOOKMARK [2][]{subsection.2.2.5}{5. Oxygen plasma cleaning}{section.2.2}% 30
-\BOOKMARK [1][]{section.2.3}{C. Atomic force microscope}{chapter.2}% 31
-\BOOKMARK [2][]{subsection.2.3.1}{1. Working principle}{section.2.3}% 32
-\BOOKMARK [2][]{subsection.2.3.2}{2. Contact mode}{section.2.3}% 33
-\BOOKMARK [2][]{subsection.2.3.3}{3. AC mode}{section.2.3}% 34
-\BOOKMARK [2][]{subsection.2.3.4}{4. Non-contact mode}{section.2.3}% 35
-\BOOKMARK [2][]{subsection.2.3.5}{5. Magnetic force microscopy}{section.2.3}% 36
-\BOOKMARK [2][]{subsection.2.3.6}{6. Piezoresponse force microscopy}{section.2.3}% 37
-\BOOKMARK [2][]{subsection.2.3.7}{7. LAO/STO nano-device c-AFM lithography}{section.2.3}% 38
-\BOOKMARK [1][]{section.2.4}{D. Graphene/LAO/STO device fabrication}{chapter.2}% 39
-\BOOKMARK [2][]{subsection.2.4.1}{1. Overview of the Hyflon transfer method}{section.2.4}% 40
-\BOOKMARK [2][]{subsection.2.4.2}{2. Hyflon solution preparation and spin-coating}{section.2.4}% 41
-\BOOKMARK [2][]{subsection.2.4.3}{3. Graphene preparation, copper etching and wet transfer}{section.2.4}% 42
-\BOOKMARK [2][]{subsection.2.4.4}{4. Graphene/LAO/STO sample pattern}{section.2.4}% 43
-\BOOKMARK [2][]{subsection.2.4.5}{5. Photolithography and etching}{section.2.4}% 44
-\BOOKMARK [3][]{subsubsection.2.4.5.1}{a. One-step etching}{subsection.2.4.5}% 45
-\BOOKMARK [3][]{figure.2.32}{b. Two-step etching}{subsection.2.4.5}% 46
-\BOOKMARK [2][]{subsection.2.4.6}{6. Hyflon removal}{section.2.4}% 47
-\BOOKMARK [3][]{subsubsection.2.4.6.1}{a. High temperature method}{subsection.2.4.6}% 48
-\BOOKMARK [3][]{subsubsection.2.4.6.2}{b. Low temperature method}{subsection.2.4.6}% 49
-\BOOKMARK [2][]{subsection.2.4.7}{7. AFM cleaning of graphene}{section.2.4}% 50
-\BOOKMARK [2][]{subsection.2.4.8}{8. Graphene/LAO/STO nano-scale device lithography}{section.2.4}% 51
-\BOOKMARK [2][]{subsection.2.4.9}{9. c-AFM lithography and PFM imaging}{section.2.4}% 52
-\BOOKMARK [2][]{subsection.2.4.10}{10. More about the c-AFM writing conditions on graphene and damage thresholds}{section.2.4}% 53
-\BOOKMARK [0][]{chapter.3}{III. GRAPHENE/LAO/STO HETEROSTRUCTURE DEVICE}{}% 54
-\BOOKMARK [1][]{section.3.1}{A. Transport measurement in graphene}{chapter.3}% 55
-\BOOKMARK [2][]{subsection.3.1.1}{1. Charge-neutrality point}{section.3.1}% 56
-\BOOKMARK [2][]{subsection.3.1.2}{2. Carrier densities and mobilities}{section.3.1}% 57
-\BOOKMARK [2][]{subsection.3.1.3}{3. Quantum Hall effect}{section.3.1}% 58
-\BOOKMARK [1][]{section.3.2}{B. Graphene p-n junction edge-state engineering}{chapter.3}% 59
-\BOOKMARK [2][]{subsection.3.2.1}{1. 1D waveguide and quantum Hall edge channels}{section.3.2}% 60
-\BOOKMARK [2][]{subsection.3.2.2}{2. Edge channel mixing of graphene unipolar/bipolar junction in quantum Hall regime}{section.3.2}% 61
-\BOOKMARK [2][]{subsection.3.2.3}{3. Graphene doping using c-AFM}{section.3.2}% 62
-\BOOKMARK [2][]{subsection.3.2.4}{4. Measurement of graphene edge state mixing}{section.3.2}% 63
-\BOOKMARK [1][]{section.3.3}{C. Graphene band-structure engineering with superlattice}{chapter.3}% 64
-\BOOKMARK [2][]{subsection.3.3.1}{1. Hofstadter spectra of superlattice}{section.3.3}% 65
-\BOOKMARK [2][]{subsection.3.3.2}{2. Superlattice lithography}{section.3.3}% 66
-\BOOKMARK [2][]{subsection.3.3.3}{3. Transport measurement}{section.3.3}% 67
-\BOOKMARK [0][]{chapter.4}{IV. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 68
-\BOOKMARK [1][]{section.4.1}{A. Magnetism on LAO/STO interface}{chapter.4}% 69
-\BOOKMARK [1][]{section.4.2}{B. MFM measurement}{chapter.4}% 70
-\BOOKMARK [1][]{section.4.3}{C. Magneto-Optical Kerr measurement}{chapter.4}% 71
-\BOOKMARK [2][]{subsection.4.3.1}{1. Jone's matrix formalism}{section.4.3}% 72
-\BOOKMARK [2][]{subsection.4.3.2}{2. Magneto-optical Kerr effect}{section.4.3}% 73
-\BOOKMARK [2][]{subsection.4.3.3}{3. Optical measurement}{section.4.3}% 74
-\BOOKMARK [1][]{section.4.4}{D. Improvements}{chapter.4}% 75
-\BOOKMARK [2][]{subsection.4.4.1}{1. Quad-detector}{section.4.4}% 76
-\BOOKMARK [2][]{subsection.4.4.2}{2. Graphene top gate}{section.4.4}% 77
-\BOOKMARK [0][]{chapter.5}{V. CONCLUSIONS AND OUTLOOK}{}% 78
-\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 79
+\BOOKMARK [0][]{chapter.1}{I. INTRODUCTION}{}% 1
+\BOOKMARK [1][]{section.1.1}{A. LAO/STO heterostructure}{chapter.1}% 2
+\BOOKMARK [2][]{subsection.1.1.1}{1. 2DEG on LAO/STO interface}{section.1.1}% 3
+\BOOKMARK [2][]{subsection.1.1.2}{2. Metal-insulator transition and critical thickness}{section.1.1}% 4
+\BOOKMARK [2][]{subsection.1.1.3}{3. c-AFM lithography of 2DEG and ``water-cycle'' mechanism}{section.1.1}% 5
+\BOOKMARK [2][]{subsection.1.1.4}{4. Superconductivity}{section.1.1}% 6
+\BOOKMARK [2][]{subsection.1.1.5}{5. Magnetism}{section.1.1}% 7
+\BOOKMARK [1][]{section.1.2}{B. Graphene}{chapter.1}% 8
+\BOOKMARK [2][]{subsection.1.2.1}{1. Graphene band structure and Dirac fermion}{section.1.2}% 9
+\BOOKMARK [2][]{subsection.1.2.2}{2. Hall effect}{section.1.2}% 10
+\BOOKMARK [3][]{subsubsection.1.2.2.1}{a. Classical Hall effect}{subsection.1.2.2}% 11
+\BOOKMARK [3][]{subsubsection.1.2.2.2}{b. Quantum Hall effect in Graphene}{subsection.1.2.2}% 12
+\BOOKMARK [0][]{chapter.2}{II. EXPERIMENTAL METHODS}{}% 13
+\BOOKMARK [1][]{section.2.1}{A. Sample growth}{chapter.2}% 14
+\BOOKMARK [2][]{subsection.2.1.1}{1. LAO/STO growth}{section.2.1}% 15
+\BOOKMARK [3][]{subsubsection.2.1.1.1}{a. Pre-growth treatment}{subsection.2.1.1}% 16
+\BOOKMARK [3][]{subsubsection.2.1.1.2}{b. PLD deposition}{subsection.2.1.1}% 17
+\BOOKMARK [2][]{subsection.2.1.2}{2. Graphene growth}{section.2.1}% 18
+\BOOKMARK [3][]{subsubsection.2.1.2.1}{a. Copper substrate preparation}{subsection.2.1.2}% 19
+\BOOKMARK [3][]{subsubsection.2.1.2.2}{b. CVD growth}{subsection.2.1.2}% 20
+\BOOKMARK [1][]{section.2.2}{B. LAO/STO sample processing}{chapter.2}% 21
+\BOOKMARK [2][]{subsection.2.2.1}{1. Photolithography}{section.2.2}% 22
+\BOOKMARK [3][]{subsubsection.2.2.1.1}{a. Spin-coating}{subsection.2.2.1}% 23
+\BOOKMARK [3][]{subsubsection.2.2.1.2}{b. UV exposure}{subsection.2.2.1}% 24
+\BOOKMARK [3][]{subsubsection.2.2.1.3}{c. Developing}{subsection.2.2.1}% 25
+\BOOKMARK [2][]{subsection.2.2.2}{2. Ion milling}{section.2.2}% 26
+\BOOKMARK [2][]{subsection.2.2.3}{3. Deposition}{section.2.2}% 27
+\BOOKMARK [2][]{subsection.2.2.4}{4. Lift-off}{section.2.2}% 28
+\BOOKMARK [2][]{subsection.2.2.5}{5. Oxygen plasma cleaning}{section.2.2}% 29
+\BOOKMARK [1][]{section.2.3}{C. Atomic force microscope}{chapter.2}% 30
+\BOOKMARK [2][]{subsection.2.3.1}{1. Working principle}{section.2.3}% 31
+\BOOKMARK [2][]{subsection.2.3.2}{2. Contact mode}{section.2.3}% 32
+\BOOKMARK [2][]{subsection.2.3.3}{3. AC mode}{section.2.3}% 33
+\BOOKMARK [2][]{subsection.2.3.4}{4. Non-contact mode}{section.2.3}% 34
+\BOOKMARK [2][]{subsection.2.3.5}{5. Magnetic force microscopy}{section.2.3}% 35
+\BOOKMARK [2][]{subsection.2.3.6}{6. Piezoresponse force microscopy}{section.2.3}% 36
+\BOOKMARK [2][]{subsection.2.3.7}{7. LAO/STO nano-device c-AFM lithography}{section.2.3}% 37
+\BOOKMARK [1][]{section.2.4}{D. Graphene/LAO/STO device fabrication}{chapter.2}% 38
+\BOOKMARK [2][]{subsection.2.4.1}{1. Overview of the Hyflon transfer method}{section.2.4}% 39
+\BOOKMARK [2][]{subsection.2.4.2}{2. Hyflon solution preparation and spin-coating}{section.2.4}% 40
+\BOOKMARK [2][]{subsection.2.4.3}{3. Graphene preparation, copper etching and wet transfer}{section.2.4}% 41
+\BOOKMARK [2][]{subsection.2.4.4}{4. Graphene/LAO/STO sample pattern}{section.2.4}% 42
+\BOOKMARK [2][]{subsection.2.4.5}{5. Photolithography and etching}{section.2.4}% 43
+\BOOKMARK [3][]{subsubsection.2.4.5.1}{a. One-step etching}{subsection.2.4.5}% 44
+\BOOKMARK [3][]{figure.2.32}{b. Two-step etching}{subsection.2.4.5}% 45
+\BOOKMARK [2][]{subsection.2.4.6}{6. Hyflon removal}{section.2.4}% 46
+\BOOKMARK [3][]{subsubsection.2.4.6.1}{a. High temperature method}{subsection.2.4.6}% 47
+\BOOKMARK [3][]{subsubsection.2.4.6.2}{b. Low temperature method}{subsection.2.4.6}% 48
+\BOOKMARK [2][]{subsection.2.4.7}{7. AFM cleaning of graphene}{section.2.4}% 49
+\BOOKMARK [2][]{subsection.2.4.8}{8. Graphene/LAO/STO nano-scale device lithography}{section.2.4}% 50
+\BOOKMARK [2][]{subsection.2.4.9}{9. c-AFM lithography and PFM imaging}{section.2.4}% 51
+\BOOKMARK [2][]{subsection.2.4.10}{10. More about the c-AFM writing conditions on graphene and damage thresholds}{section.2.4}% 52
+\BOOKMARK [0][]{chapter.3}{III. GRAPHENE/LAO/STO HETEROSTRUCTURE DEVICE}{}% 53
+\BOOKMARK [1][]{section.3.1}{A. Transport measurement in graphene}{chapter.3}% 54
+\BOOKMARK [2][]{subsection.3.1.1}{1. Charge-neutrality point}{section.3.1}% 55
+\BOOKMARK [2][]{subsection.3.1.2}{2. Carrier densities and mobilities}{section.3.1}% 56
+\BOOKMARK [2][]{subsection.3.1.3}{3. Quantum Hall effect}{section.3.1}% 57
+\BOOKMARK [1][]{section.3.2}{B. Graphene p-n junction edge-state engineering}{chapter.3}% 58
+\BOOKMARK [2][]{subsection.3.2.1}{1. 1D waveguide and quantum Hall edge channels}{section.3.2}% 59
+\BOOKMARK [2][]{subsection.3.2.2}{2. Edge channel mixing of graphene unipolar/bipolar junction in quantum Hall regime}{section.3.2}% 60
+\BOOKMARK [2][]{subsection.3.2.3}{3. Graphene doping using c-AFM}{section.3.2}% 61
+\BOOKMARK [2][]{subsection.3.2.4}{4. Measurement of graphene edge state mixing}{section.3.2}% 62
+\BOOKMARK [1][]{section.3.3}{C. Graphene band-structure engineering with superlattice}{chapter.3}% 63
+\BOOKMARK [2][]{subsection.3.3.1}{1. Hofstadter spectra of superlattice}{section.3.3}% 64
+\BOOKMARK [2][]{subsection.3.3.2}{2. Superlattice lithography}{section.3.3}% 65
+\BOOKMARK [2][]{subsection.3.3.3}{3. Transport measurement}{section.3.3}% 66
+\BOOKMARK [0][]{chapter.4}{IV. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 67
+\BOOKMARK [1][]{section.4.1}{A. Magnetism on LAO/STO interface}{chapter.4}% 68
+\BOOKMARK [1][]{section.4.2}{B. MFM measurement}{chapter.4}% 69
+\BOOKMARK [1][]{section.4.3}{C. Magneto-Optical Kerr measurement}{chapter.4}% 70
+\BOOKMARK [2][]{subsection.4.3.1}{1. Jone's matrix formalism}{section.4.3}% 71
+\BOOKMARK [2][]{subsection.4.3.2}{2. Magneto-optical Kerr effect}{section.4.3}% 72
+\BOOKMARK [2][]{subsection.4.3.3}{3. Optical measurement}{section.4.3}% 73
+\BOOKMARK [1][]{section.4.4}{D. Improvements}{chapter.4}% 74
+\BOOKMARK [2][]{subsection.4.4.1}{1. Quad-detector}{section.4.4}% 75
+\BOOKMARK [2][]{subsection.4.4.2}{2. Graphene top gate}{section.4.4}% 76
+\BOOKMARK [0][]{chapter.5}{V. CONCLUSIONS AND OUTLOOK}{}% 77
+\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 78

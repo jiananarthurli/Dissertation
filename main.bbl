@@ -399,11 +399,54 @@ Kostya~S Novoselov, Andre~K Geim, SVb Morozov, Da~Jiang, MIc Katsnelson, IVa
 \newblock Two-dimensional gas of massless {Dirac} fermions in graphene.
 \newblock {\em nature}, 438(7065):197, 2005.
 
+\bibitem{cancellieri2010influence}
+C.~Cancellieri, N.~Reyren, S.~Gariglio, A.~D. Caviglia, A.~F{\^e}te, and J.~M.
+  Triscone.
+\newblock Influence of the growth conditions on the {LaAlO$_3$/SrTiO$_3$}
+  interface electronic properties.
+\newblock 91(1):17004, 2010.
+
 \bibitem{podkaminer2016real}
 JP~Podkaminer, JJ~Patzner, BA~Davidson, and CB~Eom.
 \newblock Real-time and in situ monitoring of sputter deposition with rheed for
   atomic layer controlled growth.
 \newblock {\em APL Materials}, 4(8):086111, 2016.
+
+\bibitem{dhingra2015quadratic}
+Shonali Dhingra.
+\newblock {\em Quadratic coupling between a classical nanomechanical oscillator
+  and a single spin}.
+\newblock PhD thesis, University of Pittsburgh, 2015.
+
+\bibitem{nair2008fine}
+R.~R. Nair, P.~Blake, A.~N. Grigorenko, K.~S. Novoselov, T.~J. Booth,
+  T.~Stauber, N.~M.~R. Peres, and A.~K. Geim.
+\newblock Fine structure constant defines visual transparency of graphene.
+\newblock {\em Science}, 320(5881):1308--1308, 2008.
+
+\bibitem{ferrari2006raman}
+A.~C. Ferrari, J.~C. Meyer, V.~Scardaci, C.~Casiraghi, M.~Lazzeri, F.~Mauri,
+  S.~Piscanec, D.~Jiang, K.~S. Novoselov, S.~Roth, and A.~K. Geim.
+\newblock Raman spectrum of graphene and graphene layers.
+\newblock {\em Phys. Rev. Lett.}, 97:187401, Oct 2006.
+
+\bibitem{lee2010wafer}
+Youngbin Lee, Sukang Bae, Houk Jang, Sukjae Jang, Shou-En Zhu, Sung~Hyun Sim,
+  Young~Il Song, Byung~Hee Hong, and Jong-Hyun Ahn.
+\newblock Wafer-scale synthesis and transfer of graphene films.
+\newblock {\em Nano Letters}, 10(2):490--493, 02 2010.
+
+\bibitem{vlassiouk2011role}
+Ivan Vlassiouk, Murari Regmi, Pasquale Fulvio, Sheng Dai, Panos Datskos, Gyula
+  Eres, and Sergei Smirnov.
+\newblock Role of hydrogen in chemical vapor deposition growth of large
+  single-crystal graphene.
+\newblock {\em ACS Nano}, 5(7):6069--6076, 07 2011.
+
+\bibitem{zhang2012anisotropic}
+Yi~Zhang, Zhen Li, Pyojae Kim, Luyao Zhang, and Chongwu Zhou.
+\newblock Anisotropic hydrogen etching of chemical vapor deposited graphene.
+\newblock {\em ACS Nano}, 6(1):126--132, 01 2012.
 
 \bibitem{Bae2010}
 Sukang Bae, Hyeongkeun Kim, Youngbin Lee, Xiangfan Xu, Jae-Sung Park, Yi~Zheng,
@@ -455,12 +498,6 @@ Ivan Vlassiouk, Pasquale Fulvio, Harry Meyer, Nick Lavrik, Sheng Dai, Panos
   graphene.
 \newblock {\em Carbon}, 54:58--67, 2013.
 
-\bibitem{dhingra2015quadratic}
-Shonali Dhingra.
-\newblock {\em Quadratic coupling between a classical nanomechanical oscillator
-  and a single spin}.
-\newblock PhD thesis, University of Pittsburgh, 2015.
-
 \bibitem{xie2011control}
 Yanwu Xie, Yasuyuki Hikita, Christopher Bell, and Harold~Y. Hwang.
 \newblock Control of electronic conduction at an oxide heterointerface using
@@ -479,6 +516,19 @@ Keith~A. Brown, Shu He, Daniel~J. Eichelsdoerfer, Mengchen Huang, Ishan Levy,
 U~Hartmann.
 \newblock Magnetic force microscopy.
 \newblock {\em Annual review of materials science}, 29(1):53--87, 1999.
+
+\bibitem{huang2013direct}
+Mengchen Huang, Feng Bi, Sangwoo Ryu, Chang-Beom Eom, Patrick Irvin, and Jeremy
+  Levy.
+\newblock Direct imaging of {LaAlO$_3$/SrTiO$_3$} nanostructures using
+  piezoresponse force microscopy.
+\newblock {\em APL Materials}, 1(5):052110, 2013.
+
+\bibitem{berlincourt1958elastic}
+Don Berlincourt and Hans Jaffe.
+\newblock Elastic and piezoelectric coefficients of single-crystal barium
+  titanate.
+\newblock {\em Phys. Rev.}, 111:143--148, Jul 1958.
 
 \bibitem{Novoselovaac9439}
 K.~S. Novoselov, A.~Mishchenko, A.~Carvalho, and A.~H. Castro~Neto.
@@ -527,6 +577,14 @@ Zengguang Cheng, Qiaoyu Zhou, Chenxuan Wang, Qiang Li, Chen Wang, and Ying
   annealing and wet-chemical treatment of {SiO$_2$}-supported graphene devices.
 \newblock {\em Nano letters}, 11(2):767--771, 2011.
 
+\bibitem{li2016method}
+Jianan Li, Jen-Feng Hsu, Hyungwoo Lee, Shivendra Tripathi, Qing Guo, Lu~Chen,
+  Mengchen Huang, Shonali Dhingra, Jung-Woo Lee, Chang-Beom Eom, Patrick Irvin,
+  Jeremy Levy, and Brian D'Urso.
+\newblock Method for transferring high-mobility {CVD}-grown graphene with
+  perfluoropolymers.
+\newblock {\em arXiv preprint arXiv:1606.08802}, 2016.
+
 \bibitem{arcella2005hyflon}
 Vincenzo Arcella, Claudio Troglia, and Alessandro Ghielmi.
 \newblock Hyflon ion membranes for fuel cells.
@@ -569,13 +627,6 @@ Min~Sik Park, S.~H. Rhim, and Arthur~J. Freeman.
 \newblock Charge compensation and mixed valency in {LaAlO$_3$/SrTiO$_3$}
   heterointerfaces studied by the {FLAPW} method.
 \newblock {\em Phys. Rev. B}, 74:205416, Nov 2006.
-
-\bibitem{huang2013direct}
-Mengchen Huang, Feng Bi, Sangwoo Ryu, Chang-Beom Eom, Patrick Irvin, and Jeremy
-  Levy.
-\newblock Direct imaging of {LaAlO$_3$/SrTiO$_3$} nanostructures using
-  piezoresponse force microscopy.
-\newblock {\em APL Materials}, 1(5):052110, 2013.
 
 \bibitem{xie2013enhancing}
 Yanwu Xie, Christopher Bell, Yasuyuki Hikita, Satoshi Harashima, and Harold~Y.
@@ -869,10 +920,11 @@ G.~B. Smith, G.~A. Niklasson, J.~S. E.~M. Svensson, and C.~G. Granqvist.
   theoretical analyses for very thin gold films.
 \newblock {\em Journal of Applied Physics}, 59(2):571--581, 1986.
 
-\bibitem{nair2008fine}
-R.~R. Nair, P.~Blake, A.~N. Grigorenko, K.~S. Novoselov, T.~J. Booth,
-  T.~Stauber, N.~M.~R. Peres, and A.~K. Geim.
-\newblock Fine structure constant defines visual transparency of graphene.
-\newblock {\em Science}, 320(5881):1308--1308, 2008.
+\bibitem{tang2017non}
+Yuhe Tang, Anthony Tylan-Tyler, Hyungwoo Lee, Michelle Tomczyk, Mengchen Huang,
+  Chang-Beom Eom, Patrick Irvin, and Jeremy Levy.
+\newblock Non-coulombic frictional drag currents in coupled
+  {LaAlO$_3$/SrTiO$_3$} nanowires.
+\newblock {\em arXiv preprint arXiv:1707.01171}, 2017.
 
 \end{thebibliography}

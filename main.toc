@@ -1,4 +1,3 @@
-\contentsline {chapter}{\bfseries PREFACE}{xxiii}{Doc-Start}
 \contentsline {chapter}{{\bfseries \numberline {I\period@or@not }INTRODUCTION}}{1}{chapter.1}
 \contentsline {section}{\numberline {\gobble@or@not {I\period@or@not .}A\period@or@not }LAO/STO heterostructure}{3}{section.1.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}A\period@or@not .}1\period@or@not }2DEG on LAO/STO interface}{4}{subsection.1.1.1}
@@ -8,7 +7,7 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}A\period@or@not .}5\period@or@not }Magnetism}{10}{subsection.1.1.5}
 \contentsline {section}{\numberline {\gobble@or@not {I\period@or@not .}B\period@or@not }Graphene}{10}{section.1.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}B\period@or@not .}1\period@or@not }Graphene band structure and Dirac fermion}{11}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}B\period@or@not .}2\period@or@not }Quantum Hall effect}{14}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {I\period@or@not .}B\period@or@not .}2\period@or@not }Hall effect}{14}{subsection.1.2.2}
 \contentsline {subsubsection}{\numberline {a.}Classical Hall effect}{15}{subsubsection.1.2.2.1}
 \contentsline {subsubsection}{\numberline {b.}Quantum Hall effect in Graphene}{16}{subsubsection.1.2.2.2}
 \contentsline {chapter}{{\bfseries \numberline {II\period@or@not }EXPERIMENTAL METHODS}}{18}{chapter.2}
@@ -33,13 +32,13 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}2\period@or@not }Contact mode}{45}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}3\period@or@not }AC mode}{46}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}4\period@or@not }Non-contact mode}{47}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}5\period@or@not }Magnetic force microscopy}{48}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}5\period@or@not }Magnetic force microscopy}{47}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}6\period@or@not }Piezoresponse force microscopy}{49}{subsection.2.3.6}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}C\period@or@not .}7\period@or@not }LAO/STO nano-device c-AFM lithography}{51}{subsection.2.3.7}
 \contentsline {section}{\numberline {\gobble@or@not {II\period@or@not .}D\period@or@not }Graphene/LAO/STO device fabrication}{54}{section.2.4}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}1\period@or@not }Overview of the Hyflon transfer method}{59}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}2\period@or@not }Hyflon solution preparation and spin-coating}{59}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}3\period@or@not }Graphene preparation, copper etching and wet transfer}{62}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}3\period@or@not }Graphene preparation, copper etching and wet transfer}{61}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}4\period@or@not }Graphene/LAO/STO sample pattern}{64}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}5\period@or@not }Photolithography and etching}{64}{subsection.2.4.5}
 \contentsline {subsubsection}{\numberline {a.}One-step etching}{66}{subsubsection.2.4.5.1}
@@ -53,7 +52,7 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {II\period@or@not .}D\period@or@not .}10\period@or@not }More about the c-AFM writing conditions on graphene and damage thresholds}{78}{subsection.2.4.10}
 \contentsline {chapter}{{\bfseries \numberline {III\period@or@not }GRAPHENE/LAO/STO HETEROSTRUCTURE DEVICE}}{81}{chapter.3}
 \contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}A\period@or@not }Transport measurement in graphene}{81}{section.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}1\period@or@not }Charge-neutrality point}{81}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}1\period@or@not }Charge-neutrality point}{83}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}2\period@or@not }Carrier densities and mobilities}{85}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}A\period@or@not .}3\period@or@not }Quantum Hall effect}{86}{subsection.3.1.3}
 \contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}B\period@or@not }Graphene p-n junction edge-state engineering}{87}{section.3.2}
@@ -68,12 +67,12 @@
 \contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{109}{chapter.4}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{109}{section.4.1}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{110}{section.4.2}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{114}{section.4.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{114}{subsection.4.3.1}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{113}{section.4.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{113}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{115}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{118}{subsection.4.3.3}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Improvements}{121}{section.4.4}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}1\period@or@not }Quad-detector}{121}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}2\period@or@not }Graphene top gate}{124}{subsection.4.4.2}
 \contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS AND OUTLOOK}}{126}{chapter.5}
-\contentsline {chapter}{{\bfseries \bibname }}{127}{section*.1}
+\contentsline {chapter}{{\bfseries \bibname }}{128}{section*.1}
