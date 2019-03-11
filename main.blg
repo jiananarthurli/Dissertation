@@ -1,6 +1,10 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
+White space in argument---line 430 of file main.aux
+ : \citation{streda1982quantised
+ :                               thouless1984quantized}
+I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: bibliography.bib
 I was expecting a `,' or a `}'---line 117 of file bibliography.bib
@@ -26,51 +30,50 @@ Name 8 in "Novoselov, Kostya S and Geim, Andre K and Morozov, SVb and Jiang, Da 
 while executing---line 944 of file unsrt.bst
 Warning--empty journal in cancellieri2010influence
 Warning--empty chapter and pages in pollock2006handbook
-Warning--empty journal in streda1982quantised
 Name 1 in "Ariando, and Wang, X. and Baskaran, G. and Liu, Z. Q. and Huijben, J. and Yi, J. B. and Annadi, A. and Barman, A. Roy and Rusydi, A. and Dhar, S. and Feng, Y. P. and Ding, J. and Hilgenkamp, H. and Venkatesan, T." has a comma at the end for entry ariando2011electronic
 while executing---line 944 of file unsrt.bst
 Warning--there's a number but no series in bennemann1998non
 Warning--empty journal in liu2014dominant
 Warning--empty year in liu2014dominant
-You've used 152 entries,
+You've used 153 entries,
             1791 wiz_defined-function locations,
-            1262 strings with 37469 characters,
-and the built_in function-call counts, 42254 in all, are:
-= -- 3116
-> -- 3151
+            1265 strings with 38223 characters,
+and the built_in function-call counts, 42821 in all, are:
+= -- 3126
+> -- 3260
 < -- 7
-+ -- 1105
-- -- 953
-* -- 3936
-:= -- 7316
-add.period$ -- 458
-call.type$ -- 152
-change.case$ -- 147
++ -- 1141
+- -- 988
+* -- 4011
+:= -- 7442
+add.period$ -- 461
+call.type$ -- 153
+change.case$ -- 148
 chr.to.int$ -- 0
 cite$ -- 158
-duplicate$ -- 1405
-empty$ -- 3457
-format.name$ -- 953
-if$ -- 8753
+duplicate$ -- 1414
+empty$ -- 3470
+format.name$ -- 988
+if$ -- 8852
 int.to.chr$ -- 0
-int.to.str$ -- 152
-missing$ -- 152
-newline$ -- 762
-num.names$ -- 156
-pop$ -- 210
+int.to.str$ -- 153
+missing$ -- 153
+newline$ -- 767
+num.names$ -- 157
+pop$ -- 209
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 504
+skip$ -- 507
 stack$ -- 0
-substring$ -- 2885
-swap$ -- 188
+substring$ -- 2875
+swap$ -- 190
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 344
-width$ -- 155
-write$ -- 1665
-(There were 7 error messages)
+warning$ -- 5
+while$ -- 345
+width$ -- 156
+write$ -- 1677
+(There were 8 error messages)

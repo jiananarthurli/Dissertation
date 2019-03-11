@@ -1,8 +1,8 @@
-\contentsline {table}{\numberline {II.1}{\ignorespaces Spin-coating conditions for AZ4210 and AZ4110}}{32}{table.2.1}
-\contentsline {table}{\numberline {II.2}{\ignorespaces UV exposure and developing conditions for AZ4210 and AZ4110}}{37}{table.2.2}
-\contentsline {table}{\numberline {II.3}{\ignorespaces Comparison of etching methods.}}{38}{table.2.3}
-\contentsline {table}{\numberline {II.4}{\ignorespaces One-step RIE etching recipe.}}{69}{table.2.4}
-\contentsline {table}{\numberline {II.5}{\ignorespaces Two-step etching photolithography recipe. First layer of AZ4210 is used to protect the canvas against the aggressive RIE for contamination removal. Second layer of AZ4110 is for graphene Hall bar protection, and only need to resist mild oxygen plasma etching.}}{72}{table.2.5}
-\contentsline {table}{\numberline {II.6}{\ignorespaces Two-step etching recipe. Although it seems that the barrel etcher is running at higher power, the structure of the instrument make the etching much less invasive compared to RIE.}}{72}{table.2.6}
-\contentsline {table}{\numberline {II.7}{\ignorespaces Graphene cleaning recipes on Asylum MFP3D and Cypher.}}{75}{table.2.7}
-\contentsline {table}{\numberline {II.8}{\ignorespaces c-AFM writing and erasing parameters on graphene/LAO/STO samples.}}{80}{table.2.8}
+\contentsline {table}{\numberline {II.1}{\ignorespaces Spin-coating conditions for AZ4210 and AZ4110}}{31}{table.2.1}
+\contentsline {table}{\numberline {II.2}{\ignorespaces UV exposure and developing conditions for AZ4210 and AZ4110}}{36}{table.2.2}
+\contentsline {table}{\numberline {II.3}{\ignorespaces Comparison of etching methods.}}{37}{table.2.3}
+\contentsline {table}{\numberline {II.4}{\ignorespaces One-step RIE etching recipe.}}{65}{table.2.4}
+\contentsline {table}{\numberline {II.5}{\ignorespaces Two-step etching photolithography recipe. First layer of AZ4210 is used to protect the canvas against the aggressive RIE for contamination removal. Second layer of AZ4110 is for graphene Hall bar protection, and only need to resist mild oxygen plasma etching.}}{68}{table.2.5}
+\contentsline {table}{\numberline {II.6}{\ignorespaces Two-step etching recipe. Although it seems that the barrel etcher is running at higher power, the structure of the instrument make the etching much less invasive compared to RIE.}}{69}{table.2.6}
+\contentsline {table}{\numberline {II.7}{\ignorespaces Graphene cleaning recipes on Asylum MFP3D and Cypher.}}{72}{table.2.7}
+\contentsline {table}{\numberline {II.8}{\ignorespaces c-AFM writing and erasing parameters on graphene/LAO/STO samples.}}{76}{table.2.8}

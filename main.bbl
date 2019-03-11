@@ -280,6 +280,14 @@ JF~Schooley, WR~Hosler, and Marvin~L Cohen.
 \newblock Superconductivity in semiconducting srtio$_3$.
 \newblock {\em Physical Review Letters}, 12(17):474, 1964.
 
+\bibitem{cheng2016tunable}
+Guanglei Cheng, Michelle Tomczyk, Alexandre~B. Tacla, Hyungwoo Lee, Shicheng
+  Lu, Josh~P. Veazey, Mengchen Huang, Patrick Irvin, Sangwoo Ryu, Chang-Beom
+  Eom, Andrew Daley, David Pekker, and Jeremy Levy.
+\newblock Tunable electron-electron interactions in {LaAlO$_3$/SrTiO$_3$}
+  nanostructures.
+\newblock {\em Phys. Rev. X}, 6:041042, Dec 2016.
+
 \bibitem{li2011coexistence}
 Lu~Li, Christoph Richter, Jochen Mannhart, and RC~Ashoori.
 \newblock Coexistence of magnetic order and two-dimensional superconductivity
@@ -406,6 +414,15 @@ C.~Cancellieri, N.~Reyren, S.~Gariglio, A.~D. Caviglia, A.~F{\^e}te, and J.~M.
   interface electronic properties.
 \newblock 91(1):17004, 2010.
 
+\bibitem{bark2011tailoring}
+C.~W. Bark, D.~A. Felker, Y.~Wang, Y.~Zhang, H.~W. Jang, C.~M. Folkman, J.~W.
+  Park, S.~H. Baek, H.~Zhou, D.~D. Fong, X.~Q. Pan, E.~Y. Tsymbal, M.~S.
+  Rzchowski, and C.~B. Eom.
+\newblock Tailoring a two-dimensional electron gas at the {LaAlO$_3$/SrTiO$_3$}
+  (001) interface by epitaxial strain.
+\newblock {\em Proceedings of the National Academy of Sciences}, 108(12):4720,
+  03 2011.
+
 \bibitem{fix2011influence}
 T.~Fix, F.~Schoofs, Z.~Bi, A.~Chen, H.~Wang, J.~L. MacManus-Driscoll, and M.~G.
   Blamire.
@@ -430,6 +447,13 @@ Shonali Dhingra.
 \newblock {\em Quadratic coupling between a classical nanomechanical oscillator
   and a single spin}.
 \newblock PhD thesis, University of Pittsburgh, 2015.
+
+\bibitem{kim2009large}
+Keun~Soo Kim, Yue Zhao, Houk Jang, Sang~Yoon Lee, Jong~Min Kim, Kwang~S. Kim,
+  Jong-Hyun Ahn, Philip Kim, Jae-Young Choi, and Byung~Hee Hong.
+\newblock Large-scale pattern growth of graphene films for stretchable
+  transparent electrodes.
+\newblock {\em Nature}, 457:706 EP --, 01 2009.
 
 \bibitem{nair2008fine}
 R.~R. Nair, P.~Blake, A.~N. Grigorenko, K.~S. Novoselov, T.~J. Booth,
@@ -858,16 +882,6 @@ G.~H. Wannier.
 \newblock A result not dependent on rationality for bloch electrons in a
   magnetic field.
 \newblock {\em physica status solidi (b)}, 88(2):757--765, 1978.
-
-\bibitem{streda1982quantised}
-P~Streda.
-\newblock Quantised hall effect in a two-dimensional periodic potential.
-\newblock 15(36):L1299--L1303, dec 1982.
-
-\bibitem{thouless1984quantized}
-David Thouless.
-\newblock Quantized {Hall} effect in two-dimensional periodic potentials.
-\newblock {\em Physics Reports}, 110(5):279 -- 291, 1984.
 
 \bibitem{kalisky2012scanning}
 Beena Kalisky, Julie~A. Bert, Christopher Bell, Yanwu Xie, Hiroki~K. Sato,
