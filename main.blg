@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-White space in argument---line 430 of file main.aux
+White space in argument---line 431 of file main.aux
  : \citation{streda1982quantised
  :                               thouless1984quantized}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ while executing---line 944 of file unsrt.bst
 Warning--there's a number but no series in bennemann1998non
 Warning--empty journal in liu2014dominant
 Warning--empty year in liu2014dominant
-You've used 153 entries,
+You've used 152 entries,
             1791 wiz_defined-function locations,
-            1265 strings with 38223 characters,
-and the built_in function-call counts, 42821 in all, are:
-= -- 3126
-> -- 3260
+            1259 strings with 37965 characters,
+and the built_in function-call counts, 42538 in all, are:
+= -- 3107
+> -- 3237
 < -- 7
-+ -- 1141
-- -- 988
-* -- 4011
-:= -- 7442
-add.period$ -- 461
-call.type$ -- 153
-change.case$ -- 148
++ -- 1133
+- -- 981
+* -- 3983
+:= -- 7392
+add.period$ -- 458
+call.type$ -- 152
+change.case$ -- 147
 chr.to.int$ -- 0
-cite$ -- 158
-duplicate$ -- 1414
-empty$ -- 3470
-format.name$ -- 988
-if$ -- 8852
+cite$ -- 157
+duplicate$ -- 1405
+empty$ -- 3447
+format.name$ -- 981
+if$ -- 8794
 int.to.chr$ -- 0
-int.to.str$ -- 153
-missing$ -- 153
-newline$ -- 767
-num.names$ -- 157
-pop$ -- 209
+int.to.str$ -- 152
+missing$ -- 152
+newline$ -- 762
+num.names$ -- 156
+pop$ -- 208
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 507
+skip$ -- 504
 stack$ -- 0
-substring$ -- 2875
-swap$ -- 190
+substring$ -- 2857
+swap$ -- 189
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 345
-width$ -- 156
-write$ -- 1677
+while$ -- 343
+width$ -- 155
+write$ -- 1666
 (There were 8 error messages)

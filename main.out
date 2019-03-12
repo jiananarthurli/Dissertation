@@ -53,9 +53,9 @@
 \BOOKMARK [3][]{subsubsection.2.4.6.1}{a. High temperature method}{subsection.2.4.6}% 47
 \BOOKMARK [3][]{subsubsection.2.4.6.2}{b. Low temperature method}{subsection.2.4.6}% 48
 \BOOKMARK [2][]{subsection.2.4.7}{7. AFM cleaning of graphene}{section.2.4}% 49
-\BOOKMARK [2][]{subsection.2.4.8}{8. Graphene/LAO/STO nano-scale device lithography}{section.2.4}% 50
-\BOOKMARK [2][]{subsection.2.4.9}{9. c-AFM lithography and PFM imaging}{section.2.4}% 51
-\BOOKMARK [2][]{subsection.2.4.10}{10. More about the c-AFM writing conditions on graphene and damage thresholds}{section.2.4}% 52
+\BOOKMARK [2][]{subsection.2.4.8}{8. Graphene/LAO/STO nano-scale device writing}{section.2.4}% 50
+\BOOKMARK [2][]{subsection.2.4.9}{9. c-AFM writing and PFM imaging}{section.2.4}% 51
+\BOOKMARK [2][]{subsection.2.4.10}{10. c-AFM writing conditions on graphene/LAO/STO and graphene damage thresholds}{section.2.4}% 52
 \BOOKMARK [0][]{chapter.3}{III. GRAPHENE/LAO/STO HETEROSTRUCTURE DEVICE}{}% 53
 \BOOKMARK [1][]{section.3.1}{A. Transport measurement in graphene}{chapter.3}% 54
 \BOOKMARK [2][]{subsection.3.1.1}{1. Charge-neutrality point}{section.3.1}% 55
@@ -64,21 +64,23 @@
 \BOOKMARK [1][]{section.3.2}{B. Graphene p-n junction edge-state engineering}{chapter.3}% 58
 \BOOKMARK [2][]{subsection.3.2.1}{1. 1D waveguide and quantum Hall edge channels}{section.3.2}% 59
 \BOOKMARK [2][]{subsection.3.2.2}{2. Edge channel mixing of graphene unipolar/bipolar junction in quantum Hall regime}{section.3.2}% 60
-\BOOKMARK [2][]{subsection.3.2.3}{3. Graphene doping using c-AFM}{section.3.2}% 61
-\BOOKMARK [2][]{subsection.3.2.4}{4. Measurement of graphene edge state mixing}{section.3.2}% 62
-\BOOKMARK [1][]{section.3.3}{C. Graphene band-structure engineering with superlattice}{chapter.3}% 63
-\BOOKMARK [2][]{subsection.3.3.1}{1. Hofstadter spectra of superlattice}{section.3.3}% 64
-\BOOKMARK [2][]{subsection.3.3.2}{2. Superlattice lithography}{section.3.3}% 65
-\BOOKMARK [2][]{subsection.3.3.3}{3. Transport measurement}{section.3.3}% 66
-\BOOKMARK [0][]{chapter.4}{IV. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 67
-\BOOKMARK [1][]{section.4.1}{A. Magnetism on LAO/STO interface}{chapter.4}% 68
-\BOOKMARK [1][]{section.4.2}{B. MFM measurement}{chapter.4}% 69
-\BOOKMARK [1][]{section.4.3}{C. Magneto-Optical Kerr measurement}{chapter.4}% 70
-\BOOKMARK [2][]{subsection.4.3.1}{1. Jone's matrix formalism}{section.4.3}% 71
-\BOOKMARK [2][]{subsection.4.3.2}{2. Magneto-optical Kerr effect}{section.4.3}% 72
-\BOOKMARK [2][]{subsection.4.3.3}{3. Optical measurement}{section.4.3}% 73
-\BOOKMARK [1][]{section.4.4}{D. Improvements}{chapter.4}% 74
-\BOOKMARK [2][]{subsection.4.4.1}{1. Quad-detector}{section.4.4}% 75
-\BOOKMARK [2][]{subsection.4.4.2}{2. Graphene top gate}{section.4.4}% 76
-\BOOKMARK [0][]{chapter.5}{V. CONCLUSIONS AND OUTLOOK}{}% 77
-\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 78
+\BOOKMARK [3][]{figure.3.9}{a. Unipolar junction}{subsection.3.2.2}% 61
+\BOOKMARK [3][]{figure.3.10}{b. Bipolar junction}{subsection.3.2.2}% 62
+\BOOKMARK [2][]{subsection.3.2.3}{3. Graphene doping using c-AFM}{section.3.2}% 63
+\BOOKMARK [2][]{subsection.3.2.4}{4. Measurement of graphene edge state mixing}{section.3.2}% 64
+\BOOKMARK [1][]{section.3.3}{C. Graphene band-structure engineering with superlattice}{chapter.3}% 65
+\BOOKMARK [2][]{subsection.3.3.1}{1. Hofstadter spectra of superlattice}{section.3.3}% 66
+\BOOKMARK [2][]{subsection.3.3.2}{2. Superlattice lithography}{section.3.3}% 67
+\BOOKMARK [2][]{subsection.3.3.3}{3. Transport measurement}{section.3.3}% 68
+\BOOKMARK [0][]{chapter.4}{IV. MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}{}% 69
+\BOOKMARK [1][]{section.4.1}{A. Magnetism on LAO/STO interface}{chapter.4}% 70
+\BOOKMARK [1][]{section.4.2}{B. MFM measurement}{chapter.4}% 71
+\BOOKMARK [1][]{section.4.3}{C. Magneto-Optical Kerr measurement}{chapter.4}% 72
+\BOOKMARK [2][]{subsection.4.3.1}{1. Jone's matrix formalism}{section.4.3}% 73
+\BOOKMARK [2][]{subsection.4.3.2}{2. Magneto-optical Kerr effect}{section.4.3}% 74
+\BOOKMARK [2][]{subsection.4.3.3}{3. Optical measurement}{section.4.3}% 75
+\BOOKMARK [1][]{section.4.4}{D. Improvements}{chapter.4}% 76
+\BOOKMARK [2][]{subsection.4.4.1}{1. Quad-detector}{section.4.4}% 77
+\BOOKMARK [2][]{subsection.4.4.2}{2. Graphene top gate}{section.4.4}% 78
+\BOOKMARK [0][]{chapter.5}{V. CONCLUSIONS AND OUTLOOK}{}% 79
+\BOOKMARK [0][]{section*.1}{BIBLIOGRAPHY}{}% 80
