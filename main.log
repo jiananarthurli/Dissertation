@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  11 MAR 2019 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  12 MAR 2019 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2642,7 +2642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
-<Drawing/STOPhaseTransition.pdf, id=1339, 857.07703pt x 494.0879pt>
+<Drawing/STOPhaseTransition.pdf, id=1338, 857.07703pt x 494.0879pt>
 File: Drawing/STOPhaseTransition.pdf Graphic file (type pdf)
 
 <use Drawing/STOPhaseTransition.pdf>
@@ -2657,7 +2657,7 @@ ut line 113.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] <Drawing/STOBand.pdf, id=1354, 860.90836pt x 365.07492pt>
+[3] <Drawing/STOBand.pdf, id=1353, 860.90836pt x 365.07492pt>
 File: Drawing/STOBand.pdf Graphic file (type pdf)
 
 <use Drawing/STOBand.pdf>
@@ -2676,7 +2676,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-<Drawing/PolarCatastrophe.pdf, id=1378, 493.79982pt x 239.97755pt>
+<Drawing/PolarCatastrophe.pdf, id=1377, 493.79982pt x 239.97755pt>
 File: Drawing/PolarCatastrophe.pdf Graphic file (type pdf)
 
 <use Drawing/PolarCatastrophe.pdf>
@@ -2697,7 +2697,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./Drawing/PolarCatastrophe.pdf>]
-<Drawing/CriticalThickness.pdf, id=1442, 873.6881pt x 1035.36812pt>
+<Drawing/CriticalThickness.pdf, id=1441, 873.6881pt x 1035.36812pt>
 File: Drawing/CriticalThickness.pdf Graphic file (type pdf)
 
 <use Drawing/CriticalThickness.pdf>
@@ -2709,7 +2709,7 @@ Class pittetd Warning: The caption of Figure I.4 is longer than one line on inp
 ut line 153.
 
 [7] [8 <./Drawing/CriticalThickness.pdf>]
-<Drawing/WaterCycle.png, id=1473, 624.53325pt x 489.027pt>
+<Drawing/WaterCycle.png, id=1472, 624.53325pt x 489.027pt>
 File: Drawing/WaterCycle.png Graphic file (type png)
 
 <use Drawing/WaterCycle.png>
@@ -2730,14 +2730,14 @@ Missing character: There is no Ÿ in font cmr12!
 
 LaTeX Warning: Command \r invalid in math mode on input line 190.
 
-<Drawing/Bravais.pdf, id=1525, 234.54326pt x 106.06425pt>
+<Drawing/Bravais.pdf, id=1524, 234.54326pt x 106.06425pt>
 File: Drawing/Bravais.pdf Graphic file (type pdf)
 
 <use Drawing/Bravais.pdf>
 Package pdftex.def Info: Drawing/Bravais.pdf used on input line 195.
 (pdftex.def)             Requested size: 281.85585pt x 127.4658pt.
  [11 <./Drawing/Bravais.pdf>] [12]
-<Drawing/GrapheneBand.pdf, id=1557, 372.89313pt x 210.7875pt>
+<Drawing/GrapheneBand.pdf, id=1556, 372.89313pt x 210.7875pt>
 File: Drawing/GrapheneBand.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneBand.pdf>
@@ -2755,7 +2755,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
  [14 <./Drawing/GrapheneBand.pdf>] [15]
-<Drawing/GrapheneQuantumHall.pdf, id=1598, 311.1625pt x 272.01625pt>
+<Drawing/GrapheneQuantumHall.pdf, id=1597, 311.1625pt x 272.01625pt>
 File: Drawing/GrapheneQuantumHall.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneQuantumHall.pdf>
@@ -2769,7 +2769,7 @@ ut line 353.
 
 [16] [17 <./Drawing/GrapheneQuantumHall.pdf>]
 Chapter II.
-<Drawing/PLD.pdf, id=1619, 711.3245pt x 518.60449pt>
+<Drawing/PLD.pdf, id=1618, 711.3245pt x 518.60449pt>
 File: Drawing/PLD.pdf Graphic file (type pdf)
  <use Drawing/PLD.pdf>
 Package pdftex.def Info: Drawing/PLD.pdf used on input line 374.
@@ -2786,7 +2786,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--383
 
  []
 
-<Drawing/PLD_RHEED.pdf, id=1733, 250.26799pt x 373.06075pt>
+<Drawing/PLD_RHEED.pdf, id=1732, 250.26799pt x 373.06075pt>
 File: Drawing/PLD_RHEED.pdf Graphic file (type pdf)
 
 <use Drawing/PLD_RHEED.pdf>
@@ -2804,7 +2804,7 @@ put line 387.
 LaTeX Warning: Command \r invalid in math mode on input line 387.
 
 [20] [21 <./Drawing/PLD_RHEED.pdf>]
-<Drawing/CVD.pdf, id=1796, 680.5425pt x 448.342pt>
+<Drawing/CVD.pdf, id=1795, 680.5425pt x 448.342pt>
 File: Drawing/CVD.pdf Graphic file (type pdf)
  <use Drawing/CVD.pdf>
 Package pdftex.def Info: Drawing/CVD.pdf used on input line 403.
@@ -2820,7 +2820,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23 <./Drawing/CVD.pdf>] <Drawing/DTM.pdf, id=1877, 952.98534pt x 422.26659pt>
+ [23 <./Drawing/CVD.pdf>] <Drawing/DTM.pdf, id=1876, 952.98534pt x 422.26659pt>
 File: Drawing/DTM.pdf Graphic file (type pdf)
 
 <use Drawing/DTM.pdf>
@@ -2831,7 +2831,7 @@ Package pdftex.def Info: Drawing/DTM.pdf used on input line 416.
 Class pittetd Warning: The caption of Figure II.4 is longer than one line on in
 put line 417.
 
-<Drawing/DiamondTool.pdf, id=1880, 974.4104pt x 444.1875pt>
+<Drawing/DiamondTool.pdf, id=1879, 974.4104pt x 444.1875pt>
 File: Drawing/DiamondTool.pdf Graphic file (type pdf)
 
 <use Drawing/DiamondTool.pdf>
@@ -2845,7 +2845,7 @@ put line 426.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Drawing/DTMCopper.pdf, id=1881, 825.0825pt x 391.4625pt>
+<Drawing/DTMCopper.pdf, id=1880, 825.0825pt x 391.4625pt>
 File: Drawing/DTMCopper.pdf Graphic file (type pdf)
 
 <use Drawing/DTMCopper.pdf>
@@ -2860,7 +2860,7 @@ put line 433.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [24 <./Drawing/DTM.pdf>]
-<Drawing/CopperProcessing.pdf, id=1904, 908.39375pt x 675.52374pt>
+<Drawing/CopperProcessing.pdf, id=1903, 908.39375pt x 675.52374pt>
 File: Drawing/CopperProcessing.pdf Graphic file (type pdf)
 
 <use Drawing/CopperProcessing.pdf>
@@ -2871,7 +2871,7 @@ Package pdftex.def Info: Drawing/CopperProcessing.pdf used on input line 441.
 Class pittetd Warning: The caption of Figure II.7 is longer than one line on in
 put line 442.
 
-<Drawing/CVDGraphene.pdf, id=1906, 501.875pt x 915.48923pt>
+<Drawing/CVDGraphene.pdf, id=1905, 501.875pt x 915.48923pt>
 File: Drawing/CVDGraphene.pdf Graphic file (type pdf)
 
 <use Drawing/CVDGraphene.pdf>
@@ -2894,7 +2894,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 523--525
 
  []
 
-[31] <Drawing/MASK.png, id=2123, 289.08pt x 257.2812pt>
+[31] <Drawing/MASK.png, id=2122, 289.08pt x 257.2812pt>
 File: Drawing/MASK.png Graphic file (type png)
  <use Drawing/MASK.png>
 Package pdftex.def Info: Drawing/MASK.png used on input line 528.
@@ -2904,7 +2904,7 @@ Package pdftex.def Info: Drawing/MASK.png used on input line 528.
 Class pittetd Warning: The caption of Figure II.9 is longer than one line on in
 put line 529.
 
-<Drawing/Suss.pdf, id=2124, 587.528pt x 508.90125pt>
+<Drawing/Suss.pdf, id=2123, 587.528pt x 508.90125pt>
 File: Drawing/Suss.pdf Graphic file (type pdf)
  <use Drawing/Suss.pdf>
 Package pdftex.def Info: Drawing/Suss.pdf used on input line 535.
@@ -2914,7 +2914,7 @@ Package pdftex.def Info: Drawing/Suss.pdf used on input line 535.
 Class pittetd Warning: The caption of Figure II.10 is longer than one line on i
 nput line 536.
 
-<Drawing/Heidelberg.pdf, id=2125, 510.23926pt x 537.00626pt>
+<Drawing/Heidelberg.pdf, id=2124, 510.23926pt x 537.00626pt>
 File: Drawing/Heidelberg.pdf Graphic file (type pdf)
 
 <use Drawing/Heidelberg.pdf>
@@ -2934,7 +2934,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 553--555
 
  []
 
-<Drawing/Developed.png, id=2294, 240.9pt x 225.0006pt>
+<Drawing/Developed.png, id=2293, 240.9pt x 225.0006pt>
 File: Drawing/Developed.png Graphic file (type png)
 
 <use Drawing/Developed.png>
@@ -2952,7 +2952,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-<Drawing/IonMill.pdf, id=2306, 471.093pt x 354.658pt>
+<Drawing/IonMill.pdf, id=2305, 471.093pt x 354.658pt>
 File: Drawing/IonMill.pdf Graphic file (type pdf)
 
 <use Drawing/IonMill.pdf>
@@ -2963,7 +2963,7 @@ Package pdftex.def Info: Drawing/IonMill.pdf used on input line 606.
 Class pittetd Warning: The caption of Figure II.13 is longer than one line on i
 nput line 607.
 
-<Drawing/Ebeam.pdf, id=2308, 603.25375pt x 594.22pt>
+<Drawing/Ebeam.pdf, id=2307, 603.25375pt x 594.22pt>
 File: Drawing/Ebeam.pdf Graphic file (type pdf)
  <use Drawing/Ebeam.pdf>
 Package pdftex.def Info: Drawing/Ebeam.pdf used on input line 617.
@@ -2981,7 +2981,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 646--649
 
  []
 
-[41] <Drawing/AFM.pdf, id=2430, 632.3625pt x 514.92375pt>
+[41] <Drawing/AFM.pdf, id=2429, 632.3625pt x 514.92375pt>
 File: Drawing/AFM.pdf Graphic file (type pdf)
 
 <use Drawing/AFM.pdf>
@@ -2998,7 +2998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 658--661
  []
 
 [42 <./Drawing/AFM.pdf>]
-<Drawing/Interaction.pdf, id=2461, 636.3775pt x 566.115pt>
+<Drawing/Interaction.pdf, id=2460, 636.3775pt x 566.115pt>
 File: Drawing/Interaction.pdf Graphic file (type pdf)
 
 <use Drawing/Interaction.pdf>
@@ -3015,7 +3015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 673--675
  []
 
 [43 <./Drawing/Interaction.pdf>]
-<Drawing/ContactAFM.pdf, id=2488, 474.24878pt x 278.52657pt>
+<Drawing/ContactAFM.pdf, id=2487, 474.24878pt x 278.52657pt>
 File: Drawing/ContactAFM.pdf Graphic file (type pdf)
 
 <use Drawing/ContactAFM.pdf>
@@ -3031,7 +3031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 686--688
 
  []
 
-<Drawing/ACAFM.pdf, id=2490, 809.0225pt x 316.18124pt>
+<Drawing/ACAFM.pdf, id=2489, 809.0225pt x 316.18124pt>
 File: Drawing/ACAFM.pdf Graphic file (type pdf)
  <use Drawing/ACAFM.pdf>
 Package pdftex.def Info: Drawing/ACAFM.pdf used on input line 691.
@@ -3050,7 +3050,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 698--700
  []
 
 [44 <./Drawing/ContactAFM.pdf>]
-<Drawing/NonContactAFM.pdf, id=2583, 472.76625pt x 316.18124pt>
+<Drawing/NonContactAFM.pdf, id=2582, 472.76625pt x 316.18124pt>
 File: Drawing/NonContactAFM.pdf Graphic file (type pdf)
 
 <use Drawing/NonContactAFM.pdf>
@@ -3070,7 +3070,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 724--726
  []
 
 [46 <./Drawing/NonContactAFM.pdf>]
-<Drawing/MFM.pdf, id=2754, 328.5896pt x 416.8905pt>
+<Drawing/MFM.pdf, id=2753, 328.5896pt x 416.8905pt>
 File: Drawing/MFM.pdf Graphic file (type pdf)
  <use Drawing/MFM.pdf>
 Package pdftex.def Info: Drawing/MFM.pdf used on input line 729.
@@ -3083,7 +3083,7 @@ nput line 730.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./Drawing/MFM.pdf>] <Drawing/PFM.pdf, id=2864, 581.50551pt x 554.07pt>
+ [47 <./Drawing/MFM.pdf>] <Drawing/PFM.pdf, id=2863, 581.50551pt x 554.07pt>
 File: Drawing/PFM.pdf Graphic file (type pdf)
 
 <use Drawing/PFM.pdf>
@@ -3095,7 +3095,7 @@ Class pittetd Warning: The caption of Figure II.21 is longer than one line on i
 nput line 769.
 
 [48] [49 <./Drawing/PFM.pdf>]
-<Drawing/Lithography.pdf, id=2935, 1146.2825pt x 1606.0pt>
+<Drawing/Lithography.pdf, id=2934, 1146.2825pt x 1606.0pt>
 File: Drawing/Lithography.pdf Graphic file (type pdf)
 
 <use Drawing/Lithography.pdf>
@@ -3109,7 +3109,7 @@ nput line 783.
 
 LaTeX Warning: Float too large for page by 30.67969pt on input line 785.
 
-<Drawing/Regular.pdf, id=2938, 869.2475pt x 944.54082pt>
+<Drawing/Regular.pdf, id=2937, 869.2475pt x 944.54082pt>
 File: Drawing/Regular.pdf Graphic file (type pdf)
 
 <use Drawing/Regular.pdf>
@@ -3121,7 +3121,7 @@ Class pittetd Warning: The caption of Figure II.23 is longer than one line on i
 nput line 792.
 
 [50] [51 <./Drawing/Lithography.pdf>] [52 <./Drawing/Regular.pdf>]
-<Drawing/PMMATransfer.pdf, id=3189, 555.07375pt x 531.9875pt>
+<Drawing/PMMATransfer.pdf, id=3188, 555.07375pt x 531.9875pt>
 File: Drawing/PMMATransfer.pdf Graphic file (type pdf)
 
 <use Drawing/PMMATransfer.pdf>
@@ -3138,7 +3138,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 821--823
  []
 
 [53] [54 <./Drawing/PMMATransfer.pdf>]
-<Drawing/PMMAResidue.png, id=3228, 290.5254pt x 222.5916pt>
+<Drawing/PMMAResidue.png, id=3227, 290.5254pt x 222.5916pt>
 File: Drawing/PMMAResidue.png Graphic file (type png)
 
 <use Drawing/PMMAResidue.png>
@@ -3150,7 +3150,7 @@ Class pittetd Warning: The caption of Figure II.25 is longer than one line on i
 nput line 827.
 
 [55 <./Drawing/PMMAResidue.png>]
-<Drawing/HyflonTransfer.pdf, id=3241, 831.105pt x 705.63625pt>
+<Drawing/HyflonTransfer.pdf, id=3240, 831.105pt x 705.63625pt>
 File: Drawing/HyflonTransfer.pdf Graphic file (type pdf)
 
 <use Drawing/HyflonTransfer.pdf>
@@ -3166,7 +3166,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]
 [57 <./Drawing/HyflonTransfer.pdf>]
-<Drawing/Transfer.pdf, id=3296, 1039.4434pt x 935.38356pt>
+<Drawing/Transfer.pdf, id=3295, 1039.4434pt x 935.38356pt>
 File: Drawing/Transfer.pdf Graphic file (type pdf)
 
 <use Drawing/Transfer.pdf>
@@ -3177,7 +3177,7 @@ Package pdftex.def Info: Drawing/Transfer.pdf used on input line 856.
 Class pittetd Warning: The caption of Figure II.27 is longer than one line on i
 nput line 857.
 
-<Drawing/PreClean.pdf, id=3298, 1602.98875pt x 787.83336pt>
+<Drawing/PreClean.pdf, id=3297, 1602.98875pt x 787.83336pt>
 File: Drawing/PreClean.pdf Graphic file (type pdf)
 
 <use Drawing/PreClean.pdf>
@@ -3194,7 +3194,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [58] [59 <./Drawing/Transfer.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60 <./Drawing/PreClean.pdf>] <Drawing/GCO.pdf, id=3339, 935.495pt x 942.53333
+ [60 <./Drawing/PreClean.pdf>] <Drawing/GCO.pdf, id=3337, 935.495pt x 942.53333
 pt>
 File: Drawing/GCO.pdf Graphic file (type pdf)
 
@@ -3206,7 +3206,7 @@ Package pdftex.def Info: Drawing/GCO.pdf used on input line 884.
 Class pittetd Warning: The caption of Figure II.29 is longer than one line on i
 nput line 885.
 
-<Drawing/SampleContaminant.pdf, id=3342, 618.31pt x 1194.00081pt>
+<Drawing/SampleContaminant.pdf, id=3340, 618.31pt x 1194.00081pt>
 File: Drawing/SampleContaminant.pdf Graphic file (type pdf)
 
 <use Drawing/SampleContaminant.pdf>
@@ -3217,7 +3217,7 @@ Package pdftex.def Info: Drawing/SampleContaminant.pdf used on input line 895.
 Class pittetd Warning: The caption of Figure II.30 is longer than one line on i
 nput line 896.
 
-<Drawing/RIEBeforeEtching.pdf, id=3345, 554.07pt x 481.8pt>
+<Drawing/RIEBeforeEtching.pdf, id=3343, 554.07pt x 481.8pt>
 File: Drawing/RIEBeforeEtching.pdf Graphic file (type pdf)
 
 <use Drawing/RIEBeforeEtching.pdf>
@@ -3232,7 +3232,7 @@ nput line 903.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [61] [62 <./Drawing/GCO.pdf>] [63 <./Drawing/SampleContaminant.pdf>]
-<Drawing/RIETwoStep.pdf, id=3415, 533.995pt x 1074.0827pt>
+<Drawing/RIETwoStep.pdf, id=3414, 533.995pt x 1074.0827pt>
 File: Drawing/RIETwoStep.pdf Graphic file (type pdf)
 
 <use Drawing/RIETwoStep.pdf>
@@ -3250,7 +3250,7 @@ LaTeX Warning: Float too large for page by 41.83728pt on input line 935.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./Drawing/RIEBeforeEtching.pdf>]
-<Drawing/TwoStepEtching.pdf, id=3432, 764.8575pt x 553.06625pt>
+<Drawing/TwoStepEtching.pdf, id=3431, 764.8575pt x 553.06625pt>
 File: Drawing/TwoStepEtching.pdf Graphic file (type pdf)
 
 <use Drawing/TwoStepEtching.pdf>
@@ -3279,7 +3279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 985--987
 
  []
 
-<Drawing/GrapheneAC.pdf, id=3507, 361.30583pt x 811.10927pt>
+<Drawing/GrapheneAC.pdf, id=3506, 361.30583pt x 811.10927pt>
 File: Drawing/GrapheneAC.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneAC.pdf>
@@ -3303,7 +3303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1018--1020
 
  []
 
-<Drawing/GrapheneSTM.pdf, id=3549, 352.87636pt x 352.87636pt>
+<Drawing/GrapheneSTM.pdf, id=3548, 352.87636pt x 352.87636pt>
 File: Drawing/GrapheneSTM.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneSTM.pdf>
@@ -3313,7 +3313,7 @@ Package pdftex.def Info: Drawing/GrapheneSTM.pdf used on input line 1023.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71 <./Drawing/GrapheneSTM.pdf>]
-<Drawing/GraphenePFM.pdf, id=3580, 703.09177pt x 1412.20604pt>
+<Drawing/GraphenePFM.pdf, id=3579, 703.09177pt x 1412.20604pt>
 File: Drawing/GraphenePFM.pdf Graphic file (type pdf)
 
 <use Drawing/GraphenePFM.pdf>
@@ -3329,7 +3329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1047--1049
 
  []
 
-<Drawing/GrapheneDamages.pdf, id=3658, 398.94044pt x 338.59901pt>
+<Drawing/GrapheneDamages.pdf, id=3657, 398.94044pt x 338.59901pt>
 File: Drawing/GrapheneDamages.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneDamages.pdf>
@@ -3341,7 +3341,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [74] [75 <./Drawing/GrapheneDamages.pdf>]
 Chapter III.
-<Drawing/HallDevice.pdf, id=3682, 1630.09pt x 2292.565pt>
+<Drawing/HallDevice.pdf, id=3681, 1630.09pt x 2292.565pt>
 File: Drawing/HallDevice.pdf Graphic file (type pdf)
 
 <use Drawing/HallDevice.pdf>
@@ -3360,7 +3360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1091--1093
 [76
 
 ] [77 <./Drawing/HallDevice.pdf>]
-<Drawing/DOS.pdf, id=3726, 248.67906pt x 92.84688pt>
+<Drawing/DOS.pdf, id=3725, 248.67906pt x 92.84688pt>
 File: Drawing/DOS.pdf Graphic file (type pdf)
  <use Drawing/DOS.pdf>
 Package pdftex.def Info: Drawing/DOS.pdf used on input line 1096.
@@ -3370,7 +3370,7 @@ Package pdftex.def Info: Drawing/DOS.pdf used on input line 1096.
 Class pittetd Warning: The caption of Figure III.2 is longer than one line on i
 nput line 1097.
 
-<Drawing/DiracPeak.pdf, id=3729, 527.9725pt x 407.5225pt>
+<Drawing/DiracPeak.pdf, id=3728, 527.9725pt x 407.5225pt>
 File: Drawing/DiracPeak.pdf Graphic file (type pdf)
 
 <use Drawing/DiracPeak.pdf>
@@ -3389,7 +3389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
 
  []
 
-<Drawing/ResistanceTemp.pdf, id=3734, 672.5125pt x 451.6875pt>
+<Drawing/ResistanceTemp.pdf, id=3733, 672.5125pt x 451.6875pt>
 File: Drawing/ResistanceTemp.pdf Graphic file (type pdf)
 
 <use Drawing/ResistanceTemp.pdf>
@@ -3403,7 +3403,7 @@ nput line 1116.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Drawing/CarrierDensityMobility.pdf, id=3735, 512.91624pt x 384.43625pt>
+<Drawing/CarrierDensityMobility.pdf, id=3734, 512.91624pt x 384.43625pt>
 File: Drawing/CarrierDensityMobility.pdf Graphic file (type pdf)
 
 <use Drawing/CarrierDensityMobility.pdf>
@@ -3422,7 +3422,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78 <./Drawing/DOS.pdf>]
-<Drawing/HallResistance.pdf, id=3762, 536.33376pt x 468.23532pt>
+<Drawing/HallResistance.pdf, id=3761, 536.33376pt x 468.23532pt>
 File: Drawing/HallResistance.pdf Graphic file (type pdf)
 
 <use Drawing/HallResistance.pdf>
@@ -3445,7 +3445,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1153--1155
  []
 
 [81 <./Drawing/CarrierDensityMobility.pdf>]
-<Drawing/Channel.pdf, id=3819, 796.9775pt x 372.39125pt>
+<Drawing/Channel.pdf, id=3818, 796.9775pt x 372.39125pt>
 File: Drawing/Channel.pdf Graphic file (type pdf)
 
 <use Drawing/Channel.pdf>
@@ -3460,7 +3460,7 @@ nput line 1159.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82 <./Drawing/HallResistance.pdf> <./Drawing/Channel.pdf>] [83]
-<Drawing/Mixing.pdf, id=3856, 404.96092pt x 633.40135pt>
+<Drawing/Mixing.pdf, id=3855, 404.96092pt x 633.40135pt>
 File: Drawing/Mixing.pdf Graphic file (type pdf)
 
 <use Drawing/Mixing.pdf>
@@ -3472,7 +3472,7 @@ Class pittetd Warning: The caption of Figure III.8 is longer than one line on i
 nput line 1208.
 
 [84 <./Drawing/Mixing.pdf>]
-<Drawing/Unipolar.pdf, id=3878, 991.705pt x 622.99352pt>
+<Drawing/Unipolar.pdf, id=3877, 991.705pt x 622.99352pt>
 File: Drawing/Unipolar.pdf Graphic file (type pdf)
 
 <use Drawing/Unipolar.pdf>
@@ -3486,7 +3486,7 @@ nput line 1219.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85 <./Drawing/Unipolar.pdf>] <Drawing/Bipolar.pdf, id=3908, 1001.7425pt x 603
+ [85 <./Drawing/Unipolar.pdf>] <Drawing/Bipolar.pdf, id=3907, 1001.7425pt x 603
 .25375pt>
 File: Drawing/Bipolar.pdf Graphic file (type pdf)
 
@@ -3506,7 +3506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1301--1303
 
  []
 
-<Drawing/GrapheneAFM.pdf, id=3948, 639.38875pt x 392.46625pt>
+<Drawing/GrapheneAFM.pdf, id=3947, 639.38875pt x 392.46625pt>
 File: Drawing/GrapheneAFM.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneAFM.pdf>
@@ -3529,7 +3529,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1313--1315
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89 <./Drawing/GrapheneAFM.pdf>]
-<Drawing/WritingResistance.pdf, id=3986, 2473.24pt x 1257.22702pt>
+<Drawing/WritingResistance.pdf, id=3985, 2473.24pt x 1257.22702pt>
 File: Drawing/WritingResistance.pdf Graphic file (type pdf)
 
 <use Drawing/WritingResistance.pdf>
@@ -3550,7 +3550,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1327--1329
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [90 <./Drawing/WritingResistance.pdf>]
-<Drawing/GrapheneDopedHall.pdf, id=4040, 794.97pt x 537.17387pt>
+<Drawing/GrapheneDopedHall.pdf, id=4039, 794.97pt x 537.17387pt>
 File: Drawing/GrapheneDopedHall.pdf Graphic file (type pdf)
 
 <use Drawing/GrapheneDopedHall.pdf>
@@ -3567,7 +3567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1337--1339
 
  []
 
-<Drawing/DiracPointSplit.pdf, id=4045, 875.27pt x 459.7175pt>
+<Drawing/DiracPointSplit.pdf, id=4044, 875.27pt x 459.7175pt>
 File: Drawing/DiracPointSplit.pdf Graphic file (type pdf)
 
 <use Drawing/DiracPointSplit.pdf>
@@ -3582,21 +3582,22 @@ input line 1343.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [91 <./Drawing/GrapheneDopedHall.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92 <./Drawing/DiracPointSplit.pdf>]
-<Drawing/EdgeChannels.pdf, id=4122, 1870.17691pt x 1597.8797pt>
+<Drawing/EdgeChannels.pdf, id=4091, 1870.17691pt x 1597.8797pt>
 File: Drawing/EdgeChannels.pdf Graphic file (type pdf)
 
 <use Drawing/EdgeChannels.pdf>
-Package pdftex.def Info: Drawing/EdgeChannels.pdf used on input line 1354.
+Package pdftex.def Info: Drawing/EdgeChannels.pdf used on input line 1351.
 (pdftex.def)             Requested size: 469.75499pt x 401.34633pt.
 
 
 Class pittetd Warning: The caption of Figure III.15 is longer than one line on 
-input line 1355.
+input line 1352.
 
-<Drawing/MixingIntensityPlot.pdf, id=4129, 789.15524pt x 408.42287pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92 <./Drawing/DiracPointSplit.pdf>] [93 <./Drawing/EdgeChannels.pdf>]
+<Drawing/MixingIntensityPlot.pdf, id=4179, 789.15524pt x 408.42287pt>
 File: Drawing/MixingIntensityPlot.pdf Graphic file (type pdf)
 
 <use Drawing/MixingIntensityPlot.pdf>
@@ -3609,84 +3610,76 @@ Class pittetd Warning: The caption of Figure III.16 is longer than one line on
 input line 1362.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[93] [94 <./Drawing/EdgeChannels.pdf>]
-<Drawing/Moire.pdf, id=4225, 826.54396pt x 514.89764pt>
+ [94 <./Drawing/MixingIntensityPlot.pdf>]
+<Drawing/Moire.pdf, id=4245, 826.54396pt x 514.89764pt>
 File: Drawing/Moire.pdf Graphic file (type pdf)
 
 <use Drawing/Moire.pdf>
-Package pdftex.def Info: Drawing/Moire.pdf used on input line 1378.
+Package pdftex.def Info: Drawing/Moire.pdf used on input line 1376.
 (pdftex.def)             Requested size: 375.80542pt x 234.10594pt.
 
 
 Class pittetd Warning: The caption of Figure III.17 is longer than one line on 
-input line 1379.
+input line 1377.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [95 <./Drawing/MixingIntensityPlot.pdf>]
-<Drawing/HofstadterLandau.pdf, id=4271, 1440.29094pt x 1180.49025pt>
+[95] <Drawing/HofstadterLandau.pdf, id=4270, 1440.29094pt x 1180.49025pt>
 File: Drawing/HofstadterLandau.pdf Graphic file (type pdf)
 
 <use Drawing/HofstadterLandau.pdf>
-Package pdftex.def Info: Drawing/HofstadterLandau.pdf used on input line 1391.
+Package pdftex.def Info: Drawing/HofstadterLandau.pdf used on input line 1389.
 (pdftex.def)             Requested size: 469.75499pt x 385.00574pt.
 
 
 Class pittetd Warning: The caption of Figure III.18 is longer than one line on 
-input line 1392.
+input line 1390.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [96 <./Drawing/Moire.pdf>]
+[96 <./Drawing/Moire.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [97 <./Drawing/HofstadterLandau.pdf>]
-
-LaTeX Warning: Citation `streda1982quantised thouless1984quantized' on page 98 
-undefined on input line 1401.
-
-<Drawing/SuperlatticeWriting.pdf, id=4345, 770.55377pt x 1040.38687pt>
+<Drawing/SuperlatticeWriting.pdf, id=4344, 770.55377pt x 1040.38687pt>
 File: Drawing/SuperlatticeWriting.pdf Graphic file (type pdf)
 
 <use Drawing/SuperlatticeWriting.pdf>
 Package pdftex.def Info: Drawing/SuperlatticeWriting.pdf used on input line 140
-9.
+7.
 (pdftex.def)             Requested size: 281.85585pt x 380.55562pt.
 
 
 Class pittetd Warning: The caption of Figure III.19 is longer than one line on 
-input line 1410.
+input line 1408.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[98] <Drawing/SuperlatticeControl.pdf, id=4358, 1346.19943pt x 707.64375pt>
+<Drawing/SuperlatticeControl.pdf, id=4350, 1346.19943pt x 707.64375pt>
 File: Drawing/SuperlatticeControl.pdf Graphic file (type pdf)
 
 <use Drawing/SuperlatticeControl.pdf>
 Package pdftex.def Info: Drawing/SuperlatticeControl.pdf used on input line 142
-7.
+5.
 (pdftex.def)             Requested size: 469.75499pt x 246.92317pt.
 
 
 Class pittetd Warning: The caption of Figure III.20 is longer than one line on 
-input line 1428.
+input line 1426.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[98]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [99 <./Drawing/SuperlatticeWriting.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1438
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1436
 
  []
 
@@ -3695,116 +3688,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 1435--1438
 File: Drawing/SuperlatticeDamage.png Graphic file (type png)
 
 <use Drawing/SuperlatticeDamage.png>
-Package pdftex.def Info: Drawing/SuperlatticeDamage.png used on input line 1441
+Package pdftex.def Info: Drawing/SuperlatticeDamage.png used on input line 1439
 .
 (pdftex.def)             Requested size: 281.85585pt x 243.55693pt.
 
 
 Class pittetd Warning: The caption of Figure III.21 is longer than one line on 
-input line 1442.
+input line 1440.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101 <./Drawing/SuperlatticeDamage.png>] [102]
+[101 <./Drawing/SuperlatticeDamage.png>]
 Chapter IV.
-[103
+[102
 
-] <Drawing/MCDRice.jpg, id=4451, 929.4725pt x 924.45375pt>
+] <Drawing/MCDRice.jpg, id=4447, 929.4725pt x 924.45375pt>
 File: Drawing/MCDRice.jpg Graphic file (type jpg)
 
 <use Drawing/MCDRice.jpg>
-Package pdftex.def Info: Drawing/MCDRice.jpg used on input line 1461.
+Package pdftex.def Info: Drawing/MCDRice.jpg used on input line 1459.
 (pdftex.def)             Requested size: 422.77661pt x 420.48605pt.
 
 
 Class pittetd Warning: The caption of Figure IV.1 is longer than one line on in
-put line 1462.
+put line 1460.
 
-<Drawing/LAOSTOMFM.pdf, id=4459, 1079.74387pt x 722.64278pt>
+<Drawing/LAOSTOMFM.pdf, id=4455, 1079.74387pt x 722.64278pt>
 File: Drawing/LAOSTOMFM.pdf Graphic file (type pdf)
 
 <use Drawing/LAOSTOMFM.pdf>
-Package pdftex.def Info: Drawing/LAOSTOMFM.pdf used on input line 1472.
+Package pdftex.def Info: Drawing/LAOSTOMFM.pdf used on input line 1470.
 (pdftex.def)             Requested size: 469.75499pt x 314.39117pt.
 
 
 Class pittetd Warning: The caption of Figure IV.2 is longer than one line on in
-put line 1473.
+put line 1471.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1477--1479
-
- []
-
-[104] [105 <./Drawing/MCDRice.jpg>] [106 <./Drawing/LAOSTOMFM.pdf>]
-<Drawing/MFMSignal.pdf, id=4516, 617.18881pt x 281.3712pt>
+<Drawing/MFMSignal.pdf, id=4456, 617.18881pt x 281.3712pt>
 File: Drawing/MFMSignal.pdf Graphic file (type pdf)
 
 <use Drawing/MFMSignal.pdf>
-Package pdftex.def Info: Drawing/MFMSignal.pdf used on input line 1482.
+Package pdftex.def Info: Drawing/MFMSignal.pdf used on input line 1477.
 (pdftex.def)             Requested size: 375.80542pt x 171.33134pt.
 
 
 Class pittetd Warning: The caption of Figure IV.3 is longer than one line on in
-put line 1484.
+put line 1479.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[107] [108 <./Drawing/MFMSignal.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1561--1563
+[103] [104 <./Drawing/MCDRice.jpg>] [105 <./Drawing/LAOSTOMFM.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106 <./Drawing/MFMSignal.pdf>] [107]
+Underfull \hbox (badness 10000) in paragraph at lines 1557--1559
 
  []
 
-<Drawing/CircularDecompose.pdf, id=4557, 622.32199pt x 679.29283pt>
+<Drawing/CircularDecompose.pdf, id=4553, 622.32199pt x 679.29283pt>
 File: Drawing/CircularDecompose.pdf Graphic file (type pdf)
 
 <use Drawing/CircularDecompose.pdf>
-Package pdftex.def Info: Drawing/CircularDecompose.pdf used on input line 1566.
+Package pdftex.def Info: Drawing/CircularDecompose.pdf used on input line 1562.
 
 (pdftex.def)             Requested size: 375.80542pt x 410.2116pt.
 
 
 Class pittetd Warning: The caption of Figure IV.4 is longer than one line on in
-put line 1567.
+put line 1563.
 
-<Drawing/PEMOptics_small.png, id=4558, 289.08pt x 136.1085pt>
+<Drawing/PEMOptics_small.png, id=4554, 289.08pt x 136.1085pt>
 File: Drawing/PEMOptics_small.png Graphic file (type png)
 
 <use Drawing/PEMOptics_small.png>
-Package pdftex.def Info: Drawing/PEMOptics_small.png used on input line 1582.
+Package pdftex.def Info: Drawing/PEMOptics_small.png used on input line 1578.
 (pdftex.def)             Requested size: 422.77661pt x 199.06772pt.
 
 
 Class pittetd Warning: The caption of Figure IV.5 is longer than one line on in
-put line 1583.
+put line 1579.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[109] [110 <./Drawing/CircularDecompose.pdf>] [111 <./Drawing/PEMOptics_small.p
-ng>] <Drawing/KerrOptics.pdf, id=4584, 688.04048pt x 441.92906pt>
+[108] [109 <./Drawing/CircularDecompose.pdf>] [110 <./Drawing/PEMOptics_small.p
+ng>] <Drawing/KerrOptics.pdf, id=4580, 688.04048pt x 441.92906pt>
 File: Drawing/KerrOptics.pdf Graphic file (type pdf)
 
 <use Drawing/KerrOptics.pdf>
-Package pdftex.def Info: Drawing/KerrOptics.pdf used on input line 1608.
+Package pdftex.def Info: Drawing/KerrOptics.pdf used on input line 1604.
 (pdftex.def)             Requested size: 422.77661pt x 271.55211pt.
 
 
 Class pittetd Warning: The caption of Figure IV.6 is longer than one line on in
-put line 1609.
+put line 1605.
 
-[112] [113 <./Drawing/KerrOptics.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1621--1623
+[111] [112 <./Drawing/KerrOptics.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1617--1619
 
  []
 
-<Drawing/KerrLAOSTO.pdf, id=4613, 513.37497pt x 383.68344pt>
+<Drawing/KerrLAOSTO.pdf, id=4609, 513.37497pt x 383.68344pt>
 File: Drawing/KerrLAOSTO.pdf Graphic file (type pdf)
 
 <use Drawing/KerrLAOSTO.pdf>
-Package pdftex.def Info: Drawing/KerrLAOSTO.pdf used on input line 1626.
+Package pdftex.def Info: Drawing/KerrLAOSTO.pdf used on input line 1622.
 (pdftex.def)             Requested size: 281.85585pt x 210.66356pt.
 
 
@@ -3813,75 +3800,71 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1675) has occurred while \output is active []
 
- [114]
-[115 <./Drawing/KerrLAOSTO.pdf>]
-<Drawing/KerrInPlane.pdf, id=4703, 722.96803pt x 839.38092pt>
+ [113]
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [114 <./Drawing/KerrLAOSTO.pdf>]
+<Drawing/KerrInPlane.pdf, id=4699, 722.96803pt x 839.38092pt>
 File: Drawing/KerrInPlane.pdf Graphic file (type pdf)
 
 <use Drawing/KerrInPlane.pdf>
-Package pdftex.def Info: Drawing/KerrInPlane.pdf used on input line 1643.
+Package pdftex.def Info: Drawing/KerrInPlane.pdf used on input line 1639.
 (pdftex.def)             Requested size: 422.77661pt x 490.86296pt.
 
 
 Class pittetd Warning: The caption of Figure IV.8 is longer than one line on in
-put line 1644.
+put line 1640.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1655--1657
+Underfull \hbox (badness 10000) in paragraph at lines 1651--1653
 
  []
 
-<Drawing/Quad.pdf, id=4707, 267.57265pt x 268.31845pt>
+<Drawing/Quad.pdf, id=4703, 267.57265pt x 268.31845pt>
 File: Drawing/Quad.pdf Graphic file (type pdf)
  <use Drawing/Quad.pdf>
-Package pdftex.def Info: Drawing/Quad.pdf used on input line 1660.
+Package pdftex.def Info: Drawing/Quad.pdf used on input line 1656.
 (pdftex.def)             Requested size: 117.43874pt x 117.76569pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1667--1669
+Underfull \hbox (badness 10000) in paragraph at lines 1663--1665
 
  []
 
-[116] [117 <./Drawing/KerrInPlane.pdf>]
-<Drawing/KerrTopGate.pdf, id=4793, 544.47115pt x 297.37297pt>
+[115] [116 <./Drawing/KerrInPlane.pdf>]
+<Drawing/KerrTopGate.pdf, id=4789, 544.47115pt x 297.37297pt>
 File: Drawing/KerrTopGate.pdf Graphic file (type pdf)
 
 <use Drawing/KerrTopGate.pdf>
-Package pdftex.def Info: Drawing/KerrTopGate.pdf used on input line 1672.
+Package pdftex.def Info: Drawing/KerrTopGate.pdf used on input line 1668.
 (pdftex.def)             Requested size: 258.36667pt x 141.10841pt.
 
 
 Class pittetd Warning: The caption of Figure IV.10 is longer than one line on i
-nput line 1673.
+nput line 1669.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [118 <./Drawing/Quad.pdf>] [119 <./Drawing/KerrTopGate.pdf>]
+[117 <./Drawing/Quad.pdf> <./Drawing/KerrTopGate.pdf>] [118]
 Chapter V.
-[120
+[119
 
-] (./main.bbl [121]
+] (./main.bbl [120]
 BIBLIOGRAPHY
-[122
+[121
 
-] [123] [124] [125] [126]
+] [122] [123] [124] [125]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [127] [128]
+ [126] [127]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [129] [130] [131] [132] [133]
-[134]
-Underfull \hbox (badness 3098) in paragraph at lines 956--960
+ [128] [129] [130] [131] [132]
+[133]
+Underfull \hbox (badness 3098) in paragraph at lines 966--970
 []\OT1/cmr/m/n/12 Mark Hui-jben, Alexan-der Brinkman, Gert-jan Koster, Guus Ri-
 jn-ders, Hans
  []
@@ -3896,29 +3879,25 @@ Class pittetd Warning: Remember to run the document with `final' option.
 
 \openout3 = `main.etd'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1700.
-[135]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1700.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1696.
+[134]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1696.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1700.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1700.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1696.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1696.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F31BDAAD9AE5A945658A6936403C4659;6834.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1700.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1696.
  ) 
 Here is how much of TeX's memory you used:
- 7371 strings out of 493027
- 110725 string characters out of 6134069
- 269237 words of memory out of 5000000
- 10260 multiletter control sequences out of 15000+600000
+ 7373 strings out of 493027
+ 110768 string characters out of 6134069
+ 269217 words of memory out of 5000000
+ 10261 multiletter control sequences out of 15000+600000
  8931 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,16n,28p,1767b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,16n,28p,1768b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
@@ -3934,10 +3913,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (158 pages, 17106699 bytes).
+Output written on main.pdf (157 pages, 17104631 bytes).
 PDF statistics:
- 5113 PDF objects out of 5155 (max. 8388607)
- 3723 compressed objects within 38 object streams
- 498 named destinations out of 1000 (max. 500000)
+ 5110 PDF objects out of 5155 (max. 8388607)
+ 3722 compressed objects within 38 object streams
+ 499 named destinations out of 1000 (max. 500000)
  1741 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -62,19 +62,19 @@
 \contentsline {subsubsection}{\numberline {b.}Bipolar junction}{87}{figure.3.10}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}3\period@or@not }Graphene doping using c-AFM}{88}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}B\period@or@not .}4\period@or@not }Measurement of graphene edge state mixing}{91}{subsection.3.2.4}
-\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}C\period@or@not }Graphene band-structure engineering with superlattice}{93}{section.3.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}1\period@or@not }Hofstadter spectra of superlattice}{97}{subsection.3.3.1}
+\contentsline {section}{\numberline {\gobble@or@not {III\period@or@not .}C\period@or@not }Graphene band-structure engineering with superlattice}{95}{section.3.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}1\period@or@not }Hofstadter spectra of superlattice}{96}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}2\period@or@not }Superlattice lithography}{98}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}3\period@or@not }Transport measurement}{100}{subsection.3.3.3}
-\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{103}{chapter.4}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{103}{section.4.1}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{104}{section.4.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}3\period@or@not }Transport measurement}{99}{subsection.3.3.3}
+\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{102}{chapter.4}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{102}{section.4.1}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{103}{section.4.2}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{107}{section.4.3}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{107}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{109}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{112}{subsection.4.3.3}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Improvements}{115}{section.4.4}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}1\period@or@not }Quad-detector}{115}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}2\period@or@not }Graphene top gate}{118}{subsection.4.4.2}
-\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS AND OUTLOOK}}{120}{chapter.5}
-\contentsline {chapter}{{\bfseries \bibname }}{122}{section*.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{108}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{111}{subsection.4.3.3}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Improvements}{114}{section.4.4}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}1\period@or@not }Quad-detector}{114}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}2\period@or@not }Graphene top gate}{115}{subsection.4.4.2}
+\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS AND OUTLOOK}}{119}{chapter.5}
+\contentsline {chapter}{{\bfseries \bibname }}{121}{section*.1}

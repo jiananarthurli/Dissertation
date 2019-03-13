@@ -709,13 +709,6 @@ Justice M.~P. Alaboson, Qing~Hua Wang, Joshua~A. Kellar, Joohee Park,
   graphene on {SiC(0001)} in ambient conditions.
 \newblock {\em Advanced Materials}, 23(19):2181--2184, 2011.
 
-\bibitem{byun2011nanoscale}
-Ik-Su Byun, Duhee Yoon, Jin~Sik Choi, Inrok Hwang, Duk~Hyun Lee, Mi~Jung Lee,
-  Tomoji Kawai, Young-Woo Son, Quanxi Jia, Hyeonsik Cheong, et~al.
-\newblock Nanoscale lithography on monolayer graphene using hydrogenation and
-  oxidation.
-\newblock {\em ACS Nano}, 5(8):6417--6424, 2011.
-
 \bibitem{couto2011transport}
 Nuno J.~G. Couto, Benjamin Sac\'ep\'e, and Alberto~F. Morpurgo.
 \newblock Transport through graphene on {${\mathrm{SrTiO}}_{3}$}.
@@ -762,6 +755,13 @@ S.~Hu, M.~Lozada-Hidalgo, F.~C. Wang, A.~Mishchenko, F.~Schedin, R.~R. Nair,
   Grigorieva, H.~A. Wu, and A.~K. Geim.
 \newblock Proton transport through one-atom-thick crystals.
 \newblock {\em Nature}, 516:227 EP --, 11 2014.
+
+\bibitem{byun2011nanoscale}
+Ik-Su Byun, Duhee Yoon, Jin~Sik Choi, Inrok Hwang, Duk~Hyun Lee, Mi~Jung Lee,
+  Tomoji Kawai, Young-Woo Son, Quanxi Jia, Hyeonsik Cheong, et~al.
+\newblock Nanoscale lithography on monolayer graphene using hydrogenation and
+  oxidation.
+\newblock {\em ACS Nano}, 5(8):6417--6424, 2011.
 
 \bibitem{ki2010dependence}
 Dong-Keun Ki, Seung-Geol Nam, Hu-Jong Lee, and Barbaros {\"O}zyilmaz.
@@ -876,6 +876,16 @@ G.~H. Wannier.
 \newblock A result not dependent on rationality for bloch electrons in a
   magnetic field.
 \newblock {\em physica status solidi (b)}, 88(2):757--765, 1978.
+
+\bibitem{streda1982quantised}
+P~Streda.
+\newblock Quantised hall effect in a two-dimensional periodic potential.
+\newblock 15(36):L1299--L1303, dec 1982.
+
+\bibitem{thouless1984quantized}
+David Thouless.
+\newblock Quantized {Hall} effect in two-dimensional periodic potentials.
+\newblock {\em Physics Reports}, 110(5):279 -- 291, 1984.
 
 \bibitem{kalisky2012scanning}
 Beena Kalisky, Julie~A. Bert, Christopher Bell, Yanwu Xie, Hiroki~K. Sato,
