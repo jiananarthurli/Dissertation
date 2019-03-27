@@ -64,9 +64,9 @@ H.~Y. Hwang, Y.~Iwasa, M.~Kawasaki, B.~Keimer, N.~Nagaosa, and Y.~Tokura.
 \newblock {\em Nature Materials}, 11:103 EP --, 01 2012.
 
 \bibitem{reyren2007superconducting}
-Nicolas Reyren, S~Thiel, AD~Caviglia, L~Fitting Kourkoutis, German Hammerl,
-  Christoph Richter, CW~Schneider, Thilo Kopp, A-S R{\"u}etschi, Didier
-  Jaccard, et~al.
+N.~Reyren, S.~Thiel, A.~D. Caviglia, L.~Fitting Kourkoutis, G.~Hammerl,
+  C.~Richter, C.~W. Schneider, T.~Kopp, A.-S. R{\"u}etschi, D.~Jaccard,
+  M.~Gabay, D.~A. Muller, J.-M. Triscone, and J.~Mannhart.
 \newblock Superconducting interfaces between insulating oxides.
 \newblock {\em Science}, 317(5842):1196--1199, 2007.
 
@@ -83,11 +83,11 @@ A.~D. Caviglia, M.~Gabay, S.~Gariglio, N.~Reyren, C.~Cancellieri, and J.-M.
 \newblock {\em Phys. Rev. Lett.}, 104:126803, Mar 2010.
 
 \bibitem{cheng2015electron}
-Guanglei Cheng, Michelle Tomczyk, Shicheng Lu, Joshua~P Veazey, Mengchen Huang,
-  Patrick Irvin, Sangwoo Ryu, Hyungwoo Lee, Chang-Beom Eom, C~Stephen Hellberg,
-  et~al.
+Guanglei Cheng, Michelle Tomczyk, Shicheng Lu, Joshua~P. Veazey, Mengchen
+  Huang, Patrick Irvin, Sangwoo Ryu, Hyungwoo Lee, Chang-Beom Eom, C.~Stephen
+  Hellberg, and Jeremy Levy.
 \newblock Electron pairing without superconductivity.
-\newblock {\em Nature}, 521(7551):196, 2015.
+\newblock {\em Nature}, 521:196 EP --, 05 2015.
 
 \bibitem{thiel2006tunable}
 Stefan Thiel, German Hammerl, A~Schmehl, CW~Schneider, and Jochen Mannhart.
@@ -150,8 +150,8 @@ Lu~Chen, Erin Sutton, Hyungwoo Lee, Jung-Woo Lee, Jianan Li, Chang-Beom Eom,
 \newblock {\em Light: Science \& Applications}, 8(1):24, 2019.
 
 \bibitem{novoselov2004electric}
-Kostya~S Novoselov, Andre~K Geim, Sergei~V Morozov, DA~Jiang, Y\_ Zhang,
-  Sergey~V Dubonos, Irina~V Grigorieva, and Alexandr~A Firsov.
+Kostya~S Novoselov, Andre~K Geim, Sergei~V Morozov, DA~Jiang, Y~Zhang, Sergey~V
+  Dubonos, Irina~V Grigorieva, and Alexandr~A Firsov.
 \newblock Electric field effect in atomically thin carbon films.
 \newblock {\em Science}, 306(5696):666--669, 2004.
 
@@ -200,12 +200,12 @@ Y.~Cao, J.~Y. Luo, V.~Fatemi, S.~Fang, J.~D. Sanchez-Yamagishi, K.~Watanabe,
 \newblock {\em Phys. Rev. Lett.}, 117:116804, Sep 2016.
 
 \bibitem{cao2018correlated}
-Yuan Cao, Valla Fatemi, Ahmet Demir, Shiang Fang, Spencer~L Tomarken, Jason~Y
-  Luo, Javier~D Sanchez-Yamagishi, Kenji Watanabe, Takashi Taniguchi, Efthimios
-  Kaxiras, et~al.
+Yuan Cao, Valla Fatemi, Ahmet Demir, Shiang Fang, Spencer~L. Tomarken, Jason~Y.
+  Luo, Javier~D. Sanchez-Yamagishi, Kenji Watanabe, Takashi Taniguchi,
+  Efthimios Kaxiras, Ray~C. Ashoori, and Pablo Jarillo-Herrero.
 \newblock Correlated insulator behaviour at half-filling in magic-angle
   graphene superlattices.
-\newblock {\em Nature}, 556(7699):80, 2018.
+\newblock {\em Nature}, 556:80 EP --, 03 2018.
 
 \bibitem{chen2018gate}
 Guorui Chen, Lili Jiang, Shuang Wu, Bosai Lv, Hongyuan Li, Kenji Watanabe,
@@ -250,17 +250,18 @@ Alexey Kalabukhov, Robert Gunnarsson, Johan B{\"o}rjesson, Eva Olsson, Tord
 \newblock {\em Physical Review B}, 75(12):121404, 2007.
 
 \bibitem{willmott2007structural}
-PR~Willmott, SA~Pauli, R~Herger, CM~Schlep{\"u}tz, D~Martoccia, BD~Patterson,
-  B~Delley, R~Clarke, D~Kumah, C~Cionca, et~al.
+P.~R. Willmott, S.~A. Pauli, R.~Herger, C.~M. Schlep\"utz, D.~Martoccia, B.~D.
+  Patterson, B.~Delley, R.~Clarke, D.~Kumah, C.~Cionca, and Y.~Yacoby.
 \newblock Structural basis for the conducting interface between {LaAlO$_3$} and
   {SrTiO$_3$}.
-\newblock {\em Physical Review Letters}, 99(15):155502, 2007.
+\newblock {\em Phys. Rev. Lett.}, 99:155502, Oct 2007.
 
 \bibitem{lee2018direct}
-H~Lee, N~Campbell, J~Lee, TJ~Asel, TR~Paudel, H~Zhou, JW~Lee, B~Noesges, J~Seo,
-  B~Park, et~al.
+H.~Lee, N.~Campbell, J.~Lee, T.~J. Asel, T.~R. Paudel, H.~Zhou, J.~W. Lee,
+  B.~Noesges, J.~Seo, B.~Park, L.~J. Brillson, S.~H. Oh, E.~Y. Tsymbal, M.~S.
+  Rzchowski, and C.~B. Eom.
 \newblock Direct observation of a two-dimensional hole gas at oxide interfaces.
-\newblock {\em Nature materials}, 17(3):231, 2018.
+\newblock {\em Nature Materials}, 17(3):231--236, 2018.
 
 \bibitem{schooley1965dependence}
 JF~Schooley, WR~Hosler, E~Ambler, JH~Becker, Marvin~L Cohen, and CS~Koonce.
@@ -373,18 +374,20 @@ Christopher Guti{\'e}rrez, Daniel Walkup, Fereshte Ghahari, Cyprian
 \newblock {\em Science}, 361(6404):789--794, 2018.
 
 \bibitem{dean2013hofstadter}
-Cory~R Dean, L~Wang, P~Maher, C~Forsythe, Fereshte Ghahari, Y~Gao, Jyoti
-  Katoch, M~Ishigami, P~Moon, M~Koshino, et~al.
-\newblock Hofstadter’s butterfly and the fractal quantum hall effect in
-  moir{\'e} superlattices.
-\newblock {\em Nature}, 497(7451):598, 2013.
+C.~R. Dean, L.~Wang, P.~Maher, C.~Forsythe, F.~Ghahari, Y.~Gao, J.~Katoch,
+  M.~Ishigami, P.~Moon, M.~Koshino, T.~Taniguchi, K.~Watanabe, K.~L. Shepard,
+  J.~Hone, and P.~Kim.
+\newblock Hofstadter's butterfly and the fractal quantum {Hall} effect in
+  moir{\'e}superlattices.
+\newblock {\em Nature}, 497:598 EP --, 05 2013.
 
 \bibitem{hunt2013massive}
-B~Hunt, JD~Sanchez-Yamagishi, AF~Young, M~Yankowitz, Brian~J LeRoy, K~Watanabe,
-  T~Taniguchi, Pilkyung Moon, M~Koshino, P~Jarillo-Herrero, et~al.
-\newblock Massive {Dirac} fermions and {Hofstadter} butterfly in a van der
-  {Waals} heterostructure.
-\newblock {\em Science}, page 1237240, 2013.
+B.~Hunt, J.~D. Sanchez-Yamagishi, A.~F. Young, M.~Yankowitz, B.~J. LeRoy,
+  K.~Watanabe, T.~Taniguchi, P.~Moon, M.~Koshino, P.~Jarillo-Herrero, and R.~C.
+  Ashoori.
+\newblock Massive {Dirac} fermions and {Butterfly} in a van der {Waals}
+  heterostructure.
+\newblock {\em Science}, 340(6139):1427--1430, 2013.
 
 \bibitem{ponomarenko2013cloing}
 L.~A. Ponomarenko, R.~V. Gorbachev, G.~L. Yu, D.~C. Elias, R.~Jalil, A.~A.
@@ -397,15 +400,15 @@ L.~A. Ponomarenko, R.~V. Gorbachev, G.~L. Yu, D.~C. Elias, R.~Jalil, A.~A.
 \bibitem{forsythe2018band}
 Carlos Forsythe, Xiaodong Zhou, Kenji Watanabe, Takashi Taniguchi, Abhay
   Pasupathy, Pilkyung Moon, Mikito Koshino, Philip Kim, and Cory~R Dean.
-\newblock Band structure engineering of 2d materials using patterned dielectric
-  superlattices.
+\newblock Band structure engineering of {2D} materials using patterned
+  dielectric superlattices.
 \newblock {\em Nature nanotechnology}, page~1, 2018.
 
 \bibitem{novoselov2005two}
-Kostya~S Novoselov, Andre~K Geim, SVb Morozov, Da~Jiang, MIc Katsnelson, IVa
-  Grigorieva, SVb Dubonos, Firsov, and AA.
+K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, M.~I. Katsnelson, I.~V.
+  Grigorieva, S.~V. Dubonos, and A.~A. Firsov.
 \newblock Two-dimensional gas of massless {Dirac} fermions in graphene.
-\newblock {\em nature}, 438(7065):197, 2005.
+\newblock {\em Nature}, 438:197 EP --, 11 2005.
 
 \bibitem{cancellieri2010influence}
 C.~Cancellieri, N.~Reyren, S.~Gariglio, A.~D. Caviglia, A.~F{\^e}te, and J.~M.
@@ -438,8 +441,8 @@ Milan Radovi{\'c}.
 
 \bibitem{podkaminer2016real}
 JP~Podkaminer, JJ~Patzner, BA~Davidson, and CB~Eom.
-\newblock Real-time and in situ monitoring of sputter deposition with rheed for
-  atomic layer controlled growth.
+\newblock Real-time and in situ monitoring of sputter deposition with {RHEED}
+  for atomic layer controlled growth.
 \newblock {\em APL Materials}, 4(8):086111, 2016.
 
 \bibitem{dhingra2015quadratic}
@@ -598,7 +601,7 @@ Don Berlincourt and Hans Jaffe.
 
 \bibitem{Novoselovaac9439}
 K.~S. Novoselov, A.~Mishchenko, A.~Carvalho, and A.~H. Castro~Neto.
-\newblock 2d materials and van der waals heterostructures.
+\newblock {2D} materials and van der waals heterostructures.
 \newblock {\em Science}, 353(6298), 2016.
 
 \bibitem{li2009transfer}
@@ -733,7 +736,7 @@ M~B{\"u}ttiker.
 
 \bibitem{buttiker1988absence}
 Markus B{\"u}ttiker.
-\newblock Absence of backscattering in the quantum hall effect in multiprobe
+\newblock Absence of backscattering in the quantum {Hall} effect in multiprobe
   conductors.
 \newblock {\em Physical Review B}, 38(14):9375, 1988.
 
@@ -743,11 +746,12 @@ H~Schmidt, JC~Rode, C~Belke, D~Smirnov, and Rolf~J Haug.
 \newblock {\em Physical Review B}, 88(7):075418, 2013.
 
 \bibitem{velasco2016nanoscale}
-Jairo Velasco~Jr, Long Ju, Dillon Wong, Salman Kahn, Juwon Lee, Hsin-Zon Tsai,
-  Chad Germany, Sebastian Wickenburg, Jiong Lu, Takashi Taniguchi, et~al.
+Jairo Velasco, Long Ju, Dillon Wong, Salman Kahn, Juwon Lee, Hsin-Zon Tsai,
+  Chad Germany, Sebastian Wickenburg, Jiong Lu, Takashi Taniguchi, Kenji
+  Watanabe, Alex Zettl, Feng Wang, and Michael~F. Crommie.
 \newblock Nanoscale control of rewriteable doping patterns in pristine
   graphene/boron nitride heterostructures.
-\newblock {\em Nano letters}, 16(3):1620--1625, 2016.
+\newblock {\em Nano Letters}, 16(3):1620--1625, 03 2016.
 
 \bibitem{hu2014proton}
 S.~Hu, M.~Lozada-Hidalgo, F.~C. Wang, A.~Mishchenko, F.~Schedin, R.~R. Nair,
@@ -758,34 +762,34 @@ S.~Hu, M.~Lozada-Hidalgo, F.~C. Wang, A.~Mishchenko, F.~Schedin, R.~R. Nair,
 
 \bibitem{byun2011nanoscale}
 Ik-Su Byun, Duhee Yoon, Jin~Sik Choi, Inrok Hwang, Duk~Hyun Lee, Mi~Jung Lee,
-  Tomoji Kawai, Young-Woo Son, Quanxi Jia, Hyeonsik Cheong, et~al.
+  Tomoji Kawai, Young-Woo Son, Quanxi Jia, Hyeonsik Cheong, and Bae~Ho Park.
 \newblock Nanoscale lithography on monolayer graphene using hydrogenation and
   oxidation.
-\newblock {\em ACS Nano}, 5(8):6417--6424, 2011.
+\newblock {\em ACS Nano}, 5(8):6417--6424, 08 2011.
 
 \bibitem{ki2010dependence}
 Dong-Keun Ki, Seung-Geol Nam, Hu-Jong Lee, and Barbaros {\"O}zyilmaz.
-\newblock Dependence of quantum-hall conductance on the edge-state
+\newblock Dependence of quantum-{Hall} conductance on the edge-state
   equilibration position in a bipolar graphene sheet.
 \newblock {\em Physical Review B}, 81(3):033301, 2010.
 
 \bibitem{klimov2015edge}
 Nikolai~N Klimov, Son~T Le, Jun Yan, Pratik Agnihotri, Everett Comfort, Ji~Ung
   Lee, David~B Newell, and Curt~A Richter.
-\newblock Edge-state transport in graphene p-n junctions in the quantum hall
+\newblock Edge-state transport in graphene p-n junctions in the quantum {Hall}
   regime.
 \newblock {\em Physical Review B}, 92(24):241301, 2015.
 
 \bibitem{woszczyna2011graphene}
 Miros{\l}aw Woszczyna, Miriam Friedemann, Thorsten Dziomba, Th~Weimann, and
   Franz~J Ahlers.
-\newblock Graphene pn junction arrays as quantum-hall resistance standards.
+\newblock Graphene pn junction arrays as quantum-{Hall} resistance standards.
 \newblock {\em Applied Physics Letters}, 99(2):022112, 2011.
 
 \bibitem{ozyilmaz2007electronic}
 Barbaros {\"O}zyilmaz, Pablo Jarillo-Herrero, Dmitri Efetov, Dmitry~A Abanin,
   Leonid~S Levitov, and Philip Kim.
-\newblock Electronic transport and quantum hall effect in bipolar graphene
+\newblock Electronic transport and quantum {Hall} effect in bipolar graphene
   p-n-p junctions.
 \newblock {\em Physical Review Letters}, 99(16):166804, 2007.
 
@@ -867,20 +871,20 @@ Zhicheng Zhong, Anna T\'oth, and Karsten Held.
 
 \bibitem{hofstadter1976energy}
 Douglas~R. Hofstadter.
-\newblock Energy levels and wave functions of bloch electrons in rational and
+\newblock Energy levels and wave functions of {Bloch} electrons in rational and
   irrational magnetic fields.
 \newblock {\em Phys. Rev. B}, 14:2239--2249, Sep 1976.
 
 \bibitem{wannier1978result}
 G.~H. Wannier.
-\newblock A result not dependent on rationality for bloch electrons in a
+\newblock A result not dependent on rationality for {Bloch} electrons in a
   magnetic field.
 \newblock {\em physica status solidi (b)}, 88(2):757--765, 1978.
 
 \bibitem{streda1982quantised}
 P~Streda.
 \newblock Quantised hall effect in a two-dimensional periodic potential.
-\newblock 15(36):L1299--L1303, dec 1982.
+\newblock 15(36):L1299--L1303, 1982.
 
 \bibitem{thouless1984quantized}
 David Thouless.

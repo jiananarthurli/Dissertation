@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  19 MAR 2019 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  27 MAR 2019 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3854,17 +3854,13 @@ Chapter V.
 BIBLIOGRAPHY
 [121
 
-] [122] [123] [124] [125]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
- [126] [127]
+] [122] [123] [124] [125] [126] [127]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [128] [129] [130] [131] [132]
 [133]
-Underfull \hbox (badness 3098) in paragraph at lines 966--970
+Underfull \hbox (badness 3098) in paragraph at lines 970--974
 []\OT1/cmr/m/n/12 Mark Hui-jben, Alexan-der Brinkman, Gert-jan Koster, Guus Ri-
 jn-ders, Hans
  []
@@ -3891,10 +3887,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1697.
  ) 
 Here is how much of TeX's memory you used:
- 7373 strings out of 493027
- 110768 string characters out of 6134069
+ 7372 strings out of 493027
+ 110750 string characters out of 6134069
  268182 words of memory out of 5000000
- 10261 multiletter control sequences out of 15000+600000
+ 10260 multiletter control sequences out of 15000+600000
  8931 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,16n,28p,1768b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3913,7 +3909,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (157 pages, 17103600 bytes).
+Output written on main.pdf (157 pages, 17103650 bytes).
 PDF statistics:
  5110 PDF objects out of 5155 (max. 8388607)
  3722 compressed objects within 38 object streams
