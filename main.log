@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  30 MAR 2019 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  7 APR 2019 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3944,7 +3944,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1697.
 Here is how much of TeX's memory you used:
  7374 strings out of 493027
  110797 string characters out of 6134069
- 269695 words of memory out of 5000000
+ 269694 words of memory out of 5000000
  10261 multiletter control sequences out of 15000+600000
  8931 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3964,7 +3964,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (157 pages, 17104704 bytes).
+Output written on main.pdf (157 pages, 17104712 bytes).
 PDF statistics:
  5135 PDF objects out of 5155 (max. 8388607)
  3740 compressed objects within 38 object streams
