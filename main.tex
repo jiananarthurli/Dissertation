@@ -1,7 +1,7 @@
 %\documentclass[dvipdfm,final]{pittetd}%   If you want to use dvipdfm. The file is to be normally processed (LaTeX), and 
 %                                   then the program dvipdfm applied to it. This will create the PDF file with bookmarks
 %                                   and links. It will also try to convert any PS graphics included.
-\documentclass[pdflatex, sectionletters, 12pt]{pittetd}    % If you want to use PDFLaTeX instead. This will create the PDF file directly.
+\documentclass[pdflatex, sectionletters, 12pt, final, phd]{pittetd}    % If you want to use PDFLaTeX instead. This will create the PDF file directly.
 %                                   Processing time can be longer. No PS graphics conversion will take place 
 %                                   automatically.
 %
@@ -31,40 +31,99 @@
 \usepackage{cite}
 \patch{cite}
 
+% listings
+\usepackage{color}
+\usepackage{listings}
+%\usepackage{setspace}
+\definecolor{Code}{rgb}{0,0,0}
+\definecolor{Decorators}{rgb}{0.5,0.5,0.5}
+\definecolor{Numbers}{rgb}{0.5,0,0}
+\definecolor{MatchingBrackets}{rgb}{0.25,0.5,0.5}
+\definecolor{Keywords}{rgb}{0,0,1}
+\definecolor{self}{rgb}{0,0,0}
+\definecolor{Strings}{rgb}{0,0.63,0}
+\definecolor{Comments}{rgb}{0,0.63,1}
+\definecolor{Backquotes}{rgb}{0,0,0}
+\definecolor{Classname}{rgb}{0,0,0}
+\definecolor{FunctionName}{rgb}{0,0,0}
+\definecolor{Operators}{rgb}{0,0,0}
+\definecolor{Background}{rgb}{0.98,0.98,0.98}
+\lstdefinelanguage{Python}{
+	numbers=left,
+	numberstyle=\footnotesize,
+	numbersep=1em,
+	xleftmargin=2em,
+	framextopmargin=2em,
+	framexbottommargin=2em,
+	showspaces=false,
+	showtabs=false,
+	showstringspaces=false,
+	frame=l,
+	tabsize=4,
+	% Basic
+%	basicstyle=\ttfamily\small\setstretch{1}，
+	basicstyle=\ttfamily\small,
+	backgroundcolor=\color{Background},
+	% Comments
+	commentstyle=\color{Comments}\slshape,
+	% Strings
+	stringstyle=\color{Strings},
+	morecomment=[s][\color{Strings}]{"""}{"""},
+	morecomment=[s][\color{Strings}]{'''}{'''},
+	% keywords
+	morekeywords={import,from,class,def,for,while,with,if,is,in,elif,else,not,and,or,print,break,continue,return,True,False,None,access,as,del,except,exec,finally,global,import,lambda,pass,print,raise,try,assert},
+	keywordstyle={\color{Keywords}\bfseries},
+	% additional keywords
+%	morekeywords={[2]@invariant,pylab,numpy,np,scipy,pandas,pd,plt},
+	keywordstyle={[2]\color{Decorators}\slshape},
+	emph={self},
+	emphstyle={\color{self}\slshape},
+	%
+}
+%\linespread{1.3}
+%%
+%\usepackage{listings}
+%\patch{listings}
+
 %
-\patch{pittdiss}                   %If you started writing your thesis with the pittdiss class, this patch makes 
+%\patch{pittdiss}                   %If you started writing your thesis with the pittdiss class, this patch makes 
 %                                   pittetd interpret pittdiss commands.
 %\patch{pitthesis}                  Analogous for the pitthesis class.
 \title[Graphene-Complex Oxide Heterostructure]{Graphene-Complex Oxide Heterostructure}% The optional argument is the %                                   version of the title that will appear in Acrobat Reader's Document Info dialog box.
 \author{Jianan Li}
-\degree{Doctor of Philosophy}
+\degree{Bachelor of Science, Hong Kong Baptist University, 2011}
+
 \date{April 15th, 2019}%             This date is the date of the thesis defense. Default is \today
 \year{2019}                        %pittetd will use the current year unless otherwise indicated. So this command is not
 %                                   necessary.
 \keywords{Physics, graphene, oxide, nanoscale}% This list appears in the field 'Keywords' of Acrobat Reader's Document Info
 %                                   dialog box, and also, optionally, after the abstract.
 \subject{Physics}%              This fills in the 'Subject' field in Acrobat Reader's Document Info dialog box.
-\school{Department of Physics \& Astronomy}%    The name of the school will be preceeded by 'the' unless otherwise specified, as in:
+\school{Kenneth P. Dietrich School of Arts and Sciences}%    The name of the school will be preceeded by 'the' unless otherwise specified, as in:
 %\school[certain]{department}
 %
 \chapterfloats%                    Un-comment this to get figures and tables numbered within chapters.
 \begin{document}
+
+\raggedbottom
+\setlength{\parskip}{0pt}
+
 \maketitle
 
 %
 % For the committee membership page, you have to provide the names and affiliations of the members. The first one will 
 % be treated by pittetd as the committee chair (thesis/dissertation advisor).
-\committeemember{Dr. Jeremy Levy \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{Jeremy Levy, PhD, Department of Physics and Astronomy, University of Pittsburgh}
 %\coadvisor{Second advisor, Dept. Aff.}%         This is used if there are two advisors.
-\committeemember{Dr. W. Vincent Liu \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{W. Vincent Liu, PhD, Department of Physics and Astronomy, University of Pittsburgh}
 
-\committeemember{Dr. Gurudev Dutt \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{Gurudev Dutt, PhD, Department of Physics and Astronomy, University of Pittsburgh}
 
-\committeemember{Dr. Adam Leibovich \\ Department of Physics and Astronomy, University of Pittsburgh}
+\committeemember{Adam Leibovich, PhD, Department of Physics and Astronomy, University of Pittsburgh}
 
-\committeemember{Dr. Di Xiao \\ Department of Physics, Carnegie Mellon University}
+\committeemember{Di Xiao, PhD, Department of Physics, Carnegie Mellon University}
 % etc., as many as needed. For master's theses, the committee may be omitted, naming only the advisor.
-\school{Department of Physics and Astronomy}
+\school{Kenneth P. Dietrich School of Arts and Sciences}
 
 \makecommittee
 
@@ -97,16 +156,15 @@ Graphene and complex-oxide heterostructures are both 2D systems that have initia
 
 The pursuit for high-performance electronics initiated the study of two-dimensional electron gas (2DEG) systems, where the movements of electrons are free in two dimensions but are confined in the third. Ever since the first generation of 2DEG devices, silicon-based metal-oxide-semiconductor-field-effect transistors (Si-MOSFETs) and III-V-compound-based high-electron-mobility-transistors (HEMTs), were conceived, 2DEG systems have become the fundamental building blocks of modern semiconductor logic circuits for their excellent performances and low energy costs\cite{vinet2017cmos}. The spatial confinement of electrons in the low dimensional systems also allows the emergence of new physics and the advancement of fundamental research. Fabrication technologies such as molecular beam epitaxy (MBE) and modulation doping\cite{dingle1979high} can reduce the electron scattering and makes it possible to produce ultra-high mobility 2DEG devices that lead to the discovery of Quantum Hall effect (QHE)\cite{klitzing1980new} and fractional quantum Hall effect (FQHE)\cite{chang1983fractional}.
 
-Complex oxide heterostructure interface is another class of two-dimensional system. In the seminal work of Ohtomo and Hwang published in 2004\cite{ohtomo2004high}, high-mobility 2DEG is reported to be formed on the interface of LaAlO$_3$/SrTiO$_3$ (LAO/STO). The ``polar catastrophe'' mechanism\cite{nakagawa2006some} of the 2DEG formation on the oxide heterostructure interface resembles the modulation doping in conventional high-mobility semiconductor 2DEG systems that separate dopant from carriers and reduces scattering\cite{bogorin2010laalo3}. Unlike the $s$- or $p$-orbitals in the conventional two dimensional systems such as GaAs/AlGaAs interface, the electrons in LAO/STO are $d$-orbitals\cite{salluzzo2009orbital}, and thus the transport is anisotropic\cite{annadi2013anisotropic}. The interplay of strong electron-electron interactions\cite{hwang2012emergent} and complex band structures from $d$-orbitals\cite{salluzzo2009orbital} gives rise to various physical properties in LAO/STO such as superconductivity\cite{reyren2007superconducting}, magnetism\cite{brinkman2007magnetic}, spin-orbit coupling\cite{caviglia2010tunable}, and electron pairing without superconductivity\cite{cheng2015electron}. The 2DEG is also found to be tunable with external electrical fields\cite{thiel2006tunable} or conductive atomic force microscope (c-AFM) tips\cite{cen2008nanoscale}, and high-quality nanoscale devices can be fabricated on the complex oxide interfaces reversibly\cite{cen2009oxide, irvin2010rewritable, cheng2011sketched, jnawali2015photoconductive, tomczyk2016micrometer, jiang2017direct, chen2019over}.
+Complex oxide heterostructure interface is another class of two-dimensional system. In the seminal work of Ohtomo and Hwang published in 2004\cite{ohtomo2004high}, high-mobility 2DEG is reported to be formed on the interface of LaAlO$_3$/SrTiO$_3$ (LAO/STO). The ``polar catastrophe'' mechanism\cite{nakagawa2006some} of the 2DEG formation on the oxide heterostructure interface resembles the modulation doping in conventional high-mobility semiconductor 2DEG systems that separate dopant from carriers and reduces scattering\cite{bogorin2010laalo3}. Unlike the $s$- or $p$-orbitals in the conventional two dimensional systems such as GaAs/AlGaAs interface, the electrons in LAO/STO are $d$-orbitals\cite{salluzzo2009orbital}, and thus the transport is anisotropic\cite{annadi2013anisotropic}. The interplay of strong electron-electron interactions\cite{hwang2012emergent} and complex band structures from $d$-orbitals\cite{salluzzo2009orbital} gives rise to various physical properties in LAO/STO such as superconductivity\cite{reyren2007superconducting}, magnetism\cite{brinkman2007magnetic}, spin-orbit coupling\cite{caviglia2010tunable}, and electron pairing without superconductivity\cite{cheng2015electron}. The 2DEG is also found to be tunable with external electrical fields\cite{thiel2006tunable} or conductive atomic force microscope (c-AFM) tips\cite{cen2008nanoscale}, and high-quality nanoscale devices can be fabricated on the complex oxide interfaces reversibly\cite{cen2009oxide, irvin2010rewritable, cheng2011sketched, jnawali2015photoconductive, tomczyk2016micrometer, jiang2017direct, chen2019over, sutton2018100, chen2017ultrafast, briggeman2019engineered, hao2019toward, nethwewala2018quantum, tang2017magnetically, pai2019superconductivity, pai2018physics}.
 
 Graphene is the first single-crystal two-dimensional system, and was successfully isolated by the ``scotch tape'' method in 2004\cite{novoselov2004electric} for the first time. The easiness of device fabrication and the rich physics from the unique honeycomb crystal structure of graphene has opened up many new research areas. The electrons near the $K$ and $K'$ points in the reciprocal space can be described by Dirac equations\cite{wallace1947band, neto2009electronic}, and the Dirac-like nature of electrons\cite{novoselov2004electric, zhang2005experimental} leads to exotic properties that rarely observed in other systems. Although the backscattering in graphene is suppressed\cite{ando1998berry}, the mobility is still limited by impurities from device fabrication and substrates in early graphene experiments. In 2010 Dean \textit{et al.} found that hexagonal boron nitride (hBN) serves as perfect encapsulation layers for graphene with minimal charge and phonon scatterings\cite{dean2010naturenano}, and the mobility of graphene can be primarily improved to allow ballistic transport in micron-scale up to room temperature\cite{mayorov2011micrometer}. The mismatch between the hBN substrates and graphene can generate potential superlattice through moir{\'e} patterns. Lattice mismatch in the twisted bi-layer graphene can also modulate the interlayer hybridization and tailor flat-bands with a high density of states, which would enhance strong correlations between electrons and lead to more exotic phases such as Mott insulator\cite{cao2016superlattice, cao2018correlated, chen2018gate} or superconductivity\cite{cao2018unconventional}.
 
-This dissertation is devoted to the integration of graphene and LAO/STO heterostructure, in the hope of discovering new physics from the interaction between these two fascinating 2D systems. Micro-electronics fabrication and c-AFM lithography techniques are utilized for graphene/LAO/STO heterostructure device fabrication. Electronic and optical measurements are performed both in room temperature and 2 K, to probe the electronic and magnetic properties of the graphene/LAO/STO heterostructure devices. Chapter \ref{SEC:introduction} is a general introduction for LAO/STO and graphene. Chapter \ref{SEC:methods} discusses sample growth, device fabrication, and measurement techniques. Chapter \ref{SEC:GCO} is focused on the application of c-AFM writing technique on the graphene devices; two experiments (edge-state mixing and superlattice) are discussed in details to demonstrate the nanoscale control of the graphene charge neutrality point (CNP) using c-AFM. Chapter \ref{SEC:Kerr} is devoted to the measurement of the interface magnetism on LAO/STO using magneto-optical Kerr effect. Preliminary data for Kerr imaging of LAO/STO magnetism is presented. Possible experiment improvement using graphene is proposed at the end of the chapter. The last chapter is the conclusion and outlook for future experiments.
+This dissertation is devoted to the integration of graphene and LAO/STO heterostructure, in the hope of discovering new physics from the interaction between these two fascinating 2D systems. Micro-electronics fabrication and c-AFM lithography techniques are utilized for graphene/LAO/STO heterostructure device fabrication. Electronic and optical measurements are performed both in room temperature and 2 K, to probe the electronic and magnetic properties of the graphene/LAO/STO heterostructure devices. Chapter \ref{SEC:introduction} is a general introduction for LAO/STO and graphene. Chapter \ref{SEC:methods} discusses sample growth, device fabrication, and measurement techniques. Chapter \ref{SEC:GCO} is focused on the application of c-AFM writing technique on the graphene devices; two experiments (edge-state mixing and superlattice) are discussed in details to demonstrate the nanoscale control of the graphene charge neutrality point (CNP) using c-AFM. Transport measurement are performed at $T = 2$ K, where LAO/STO is not superconductive and serves as a local gating medium for graphene. Chapter \ref{SEC:Kerr} is devoted to the measurement of the interface magnetism on LAO/STO using magneto-optical Kerr effect. Preliminary data for Kerr imaging of LAO/STO magnetism is presented. Possible experiment improvement using graphene is proposed at the end of the chapter. The last chapter is the conclusion and outlook for future experiments.
 
 \section{LAO/STO heterostructure}
 
 Both LAO and STO have perovskite structures at room temperature. Lattice constant of LAO is $a = 3.791 \ \mathrm{\AA}$\cite{geller1956crystallographic}, while lattice constant of STO is $a = 3.905 \ \mathrm{\AA}$. In each cubic unit cell of STO, the Ti atom is enclosed in an octahedral cage of oxygen, and the octahedron is in the center of a cubic skeleton of Sr atoms (Figure \ref{FIG:STOPhaseTransition}). At $T=105$ K, STO would go through a phase transition, and oxygen octahedron pairs would rotate against each other so that the bonding lengths of Sr--O and Ti--O are optimized\cite{sulpizio2014nanoscale}. This ferroelastic transition would break the cubic symmetry and form tetragonal domains in STO, from different orientations of the tetragonal unit cells. At even lower temperature, the crystal symmetry may transit to orthorhombic and triclinic, but the effects on the property of STO are less significant than the tetragonal phase transition at $T=105$ K.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -131,7 +189,6 @@ The band structure of STO is quite complex. As shown in Figure \ref{FIG:STOBand}
 Although STO is a band insulator, when LAO is grown epitaxially (the small lattice mismatch of 3\% makes it possible) on TiO$_2$ terminated STO, the interface of LAO and STO becomes conductive, and a layer of 2DEG is formed, first demonstrated by Ohtomo and Hwang in 2004\cite{ohtomo2004high}. The origin of interface 2DEG is still under debate. There are several different theories about the formation of 2DEG on the LAO/STO interface: polar catastrophe\cite{nakagawa2006some}, oxygen vacancy\cite{kalabukhov2007effect} and interfacial cation intermixing\cite{willmott2007structural}. 
 
 The most widely accepted explanation is the polar catastrophe. Unlike the Ti$^{4+}$O$_2^{2-}$ and Sr$^{2+}$O$^{2-}$ planes in STO which are charge neutral, the La$^{3+}$O$^{2-}$ and Al$^{3+}$O$_2^{2-}$ layer are polar, with a net charge of $+e$ and $-e$ respectively. When LAO is grown on TiO$_2$ terminated STO, the polarity will generate a positive electric field, that builds up as the thickness goes up, as shown in Fig \ref{FIG:PolarCatastrophe}(a). To avoid the divergence of potential, the electrons are transferred from the surface to the interface and form 2DEG (Fig \ref{FIG:PolarCatastrophe}(c)). When LAO is grown on SrO terminated STO, a layer of two-dimensional hole gas (2DHG) will be formed in a similar mechanism, as observed by Lee \textit{et al.}\cite{lee2018direct}.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -144,9 +201,14 @@ However, there is a large discrepancy between the carrier density proposed by th
 
 Oxygen vacancy is another possible explanation of the origin of 2DEG\cite{kalabukhov2007effect}; especially it is considered to be the source of the conductivity of bulk STO\cite{schooley1965dependence}. The growth of LAO/STO sample under different oxygen partial pressure also shows that the carrier density is correlated to $P_{\mathrm{O_2}}$, therefore the oxygen vacancies can at least partially explain the formation of 2DEG. The magnetism is also considered related to the oxygen vacancies in STO. There are also TEM\cite{nakagawa2006some}, and XRD\cite{willmott2007structural} evidences support that cation intermixing across the interface can also explain the formation of 2DEG. The exchange of La$^{3+}$ and Sr$^{2+}$ provides extra electrons in the STO. However, this cannot explain the formation of hole gas formation with LAO grown on SrO terminated STO. So far, the polar catastrophe is the most widely accepted explanation of 2DEG in LAO/STO.
 
-\subsection{Metal-insulator transition and critical thickness}
+Superconductivity has also been found in STO since 1960s'\cite{schooley1964superconductivity}. Interface superconductivity on LAO/STO was first reported by Reyren \textit{et al.} in 2007\cite{reyren2007superconducting}, with a transition temperature $T_c$ of 200 mK. The in-plane and out-of-plane critical fields are around 1 T $\sim$ 2 T and less than 1 T. Recently it was also found that the electron pairing can persist up to a few Tesla, much higher than the critical field of superconductivity, and is possibly induced by a strong correlation between electrons\cite{cheng2015electron, cheng2016tunable}.
 
-In 2006, Thiel \textit{et al.} \cite{thiel2006tunable} reported that the interface of LAO/STO shows metal-insulator transition when the LAO is thicker than 4 unit cells (uc). In Figure \ref{FIG:CriticalThickness}(a) when the thickness of LAO is over 4 uc., the interface is conductive. Otherwise, the interface is insulating, and the conductivity is below the measurement limit. When LAO is slightly below the critical thickness (e.g., 3 uc), the conductivity on the interface is tunable, with a voltage applied to the backside of the sample. As Figure \ref{FIG:CriticalThickness}(b) demonstrates, when $V = +100$ V is applied, the interface becomes conductive. When the positive voltage is removed, the resistance is partially restored, but the interface is still conductive. However, when $V = -100$ V is applied, the interface becomes insulating again. Similar phenomenon can be observed if the voltage is applied locally through a conductive AFM tip. 
+LAO and STO are both non-magnetic materials; however, in 2007 the signature of magnetism was discovered on the interface from Kondo-like behavior of interface resistance \cite{brinkman2007magnetic}. More characterization of the interface magnetism were conducted with torque magnetometry\cite{li2011coexistence}, scanning quantum interference device (SQUID)\cite{bert2011direct}, and x-ray circular dichroism (XMCD)\cite{lee2013titanium}. In 2014, Feng \textit{et al.} found that the interface ferromagnetism is electronically tunable at room temperature, from MFM measurement\cite{bi2014room}. Optical measurements of the ferromagnetism will be discussed in Chapter \ref{SEC:Kerr}.
+
+\subsection{Metal-insulator transition and c-AFM lithography}
+\label{SEC:WaterCycle}
+
+In 2006, Thiel \textit{et al.} \cite{thiel2006tunable} reported that the interface of LAO/STO shows metal-insulator transition when the LAO is thicker than 4 unit cells (uc). In Figure \ref{FIG:CriticalThickness}(a) when the thickness of LAO is over 4 uc., the interface is conductive. Otherwise, the interface is insulating, and the conductivity is below the measurement limit. When LAO is slightly below the critical thickness (e.g., 3 uc), the conductivity on the interface is tunable, with a voltage applied to the backside of the sample. As Figure \ref{FIG:CriticalThickness}(b) demonstrates, when $V = +100$ V is applied, the interface becomes conductive. When the positive voltage is removed, the resistance is partially restored, but the interface is still conductive. However, when $V = -100$ V is applied, the interface becomes insulating again. 
 
 \begin{figure}[p]
 	\centering
@@ -155,12 +217,7 @@ In 2006, Thiel \textit{et al.} \cite{thiel2006tunable} reported that the interfa
 	\label{FIG:CriticalThickness}
 \end{figure}
 
-\subsection{c-AFM lithography of 2DEG and the ``water-cycle'' mechanism}
-\label{SEC:WaterCycle}
-
 Following the discovery of backgate tunable interface 2DEG, Cen \textit{et al.}  demonstrated in 2008 that LAO/STO interface conductivity could also be induced with a gate voltage applied with a c-AFM tip on sample surface\cite{cen2008nanoscale}. For a 3 uc LAO/STO sample, the previously discussed polar catastrophe mechanism is not strong enough to reconstruct the band structure and form 2DEG on the interface. With gate voltage locally applied with a nanoscale AFM tip, the positive charge can be transferred on the surface of LAO and build up a potential to cause polar catastrophe. The threshold voltage on the tip is about $V_\mathrm{thresh} \approx 6$ V\cite{cen2008nanoscale}. The width of the conductive channel created in this method is in the same order as the AFM tip, $\sim$ 10 nm. The process is reversible, and the positive charge can be removed with a negative voltage. An insulating gap can, therefore, be created on the nanowire. More experimental details are discussed in Section \ref{SEC:AFMLitho}.
-
-The tunability of the LAO/STO with positive c-AFM tip voltage can be explained with the ``water-cycle'' mechanism\cite{bi2010water}. The water adsorbed onto LAO surface is dissociated into OH$^{-}$ and H$^{+}$ (Figure \ref{FIG:WaterCycle}(a)). A positively biased tip removes the OH$^{-}$ and leaves excessive H$^{+}$ on LAO surface, which build up the polar catastrophe potential (Figure \ref{FIG:WaterCycle}(b)). In the erasing process, the negatively biased c-AFM tip removes the H$^{+}$ and restores OH$^{-}$--H$^{+}$ balance, and the interface becomes insulating (Figure \ref{FIG:WaterCycle}(c)). The water cycle mechanism is supported by the control c-AFM writing experiments performed in vacuum\cite{bi2010water}.
 
 \begin{figure}[h!]
 	\centering
@@ -169,13 +226,7 @@ The tunability of the LAO/STO with positive c-AFM tip voltage can be explained w
 	\label{FIG:WaterCycle}
 \end{figure}
 
-\subsection{Superconductivity}
-
-Superconductivity has been found in STO since 1960s'\cite{schooley1964superconductivity}. Interface superconductivity on LAO/STO was first reported by Reyren \textit{et al.} in 2007\cite{reyren2007superconducting}, with a transition temperature $T_c$ of 200 mK. The in-plane and out-of-plane critical fields are around 1 T $\sim$ 2 T and less than 1 T. Recently it was also found that the electron pairing can persist up to a few Tesla, much higher than the critical field of superconductivity, and is possibly induced by a strong correlation between electrons\cite{cheng2015electron, cheng2016tunable}.
-
-\subsection{Magnetism}
-
-LAO and STO are both non-magnetic materials; however, in 2007 the signature of magnetism was discovered on the interface from Kondo-like behavior of interface resistance \cite{brinkman2007magnetic}. More characterization of the interface magnetism were conducted with torque magnetometry\cite{li2011coexistence}, scanning quantum interference device (SQUID)\cite{bert2011direct}, and x-ray circular dichroism (XMCD)\cite{lee2013titanium}. In 2014, Feng \textit{et al.} found that the interface ferromagnetism is electronically tunable at room temperature, from MFM measurement\cite{bi2014room}. Optical measurements of the ferromagnetism will be discussed in Chapter \ref{SEC:Kerr}.
+The tunability of the LAO/STO with positive c-AFM tip voltage can be explained with the ``water-cycle'' mechanism\cite{bi2010water}. The water adsorbed onto LAO surface is dissociated into OH$^{-}$ and H$^{+}$ (Figure \ref{FIG:WaterCycle}(a)). A positively biased tip removes the OH$^{-}$ and leaves excessive H$^{+}$ on LAO surface, which build up the polar catastrophe potential (Figure \ref{FIG:WaterCycle}(b)). In the erasing process, the negatively biased c-AFM tip removes the H$^{+}$ and restores OH$^{-}$--H$^{+}$ balance, and the interface becomes insulating (Figure \ref{FIG:WaterCycle}(c)). The water cycle mechanism is supported by the control c-AFM writing experiments performed in vacuum\cite{bi2010water}.
 
 \section{Graphene}
 
@@ -187,7 +238,6 @@ The band structure was first studied by Wallace \textit{et al.} in 1947\cite{wal
 
 In the honey-comb lattice structure of graphene, there are two inequivalent sublattices that are mirror of each other, which can be labeled with $A$ and $B$. The Bravais lattice is hexagonal, and the primitive lattice vectors can be chosen to be: 
 $$\mathbf{a_1} = \frac{a}{2}\left(3, \sqrt{3}\right), \ \ \ \mathbf{a_2} = \frac{a}{2}\left(3, -\sqrt{3}\right)$$
-
 with $a = 1.42 \ \mathrm{\AA}$ being the spacing between to adjacent carbon atoms. Using the relationship between the real space lattice and reciprocal lattice $\mathbf{a_i}\cdot\mathbf{b_j} = 2\pi\delta_{ij}$, the primitive reciprocal lattice vectors can be written as 
 $$\mathbf{b_1} = \frac{2\pi}{3a}\left(1, \sqrt{3}\right), \ \ \ \mathbf{b_2} = \frac{2\pi}{3a}\left(1, -\sqrt{3}\right)$$
 
@@ -380,12 +430,11 @@ STO (001) substrates are purchased from commercial crystal suppliers. The substr
 In PLD deposition, KrF excimer laser ($\lambda = 248$ nm) pulses are focused on a LAO target and plumes of target material are deposited on the pre-heated STO substrates. Two conditions are used for LAO/STO sample growth. (a) STO substrate is heated at $T_\mathrm{STO} = 550 \ ^{\circ}$C and chamber oxygen pressure $P(\mathrm{O}_2)$ is maintained at $1 \times 10^{-3}$ mbar, and sample is annealed in 1 atm of O$_2$ after growth. The samples grown with 3.4 uc thick LAO in this conditions are used for c-AFM writing. (b) STO substrate is heated at $T_\mathrm{STO} = 780 \ ^{\circ}$C and chamber oxygen pressure $P(\mathrm{O}_2) = 7.5 \times 10^{-5}$ mbar; sample is annealed at $T_\mathrm{STO} = 600 \ ^{\circ}$C, $P(\mathrm{O}_2) = 300$ mbar for 1 hour after growth. The samples grown with 12 uc LAO are used for magnetism experiments\cite{bi2014room}.
 
 Figure \ref{FIG:PLD} illustrates PLD epitaxial growth of LAO. The sample is loaded in an ultra-high vacuum chamber, backfilled with oxygen to the target pressure ($10^{-5} \sim 10^{-3}$ mbar). The deep-UV excimer laser is focused on the LAO crystal target through an optical window on the chamber. The target material is ablated off by the laser and forms a plasma plume. The STO substrate is heated up and placed on top of the target. As the plume expands, target material would condense on the substrate and forms atomic-thin films epitaxially. The high temperature of the substrate facilitates crystallization and epitaxial growth of the target material. 
-\\
 
 \begin{figure}[hp!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Drawing/PLD_RHEED.pdf}
-	\caption{AFM image of the sample after PLD growth and RHEED signal for PLD. (a) AFM Image of an LAO/STO sample. The stripes are the crystal terraces, with $h \approx 4 \mathrm{\AA}$. Inset of a is the raw diffraction signal of RHEED. (b) RHEED intensity oscillation during the film epitaxial growth. Each cycle indicates the completion of one unit cell. Adapted from \cite{podkaminer2016real}.}
+	\includegraphics[width=0.65\textwidth]{Drawing/PLD_RHEED.pdf}
+	\caption{AFM image of the sample after PLD growth and RHEED signal for PLD. (a) AFM Image of an LAO/STO sample. The stripes are the crystal terraces, with $h \approx 4 \ \mathrm{\AA}$. Inset of a is the raw diffraction signal of RHEED. (b) RHEED intensity oscillation during the film epitaxial growth. Each cycle indicates the completion of one unit cell. Adapted from \cite{podkaminer2016real}.}
 	\label{FIG:RHEED}
 \end{figure}
 
@@ -497,7 +546,7 @@ The substrate is covered with a thin layer photoresist and exposed to UV with de
 
 \subsubsection{Spin-coating}
 
- Spin-coating is the standard technique to cover the sample uniformly with photoresists. When the sample is spinning between 1000 rpm and 6000 rpm, the photoresist solution on the sample surface will spread out. The liquid will be in an equilibrium of viscosity, roughness of sample surface and centrifugation from spinning. After the spin-coating, the sample is baked at a temperature around 100$^{\circ}$C to vaporize the remaining solvent in the photoresist and stabilize the film before UV exposure. In this research, the spinning speed is 4000 rpm. The thickness of AZ4210 and AZ4110 are 2.1 $\mu$m and 1.1 $\mu$m, respectively. These two types of photoresists have the same chemical composition, but different concentrations, so they will end up with different thickness at the same speed. Usually, thinner films will have more stable performances for small features.
+ Spin-coating is the standard technique to cover the sample uniformly with photoresists. When the sample is spinning between 1000 rpm and 6000 rpm, the photoresist solution on the sample surface will spread out. The liquid will be in an equilibrium of viscosity, roughness of sample surface and centrifugation from spinning. After the spin-coating, the sample is baked at a temperature around 100 $^{\circ}$C to vaporize the remaining solvent in the photoresist and stabilize the film before UV exposure. In this research, the spinning speed is 4000 rpm. The thickness of AZ4210 and AZ4110 are 2.1 $\mu$m and 1.1 $\mu$m, respectively. These two types of photoresists have the same chemical composition, but different concentrations, so they will end up with different thickness at the same speed. Usually, thinner films will have more stable performances for small features.
 
 The spin-coating recipes are listed in Table \ref{TAB:photoresistsCoating}.
 
@@ -522,10 +571,10 @@ The spin-coating recipes are listed in Table \ref{TAB:photoresistsCoating}.
 The UV exposure is to use photon to change the solubility of the photoresist so that the developing step can selectively remove the photoresist. Like all optical system, the resolution of exposure is limited by the diffraction limit of light. Mercury gas-discharge lamp or solid state lasers are used as UV sources. Samples are exposed with two different methods: mask exposure and direct laser writing. 
 
 Mask exposure is performed by a mask aligner (Suss MJB3 or MA6, see Figure \ref{FIG:Suss}). Incoherent and collimated UV is generated from a Hg lamp. The sample is exposed to UV at a constant intensity of 10 mW/cm$^2$, while being covered with a photomask (Figure \ref{FIG:MASK}). Photomask is a square piece of soda glass (to reduce UV absorption) coated with chromium on one side. The designed pattern is pre-printed to the chromium side by chemical etching.
-\\
 
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=0.4\textwidth]{Drawing/MASK.png}
 	\caption{Mask for photolithography. The dark regions are transparent, while the bright regions are covered with chromium. The sample is be exposed where UV is not blocked by chromium. The figure shows the electrodes of a canvas for c-AFM writing.}
 	\label{FIG:MASK}
@@ -551,27 +600,26 @@ DLW uses a focused laser beam to write micro-patterns directly on the photoresis
 
 Developing is the process using buffered base solution to wash away the unwanted parts of photoresist after exposure. Depending on the type of photoresist, either the exposed regions (positive photoresist, such as AZ4210) or unexposed regions (negative photoresist, such as AZ5214) are removed. In this research AZ400K (potassium borate) is used for developing. The developer is diluted with DI-water, by 1:3 or 1:4 ratio; different concentration will maintain different pH level and developing speed. The sample is washed with DI-water after developing, to remove the excessive developer. 
 
-An image of the sample after UV exposure and developing is shown in Figure \ref{FIG:Developed}. The photoresist in the bright area are washed away while the rest of the sample is still covered with photoresist.
-\\
+An image of the sample after UV exposure and developing is shown in Figure \ref{FIG:Developed}. The photoresist in the bright area are washed away while the rest of the sample is still covered with photoresist. The conditions for exposure and developing are listed in Table \ref{TAB:photoresistsExposureDeveloping}.
 
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=0.4\textwidth]{Drawing/Developed.png}
 	\caption{Exposed and developed sample. The bright regions are free of photoresist while the rest of the sample is still covered.}
 	\label{FIG:Developed}
 \end{figure}
 
-The conditions for exposure and developing are listed in Table \ref{TAB:photoresistsExposureDeveloping}.
-
 \begin{table}[h!]
 	\centering
+	\vspace{0.85cm}
 	\begin{tabular}{l|cc}
 		\hline
 		Photoresist    &    AZ4210    &    AZ4110 \\ \hline
-		UV Dose    &    170 mJ    & 100 - 120 mJ    \\ 
+		UV Dose    &    170 mJ    & 100 -- 120 mJ    \\ 
 		Developer : Water    &    1 : 4    &    1 : 4    \\
-		Developing time    &    120 - 180 s    &    120 - 180 s \\ 
-		Resolution    &    3 - 5 $\mu$m    &    2 $\mu$m    \\ \hline
+		Developing time    &    120 -- 180 s    &    120 -- 180 s \\ 
+		Resolution    &    3 -- 5 $\mu$m    &    2 $\mu$m    \\ \hline
 	\end{tabular}
 	\caption{UV exposure and developing conditions for AZ4210 and AZ4110}
 	\label{TAB:photoresistsExposureDeveloping}    
@@ -591,7 +639,7 @@ LAO/STO interface is buried underneath LAO. When making contact the interface, t
 		Selectivity    &    high    &    high    &    low \\
 		Speed control    &    poor    &    good    &    good \\
 		Target material    &    inorganic    &    organic or inorganic    &    inorganic \\
-		Environment    &    aqueous, ambient    &    0.1 - 5 Torr, vacuum    &    $< 10^{-4}$ Torr, vacuum \\
+		Environment    &    aqueous, ambient    &    0.1 -- 5 Torr, vacuum    &    $< 10^{-4}$ Torr, vacuum \\
 		\hline  
 		
 	\end{tabular}
@@ -600,7 +648,7 @@ LAO/STO interface is buried underneath LAO. When making contact the interface, t
 	
 \end{table}
 
-Ion mill accelerates Ar ions to specific kinetic energy and remove materials with bombardment. As shown in Figure \ref{FIG:IonMill}, Ar$^+$ is generated from the discharge chamber. The entire chamber is pumped to high vacuum ($< 10^{-6}$ Torr) and backfilled with Ar gas to $10^-4$ Torr. On the right-hand-side of the figure, a filament is heated up, and a biased voltage is applied between the filament and chamber wall. Electrons are extracted from the filament and ionize the argon molecules. A magnetic field is applied through a solenoid to increase the path and ion yield before the electrons reach the chamber wall. At the opening side of the discharge chamber, there are two or three layers of electrically isolated screen grids (made of sputter-resisting materials like Mo or W). A voltage of 500 V is applied between the grids so that Ar$^+$ can be accelerated. The pores on the grids are aligned so that the Ar$^{+}$ flow is collimated. Right after the Ar$^{+}$ exits the chamber, the ions are mixed with free electrons from a neutralizer filament, so that ion beam will not be diverged by Coulomb repulsion between Ar$^{+}$ before they reach the sample. The sample is 20$^{\circ}$ to 30$^{\circ}$ off the normal direction, to create undercut and facilitate electrical contact between the interface and the electrodes. The kinetic energy of the plasma is converted to heat on the sample surface. Either the sample is cooled down with flowing water inside the chuck, or the plasma flow runs on duty cycles so that the sample is not overheated. Temperature over 150 $^{\circ}$C will cause phase-transition and cross-linking of the photoresist, and make it hard to remove by lift-off.
+Ion mill accelerates Ar ions to specific kinetic energy and remove materials with bombardment. As shown in Figure \ref{FIG:IonMill}, Ar$^+$ is generated from the discharge chamber. The entire chamber is pumped to high vacuum ($< 10^{-6}$ Torr) and backfilled with Ar gas to $10^{-4}$ Torr. On the right-hand-side of the figure, a filament is heated up, and a biased voltage is applied between the filament and chamber wall. Electrons are extracted from the filament and ionize the argon molecules. A magnetic field is applied through a solenoid to increase the path and ion yield before the electrons reach the chamber wall. At the opening side of the discharge chamber, there are two or three layers of electrically isolated screen grids (made of sputter-resisting materials like Mo or W). A voltage of 500 V is applied between the grids so that Ar$^+$ can be accelerated. The pores on the grids are aligned so that the Ar$^{+}$ flow is collimated. Right after the Ar$^{+}$ exits the chamber, the ions are mixed with free electrons from a neutralizer filament, so that ion beam will not be diverged by Coulomb repulsion between Ar$^{+}$ before they reach the sample. The sample is 20$^{\circ}$ to 30$^{\circ}$ off the normal direction, to create undercut and facilitate electrical contact between the interface and the electrodes. The kinetic energy of the plasma is converted to heat on the sample surface. Either the sample is cooled down with flowing water inside the chuck, or the plasma flow runs on duty cycles so that the sample is not overheated. Temperature over 150 $^{\circ}$C will cause phase-transition and cross-linking of the photoresist, and make it hard to remove by lift-off.
 
 \begin{figure}[hp]
 	\centering
@@ -646,7 +694,6 @@ I_\mathrm{hdiff} & = (I_A + I_C) - (I_B + I_D),
 \end{split}
 \end{equation}
 where $I_A$, $I_B$, $I_C$, and $I_D$ are the intensities on the four quadrants of the detector. $I_\mathrm{sum}$ is the total intensity. $I_\mathrm{hdiff}$ and $I_\mathrm{vdiff}$ are the horizontal difference and vertical intensity difference. Assume the laser spot has Gaussian distribution. When the center of laser spot changes, the distribution of intensity on the four quadrants would change. The detector can monitor the movement by the horizontal and vertical differences in intensities. 
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -658,7 +705,6 @@ where $I_A$, $I_B$, $I_C$, and $I_D$ are the intensities on the four quadrants o
 When the interaction between the tip and sample surface changes and the tip is slightly deformed, the laser spot will move on the quad detector. The deformation of tip follows Hooke's law:
 $$F = -k \cdot x$$
 Where $x$ is the amount deformation, and $k$ is the spring constant of the tip's cantilever. $k$ is mostly between 0.1 N/m and 100 N/m, depends on the type of the tip. In this research, tips with spring constant $k = 3$ N/m are used. The interaction between the AFM tip and the sample surface is a function of distance. The attractive interaction decays slower than the repulsive interaction. Therefore the total interaction follows the curve in Figure \ref{FIG:Interaction}.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -672,7 +718,6 @@ The sample is located on the piezoelectric scanning stage. The movement of the s
 \subsection{Contact mode}
 
 In contact mode, the AFM tip is in close contact with the sample and the interaction is repulsive. A piezoelectric actuator controls the distance between the tip and the sample. As shown in Figure \ref{FIG:ContactAFM}, When the tip approaches the sample surface, repulsion from the sample would deform the tip and changes the reflection angle of the laser spot. The intensity difference on the quad detector would also change, in terms of a voltage signal. When the sample is driven by the piezostage and the tip moves relative to the sample, the repulsive force between the tip and sample surface is regulated by a feedback loop between deflection voltage and the piezoelectric actuator so that the tip deformation and force are constant. 
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -685,7 +730,6 @@ In contact mode, the AFM tip is in close contact with the sample and the interac
 \subsection{AC mode}
 
 In AC mode, the AFM tip is driven by a sinusoidal electrical signal on the tip piezoelectric actuator, as shown in Figure \ref{FIG:ACAFM}. The electric frequency is close to the resonance frequency of the tip (10 kHz -- 500 kHz). The driving frequency is not set exactly at the resonance frequency so that the gradient of amplitude change is maximized and the system is most sensitive to the interaction change. When the tip approaches the sample surface, the interaction between the tip and surface will cause the resonance frequency to shift, and changes the amplitude $A$ and phase $\theta$ of the tip oscillation. When the tip scan through the surface, $A$ and $\theta$ are recorded for each position on the sample surface and mapped onto a 2D image. A feedback loop controls the voltage on the piezoelectric actuator ($z$ voltage) so that the amplitude $A$ is maintained at the set point.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -697,7 +741,6 @@ In AC mode, the AFM tip is driven by a sinusoidal electrical signal on the tip p
 \subsection{Non-contact mode}
 
 In the non-contact mode, the tip is maintained at the attractive regime so that the sample does not have direct contact with the tip. The tip and the sample are kept at a distance that the interaction is always attractive while the tip is scanning through the sample (Figure \ref{FIG:NonContactAFM}). 
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -723,10 +766,10 @@ where $\Delta A$, $\Delta \phi$ and $\Delta f$ are the change of amplitude, phas
 Like contact and AC mode of AFM, the resolution of MFM is limited by the tip radius of curvature. Ferromagnetic coating of the MFM tip is about 40 nm in this research and the resolution is in the same order of magnitude. 
 
 The advantage of MFM is that the resolution and sensitivity are higher than other methods such as magneto-optical effect imaging. The downside of MFM is that the imaging speed is limited by the raster scanning speed. The two-pass method takes twice as long as usual AFM AC scanning. Also, as equation (\ref{EQN:MFM}) shows, MFM signal is not determined by the absolute value of magnetic force but is proportional to the spatial gradient of the force $\partial F_z/\partial z$. Therefore the scanning speed would also affect the signal. AFM tip can also affect the magnetic dipoles in the sample, and the MFM image would change after each scan. Other long-range interaction such as Coulomb interaction cannot be eliminated by the two-pass method. In spite of these disadvantages, the MFM is still a powerful tool to study surface magnetism for its high sensitivity.
-\\
 
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=0.5\textwidth]{Drawing/MFM.pdf}
 	\caption{MFM mode. The first scan is close to the sample surface so that the topographical information can be obtained. In the second scan the tip is lifted to a constant distance from the sample surface so that the long-ranged magnetic interaction can be decoupled from topography signal.}
 	\label{FIG:MFM}
@@ -762,7 +805,7 @@ E_{2} \\
 E_{3}
 \end{bmatrix}
 $$
-When a field is applied in $E_3$ direction, the resulting non-zero strain terms are $X_1 = d_{31}E_3$, $X_2 = d_{32}E_3$ and $X_3 = d_{33}E_3$. Therefore, an electric field in the c-axis of the crystal will cause elongation in the c-axis and contraction in the other two orthogonal directions, or vice versa. The piezoresponse of sample can bring insights of the sample properties such as carrier concentration\cite{huang2013direct}, ferroelectric domain orientation\cite{soergel2011piezoresponse}, domain boundary\cite{potnis2011review}, etc. The piezoresponse of the LAO/STO system can be used to characterize the carrier density change on the interface.
+When a field is applied in $E_3$ direction, the resulting non-zero strain terms are $X_1 = d_{31}E_3$, $X_2 = d_{32}E_3$ and $X_3 = d_{33}E_3$. Therefore, an electric field in the c-axis of the crystal will cause elongation in the c-axis and contraction in the other two orthogonal directions, or vice versa. The piezoresponse of sample can bring insights of the sample properties such as carrier concentration\cite{huang2013direct, guo2016correlations}, ferroelectric domain orientation\cite{soergel2011piezoresponse}, domain boundary\cite{potnis2011review}, etc. The piezoresponse of the LAO/STO system can be used to characterize the carrier density change on the interface.
 
 \begin{figure}[p]
 	\centering
@@ -785,7 +828,7 @@ Other than performing surface characterization,one major application of c-AFM is
 	\label{FIG:Lithography}
 \end{figure}
 
-As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of electrodes connected to the LAO/STO interface. An AC voltage of $\pm100$ mV is applied to one electrode, while the other electrode is connected to an ammeter for conductance measurement. Before the c-AFM lithography starts, the interface between the two electrodes is insulating. The current between them is monitored in real-time as the c-AFM tip scans through the surface. A positive voltage is applied, and protons are dissociated from the water meniscus and left behind the tip (plus signs in the Figure). 2DEG is formed under the protonated region and the interface becomes conductive (green area). Once the conductive channel connects the two electrodes, a current through the interface can be observed. When a negative voltage on the tip is applied, the protons will be removed from the surface and make the interface insulating again. Typical resistance of the nanowire is about 200 k$\Omega$/$\mu$m, and the width is in the same order of magnitude as the c-AFM tip\cite{cen2008nanoscale}.
+As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of electrodes connected to the LAO/STO interface. An AC voltage of $\pm100$ mV is applied to one electrode, while the other electrode is connected to an ammeter for conductance measurement. Before the c-AFM lithography starts, the interface between the two electrodes is insulating. The current between them is monitored in real-time as the c-AFM tip scans through the surface. A positive voltage is applied, and protons are dissociated from the water meniscus and left behind the tip (plus signs in the Figure). 2DEG is formed under the protonated region and the interface becomes conductive (green area). Once the conductive channel connects the two electrodes, a current through the interface can be observed. When a negative voltage on the tip is applied, the protons will be removed from the surface and make the interface insulating again. Typical resistance of the nanowire is about 200 k$\Omega$/$\mu$m, and the width is in the same order of magnitude as the c-AFM tip\cite{cen2008nanoscale}. The nano-structure created by c-AFM can be imaged using PFM\cite{huang2015electric} or microwave impedance microscopy (MIM)\cite{jiang2017direct}. This technique can be applied to other oxide heterostructures as well\cite{li2014nanoscale, chen2018extreme}.
 
 \begin{figure}[p]
 	\centering
@@ -796,15 +839,6 @@ As shown in Figure \ref{FIG:Lithography}, the golden regions are a pair of elect
 
 The sample is patterned in such a way that and electrical measurement can be performed \textit{in situ} over the c-AFM writing. Figure \ref{FIG:Regular} shows the pattern of a typical LAO/STO sample for c-AFM lithography. The dimension of the sample is 5 mm $\times$ 5 mm $\times$ 1 mm. There are two layers of metals, where the blue layer is in direct contact with the LAO/STO interface. The sample is first etched with Ar ion mill, and the etched areas are backfilled with 4 nm of Ti and 25 nm of Au (as discussed in section \ref{SEC:IonMilling}). The orange regions are for electrical connections and wire-bonding. 4 nm of Ti and 50 nm of Au are directly coated on the LAO surface without etching. The orange crosses on the corners indicate the corners of the sample. The blue crosses and triangle are guidance for alignment. The nanoscale patterns are written using c-AFM inside the 20 $\mu$m $\times$ 20 $\mu$m area in the zoomed-in region.
 
-%\section{Electric signal measurement}
-
-%\subsection{Lock-in amplifier}
-
-%\subsection{Virtual lock-in}
-
-%\subsection{IV-curve measurement}
-
-%\subsection{Probe station}
 
 \section{Graphene/LAO/STO device fabrication}
 
@@ -820,7 +854,6 @@ Current state-of-the-art high-quality graphene devices are fabricated from mecha
 \end{figure}
 
 The issue with PMMA as a transfer medium is that the residual PMMA is known to be a source of electron scattering, and would significantly reduce the electron mobilities\cite{pirkle2011effect, lin2011graphene, cheng2011toward}. Annealing the sample in H$_2$/Ar environment proves to be able to remove the residue partially, but the process can also introduce structural defects to graphene\cite{lin2011graphene}, or increase coupling between graphene and the substrate and result in deterioration of mobility\cite{cheng2011toward}. 
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -829,7 +862,7 @@ The issue with PMMA as a transfer medium is that the residual PMMA is known to b
 	\label{FIG:PMMAResidue}
 \end{figure}
 
-Another drawback of using PMMA as a transfer medium is that the LAO/STO substrate is susceptible to PMMA contaminants. Figure \ref{FIG:PMMAResidue} shows the AFM AC phase image of  LAO/STO with a graphene piece transferred and patterned with PMMA. Graphene covers the inside circle. On the LAO/STO surface, contamination particles can be seen. The experiments in this research require c-AFM writing on the interface; however, most of the LAO/STO samples were found to lost the interface tunability after the graphene transfer with PMMA\cite{li2016method}. 
+Another drawback of using PMMA as a transfer medium is that the LAO/STO substrate is susceptible to PMMA contaminants. Figure \ref{FIG:PMMAResidue} shows the AFM AC phase image of  LAO/STO with a graphene piece transferred and patterned with PMMA. Graphene covers the inside circle. On the LAO/STO surface, contamination particles can be seen. The experiments in this research require c-AFM writing on the interface; however, most of the LAO/STO samples were found to have lost the interface tunability after the graphene transfer with PMMA\cite{li2016method}. 
 
 A replacement for PMMA is a type of perfluoropolymer Hyflon from Solvay. Our collaborator Dr. Brian D'Urso has used Hyflon for the hydrodynamic experiment, and suggested the possibility of using it for graphene transfer. Hyflon is a type of perfluorinated polymer (similar to Teflon) and is highly hydrophobic and chemically stable. Hyflon has been reported to be widely used in membrane applications such as fuel cells, due to the inertness of C-F bonds\cite{arcella2005hyflon, merlo2007membrane, zhang2012recent}. Thus, unlike PMMA that leaves residue and deteriorates graphene quality, Hyflon can preserve the graphene while used as a transfer medium. Most of the organic or inorganic solvent such as acetone, IPA or DI-water cannot dissolve Hyflon, which makes it a perfect protection layer for graphene. 
 
@@ -981,10 +1014,9 @@ For the same reason, AZ4210 (2.1 $\mu$m thick) is preferred than AZ4110 (1.1 $\m
 
 Over the entire processing, the graphene is covered with Hyflon until the last step. The Hyflon is only solvable in the perfluorinated solvent such as FC-40. Two recipes are used for Hyflon removal. 
 
-\subsubsection{High temperature method} FC-40 heated up to 165 $^{\circ}$C in a beaker, lower than the boiling point 175 $^{\circ}$C. Once the sample is placed in FC-40, the liquid start to be shaken at 100 rpm for 12 hours while it cools down to room temperature.
+\subsubsection{High temperature method} FC-40 is heated up to 165 $^{\circ}$C in a beaker, lower than the boiling point 175 $^{\circ}$C. Once the sample is placed in FC-40, the liquid start to be shaken at 100 rpm for 12 hours while it cools down to room temperature.
 
 \subsubsection{Low temperature method} FC-40 is heated up to 70 $^{\circ}$C in a beaker. After the sample is immersed in FC-40, the beaker is shaken at 100 rpm while the temperature is kept at 70 $^{\circ}$C for 12 -- 24 hours.
-\\
 
 \subsection{AFM cleaning of graphene}
 
@@ -998,10 +1030,10 @@ All the solvents including DI-water, IPA, and FC-40 leave a layer of nano-partic
 \end{figure}
 
 Figure \ref{FIG:GrapheneAC} shows the AFM images of graphene before and after cleaning. Figure \ref{FIG:GrapheneAC}(a) is the AFM AC mode phase image. The Hall bar shape in orange is the graphene, and the LAO surface is in cyan color. Particles of various sizes can be observed on the entire sample. Larger particles ($\sim$ 100 nm) are probably from the FC-40, while the smaller particles ($<$ 100 nm) are the residues of Hyflon. Figure \ref{FIG:GrapheneAC}(b) is the zoomed-in image of the squared region in \ref{FIG:GrapheneAC}(a), after the center is been scanned with AFM in contact mode. Particles are pushed to the edges of the square. Inside the scanned region, terraces ($h = 4 \ \mathrm{\AA}$) of the LAO/STO substrate can also be observed. Wrinkles of the graphene are formed during the transfer, or the AFM contact scan. Normally the mechanical strength of graphene is high enough\cite{lee2008measurement} to withstand the scanning with a contact force of 100 nN. However, if the raster scan is too fast while the graphene is covered with a large amount of contaminant, or while the tip is scanning from the LAO to graphene from the edge, the graphene can still be broken. Typical cleaning recipes used in this research are listed in Table \ref{TAB:AFMCleaning}.
-\\
 
 \begin{table}[h!]
 	\centering
+	\vspace{0.85cm}
 	\begin{tabular}{l|cc}
 		\hline
 		AFM model    &    Asylum MFP3D    &    Asylum Cypher \\ \hline
@@ -1016,21 +1048,21 @@ Figure \ref{FIG:GrapheneAC} shows the AFM images of graphene before and after cl
 	
 \end{table}
 
-A room temperature STM measurement is performed after AFM cleaning. Tunneling currents are measured from the graphene surface to a tungsten STM tip. From the STM image the graphene atoms can be identified.
-\\
-
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=0.45\textwidth]{Drawing/GrapheneSTM.pdf}
 	\caption{STM image of graphene on LAO/STO after AFM cleaning.}
 	\label{FIG:GrapheneSTM}
 \end{figure}
 
+A room temperature STM measurement is performed after AFM cleaning. Tunneling currents are measured from the graphene surface to a tungsten STM tip. From the STM image the graphene atoms can be identified.
+
 \subsection{Graphene/LAO/STO nano-scale device writing}
 
 The experiments on graphene, such as Klein tunneling\cite{allain2011klein, katsnelson2006chiral, young2009quantum, shytov2008klein}, edge state mixing\cite{williams2007quantum, abanin2007quantized, lohmann2009four, amet2014selective}, band structure engineering using superlattice\cite{forsythe2018band}, rely on the Dirac-like band structure and tunability of carriers from electrons to holes. The ability to tune the CNP is central to controlling these exotic properties of graphene. c-AFM writing is proved to be a powerful tool to create nanostructures on LAO/STO interfaces. Pattern nano-scale devices on graphene/LAO/STO reversibly with c-AFM is one of the major techniques this research is focusing on. 
 
-\subsection{c-AFM writing and PFM imaging}
+\subsubsection{c-AFM writing and PFM imaging}
 \begin{figure}[p]
 	\centering
 	\includegraphics[width=0.55\textwidth]{Drawing/GraphenePFM.pdf}
@@ -1042,14 +1074,13 @@ Figure \ref{FIG:GraphenePFM}(a) demonstrates the setup of c-AFM writing on graph
 
 The nanowire on the LAO/STO interface is imaged using PFM. A sinusoidal bias voltage (with the frequency close to the PFM resonance frequency of the sample) is applied to the c-AFM tip, while the tip is in contact with the sample. The bias voltage modulates the carrier density on the LAO/STO interface, and causes deformation of STO through the Jahn-Teller effect\cite{huang2013direct, vonk2007interface, salluzzo2009orbital, park2006charge}. The nanowire has a different carrier density from the rest of the sample and is visible in the PFM image (Figure \ref{FIG:GraphenePFM}(c)). The region colored in blue are the interface electrodes, and the area in gray are the electrodes to graphene. The graphene covered areas are outlined with dashes. The narrow path in dark purple is the nanowire written with c-AFM. The path under the graphene is dimmer than the rest of the wire, possibly from the shielding effect of graphene.
 
-
-\subsection{c-AFM writing conditions on graphene/LAO/STO and graphene damage thresholds}
+\subsubsection{c-AFM writing conditions on graphene/LAO/STO and graphene damage thresholds}
 
 As discussed in section \ref{SEC:AFMLitho}, c-AFM nanowire writing and erasing relies on the water-cycle mechanism. The surface conditions of LAO can also affect the interface 2DEG\cite{brown2016giant, xie2011control, xie2013enhancing, aliaj2018probing}. It has been reported\cite{alaboson2011conductive} that the graphene can be damaged at tip voltages $>$ 6 V. In this research, it is found that the damage threshold depends on whether the graphene is floating or grounded, and the current flowing from graphene to the tip. Figure \ref{FIG:GrapheneDamages} is an AC phase image of the damaged graphene. The light color paths show the oxidized graphene. In this research, the tip voltage is limited to $-5$ V when the graphene is grounded, and $-8$ V when the graphene is floating while performing c-AFM on graphene with a negative voltage. The c-AFM writing/erasing parameters are listed in Table \ref{TAB:GCOLithography}.
-\\
 
 \begin{table}[h!]
 	\centering
+	\vspace{0.85cm}
 	\begin{tabular}{l|cc}
 		\hline
 		&    Writing    &    Erasing \\ \hline
@@ -1074,7 +1105,7 @@ As discussed in section \ref{SEC:AFMLitho}, c-AFM nanowire writing and erasing r
 \chapter{Graphene/LAO/STO heterostructure device}
 \label{SEC:GCO}
 
-This chapter is about the transport properties of graphene device on graphene/LAO/STO. Graphene CNP can be reversibly controlled with c-AFM writing technique, similar to the nanostructure lithography on bare LAO/STO. Two experiments are discussed in details: edge-state mixing on graphene $p$-$n$ junctions and graphene superlattice patterning. This project is in collaboration with Qing Guo from University of Pittsburgh.
+This chapter is about the transport properties of graphene device on graphene/LAO/STO. Graphene CNP can be reversibly controlled with c-AFM writing technique, similar to the nanostructure lithography on bare LAO/STO. Two experiments are discussed in details: edge-state mixing on graphene $p$-$n$ junctions and graphene superlattice patterning. The measurements are performed at $T = 2$ K, above the critical temperature for superconductivity in LAO/STO interface. This project is in collaboration with Qing Guo from University of Pittsburgh.
 
 \section{Transport measurement in graphene}
 
@@ -1090,10 +1121,10 @@ Figure \ref{FIG:HallDevice} illustrates the typical geometry of graphene/LAO/STO
 \subsection{Charge-neutrality point}
 
 The tight binding model suggests that the density of state of graphene near the Dirac point is zero\cite{neto2009electronic}, as Figure \ref{FIG:DOS} shows. The resistance of graphene would have a maximum as the chemical potential gets close to the Dirac point. In Figure \ref{FIG:DiracPeak}, the resistance of graphene is measured as a function of the backgate voltage $V_\mathrm{bg}$, which is applied to the bottom of the sample. The thickness of the substrate is 5 mm. At T = 2 K, the dielectric constant of STO $\epsilon_r \sim 20,000$. Therefore, the gate voltage applied to the bottom of STO can effectively tune the chemical potential of graphene on the top surface. 
-\\
 
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=.9\textwidth]{Drawing/DOS.pdf}
 	\caption{The density of state of graphene near the Dirac point, assuming the hopping energy between the second nearest neighbor $t'$ is zero. $\epsilon$ is the Fermi energy, $t$ is the hopping energy in the tight binding model. Adapted from \cite{neto2009electronic}.}
 	\label{FIG:DOS}
@@ -1109,27 +1140,33 @@ The tight binding model suggests that the density of state of graphene near the 
 The effect of STO dielectric constant change as the temperature changes is critical for graphene devices on LAO/STO, as found in literatures\cite{couto2011transport}. Figure \ref{FIG:ResistanceTemp} demonstrates the change of resistance as a function of $V_\mathrm{bg}$. As the temperature drops, the dielectric constant of STO increases from 300 to 20,000, about two orders of magnitude. Therefore the effective gating range under the same backgate sweeping range ($-15$ V to $+15$ V in this figure) also drastically increases. 
 
 Another effect of the LAO/STO substrate is the hysteresis behavior under backgate sweeping. The position of CNP on $V_\mathrm{bg}$ shifts after each backgate voltage sweep. Although STO is not ferroelectric material, the dipole moment induced by displacement of oxygen atoms would result in ferroelectric-like hysteresis behavior\cite{sachs2014ferroelectric}. Similar hysteretical behavior of graphene on LAO/STO has been reported elsewhere\cite{jnawali2017room}. 
-\\
 
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=.8\textwidth]{Drawing/ResistanceTemp.pdf}
 	\caption{Resistance as a function of $V_\mathrm{bg}$ sweep at different temperatures. The width of the CNP clearly shows the change of dielectric constant of STO as a function of temperature.}
 	\label{FIG:ResistanceTemp}
 \end{figure}
 
 \subsection{Carrier densities and mobilities}
-
+\label{SEC:CarrierDensityMobility}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.55\textwidth]{Drawing/CarrierDensityMobility.pdf}
-	\caption{Carrier density and mobility of graphene measured from Hall effect. The high dielectric constant makes it possible for the backgate to tune the graphene to a high carrier density on the hole side. However, the tuning effect saturates on the electron side due to the shielding of 2DEG induced on the interface. The carrier density is not well defined close to the CNP, due to the existence of electron-hole puddles. The quality of graphene is higher than most of the CVD graphene transferred on SiO$_2$, and the mobility can reach 30,000 cm$^2$V$^{-1}$s$^{-1}$.}
+	\includegraphics[width=.65\textwidth]{Drawing/CarrierDensityMobility.pdf}
+	\caption{Carrier density and mobility of graphene measured from Hall effect. The high dielectric constant makes it possible for the backgate to tune the graphene to a high carrier density on the hole side. However, the tuning effect saturates on the electron side due to the shielding of 2DEG induced on the interface. The carrier density is not well defined close to the CNP, due to the existence of electron-hole puddles. The quality of graphene is higher than most of the CVD graphene transferred on SiO$_2$, and the mobility can reach 30,000 cm$^2$V$^{-1}$s$^{-1}$. The error bars on the curves indicate the 95\% confidence intervals of the carrier density and mobility.}
 	\label{FIG:CarrierDensityMobility}
 \end{figure}
 
-The carrier density and mobility of graphene can be measured from the Hall effect, using equation \ref{EQN:Hall}. From Figure \ref{FIG:CarrierDensityMobility} it can be seen that the high dielectric constant of STO at low temperature enables graphene gating to up to $1 \times 10^{13}$ $\mathrm{cm}^{-2}$ on the hole side (not shown in the Figure). On the electron side, due to the 2DEG electron gas induced by the high backgate voltage, the gating effect on graphene is shielded, and the carrier density usually saturates at about $n = 1 \times 10^{12}$ $\mathrm{cm}^{-2}$. Close to the CNP the carrier density and mobility are not well defined due to the existence of electron-hole puddles. The Hyflon transfer method followed by contact AFM cleaning leaves the graphene on LAO/STO with high quality. The mobility of graphene reach $30,000$ cm$^{2}$V$^{-1}$s$^{-1}$, higher than most of the graphene on SiO$_2$ substrates\cite{li2016method}. 
+The carrier density and mobility of graphene can be measured from the Hall effect, using equation \ref{EQN:Hall}. From Figure \ref{FIG:CarrierDensityMobility} it can be seen that the high dielectric constant of STO at low temperature enables graphene gating to up to $1 \times 10^{13}$ $\mathrm{cm}^{-2}$ on the hole side (not shown in the Figure). On the electron side, due to the 2DEG electron gas induced by the high backgate voltage, the gating effect on graphene is shielded, and the carrier density usually saturates at about $n = 1 \times 10^{12}$ $\mathrm{cm}^{-2}$. Close to the CNP the carrier density and mobility are not well defined due to the existence of electron-hole puddles. The Hyflon transfer method followed by contact AFM cleaning leaves the graphene on LAO/STO with high quality. The mobility of graphene reach $30,000$ cm$^{2}$V$^{-1}$s$^{-1}$, higher than most of the graphene on SiO$_2$ substrates\cite{li2016method, li2018high}. 
 
 \subsection{Quantum Hall effect}
+
+As discussed in Section \ref{SEC:QuantumHall}, single layer graphene has unique half-integer filling factors with degeneracy $N = 4$ from spin and valley pseudo-spin. The Hall conductance is
+$$
+\sigma_{xy} = \pm 4\left(n + \frac{1}{2}\right)\frac{e^2}{h}
+$$
+in quantum Hall regime. The longitudinal resistance is suppressed except when the Fermi energy is transiting between Landau levels, and the localized states start to be filled. Figure \ref{FIG:HallResistance} demonstrate the longitudinal and transverse resistance of graphene device in a magnetic field of $B = 5$ T. The blue line is the Hall resistance that shows quantum Hall effect plateaus, with the filling factor $\nu$ marked by the numbers. The red line is the longitudinal resistance showing non-zero resistance at the transition energy between Landau levels.
 
 \begin{figure}[h!]
 	\centering
@@ -1138,24 +1175,18 @@ The carrier density and mobility of graphene can be measured from the Hall effec
 	\label{FIG:HallResistance}
 \end{figure}
 
-As discussed in Section \ref{SEC:QuantumHall}, single layer graphene has unique half-integer filling factors with degeneracy $N = 4$ from spin and valley pseudo-spin. The Hall conductance is
-$$
-\sigma_{xy} = \pm 4\left(n + \frac{1}{2}\right)\frac{e^2}{h}
-$$
-in quantum Hall regime. The longitudinal resistance is suppressed except when the Fermi energy is transiting between Landau levels, and the localized states start to be filled. Figure \ref{FIG:HallResistance} demonstrate the longitudinal and transverse resistance of graphene device in a magnetic field of $B = 5$ T. The blue line is the Hall resistance that shows quantum Hall effect plateaus, with the filling factor $\nu$ marked by the numbers. The red line is the longitudinal resistance showing non-zero resistance at the transition energy between Landau levels.
-
 \section{Graphene p-n junction edge-state engineering}
 \label{SEC:PNJunction}
 
-In this section, the experiment of using c-AFM to dope the graphene into $p$-$n$ junction to reversibly engineer the edge state mixing is discussed.
+In this section, the experiment of using c-AFM to dope the graphene into $p$-$n$ junction to reversibly engineer the edge state mixing is discussed. The measurements were performed at $T = 2$ K. 
 
 \subsection{1D waveguide and quantum Hall edge channels}
 
 In semi-classical point of view, the electrons under high magnetic field would cycle in the 2DEG and bounce back from the edges or scattering centers. If the scattering center is far from the edge, the electrons would cycle around the scattering centers and be trapped in the localized state. If the scattering centers are close to the edge, the electrons would then collide with the edge and keep moving in the same direction. Therefore, chiral edge channels are formed with backscattering being suppressed. The transport of the edge state in the quantum Hall regime can be quantified with Landauer-B{\"u}ttiker formalism for 1D waveguides\cite{buttiker1986four, buttiker1988absence}.
-\\
 
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=.5\textwidth]{Drawing/Channel.pdf}
 	\caption{Conductor channel connecting two reservoirs. The chemical potential of the two reservoirs are $\mu_1$ and $\mu_2$. The shaded region introduces elastic scatterings.}
 	\label{FIG:Channel}
@@ -1203,14 +1234,15 @@ $T = \sum_{i,j=1\ldots N} T_{ij}$, and $T_{ij}$ is the transmission probability 
 
 \subsection{Edge channel mixing of graphene unipolar/bipolar junction in quantum Hall regime}
 
+In the quantum Hall regime, edge channels of graphene can be described by the Landauer-B{\"u}ttiker formalism. When two adjacent regions of graphene have different carrier density and Landau level filling factors in the magnetic field, the numbers or directions of channels will be different which would cause channel mixing. In Figure \ref{FIG:Mixing}(a), the two adjacent regions have different carrier densities, and therefore the filling factors and the number of edge channels for the two areas are different. The edge currents flow in the same direction (unipolar), but part of the current would be reflected into the interface of the two regions. In Figure \ref{FIG:Mixing}(b), the two areas have the opposite carrier types, and the directions of edge currents are opposite (bipolar). The edge channels would mix on the interface. In both cases, the longitudinal resistance is non-trivial as a result of channel mixing.
+
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=.4\textwidth]{Drawing/Mixing.pdf}
 	\caption{(a) Two regions with the same carrier type but the region on the left-hand side has more edge channels than the right-hand side. The currents are flowing in the same directions, and part of the current would be reflected on the interface of the two regions. (b) Two regions with different carrier types. The currents flow in opposite directions in the two regions, and would mix on the interface of the two regions.}
 	\label{FIG:Mixing}
 \end{figure}
-
-In the quantum Hall regime, edge channels of graphene can be described by the Landauer-B{\"u}ttiker formalism. When two adjacent regions of graphene have different carrier density and Landau level filling factors in the magnetic field, the numbers or directions of channels will be different which would cause channel mixing. In Figure \ref{FIG:Mixing}(a), the two adjacent regions have different carrier densities, and therefore the filling factors and the number of edge channels for the two areas are different. The edge currents flow in the same direction (unipolar), but part of the current would be reflected into the interface of the two regions. In Figure \ref{FIG:Mixing}(b), the two areas have the opposite carrier types, and the directions of edge currents are opposite (bipolar). The edge channels would mix on the interface. In both cases, the longitudinal resistance is non-trivial as a result of channel mixing.
 
 \subsubsection{Unipolar junction}
 
@@ -1300,10 +1332,10 @@ R_{CD} & = \frac{\mu_C - \mu_D}{eI} = 0.
 There have been efforts to locally control the CNP of graphene on silicon or hBN substrates using AFM\cite{schmidt2013mixing} or STM\cite{velasco2016nanoscale}. However, those doping techniques are either non-reversible or can only be performed in ultra-high vacuum and low temperature, which limits the applications. In this research, it is found that the metal-insulator transition in LAO/STO can be used to reversibly pattern interacting edge channels in a proximal graphene layer under ambient conditions. The tip can locally shift the CNP of graphene with a positive bias voltage. Therefore, c-AFM writing can be used to selectively dope graphene regions and engineer edge state mixing in quantum Hall regime.
 
 The mechanism of using c-AFM to shift the CNP locally is similar to c-AFM nanostructure lithography technique discussed in section \ref{SEC:AFMLitho}. As Figure \ref{FIG:GrapheneAFM} shows, when a positively biased tip scans the graphene in contact mode while the graphene is grounded, a trace of protons will be left on graphene, and permeate\cite{hu2014proton} to the interface between graphene and LAO. The proton would locally dope the graphene and shift the CNP. 
-\\
 
 \begin{figure}[h!]
 	\centering
+	\vspace{0.85cm}
 	\includegraphics[width=.45\textwidth]{Drawing/GrapheneAFM.pdf}
 	\caption{Graphene doping using c-AFM writing technique. A trace of protons would be left by the tip and permeate to the interface of graphene and LAO. The voltage of the back gate is kept at zero during c-AFM writing.}
 	\label{FIG:GrapheneAFM}
@@ -1312,7 +1344,6 @@ The mechanism of using c-AFM to shift the CNP locally is similar to c-AFM nanost
 One standard method of monitoring the doping level of graphene is to sweep the back-gate voltage and compare the position of CNP before and after the doping. The method cannot be used for graphene on LAO/STO substrates for two reasons: (1) the surface of LAO is not charge neutral, and therefore the CNP is not at $V_\mathrm{bg}$ is not at 0 V even without c-AFM doping; (2) the $V_\mathrm{bg}$ is subject to significant hysteresis\cite{couto2011transport, jnawali2017room} (also shown in Figure \ref{FIG:DiracPeak}) and thus is not a reliable indicator of doping level with respect to CNP. Instead, the four-terminal resistance of graphene is measured \emph{in situ} to monitor the doping level change during the c-AFM writing process. 
 
 In Figure \ref{FIG:WritingResistance}, a graphene device is scanned with c-AFM with a bias voltage of $V_\mathrm{tip} = +17$ V continuously. The scanned region covers the entire device, as shown in the inset of the figure. The current flows from left to right, and the longitudinal resistance is measured as a function of time as the scanning proceeds. At $t$ = 0 s, the graphene is $n$-type doped. The AFM scanning speed is 10 $\mu$m/s, and it takes 260 s to scan the graphene device (5 $\mu$m $\times$ 10 $\mu$m). Fifteen consecutive scans are recorded. Blue dots mark the beginning/ending of the consecutive AFM raster scans. The positive charges left by the tip increase the local doping level and drives the chemical potential further into the $n$-type region (illustrated by the Dirac cone in the inset). Within each scan, the resistance decreases at the beginning due to the doping, and then start to recover when the scan is half finished. The green region marks one complete scan. The resistance recovery speed is observed to be related to the environmental humidity and is possibly caused by the recombination of protons with water molecules in the air. The terminal resistance after each scan (marked by the blue dots) decreases as the scan proceeds, indicating that the $n$-type doping level of graphene is increasing as the scan proceeds.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -1321,12 +1352,11 @@ In Figure \ref{FIG:WritingResistance}, a graphene device is scanned with c-AFM w
 	\label{FIG:WritingResistance}
 \end{figure}
 
-The graphene doping from the positively biased c-AFM tip is reversible. After the c-AFM writing and the change in four-terminal resistance being observed, a scan with $V_\mathrm{tip}= -5$ V on the c-AFM tip will partially remove the previous writing effect. Scans with negative $V_\mathrm{tip}$ need to be carefully conducted, and the c-AFM tip should be connected in series with a 1 G$\Omega$ resistor, since graphene can be oxidized as anode\cite{alaboson2011conductive, byun2011nanoscale}. Also, graphene has to be detached from groundings to avoid oxidation damages\cite{alaboson2011conductive}. 
+The graphene doping from the positively biased c-AFM tip is reversible. After the c-AFM writing and the change in four-terminal resistance being observed, a scan with $V_\mathrm{tip}= -5$ V on the c-AFM tip will partially remove the previous writing effect. Scans with negative $V_\mathrm{tip}$ need to be carefully conducted, and the c-AFM tip should be connected in series with a 1 G$\Omega$ resistor, since graphene can be oxidized as anode\cite{alaboson2011conductive, byun2011nanoscale}. Also, graphene has to be detached from groundings to avoid oxidation damages\cite{alaboson2011conductive}. Using the c-AFM writing method the graphene can be locally doped reversibly and various devices can be created on graphene/LAO/STO heterostructure\cite{li2019reconfigurable, guo2018reconfigurable, li2019reversible, guo2019coulomb}.
 
 \subsection{Measurement of graphene edge state mixing}
 
 The edge state mixing engineering can be achieved by doping graphene regions with the c-AFM writing technique. In Figure \ref{FIG:GrapheneDopedHall}, the right-hand-side region of the graphene device is written with c-AFM tip and locally doped with positive charges. Carrier densities measured on the two pairs of Hall electrodes (Hall A and Hall B) indicate that the CNP for the written area (B) is shifted to the left.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -1336,7 +1366,6 @@ The edge state mixing engineering can be achieved by doping graphene regions wit
 \end{figure}
 
 The longitudinal resistance (as shown in the inset of Figure \ref{FIG:GrapheneDopedHall}) is also measured as a function of $V_\mathrm{bg}$ to indicate the effect of c-AFM writing. Figure \ref{FIG:DiracPointSplit}(a) is the resistance measured before c-AFM writing, and a single Dirac peak can be seen. Figure \ref{FIG:DiracPointSplit}(b) is measured after the writing, and a second Dirac peak is distinguishable. The peak on the left-hand side corresponds to the written area (B in the inset of Figure \ref{FIG:GrapheneDopedHall}).
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -1364,7 +1393,7 @@ Figure \ref{FIG:EdgeChannels}(b) is the zoomed-in plot of Figure \ref{FIG:Graphe
 	\label{FIG:MixingIntensityPlot}
 \end{figure}
 
-When the magnetic field is reversed, the directions of current in all three cases are reversed. Therefore the values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped. To demonstrate the transition of longitudinal resistances when the direction of magnetic field is flipped, $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are measured at magnetic fields from $-7$ T to $+7$ T, while $V_\mathrm{bg}$ is swept at each magnetic field step. Figure \ref{FIG:MixingIntensityPlot} is the intensity plot of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ as functions of $V_\mathrm{bg}$ and $B$. In Figure \ref{FIG:MixingIntensityPlot}(a) $R_\mathrm{xx1}$ is clearly quantized at $h/3e^2 \approx 8.6 \ \mathrm{k}\Omega$ at $B = +7$ T. The quantization gradually disappears as $B$ gets close to 0. Then $R_\mathrm{xx1}$ start to be quantized at $h/e^2 \approx 25.8 \ \mathrm{k}\Omega$ when the field increases in the opposite direction. In Figure \ref{FIG:MixingIntensityPlot}(b) $R_\mathrm{xx1}$ shows the opposite behavior as the field is stepped from $-7$ T to $+7$ T. The observation of mixed edge channel is consistent with results reported elsewhere\cite{williams2007quantum, lohmann2009four, amet2014selective, abanin2007quantized, ki2010dependence, klimov2015edge, woszczyna2011graphene, ozyilmaz2007electronic, schmidt2013mixing} and is the direct proof of doping effect of c-AFM writing on graphene.
+When the magnetic field is reversed, the directions of current in all three cases are reversed. Therefore the values of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are swapped. To demonstrate the transition of longitudinal resistances when the direction of magnetic field is flipped, $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ are measured at magnetic fields from $-7$ T to $+7$ T, while $V_\mathrm{bg}$ is swept at each magnetic field step. Figure \ref{FIG:MixingIntensityPlot} is the intensity plot of $R_\mathrm{xx1}$ and $R_\mathrm{xx2}$ as functions of $V_\mathrm{bg}$ and $B$. In Figure \ref{FIG:MixingIntensityPlot}(a) $R_\mathrm{xx1}$ is clearly quantized at $h/3e^2 \approx 8.6 \ \mathrm{k}\Omega$ at $B = +7$ T. The quantization gradually disappears as $B$ gets close to 0. Then $R_\mathrm{xx1}$ start to be quantized at $h/e^2 \approx 25.8 \ \mathrm{k}\Omega$ when the field increases in the opposite direction. In Figure \ref{FIG:MixingIntensityPlot}(b) $R_\mathrm{xx1}$ shows the opposite behavior as the field is stepped from $-7$ T to $+7$ T. The observation of mixed edge channel is consistent with results reported elsewhere\cite{williams2007quantum, lohmann2009four, amet2014selective, abanin2007quantized, ki2010dependence, klimov2015edge, woszczyna2011graphene, ozyilmaz2007electronic, schmidt2013mixing} and is the direct proof of doping effect of c-AFM writing on graphene with a LAO/STO substrate. The fact that the result of mixing follows the Landauer-B{\"u}ttiker formalism also indicates that the transport in graphene is not affected by the 2DEG in the LAO/STO at $T = 2$ K.
 
 \section{Graphene band-structure engineering with superlattice}
 
@@ -1433,7 +1462,6 @@ $$
 \frac{n_a}{n_0} = g_s g_v
 $$
 where $g_s$ and $g_v$ are the electron spin and valley degeneracy. In the case of graphene, $g_s g_v = 4$. For hexagonal lattice, $n_0 = 1/A = 2 / (\sqrt{3} a^2)$, and therefore the first additional Landau fan should appear at $n_a = 3.8 \times 10^{10}$ cm$^{-2}$. Crossing between the original and additional Landau levels can be observed in Figure \ref{FIG:SuperlatticeControl}(b). However, the separation between the origin of first additional Landau fan and the original Landau fan $n_a$ is smaller than the width of Dirac peak, and cannot be identified from Figure \ref{FIG:SuperlatticeControl}(b). For a typical Dirac peak of graphene on LAO/STO, the full with half maximum (FWHM) is at the order of $10^{11}$ cm$^{-2}$. The superlattice constant $a$ has to be smaller than 35 nm so that the first additional Landau fan is clearly observable.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -1556,7 +1584,6 @@ The Jone's matrix formalism proves to be a convenient way to analyze the respons
 \subsection{Magneto-optical Kerr effect}
 
 A linearly polarized laser can be decomposed into an LCP and RCP with equal amplitude and phase ($\sigma^+$ and $\sigma^-$ in Figure \ref{FIG:CircularDecompose}(a)). When the laser is reflected from a magnetized surface, the time-reversal symmetry is broken, and the LCP and RCP respond differently to the magnetic field along the direction of propagation, and therefore the reflected light is elliptically polarized (Figure \ref{FIG:CircularDecompose}(b)). The elliptically polarized light is described by the rotation angle $\theta_k$ and ellipticity $\epsilon_k = r_p/r_s$, the ratio of the major and minor axis of the ellipse (Figure \ref{FIG:CircularDecompose}(c)).
-\\
 
 \begin{figure}[p]
 	\centering
@@ -1611,12 +1638,11 @@ The laser with $\lambda = 425$ nm wavelength is chosen for Kerr rotation measure
 
 The pulsed laser is then focused onto a beta barium borate (BBO) crystal for frequency doubling, and laser with $\lambda=425$ nm wavelength (blue) is generated at 20 mW power ($\sim$ 1\% conversion). A higher conversion rate can be reached if the incident pulsed laser is focused to a smaller spot, but the higher power density would exceed the damage threshold of BBO and limit the power of the second harmonic laser. An optical isolator that utilizes Faraday rotation is also installed to avoid laser back-reflection into the Tsunami oscillator and stabilizes laser pulses. The lasers of both wavelengths are collimated by another lens, and a band-pass dielectric filter blocks the $\lambda=425$ nm portion. The blue laser from second harmonic generation does not have the same polarization as the incident laser, and therefore the polarization and ellipticity are adjusted with a Berek's compensator to maximize the laser power through the horizontal (0$^{\circ}$) linear polarizer. 
 
-The polarized blue laser is then reflected by a 50/50 beam splitter to a 100$\times$ objective with 0.73 numerical aperture (NA). The objective is mounted on a piezo-stage, and the motion is controlled with a PC. The laser is focused onto a sample loaded in an open-cycle cryostat, with a temperature range of 4.2 K to 300 K. The sample is cooled using liquid nitrogen (78 K) or liquid helium (4.2 K). The reflected light with Kerr rotation is then modulated with PEM at $f = 42$ kHz. The laser with polarization modulation is then split by another 50/50 beam splitter, with each going through a polarizer at 45$^{\circ}$ and 135$^{\circ}$ respectively. Both beams are sent to a balanced detector, where the common modes are subtracted, and then the voltage signal is measured with a lock-in amplifier modulated at $2f$ frequency generated from the PEM. 
+The polarized blue laser is then reflected by a 50/50 beam splitter to a 100$\times$ objective with 0.73 numerical aperture (NA). The objective is mounted on a piezo-stage, and the motion is controlled with a PC. The laser is focused onto a sample loaded in an open-cycle cryostat, with a temperature range of 4.2 K to 300 K. The sample is cooled using liquid nitrogen (78 K) or liquid helium (4.2 K). The reflected light with Kerr rotation is then modulated with PEM at $f = 42$ kHz. The laser with polarization modulation is then split by another 50/50 beam splitter, with each going through a polarizer at 45$^{\circ}$ and 135$^{\circ}$ respectively. Both beams are sent to a balanced detector, where the common modes are subtracted, and then the voltage signal is measured with a lock-in amplifier modulated at $2f$ frequency generated from the PEM\cite{li2016magneto}. 
 
 The signal monitoring and piezo-stage controlling are accomplished by a PC so that the optical signal can be mapped onto each spot on the sample. Typical imaging performed by the Kerr optics system has a scanning range of 50 $\mu$m $\times$ 50 $\mu$m, with 256 lines. The scanning speed is determined by the time constant ($t_c$) of the lock-in amplifier. With $t_c = 1$ ms, the speed is set to 60 $\mu$m/s and total scanning time for a 50 $\mu$m image is about 6 minutes.
 
 The measurement accuracy is subject to the noise level. Typical Kerr rotation signal is in the order of $10^{-4} \sim 10^{-3}$ rad. There are two sources of noise: laser source and environmental vibration. The intensity of the laser is unstable when the oscillator is not optimized. It can be caused by back-reflection of the laser into the oscillator, temperature change, etc. The back-reflection is suppressed using an isolator. Usually, the system is warmed up for a few hours before the measurement, so that the temperature is stabilized. Environmental vibration is damped by floating the optical table with compressed air.
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -1650,7 +1676,6 @@ at PEM modulation frequency. For a vertical dipole in Figure \ref{FIG:KerrInPlan
 $$
 r_\mathrm{top-bottom} = \frac{(I_A + I_B) - (I_C + I_D)}{I_A + I_B + I_C + I_D}.
 $$
-\\
 
 \begin{figure}[h!]
 	\centering
@@ -1662,10 +1687,10 @@ $$
 \subsection{Graphene top gate}
 
 The LAO/STO magnetism reported in \cite{bi2014room} is observable only when a top gate depletes the itinerant electrons. For MFM experiments, the devices on LAO/STO are fabricated with a top-gate of 10 nm Au. The magnetic interaction between in the interface magnetism and the magnetized tip is not affected by the non-magnetic top gate material. However, for the magneto-optical Kerr effect, the light has to transmit through the Au top gate for twice, as in Figure \ref{FIG:KerrTopGate}. The transmittance $t$ of $\lambda = 425$ nm laser through 10 nm of Au varies from 0.1 to 0.4, depending on the polarization and incident angle\cite{smith1986noble}. The transmittance after penetrating through the Au top gate for twice is only 1\% $\sim$ 10\%, and the majority of the signal is lost, making it even more challenging to detect a small Kerr rotation effect. One way to improve the signal quality is to use a higher incident power. However, the power density is limited by the damage threshold of the sample. Reduce the thickness of Au can improve the transmission, but the metal would cluster into islands when the thickness is $< 5$ nm, and the gating effect is impaired.
-\\
 
 \begin{figure}[h!]
-	\centering
+	\centering	
+	\vspace{0.85cm}
 	\includegraphics[width=.55\textwidth]{Drawing/KerrTopGate.pdf}
 	\caption{Incident and reflected light from LAO/STO need to transmit through the Au top gate.}
 	\label{FIG:KerrTopGate}
@@ -1681,13 +1706,135 @@ A processing recipe has been developed to make electrical contact to the LAO/STO
 
 The dissertation has also demonstrated that the CNP of graphene on LAO/STO substrates can be shifted locally on the nanoscale with c-AFM writing technique. PN junctions can be formed as a result of positive charge doping from c-AFM writing. Edge-state engineering in quantum Hall regime and the observation of quantized longitudinal resistances are direct proofs of the doping effect. Similar to the nanoscale structures created on the interface of LAO/STO, the writing effect on graphene can be erased with a negative voltage on the c-AFM tip, if the voltage is within the damage threshold of graphene. The preliminary results of the reversible c-AFM writing technique opens a gate to the fabrication of more complicated nanoscale devices on graphene. A superlattice writing experiment using c-AFM have been performed. Further studies with more carefully controlled writing parameters need to be conducted for more quantitative results.
 
-One experiment can be performed to study the interactions between graphene and LAO/STO interface is measuring the coulomb drab between graphene and LAO/STO interface. Experiments have suggested that interaction between two superconducting nanowires on the LAO/STO interface is non-coulombic\cite{tang2017non}. It will be illuminating to observe the interaction between the carriers in graphene and superconducting LAO/STO nanowires, considering the strong electron-electron pairing in LAO/STO and the electron-hole duality of carriers in graphene. The flexibility of device fabrication using c-AFM also makes it possible to study the interaction between 1D and 2D systems with distinct carrier natures.
+One experiment can be performed to study the interactions between graphene and LAO/STO interface is measuring the coulomb drab between graphene and LAO/STO interface. Experiments have suggested that interaction between two superconducting nanowires on the LAO/STO interface is non-coulombic\cite{tang2017non, tang2017magnetically}. It will be illuminating to observe the interaction between the carriers in graphene and superconducting LAO/STO nanowires, considering the strong electron-electron pairing in LAO/STO and the electron-hole duality of carriers in graphene. The flexibility of device fabrication using c-AFM also makes it possible to study the interaction between 1D and 2D systems with distinct carrier natures.
 
 The Hyflon-assisted wet-transfer method explored in this work can be applied to assemble other 2D-material heterostructures, such as transition metal dichalcogenide and LAO/STO thin films on complex oxide or conventional semiconductor substrates. Utilizing the c-AFM writing technique, more novel nanoscale devices or meta-materials can be produced in the future.
 
 %
-%\appendix                          % After this command, chapters will be formatted as appendices. For example:
-%
+\appendix                          % After this command, chapters will be formatted as appendices. For example:
+
+\chapter{Signal and Data Processing}
+
+The time series signal such as voltages and currents are processed using lock-in amplification. Other data processing, modeling and pipelining tools in various programming languages are also discussed in this part of the appendix.
+
+\section{Lock-in Amplifier}
+
+Lock-in amplifier (LIA) is a commonly used for detecting small AC time-series signals among high noise backgrounds. Typically, the LIA measures signals that are excited at a certain reference frequency ($f_\mathrm{ref}$), and the signals at other frequencies (\textit{i.e.} noise) are filtered out.
+
+Assume the voltage signal has the form
+$$
+V_\mathrm{sig} = V_s \cos(\omega_s t + \phi_s) + V_n \cos(\omega_n t + \phi_n)
+$$
+where $V_s$ and $V_n$ are the amplitude of signal and noise, at $\omega_s$ and $\omega_n$ frequencies respectively. When the signal is mixed with an AC reference signal, 
+\begin{equation*}
+\begin{split}
+V_\mathrm{sig} V_\mathrm{ref} & = [V_s \cos(\omega_s t + \phi_s) + V_n \cos(\omega_n t + \phi_n)]\cdot V_r \cos(\omega_r t) \\
+& = \frac{1}{2} \, V_s V_r \, \{\cos[(\omega_s - \omega_r)t + \phi_s] + \cos[(\omega_s + \omega_r)t + \phi_s]\} \\
+& + \frac{1}{2} \, V_n V_r \, \{\cos[(\omega_n - \omega_r)t + \phi_n] + \cos[(\omega_n + \omega_r)t + \phi_n]\}
+\end{split}
+\end{equation*}
+For the voltage signal having the same frequency as the reference signal, \textit{i.e.} $\omega_s = \omega_r$, and apply a low-pass filter to the mixed signal, it becomes
+$$
+V_\mathrm{sig}V_\mathrm{ref} = \frac{1}{2} \, V_s V_r \, \cos(\phi_s)
+$$ 
+which depends solely on the the phase of the signal. All the noise at other frequencies are removed by the low-pass filter. In the experiments, the time-series data are modulated and demodulated with LIA written in LabVIEW programs.
+
+\section{Data Analysis and Programming tools}
+
+The pipeline for experimental data analysis, modeling and visualization is build from tools in various objected-oriented-programming (OOD) languages such as Python, Java and C++. Some other statistical tool and packages in MATLAB and R are also utilized for data analysis and visualization. 
+
+This is part of the program for carrier density calculation (in Chapter \ref{SEC:GCO}) using linear regression and error analysis in Python:
+
+\begin{lstlisting}[language=Python]
+import pandas as pd
+import re
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import datasets, linear_model
+import matplotlib
+
+re_col_name = re.compile("(:?\')(.+)(\.)")
+
+def read_itx(path):
+    df = pd.DataFrame()
+    df_list = []
+    col_name_list = []
+    col_name = ""
+
+with open(path, "r") as file:
+    while True:
+        df_length = 0
+        df_length_prev = 0
+        buffer = file.readline()
+        if not buffer: 
+            break
+        if buffer.split("/")[0] == "WAVES":
+            df_list = []
+            col_name = re_col_name.search(buffer).group(2) \
+            .split(".")[0]
+            buffer = file.readline()
+            buffer = file.readline()
+            while buffer != "END":
+                df_list.append(float(buffer))
+                buffer = file.readline().strip()
+
+            df[col_name] = df_list
+        return df
+
+data_list1 = []
+foldername = "folder_path"
+
+for ind in range(41, 51):
+    basename = "Vbg_T_H_Sweep."
+    filename = basename + "{:06d}".format(ind) + ".itx" 
+    path = foldername + "/" + filename
+    data_list1.append(read_itx(path))
+
+VL = np.zeros((len(data_list1[0]), 10))
+VH = np.zeros((len(data_list1[0]), 10))
+I = np.zeros((len(data_list1[0]), 10))
+B = np.zeros(10)
+e = 1.6e-19
+for i in range(10):
+    VL[:, i] = data_list1[i]["V3X"].values
+    VH[:, i] = data_list1[i]["V2X"].values
+    I[:, i] = data_list1[i]["CurrentX"].values
+    B[i] = data_list1[i]["Field"].values[0]/10000
+I = I.mean(axis=1)
+Vbg = data_list1[0]["Vbg"].values
+
+CarrierDensity = np.zeros(len(data_list1[0]))
+error = np.zeros(len(data_list1[0]))
+for i in range(len(data_list1[0])):
+    p, cov = np.polyfit(B, VH[i, :], 1, full=False, cov=True)
+    CarrierDensity[i] = I[i] / (e * 1e16) * (1/p[0])
+    error[i] = I[i] / (e * 1e16) * (np.sqrt(cov[0, 0])) \
+    * (1/p[0])**2 * 1.96 * 2
+
+plt.plot(Vbg, abs(CarrierDensity))
+plt.show()
+\end{lstlisting}
+
+\chapter{Data acquisition}
+
+The graphene/LAO/STO is loaded in Quantum Design\textsuperscript\textregistered \ PPMS for electrical measurement at low temperature. The signal is amplified with a Krohn Hite\textsuperscript\textregistered \ 8-channel low-noise differential preamplifier, and then acquired by National Instruments\textsuperscript\textregistered \ PXI-4461 cards. Data acquisition is controlled by LabVIEW programs, and the data are stored as text files (\verb|*.itx|) that are compatible with Igor Pro 6.37.
+
+As shown in Figure \ref{FIG:Circuit}, a sinusoidal excitation voltage with $f = 5$ Hz is applied to the sample from one output channel of a PXI-4461 card, via the Krohn Hite pre-amplifier. The voltage drop between a 50 k$\Omega$ shunt resister within the amplifier is measured, and sent to a PXI-4461 input channel for current calculation. The current from the sample is drained through a grounded output channel of PXI-4461. The potential differences between the ground and both sides of the sample are amplified and measured with the input channels of PXI-4461. All the sinusoidal current and voltage signals are demodulated using the virtual lock-in amplifier programs run in LabVIEW. The data is written to hard drives.
+
+\begin{figure}[h!]
+	\centering	
+	%	\vspace{0.85cm}
+	\includegraphics[width=.9\textwidth]{Drawing/Circuit.pdf}
+	\caption{Circuit diagram for electronic signal measurement.}
+	\label{FIG:Circuit}
+\end{figure}
+
+% data aqcuisition and storage
+% lockin
+% details of each calculation
+% packages used
+% objected oriented programming languages such as python, Java and c++. 
+% multicarrier density model using max-entropy models, and gradient descent for optimization method that are similar to machine learning models.
 \bibliography{bibliography}      %\safebibliography is used the same way as \bibliography, but gives pittetd
 \bibliographystyle{unsrt}
 %                                   a greater chance to succeed in formatting the bibliography when non-standard

@@ -149,6 +149,58 @@ Lu~Chen, Erin Sutton, Hyungwoo Lee, Jung-Woo Lee, Jianan Li, Chang-Beom Eom,
   {LaAlO$_3$/SrTiO$_3$} nanojunctions.
 \newblock {\em Light: Science \& Applications}, 8(1):24, 2019.
 
+\bibitem{sutton2018100}
+Erin Sutton, Lu~Chen, Jianan Li, Hyungwoo Lee, Jungwoo Lee, Chang-Beom Eom, and
+  Jeremy Levy.
+\newblock 100 {THz}-bandwidth difference frequency generation at
+  {LaAlO$_3$/SrTiO$_3$} nanoscale junctions.
+\newblock In {\em APS Meeting Abstracts}, 2018.
+
+\bibitem{chen2017ultrafast}
+Lu~Chen, Erin Sutton, Jianan Li, Qing Guo, Mengchen Huang, Jen-Feng Hsu, Brian
+  D'Urso, Jung-Woo Lee, Hyungwoo Lee, Chang-Beom Eom, et~al.
+\newblock Ultrafast optical response of graphene/{LaAlO$_3$/SrTiO$_3$}
+  heterostructure.
+\newblock In {\em APS Meeting Abstracts}, 2017.
+
+\bibitem{briggeman2019engineered}
+Megan Briggeman, Jianan Li, Mengchen Huang, Anthony Tylan-Tyler, Hyungwoo Lee,
+  Jungwoo Lee, Chang-Beom Eom, Patrick Irvin, and Jeremy Levy.
+\newblock Engineered helicity of one-dimensional {LaAlO$_3$/SrTiO$_3$}
+  nanowires.
+\newblock {\em Bulletin of the American Physical Society}, 2019.
+
+\bibitem{hao2019toward}
+Shan Hao, Jianan Li, Yuhe Tang, Aditi Nethwewala, Yang Hu, Hyungwoo Lee,
+  Jungwoo Lee, Chang-Beom Eom, Patrick Irvin, and Jeremy Levy.
+\newblock Toward {2D} fermi-hubbard quantum simulation with and oxide
+  nanoelectronic platform.
+\newblock {\em Bulletin of the American Physical Society}, 2019.
+
+\bibitem{nethwewala2018quantum}
+Aditi Nethwewala, Anthony Tylan-Tyler, Yuhe Tang, Jianan Li, Hyungwoo Lee,
+  Jungwoo Lee, Chang-Beom Eom, Patrick Irvin, and Jeremy Levy.
+\newblock Quantum transport of nanoscale {Hall} crosses.
+\newblock In {\em APS Meeting Abstracts}, 2018.
+
+\bibitem{tang2017magnetically}
+Yuhe Tang, Anthony Tylan-Tyler, Michelle Tomczyk, Mengchen Huang, Jianan Li,
+  Jung-Woo Lee, Sangwoo Ryu, Chang-Beom Eom, Patrick Irvin, and Jeremy Levy.
+\newblock Magnetically tunable {1D} coulomb drag: Experiment.
+\newblock In {\em APS Meeting Abstracts}, 2017.
+
+\bibitem{pai2019superconductivity}
+Yun-Yi Pai, Megan Briggeman, Hyungwoo Lee, Jung-Woo Lee, Mengchen Huang, Jianan
+  Li, Chang-Beom Eom, Patrick Irvin, and Jeremy Levy.
+\newblock Superconductivity in {1D} zigzag nanowires.
+\newblock {\em Bulletin of the American Physical Society}, 2019.
+
+\bibitem{pai2018physics}
+Yun-Yi Pai, Anthony Tylan-Tyler, Patrick Irvin, and Jeremy Levy.
+\newblock Physics of {SrTiO$_3$}-based heterostructures and nanostructures: a
+  review.
+\newblock {\em Reports on Progress in Physics}, 81(3):036503, 2018.
+
 \bibitem{novoselov2004electric}
 Kostya~S Novoselov, Andre~K Geim, Sergei~V Morozov, DA~Jiang, Y~Zhang, Sergey~V
   Dubonos, Irina~V Grigorieva, and Alexandr~A Firsov.
@@ -170,7 +222,7 @@ AH~Castro Neto, Francisco Guinea, Nuno~MR Peres, Kostya~S Novoselov, and
 Yuanbo Zhang, Yan-Wen Tan, Horst~L Stormer, and Philip Kim.
 \newblock Experimental observation of the quantum {Hall} effect and {Berry's}
   phase in graphene.
-\newblock {\em nature}, 438(7065):201, 2005.
+\newblock {\em Nature}, 438(7065):201, 2005.
 
 \bibitem{ando1998berry}
 Tsuneya Ando, Takeshi Nakanishi, and Riichiro Saito.
@@ -269,16 +321,9 @@ JF~Schooley, WR~Hosler, E~Ambler, JH~Becker, Marvin~L Cohen, and CS~Koonce.
   concentration in semiconducting {SrTi O$_3$}.
 \newblock {\em Physical Review Letters}, 14(9):305, 1965.
 
-\bibitem{bi2010water}
-Feng Bi, Daniela~F Bogorin, Cheng Cen, Chung~Wung Bark, Jae-Wan Park,
-  Chang-Beom Eom, and Jeremy Levy.
-\newblock {``Water-cycle''} mechanism for writing and erasing nanostructures at
-  the {LaAlO$_3$}/{SrTiO$_3$} interface.
-\newblock {\em Applied Physics Letters}, 97(17):173110, 2010.
-
 \bibitem{schooley1964superconductivity}
 JF~Schooley, WR~Hosler, and Marvin~L Cohen.
-\newblock Superconductivity in semiconducting srtio$_3$.
+\newblock Superconductivity in semiconducting {SrTiO$_3$}.
 \newblock {\em Physical Review Letters}, 12(17):474, 1964.
 
 \bibitem{cheng2016tunable}
@@ -314,6 +359,13 @@ Feng Bi, Mengchen Huang, Sangwoo Ryu, Hyungwoo Lee, Chung-Wung Bark, Chang-Beom
 \newblock Room-temperature electronically-controlled ferromagnetism at the
   {LaAlO$_3$}/{SrTiO$_3$} interface.
 \newblock {\em Nature communications}, 5:5019, 2014.
+
+\bibitem{bi2010water}
+Feng Bi, Daniela~F Bogorin, Cheng Cen, Chung~Wung Bark, Jae-Wan Park,
+  Chang-Beom Eom, and Jeremy Levy.
+\newblock {``Water-cycle''} mechanism for writing and erasing nanostructures at
+  the {LaAlO$_3$}/{SrTiO$_3$} interface.
+\newblock {\em Applied Physics Letters}, 97(17):173110, 2010.
 
 \bibitem{wilson2006electrons}
 Mark Wilson.
@@ -582,6 +634,13 @@ Mengchen Huang, Feng Bi, Sangwoo Ryu, Chang-Beom Eom, Patrick Irvin, and Jeremy
   piezoresponse force microscopy.
 \newblock {\em APL Materials}, 1(5):052110, 2013.
 
+\bibitem{guo2016correlations}
+Qing Guo, Jianan Li, Mengchen Huang, Hyungwoo Lee, Chang-Beom Eom, Patrick
+  Irvin, and Jeremy Levy.
+\newblock Correlations between magnetic and piezoelectric response at gated
+  {LaAlO$_3$/SrTiO$_3$} interfaces.
+\newblock In {\em APS Meeting Abstracts}, 2016.
+
 \bibitem{soergel2011piezoresponse}
 Elisabeth Soergel.
 \newblock Piezoresponse force microscopy ({PFM}).
@@ -598,6 +657,28 @@ Don Berlincourt and Hans Jaffe.
 \newblock Elastic and piezoelectric coefficients of single-crystal barium
   titanate.
 \newblock {\em Phys. Rev.}, 111:143--148, Jul 1958.
+
+\bibitem{huang2015electric}
+Mengchen Huang, Giriraj Jnawali, Jen-Feng Hsu, Shonali Dhingra, Hyungwoo Lee,
+  Sangwoo Ryu, Feng Bi, Fereshte Ghahari, Jayakanth Ravichandran, Lu~Chen,
+  Philip Kim, Chang-Beom Eom, Brian D'Urso, Patrick Irvin, and Jeremy Levy.
+\newblock Electric field effects in graphene/{LaAlO$_3$/SrTiO$_3$}
+  heterostructures and nanostructures.
+\newblock {\em APL Materials}, 3(6):062502, 2015.
+
+\bibitem{li2014nanoscale}
+Jianan Li, Mengcheng Huang, Patrick Irvin, Jeremy Levy, Sangwoo Ryu, Chang-Beom
+  Eom, Daniel Eichelsdoerfer, Keith Brown, and Chad Mirkin.
+\newblock Nanoscale control of the {LaAlO$_3$/SrTiO$_3$} metal-insulator
+  transition using a self-assembled monolayer of {APTES}.
+\newblock In {\em APS Meeting Abstracts}, 2014.
+
+\bibitem{chen2018extreme}
+Lu~Chen, Jianan Li, Yuhe Tang, Yun-Yi Pai, Yunzhong Chen, Nini Pryds, Patrick
+  Irvin, and Jeremy Levy.
+\newblock Extreme reconfigurable nanoelectronics at the {CaZrO$_3$/SrTiO$_3$}
+  interface.
+\newblock {\em Advanced Materials}, 30(33):1801794, 2018.
 
 \bibitem{Novoselovaac9439}
 K.~S. Novoselov, A.~Mishchenko, A.~Carvalho, and A.~H. Castro~Neto.
@@ -729,6 +810,13 @@ Giriraj Jnawali, Mengchen Huang, Jen-Feng Hsu, Hyungwoo Lee, Jung-Woo Lee,
   graphene/{LaAlO$_3$}/{SrTiO$_3$} heterostructures.
 \newblock {\em Advanced Materials}, 29(9):1603488, 2017.
 
+\bibitem{li2018high}
+Jianan Li, Jen-Feng Hsu, Hyungwoo Lee, Shivendra Tripathi, Qing Guo, Lu~Chen,
+  Mengchen Huang, Shonali Dhingra, Jung-Woo Lee, Chang-Beom Eom, et~al.
+\newblock High-mobility {CVD}-grown graphene device fabrication with
+  perfluoropolymers.
+\newblock In {\em APS Meeting Abstracts}, 2018.
+
 \bibitem{buttiker1986four}
 M~B{\"u}ttiker.
 \newblock Four-terminal phase-coherent conductance.
@@ -773,6 +861,27 @@ Ik-Su Byun, Duhee Yoon, Jin~Sik Choi, Inrok Hwang, Duk~Hyun Lee, Mi~Jung Lee,
 \newblock Nanoscale lithography on monolayer graphene using hydrogenation and
   oxidation.
 \newblock {\em ACS Nano}, 5(8):6417--6424, 08 2011.
+
+\bibitem{guo2018reconfigurable}
+Qing Guo, Jianan Li, Lu~Chen, Mengchen Huang, Jen-Feng Hsu, Jung-Woo Lee,
+  Hyungwoo Lee, Chang-Beom Eom, Brian D'Urso, Patrick Irvin, et~al.
+\newblock Reconfigurable nanoscale control of the charge neutrality point of
+  graphene.
+\newblock In {\em APS Meeting Abstracts}, 2018.
+
+\bibitem{li2019reversible}
+Jianan Li, Qing Guo, Jen-Feng Hsu, Shan Hao, Yang Hu, Hyungwoo Lee, Jungwoo
+  Lee, Chang-Beom Eom, Brian D'Urso, Patrick Irvin, et~al.
+\newblock Reversible nanoscale control of the charge neutrality point in
+  graphene using {LaAlO$_3$/SrTiO$_3$} heterostructures.
+\newblock {\em Bulletin of the American Physical Society}, 2019.
+
+\bibitem{guo2019coulomb}
+Qing Guo, Jianan Li, Jen-Feng Hsu, Hyungwoo Lee, Chang-Beom Eom, Patrick Irvin,
+  Brian D'Urso, and Jeremy Levy.
+\newblock Coulomb drag between graphene and {LaAlO$_3$/SrTiO$_3$}
+  heterostructures.
+\newblock {\em Bulletin of the American Physical Society}, 2019.
 
 \bibitem{ki2010dependence}
 Dong-Keun Ki, Seung-Geol Nam, Hu-Jong Lee, and Barbaros {\"O}zyilmaz.
@@ -861,14 +970,6 @@ E.~Su\'arez~Morell, J.~D. Correa, P.~Vargas, M.~Pacheco, and Z.~Barticevic.
 J.~M.~B. Lopes~dos Santos, N.~M.~R. Peres, and A.~H. Castro~Neto.
 \newblock Continuum model of the twisted graphene bilayer.
 \newblock {\em Phys. Rev. B}, 86:155449, Oct 2012.
-
-\bibitem{huang2015electric}
-Mengchen Huang, Giriraj Jnawali, Jen-Feng Hsu, Shonali Dhingra, Hyungwoo Lee,
-  Sangwoo Ryu, Feng Bi, Fereshte Ghahari, Jayakanth Ravichandran, Lu~Chen,
-  Philip Kim, Chang-Beom Eom, Brian D'Urso, Patrick Irvin, and Jeremy Levy.
-\newblock Electric field effects in graphene/{LaAlO$_3$/SrTiO$_3$}
-  heterostructures and nanostructures.
-\newblock {\em APL Materials}, 3(6):062502, 2015.
 
 \bibitem{zhong2013theory}
 Zhicheng Zhong, Anna T\'oth, and Karsten Held.
@@ -964,6 +1065,12 @@ Karl~Heinz Bennemann.
 \newblock {\em Non-linear optics in metals}.
 \newblock Number~98. Oxford University Press, 1998.
 
+\bibitem{li2016magneto}
+Jianan Li, Qing Guo, Feng Bi, Mengchen Huang, Hyungwoo Lee, Chang-Beom Eom,
+  Patrick Irvin, and Jeremy Levy.
+\newblock Magneto-optical {Kerr} probing of {LAO/STO} interface ferromagnetism.
+\newblock In {\em APS Meeting Abstracts}, 2016.
+
 \bibitem{salluzzo2013origin}
 M.~Salluzzo, S.~Gariglio, D.~Stornaiuolo, V.~Sessi, S.~Rusponi, C.~Piamonteze,
   G.~M. De~Luca, M.~Minola, D.~Marr\'e, A.~Gadaleta, H.~Brune, F.~Nolting,
@@ -983,7 +1090,8 @@ Mark Huijben, Alexander Brinkman, Gertjan Koster, Guus Rijnders, Hans
 Z.~Q. Liu, L.~Sun, Z.~Huang, C.~J. Li, S.~W. Zeng, K.~Han, W.~M. LÃŒ,
   T.~Venkatesan, and Ariando.
 \newblock Dominant role of oxygen vacancies in electrical properties of
-  unannealed {LaAlO$_3$/SrTiO$_3$}.
+  unannealed {LaAlO$_3$/SrTiO$_3$} interfaces.
+\newblock {\em Journal of Applied Physics}, 115(5):054303, 2014.
 
 \bibitem{smith1986noble}
 G.~B. Smith, G.~A. Niklasson, J.~S. E.~M. Svensson, and C.~G. Granqvist.

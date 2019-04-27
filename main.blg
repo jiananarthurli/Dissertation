@@ -3,23 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
-I was expecting a `,' or a `}'---line 117 of file bibliography.bib
- :  
- :  publisher={American Institute of Physics},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1123 of file bibliography.bib
- :  title = {Dominant role of oxygen vacancies in electrical properties of unannealed {LaAlO$_3$/SrTiO$_3$}} 
- :                                                                                                           interfaces},
-I'm skipping whatever remains of this entry
-Repeated entry---line 1365 of file bibliography.bib
- : @article{salluzzo2009orbital
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1426 of file bibliography.bib
- : @article{alaboson2011conductive
- :                                ,
-I'm skipping whatever remains of this entry
 Name 20 in "Annadi, A. and Zhang, Q. and Renshaw Wang, X. and Tuzla, N. and Gopinadhan, K. and L{\"u}, W. M. and Roy Barman, A. and Liu, Z. Q. and Srivastava, A. and Saha, S. and Zhao, Y. L. and Zeng, S. W. and Dhar, S. and Olsson, E. and Gu, B. and Yunoki, S. and Maekawa, S. and Hilgenkamp, H. and Venkatesan, T. and Ariando," has a comma at the end for entry annadi2013anisotropic
 while executing---line 944 of file unsrt.bst
 Warning--empty journal in cancellieri2010influence
@@ -28,47 +11,45 @@ Warning--empty journal in streda1982quantised
 Name 1 in "Ariando, and Wang, X. and Baskaran, G. and Liu, Z. Q. and Huijben, J. and Yi, J. B. and Annadi, A. and Barman, A. Roy and Rusydi, A. and Dhar, S. and Feng, Y. P. and Ding, J. and Hilgenkamp, H. and Venkatesan, T." has a comma at the end for entry ariando2011electronic
 while executing---line 944 of file unsrt.bst
 Warning--there's a number but no series in bennemann1998non
-Warning--empty journal in liu2014dominant
-Warning--empty year in liu2014dominant
-You've used 155 entries,
+You've used 171 entries,
             1791 wiz_defined-function locations,
-            1276 strings with 38883 characters,
-and the built_in function-call counts, 43740 in all, are:
-= -- 3198
-> -- 3325
+            1332 strings with 42932 characters,
+and the built_in function-call counts, 48033 in all, are:
+= -- 3415
+> -- 3783
 < -- 6
-+ -- 1164
-- -- 1009
-* -- 4134
-:= -- 7598
-add.period$ -- 467
-call.type$ -- 155
-change.case$ -- 150
++ -- 1322
+- -- 1151
+* -- 4489
+:= -- 8388
+add.period$ -- 516
+call.type$ -- 171
+change.case$ -- 166
 chr.to.int$ -- 0
-cite$ -- 161
-duplicate$ -- 1417
-empty$ -- 3545
-format.name$ -- 1009
-if$ -- 9024
+cite$ -- 175
+duplicate$ -- 1584
+empty$ -- 3896
+format.name$ -- 1151
+if$ -- 9908
 int.to.chr$ -- 0
-int.to.str$ -- 155
-missing$ -- 155
-newline$ -- 777
-num.names$ -- 159
-pop$ -- 210
+int.to.str$ -- 171
+missing$ -- 171
+newline$ -- 858
+num.names$ -- 175
+pop$ -- 285
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 493
+skip$ -- 541
 stack$ -- 0
-substring$ -- 3032
-swap$ -- 176
+substring$ -- 3089
+swap$ -- 202
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 352
-width$ -- 158
-write$ -- 1698
-(There were 6 error messages)
+warning$ -- 4
+while$ -- 371
+width$ -- 174
+write$ -- 1864
+(There were 2 error messages)
