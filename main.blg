@@ -13,7 +13,7 @@ while executing---line 944 of file unsrt.bst
 Warning--there's a number but no series in bennemann1998non
 You've used 171 entries,
             1791 wiz_defined-function locations,
-            1332 strings with 42932 characters,
+            1332 strings with 42936 characters,
 and the built_in function-call counts, 48033 in all, are:
 = -- 3415
 > -- 3783

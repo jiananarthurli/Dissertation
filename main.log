@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  26 APR 2019 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.19)  28 APR 2019 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3558,177 +3558,177 @@ rol.pdf>] <Drawing/SuperlatticeDamage.png, id=4466, 371.13657pt x 320.69812pt>
 File: Drawing/SuperlatticeDamage.png Graphic file (type png)
 
 <use Drawing/SuperlatticeDamage.png>
-Package pdftex.def Info: Drawing/SuperlatticeDamage.png used on input line 1468
+Package pdftex.def Info: Drawing/SuperlatticeDamage.png used on input line 1469
 .
 (pdftex.def)             Requested size: 281.85585pt x 243.55693pt.
 
 
 Class pittetd Warning: The caption of Figure III.21 is longer than one line on 
-input line 1469.
+input line 1470.
 
-[102 <./Drawing/SuperlatticeDamage.png>]
+[102 <./Drawing/SuperlatticeDamage.png>] [103]
 Chapter IV.
-[103
+[104
 
-] <Drawing/MCDRice.jpg, id=4499, 929.4725pt x 924.45375pt>
+] <Drawing/MCDRice.jpg, id=4504, 929.4725pt x 924.45375pt>
 File: Drawing/MCDRice.jpg Graphic file (type jpg)
 
 <use Drawing/MCDRice.jpg>
-Package pdftex.def Info: Drawing/MCDRice.jpg used on input line 1488.
+Package pdftex.def Info: Drawing/MCDRice.jpg used on input line 1489.
 (pdftex.def)             Requested size: 422.77661pt x 420.48605pt.
 
 
 Class pittetd Warning: The caption of Figure IV.1 is longer than one line on in
-put line 1489.
+put line 1490.
 
-<Drawing/LAOSTOMFM.pdf, id=4507, 1079.74387pt x 722.64278pt>
+<Drawing/LAOSTOMFM.pdf, id=4512, 1079.74387pt x 722.64278pt>
 File: Drawing/LAOSTOMFM.pdf Graphic file (type pdf)
 
 <use Drawing/LAOSTOMFM.pdf>
-Package pdftex.def Info: Drawing/LAOSTOMFM.pdf used on input line 1499.
+Package pdftex.def Info: Drawing/LAOSTOMFM.pdf used on input line 1500.
 (pdftex.def)             Requested size: 469.75499pt x 314.39117pt.
 
 
 Class pittetd Warning: The caption of Figure IV.2 is longer than one line on in
-put line 1500.
+put line 1501.
 
-<Drawing/MFMSignal.pdf, id=4508, 617.18881pt x 281.3712pt>
+<Drawing/MFMSignal.pdf, id=4513, 617.18881pt x 281.3712pt>
 File: Drawing/MFMSignal.pdf Graphic file (type pdf)
 
 <use Drawing/MFMSignal.pdf>
-Package pdftex.def Info: Drawing/MFMSignal.pdf used on input line 1506.
+Package pdftex.def Info: Drawing/MFMSignal.pdf used on input line 1507.
 (pdftex.def)             Requested size: 375.80542pt x 171.33134pt.
 
 
 Class pittetd Warning: The caption of Figure IV.3 is longer than one line on in
-put line 1508.
+put line 1509.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[104] [105 <./Drawing/MCDRice.jpg>] [106 <./Drawing/LAOSTOMFM.pdf>] [107 <./Dra
-wing/MFMSignal.pdf>] [108]
-<Drawing/CircularDecompose.pdf, id=4604, 622.32199pt x 679.29283pt>
+[105] [106 <./Drawing/MCDRice.jpg>] [107 <./Drawing/LAOSTOMFM.pdf>] [108 <./Dra
+wing/MFMSignal.pdf>] [109]
+<Drawing/CircularDecompose.pdf, id=4608, 622.32199pt x 679.29283pt>
 File: Drawing/CircularDecompose.pdf Graphic file (type pdf)
 
 <use Drawing/CircularDecompose.pdf>
-Package pdftex.def Info: Drawing/CircularDecompose.pdf used on input line 1590.
+Package pdftex.def Info: Drawing/CircularDecompose.pdf used on input line 1591.
 
 (pdftex.def)             Requested size: 375.80542pt x 410.2116pt.
 
 
 Class pittetd Warning: The caption of Figure IV.4 is longer than one line on in
-put line 1591.
+put line 1592.
 
-<Drawing/PEMOptics_small.png, id=4605, 289.08pt x 136.1085pt>
+<Drawing/PEMOptics_small.png, id=4609, 289.08pt x 136.1085pt>
 File: Drawing/PEMOptics_small.png Graphic file (type png)
 
 <use Drawing/PEMOptics_small.png>
-Package pdftex.def Info: Drawing/PEMOptics_small.png used on input line 1606.
+Package pdftex.def Info: Drawing/PEMOptics_small.png used on input line 1607.
 (pdftex.def)             Requested size: 422.77661pt x 199.06772pt.
 
 
 Class pittetd Warning: The caption of Figure IV.5 is longer than one line on in
-put line 1607.
+put line 1608.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[109] [110 <./Drawing/CircularDecompose.pdf>] [111 <./Drawing/PEMOptics_small.p
-ng>] <Drawing/KerrOptics.pdf, id=4632, 688.04048pt x 441.92906pt>
+[110] [111 <./Drawing/CircularDecompose.pdf>] [112 <./Drawing/PEMOptics_small.p
+ng>] <Drawing/KerrOptics.pdf, id=4636, 688.04048pt x 441.92906pt>
 File: Drawing/KerrOptics.pdf Graphic file (type pdf)
 
 <use Drawing/KerrOptics.pdf>
-Package pdftex.def Info: Drawing/KerrOptics.pdf used on input line 1632.
+Package pdftex.def Info: Drawing/KerrOptics.pdf used on input line 1633.
 (pdftex.def)             Requested size: 422.77661pt x 271.55211pt.
 
 
 Class pittetd Warning: The caption of Figure IV.6 is longer than one line on in
-put line 1633.
+put line 1634.
 
-[112] [113 <./Drawing/KerrOptics.pdf>]
-<Drawing/KerrLAOSTO.pdf, id=4661, 513.37497pt x 383.68344pt>
+[113] [114 <./Drawing/KerrOptics.pdf>]
+<Drawing/KerrLAOSTO.pdf, id=4665, 513.37497pt x 383.68344pt>
 File: Drawing/KerrLAOSTO.pdf Graphic file (type pdf)
 
 <use Drawing/KerrLAOSTO.pdf>
-Package pdftex.def Info: Drawing/KerrLAOSTO.pdf used on input line 1649.
+Package pdftex.def Info: Drawing/KerrLAOSTO.pdf used on input line 1650.
 (pdftex.def)             Requested size: 281.85585pt x 210.66356pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[114] [115 <./Drawing/KerrLAOSTO.pdf>]
-<Drawing/KerrInPlane.pdf, id=4752, 722.96803pt x 839.38092pt>
+[115] [116 <./Drawing/KerrLAOSTO.pdf>]
+<Drawing/KerrInPlane.pdf, id=4757, 722.96803pt x 839.38092pt>
 File: Drawing/KerrInPlane.pdf Graphic file (type pdf)
 
 <use Drawing/KerrInPlane.pdf>
-Package pdftex.def Info: Drawing/KerrInPlane.pdf used on input line 1666.
+Package pdftex.def Info: Drawing/KerrInPlane.pdf used on input line 1667.
 (pdftex.def)             Requested size: 422.77661pt x 490.86296pt.
 
 
 Class pittetd Warning: The caption of Figure IV.8 is longer than one line on in
-put line 1667.
+put line 1668.
 
-<Drawing/Quad.pdf, id=4756, 267.57265pt x 268.31845pt>
+<Drawing/Quad.pdf, id=4761, 267.57265pt x 268.31845pt>
 File: Drawing/Quad.pdf Graphic file (type pdf)
  <use Drawing/Quad.pdf>
-Package pdftex.def Info: Drawing/Quad.pdf used on input line 1682.
+Package pdftex.def Info: Drawing/Quad.pdf used on input line 1683.
 (pdftex.def)             Requested size: 117.43874pt x 117.76569pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[116] [117 <./Drawing/KerrInPlane.pdf>]
-<Drawing/KerrTopGate.pdf, id=4843, 544.47115pt x 297.37297pt>
+[117] [118 <./Drawing/KerrInPlane.pdf>]
+<Drawing/KerrTopGate.pdf, id=4847, 544.47115pt x 297.37297pt>
 File: Drawing/KerrTopGate.pdf Graphic file (type pdf)
 
 <use Drawing/KerrTopGate.pdf>
-Package pdftex.def Info: Drawing/KerrTopGate.pdf used on input line 1694.
+Package pdftex.def Info: Drawing/KerrTopGate.pdf used on input line 1695.
 (pdftex.def)             Requested size: 258.36667pt x 141.10841pt.
 
 
 Class pittetd Warning: The caption of Figure IV.10 is longer than one line on i
-nput line 1695.
+nput line 1696.
 
-[118 <./Drawing/Quad.pdf> <./Drawing/KerrTopGate.pdf>] [119]
+[119 <./Drawing/Quad.pdf> <./Drawing/KerrTopGate.pdf>] [120]
 Chapter V.
-[120
+[121
 
-] [121]
+] [122]
 Appendix A
-[122
+[123
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1749.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1750.
 
- [123] [124]
+ [124] [125]
 Appendix B
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1820.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1821.
 
-<Drawing/Circuit.pdf, id=5012, 762.33508pt x 502.87875pt>
+<Drawing/Circuit.pdf, id=5016, 762.33508pt x 502.87875pt>
 File: Drawing/Circuit.pdf Graphic file (type pdf)
 
 <use Drawing/Circuit.pdf>
-Package pdftex.def Info: Drawing/Circuit.pdf used on input line 1827.
+Package pdftex.def Info: Drawing/Circuit.pdf used on input line 1828.
 (pdftex.def)             Requested size: 422.77661pt x 278.89383pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./main.bbl [125
+(./main.bbl [126
 
-] [126 <./Drawing/Circuit.pdf>]
+] [127 <./Drawing/Circuit.pdf>]
 BIBLIOGRAPHY
-[127
+[128
 
-] [128] [129] [130] [131] [132] [133]
+] [129] [130] [131] [132] [133] [134]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [134] [135] [136] [137] [138]
-[139] [140]
+ [135] [136] [137] [138] [139]
+[140] [141]
 Underfull \hbox (badness 3098) in paragraph at lines 1084--1088
 []\OT1/cmr/m/n/12 Mark Hui-jben, Alexan-der Brinkman, Gert-jan Koster, Guus Ri-
 jn-ders, Hans
@@ -3738,23 +3738,23 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 Missing character: There is no Å in font cmr12!
 Missing character: There is no ’ in font cmr12!
-[141])
+[142])
 \openout3 = `main.etd'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1844.
- [142]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1844.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1845.
+ [143]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1845.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1844.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1844.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1845.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 473232A26331F64FE1736D9189B2BE2E;6878.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1844.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1845.
  ) 
 Here is how much of TeX's memory you used:
- 8891 strings out of 493027
- 132585 string characters out of 6134069
+ 8892 strings out of 493027
+ 132593 string characters out of 6134069
  316699 words of memory out of 5000000
  11671 multiletter control sequences out of 15000+600000
  10104 words of font info for 37 fonts, out of 8000000 for 9000
@@ -3778,10 +3778,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (165 pages, 17761108 bytes).
+Output written on main.pdf (166 pages, 17761468 bytes).
 PDF statistics:
- 5313 PDF objects out of 6186 (max. 8388607)
- 3904 compressed objects within 40 object streams
- 594 named destinations out of 1000 (max. 500000)
+ 5318 PDF objects out of 6186 (max. 8388607)
+ 3908 compressed objects within 40 object streams
+ 595 named destinations out of 1000 (max. 500000)
  1762 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -63,19 +63,19 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}1\period@or@not }Hofstadter spectra of superlattice}{97}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}2\period@or@not }Superlattice lithography}{99}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}3\period@or@not }Transport measurement}{100}{subsection.3.3.3}
-\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{103}{chapter.4}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{103}{section.4.1}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{104}{section.4.2}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{108}{section.4.3}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{108}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{109}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{112}{subsection.4.3.3}
-\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Improvements}{115}{section.4.4}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}1\period@or@not }Quad-detector}{115}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}2\period@or@not }Graphene top gate}{116}{subsection.4.4.2}
-\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS AND OUTLOOK}}{120}{chapter.5}
-\contentsline {chapter}{{\bfseries APPENDIX A. SIGNAL AND DATA PROCESSING}}{122}{appendix.A}
-\contentsline {section}{\numberline {\gobble@or@not { A.}A\period@or@not }Lock-in Amplifier}{122}{section.A.1}
-\contentsline {section}{\numberline {\gobble@or@not { A.}B\period@or@not }Data Analysis and Programming tools}{123}{section.A.2}
-\contentsline {chapter}{{\bfseries APPENDIX B. DATA ACQUISITION}}{125}{appendix.B}
-\contentsline {chapter}{{\bfseries \bibname }}{127}{section*.1}
+\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{104}{chapter.4}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{104}{section.4.1}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{105}{section.4.2}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{109}{section.4.3}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}1\period@or@not }Jone's matrix formalism}{109}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}2\period@or@not }Magneto-optical Kerr effect}{110}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}C\period@or@not .}3\period@or@not }Optical measurement}{113}{subsection.4.3.3}
+\contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}D\period@or@not }Improvements}{116}{section.4.4}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}1\period@or@not }Quad-detector}{116}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {IV\period@or@not .}D\period@or@not .}2\period@or@not }Graphene top gate}{117}{subsection.4.4.2}
+\contentsline {chapter}{{\bfseries \numberline {V\period@or@not }CONCLUSIONS AND OUTLOOK}}{121}{chapter.5}
+\contentsline {chapter}{{\bfseries APPENDIX A. SIGNAL AND DATA PROCESSING}}{123}{appendix.A}
+\contentsline {section}{\numberline {\gobble@or@not { A.}A\period@or@not }Lock-in Amplifier}{123}{section.A.1}
+\contentsline {section}{\numberline {\gobble@or@not { A.}B\period@or@not }Data Analysis and Programming tools}{124}{section.A.2}
+\contentsline {chapter}{{\bfseries APPENDIX B. DATA ACQUISITION}}{126}{appendix.B}
+\contentsline {chapter}{{\bfseries \bibname }}{128}{section*.1}
