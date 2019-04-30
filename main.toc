@@ -63,7 +63,7 @@
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}1\period@or@not }Hofstadter spectra of superlattice}{97}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}2\period@or@not }Superlattice lithography}{99}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {\gobble@or@not {\gobble@or@not {III\period@or@not .}C\period@or@not .}3\period@or@not }Transport measurement}{100}{subsection.3.3.3}
-\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO INTERFACE}}{104}{chapter.4}
+\contentsline {chapter}{{\bfseries \numberline {IV\period@or@not }MAGNETO-OPTICAL KERR EFFECT ON LAO/STO}}{104}{chapter.4}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}A\period@or@not }Magnetism on LAO/STO interface}{104}{section.4.1}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}B\period@or@not }MFM measurement}{105}{section.4.2}
 \contentsline {section}{\numberline {\gobble@or@not {IV\period@or@not .}C\period@or@not }Magneto-Optical Kerr measurement}{109}{section.4.3}
@@ -77,5 +77,5 @@
 \contentsline {chapter}{{\bfseries APPENDIX A. SIGNAL AND DATA PROCESSING}}{123}{appendix.A}
 \contentsline {section}{\numberline {\gobble@or@not { A.}A\period@or@not }Lock-in Amplifier}{123}{section.A.1}
 \contentsline {section}{\numberline {\gobble@or@not { A.}B\period@or@not }Data Analysis and Programming tools}{124}{section.A.2}
-\contentsline {chapter}{{\bfseries APPENDIX B. DATA ACQUISITION}}{126}{appendix.B}
-\contentsline {chapter}{{\bfseries \bibname }}{128}{section*.1}
+\contentsline {chapter}{{\bfseries APPENDIX B. DATA ACQUISITION}}{127}{appendix.B}
+\contentsline {chapter}{{\bfseries \bibname }}{129}{section*.1}

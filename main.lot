@@ -2,7 +2,8 @@
 \contentsline {table}{\numberline {II.2}{\ignorespaces UV exposure and developing conditions for AZ4210 and AZ4110}}{35}{table.2.2}
 \contentsline {table}{\numberline {II.3}{\ignorespaces Comparison of etching methods.}}{36}{table.2.3}
 \contentsline {table}{\numberline {II.4}{\ignorespaces One-step RIE etching recipe.}}{65}{table.2.4}
-\contentsline {table}{\numberline {II.5}{\ignorespaces Two-step etching photolithography recipe. First layer of AZ4210 is used to protect the canvas against the aggressive RIE for contamination removal. Second layer of AZ4110 is for graphene Hall bar protection, and only need to resist a mild oxygen-plasma etching.}}{68}{table.2.5}
-\contentsline {table}{\numberline {II.6}{\ignorespaces Two-step etching recipe. Although the barrel etcher runs at a higher power, the etching much less invasive compared to RIE.}}{68}{table.2.6}
+\contentsline {table}{\numberline {II.5}{\ignorespaces Two-step etching photolithography recipe}}{68}{table.2.5}
+\contentsline {table}{\numberline {II.6}{\ignorespaces Two-step etching recipe}}{68}{table.2.6}
 \contentsline {table}{\numberline {II.7}{\ignorespaces Graphene cleaning recipes on Asylum MFP3D and Cypher.}}{71}{table.2.7}
 \contentsline {table}{\numberline {II.8}{\ignorespaces c-AFM writing and erasing parameters on graphene/LAO/STO samples.}}{74}{table.2.8}
+\contentsline {table}{\numberline {A1}{\ignorespaces Packages and libraries}}{126}{table.A.1}
