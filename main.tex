@@ -31,6 +31,7 @@
 \usepackage{cite}
 \patch{cite}
 
+
 % listings
 \usepackage{color}
 \usepackage{listings}
@@ -85,6 +86,11 @@
 %\usepackage{listings}
 %\patch{listings}
 
+%align bib to the left
+\makeatletter
+\renewcommand{\@biblabel}[1]{[#1]\hfill}
+\makeatother
+
 %
 %\patch{pittdiss}                   %If you started writing your thesis with the pittdiss class, this patch makes 
 %                                   pittetd interpret pittdiss commands.
@@ -103,6 +109,7 @@
 %\school[certain]{department}
 %
 \chapterfloats%                    Un-comment this to get figures and tables numbered within chapters.
+
 \begin{document}
 
 \raggedbottom
@@ -156,7 +163,7 @@ Graphene and complex-oxide heterostructures are both 2D systems that have initia
 
 The pursuit for high-performance electronics initiated the study of two-dimensional electron gas (2DEG) systems, where the movements of electrons are free in two dimensions but are confined in the third. Ever since the first generation of 2DEG devices, silicon-based metal-oxide-semiconductor-field-effect transistors (Si-MOSFETs) and III-V-compound-based high-electron-mobility-transistors (HEMTs), were conceived, 2DEG systems have become the fundamental building blocks of modern semiconductor logic circuits for their excellent performances and low energy costs\cite{vinet2017cmos}. The spatial confinement of electrons in the low dimensional systems also allows the emergence of new physics and the advancement of fundamental research. Fabrication technologies such as molecular beam epitaxy (MBE) and modulation doping\cite{dingle1979high} can reduce the electron scattering and makes it possible to produce ultra-high mobility 2DEG devices that lead to the discovery of Quantum Hall effect (QHE)\cite{klitzing1980new} and fractional quantum Hall effect (FQHE)\cite{chang1983fractional}.
 
-Complex oxide heterostructure interface is another class of two-dimensional system. In the seminal work of Ohtomo and Hwang published in 2004\cite{ohtomo2004high}, high-mobility 2DEG is reported to be formed on the interface of LaAlO$_3$/SrTiO$_3$ (LAO/STO). The ``polar catastrophe'' mechanism\cite{nakagawa2006some} of the 2DEG formation on the oxide heterostructure interface resembles the modulation doping in conventional high-mobility semiconductor 2DEG systems that separate dopant from carriers and reduces scattering\cite{bogorin2010laalo3}. Unlike the $s$- or $p$-orbitals in the conventional two dimensional systems such as GaAs/AlGaAs interface, the electrons in LAO/STO are $d$-orbitals\cite{salluzzo2009orbital}, and thus the transport is anisotropic\cite{annadi2013anisotropic}. The interplay of strong electron-electron interactions\cite{hwang2012emergent} and complex band structures from $d$-orbitals\cite{salluzzo2009orbital} gives rise to various physical properties in LAO/STO such as superconductivity\cite{reyren2007superconducting}, magnetism\cite{brinkman2007magnetic}, spin-orbit coupling\cite{caviglia2010tunable}, and electron pairing without superconductivity\cite{cheng2015electron}. The 2DEG is also found to be tunable with external electrical fields\cite{thiel2006tunable} or conductive atomic force microscope (c-AFM) tips\cite{cen2008nanoscale}, and high-quality nanoscale devices can be fabricated on the complex oxide interfaces reversibly\cite{cen2009oxide, irvin2010rewritable, cheng2011sketched, jnawali2015photoconductive, tomczyk2016micrometer, jiang2017direct, chen2019over, sutton2018100, chen2017ultrafast, briggeman2019engineered, hao2019toward, nethwewala2018quantum, tang2017magnetically, pai2019superconductivity, pai2018physics}.
+Complex oxide heterostructure interface is another class of two-dimensional system. In the seminal work of Ohtomo and Hwang published in 2004\cite{ohtomo2004high}, high-mobility 2DEG is reported to be formed on the interface of LaAlO$_3$/SrTiO$_3$ (LAO/STO). The ``polar catastrophe'' mechanism\cite{nakagawa2006some} of the 2DEG formation on the oxide heterostructure interface resembles the modulation doping in conventional high-mobility semiconductor 2DEG systems that separate dopant from carriers and reduces scattering\cite{bogorin2010laalo3}. Unlike the $s$- or $p$-orbitals in the conventional two dimensional systems such as GaAs/AlGaAs interface, the electrons in LAO/STO are $d$-orbitals\cite{salluzzo2009orbital}, and thus the transport is anisotropic\cite{annadi2013anisotropic}. The interplay of strong electron-electron interactions\cite{hwang2012emergent} and complex band structures from $d$-orbitals\cite{salluzzo2009orbital} gives rise to various physical properties in LAO/STO such as superconductivity\cite{reyren2007superconducting}, magnetism\cite{brinkman2007magnetic}, spin-orbit coupling\cite{caviglia2010tunable}, and electron pairing without superconductivity\cite{cheng2015electron}. The 2DEG is also found to be tunable with external electrical fields\cite{thiel2006tunable} or conductive atomic force microscope (c-AFM) tips\cite{cen2008nanoscale}, and high-quality nanoscale devices can be fabricated on the complex oxide interfaces reversibly\cite{cen2009oxide, irvin2010rewritable, cheng2011sketched, jnawali2015photoconductive, tomczyk2016micrometer, jiang2017direct, chen2019over, sutton2018100, chen2017ultrafast, briggeman2019engineered, hao2019toward, nethwewala2018quantum, tang2017magnetically, pai2019superconductivity, pai2018physics, nethwewala2019inhomogeneous}.
 
 Graphene is the first single-crystal two-dimensional system, and was successfully isolated by the ``scotch tape'' method in 2004\cite{novoselov2004electric} for the first time. The easiness of device fabrication and the rich physics from the unique honeycomb crystal structure of graphene has opened up many new research areas. The electrons near the $K$ and $K'$ points in the reciprocal space can be described by Dirac equations\cite{wallace1947band, neto2009electronic}, and the Dirac-like nature of electrons\cite{novoselov2004electric, zhang2005experimental} leads to exotic properties that rarely observed in other systems. Although the backscattering in graphene is suppressed\cite{ando1998berry}, the mobility is still limited by impurities from device fabrication and substrates in early graphene experiments. In 2010 Dean \textit{et al.} found that hexagonal boron nitride (hBN) serves as perfect encapsulation layers for graphene with minimal charge and phonon scatterings\cite{dean2010naturenano}, and the mobility of graphene can be primarily improved to allow ballistic transport in micron-scale up to room temperature\cite{mayorov2011micrometer}. The mismatch between the hBN substrates and graphene can generate potential superlattice through moir{\'e} patterns. Lattice mismatch in the twisted bi-layer graphene can also modulate the interlayer hybridization and tailor flat-bands with a high density of states, which would enhance strong correlations between electrons and lead to more exotic phases such as Mott insulator\cite{cao2016superlattice, cao2018correlated, chen2018gate} or superconductivity\cite{cao2018unconventional}.
 
@@ -1844,8 +1851,8 @@ As shown in Figure \ref{FIG:Circuit}, a sinusoidal excitation voltage with $f = 
 	\label{FIG:Circuit}
 \end{figure}
 
-\bibliography{bibliography}      %\safebibliography is used the same way as \bibliography, but gives pittetd
 \bibliographystyle{unsrt}
+\bibliography{bibliography}      %\safebibliography is used the same way as \bibliography, but gives pittetd
 %                                   a greater chance to succeed in formatting the bibliography when non-standard
 % 
 
